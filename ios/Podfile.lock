@@ -11,7 +11,7 @@ PODS:
     - Flutter
   - google_api_availability (2.0.1):
     - Flutter
-  - "location_permissions (2.0.4+1)":
+  - location_permissions (2.0.5):
     - Flutter
   - package_info (0.0.1):
     - Flutter
@@ -108,7 +108,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   geolocator: 80aba2bb48f8c7dfc5a8b70b9d13fc3edc8399c4
   google_api_availability: 163b30f802e6148c67f092aa4501c90ddd8eec8d
-  location_permissions: 360d12ecd1c94a4cab68585f508be1d5ad944c8b
+  location_permissions: 4a49d4e5bec5b653643e551ab77963cc99bb0e4a
   package_info: 78cabb3c322943c55d39676f4a5bfc748c01d055
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
   permission_handler: 0fb88b8a3c23e31e5de45b8f1bb8b7de28cf8941

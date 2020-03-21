@@ -1,4 +1,4 @@
-name: trufi_app
+name: Trufi
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -11,7 +11,7 @@ description: A new Flutter application.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.8+15
+version: 1.0.8+18
 
 environment:
   sdk: ">=2.3.0 <3.0.0"
