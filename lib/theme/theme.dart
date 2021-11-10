@@ -1,9 +1,25 @@
 import 'package:flutter/material.dart';
 
 final mainTheme = ThemeData(
-  primaryColor: const Color(0xff263238),
+  colorScheme: ColorScheme.fromSwatch(
+    primarySwatch: const MaterialColor(
+      0xff263238,
+      <int, Color>{
+        50: Color(0xffeceff1),
+        100: Color(0xffcfd8dc),
+        200: Color(0xffb0bec5),
+        300: Color(0xff90a4ae),
+        400: Color(0xff78909c),
+        500: Color(0xff607d8b),
+        600: Color(0xff546e7a),
+        700: Color(0xff455a64),
+        800: Color(0xff37474f),
+        900: Color(0xff263238),
+      },
+    ),
+    accentColor: const Color(0xffd81b60),
+  ),
   primaryColorLight: const Color(0xffeceff1),
-  accentColor: const Color(0xffd81b60),
   backgroundColor: Colors.white,
   textTheme: ThemeData.light().textTheme.copyWith(
         bodyText1: const TextStyle(color: Color(0xFF000000)),
@@ -21,8 +37,24 @@ final mainTheme = ThemeData(
 );
 
 final bottomBarTheme = ThemeData(
-  primaryColor: const Color(0xff263238),
-  accentColor: const Color(0xffd81b60),
+  colorScheme: ColorScheme.fromSwatch(
+    primarySwatch: const MaterialColor(
+      0xff263238,
+      <int, Color>{
+        50: Color(0xffeceff1),
+        100: Color(0xffcfd8dc),
+        200: Color(0xffb0bec5),
+        300: Color(0xff90a4ae),
+        400: Color(0xff78909c),
+        500: Color(0xff607d8b),
+        600: Color(0xff546e7a),
+        700: Color(0xff455a64),
+        800: Color(0xff37474f),
+        900: Color(0xff263238),
+      },
+    ),
+    accentColor: const Color(0xffd81b60),
+  ),
   backgroundColor: Colors.white,
   primaryColorLight: const Color(0xffeceff1),
   textTheme: ThemeData.light().textTheme.copyWith(
@@ -39,8 +71,5 @@ final bottomBarTheme = ThemeData(
       ),
   primaryIconTheme: ThemeData.light().primaryIconTheme.copyWith(
         color: Colors.white,
-      ),
-  accentIconTheme: ThemeData.light().primaryIconTheme.copyWith(
-        color: Colors.black,
       ),
 );
