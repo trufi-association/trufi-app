@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trufi/route_transports/screens/list_transports_screen.dart';
 import 'package:trufi_core/l10n/trufi_localization.dart';
 import 'package:trufi_core/models/menu/social_media/facebook_social_media.dart';
 import 'package:trufi_core/models/menu/social_media/instagram_social_media.dart';
@@ -16,6 +17,7 @@ import 'package:trufi_core/models/menu/menu_item.dart';
 final List<List<MenuItem>> menuItems = [
   DefaultPagesMenu.values.map((menuPage) => menuPage.toMenuPage()).toList(),
   [
+    ListTransportsScreen.menuitem,
     ...DefaultItemsMenu.values
         .map((menuPage) => menuPage.toMenuItem())
         .toList(),
