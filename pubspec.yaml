@@ -26,6 +26,10 @@ dependencies:
 
   trufi_core:
     path: ../trufi-core
+  
+  hydrated_bloc: ^7.1.0
+
+  path_provider: ^2.0.1
 
 dev_dependencies:
   flutter_test:
