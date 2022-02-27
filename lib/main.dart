@@ -39,10 +39,10 @@ void main() async {
               fit: BoxFit.cover,
             );
           },
-          urlFeedback: 'https://example/feedback',
-          urlShareApp: 'https://example/share',
+          urlFeedback: 'https://trufifeedback.z15.web.core.windows.net/route.html’',
+          urlShareApp: 'https://appurl.io/BOPP7QnKX',
           urlSocialMedia: const UrlSocialMedia(
-            urlFacebook: 'https://www.facebook.com/Example',
+            urlFacebook: 'https://www.facebook.com/TrufiAssoc',
           ),
           mapTilesUrl:
               "https://cbba.trufi.dev/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
