@@ -40,7 +40,7 @@ void main() async {
             );
           },
           urlFeedback:
-              'https://trufifeedback.z15.web.core.windows.net/route.html’',
+              'https://trufifeedback.z15.web.core.windows.net/route.html',
           urlShareApp: 'https://appurl.io/BOPP7QnKX',
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/TrufiAssoc',

@@ -1,5 +1,7 @@
 import 'package:async_executor/async_executor.dart';
 import 'package:flutter/material.dart';
+import 'package:pf_user_tracking/tools/location.dart';
+import 'package:pf_user_tracking/utils/custom_button.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
@@ -9,11 +11,11 @@ import 'package:trufi_core/base/pages/about/translations/about_localizations.dar
 import 'package:trufi_core/base/pages/feedback/feedback.dart';
 import 'package:trufi_core/base/pages/feedback/translations/feedback_localizations.dart';
 import 'package:trufi_core/base/pages/home/home.dart';
+import 'package:trufi_core/base/pages/home/widgets/trufi_map_route/trufi_map_route.dart';
 import 'package:trufi_core/base/pages/saved_places/saved_places.dart';
 import 'package:trufi_core/base/pages/saved_places/translations/saved_places_localizations.dart';
 import 'package:trufi_core/base/pages/transport_list/transport_list.dart';
-import 'package:trufi_core/base/pages/transport_list/widgets/transport_list_detail/transport_list_detail.dart';
-import 'package:trufi_core/base/translations/trufi_base_localizations.dart';
+import 'package:trufi_core/base/pages/transport_list/transport_list_detail/transport_list_detail.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_item_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/menu_item.dart';
@@ -30,7 +32,6 @@ import 'package:pf_user_tracking/bloc/tracking/service.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
 import 'package:pf_user_tracking/translations/user_tracking_localizations.dart';
 import 'tracking/TrackingScreen.dart';
-import 'tracking/trufi_map_route.dart';
 
 abstract class DefaultValues {
   static TrufiLocalization trufiLocalization({Locale? currentLocale}) =>
@@ -79,6 +80,10 @@ abstract class DefaultValues {
       ),
       BlocProvider<TrackingCubit>(
         create: (BuildContext context) => TrackingCubit(
+          location: LocationRoutingImplementation(
+            color: const Color(0xFF4fa6a6),
+            iconName: "ic_luncher",
+          ),
           userTrackingService: UserTrackingServiceGraphQL(
             serverUrl: "https://cbba.trufi.dev/user_tracking_graphql",
             // serverUrl: "http://192.168.100.3:3000/user_tracking_graphql",
@@ -126,6 +131,9 @@ abstract class DefaultValues {
                         mapTilesUrl: mapTilesUrl,
                         asyncExecutor: asyncExecutor ?? AsyncExecutor(),
                         trufiMapController: trufiMapController,
+                        overlapWidget: (_) {
+                          return const OverlayGPSButton();
+                        },
                       );
                     },
                     drawerBuilder: generateDrawer(HomePage.route),
@@ -138,6 +146,7 @@ abstract class DefaultValues {
                 ),
             TrackingScreen.route: (route) => NoAnimationPage(
                   child: TrackingScreen(
+                    mapTilesUrl: mapTilesUrl,
                     drawerBuilder: generateDrawer(TrackingScreen.route),
                   ),
                 ),
@@ -181,13 +190,13 @@ List<List<MenuItem>> defaultMenuItems({
       MenuPageItem(
         id: TrackingScreen.route,
         selectedIcon: (context) => Icon(
-          Icons.gps_fixed,
+          Icons.alt_route,
           color: Theme.of(context).brightness == Brightness.dark
               ? Colors.white
               : Colors.black,
         ),
         notSelectedIcon: (context) => const Icon(
-          Icons.gps_fixed,
+          Icons.alt_route,
           color: Colors.grey,
         ),
         name: (context) {
@@ -204,4 +213,24 @@ List<List<MenuItem>> defaultMenuItems({
           .toList(),
     ]
   ];
+}
+
+class OverlayGPSButton extends StatelessWidget {
+  const OverlayGPSButton({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Positioned(
+      bottom: 30,
+      left: 5,
+      child: FloatingActionButton(
+        backgroundColor: const Color(0xFF4fa6a6),
+        child: const Icon(Icons.alt_route),
+        onPressed: () {
+          Navigator.pop(context);
+          Routemaster.of(context).push(TrackingScreen.route);
+        },
+      ),
+    );
+  }
 }

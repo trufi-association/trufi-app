@@ -5,7 +5,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
 
 class TrackingMap extends StatelessWidget {
-  const TrackingMap({Key? key}) : super(key: key);
+  final String mapTilesUrl;
+  const TrackingMap({
+    Key? key,
+    required this.mapTilesUrl,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     final trackingCubit = context.watch<TrackingCubit>();
@@ -34,8 +38,7 @@ class TrackingMap extends StatelessWidget {
       layers: [
         TileLayerOptions(
           fastReplace: true,
-          urlTemplate:
-              "https://api.maptiler.com/maps/streets/256/{z}/{x}/{y}@2x.png?key=wiwrAM6XIeYMV6gHAt71",
+          urlTemplate: mapTilesUrl,
         ),
         ...routes.map((points) => buildRoute(points)).fold<List<LayerOptions>>(
           [],

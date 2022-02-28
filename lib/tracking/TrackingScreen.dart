@@ -9,9 +9,11 @@ import './tracking_map.dart';
 class TrackingScreen extends StatelessWidget {
   static const String route = "/TrackingScreen";
   final Widget Function(BuildContext) drawerBuilder;
+  final String mapTilesUrl;
   const TrackingScreen({
     Key? key,
     required this.drawerBuilder,
+    required this.mapTilesUrl,
   }) : super(key: key);
 
   @override
@@ -22,9 +24,11 @@ class TrackingScreen extends StatelessWidget {
       ),
       drawer: drawerBuilder(context),
       body: Stack(
-        children: const [
-          TrackingMap(),
-          TrackingModal(),
+        children: [
+          TrackingMap(
+            mapTilesUrl: mapTilesUrl,
+          ),
+          const TrackingModal(),
         ],
       ),
     );
