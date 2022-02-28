@@ -29,13 +29,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   trufi_core:
     path: ../trufi-core
+  pf_user_tracking:
+    path: ../pf_user_tracking
 
 dev_dependencies:
   flutter_test:
