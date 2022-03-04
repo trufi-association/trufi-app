@@ -187,6 +187,8 @@ List<List<MenuItem>> defaultMenuItems({
 }) {
   return [
     [
+      DefaultPagesMenu.homePage.toMenuPage(),
+      DefaultPagesMenu.transportList.toMenuPage(),
       MenuPageItem(
         id: TrackingScreen.route,
         selectedIcon: (context) => Icon(
@@ -200,11 +202,13 @@ List<List<MenuItem>> defaultMenuItems({
           color: Colors.grey,
         ),
         name: (context) {
-          return "UserTrackingScreen";
+          return UserTrackingLocalization.of(context).menuTraceRoute;
         },
-      )
+      ),
+      DefaultPagesMenu.savedPlaces.toMenuPage(),
+      DefaultPagesMenu.feedback.toMenuPage(),
+      DefaultPagesMenu.about.toMenuPage(),
     ],
-    DefaultPagesMenu.values.map((menuPage) => menuPage.toMenuPage()).toList(),
     [
       if (defaultUrls != null && defaultUrls.existUrl)
         defaultSocialMedia(defaultUrls),
