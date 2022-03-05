@@ -96,10 +96,12 @@ abstract class DefaultValues {
   static RouterDelegate<Object> routerDelegate({
     required String appName,
     required String cityName,
+    required String countryName,
     WidgetBuilder? backgroundImageBuilder,
     AsyncExecutor? asyncExecutor,
     required String urlShareApp,
     required String urlFeedback,
+    required String emailContact,
     UrlSocialMedia? urlSocialMedia,
     required String mapTilesUrl,
   }) {
@@ -107,6 +109,7 @@ abstract class DefaultValues {
       return (BuildContext _) => TrufiDrawer(
             currentRoute,
             appName: appName,
+            countryName: countryName,
             cityName: cityName,
             backgroundImageBuilder: backgroundImageBuilder,
             urlShareApp: urlShareApp,
@@ -172,6 +175,8 @@ abstract class DefaultValues {
                   child: AboutPage(
                     appName: appName,
                     cityName: cityName,
+                    countryName: countryName,
+                    emailContact: emailContact,
                     drawerBuilder: generateDrawer(AboutPage.route),
                   ),
                 ),

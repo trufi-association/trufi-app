@@ -31,8 +31,9 @@ void main() async {
       ],
       trufiRouter: TrufiRouter(
         routerDelegate: DefaultValues.routerDelegate(
-          appName: 'TrufiApp',
-          cityName: 'Cochabamba - Bolivia',
+          appName: 'Trufi App',
+          cityName: 'Cochabamba',
+          countryName: 'Bolivia',
           backgroundImageBuilder: (_) {
             return Image.asset(
               'assets/images/drawer-bg.jpg',
@@ -41,9 +42,10 @@ void main() async {
           },
           urlFeedback:
               'https://trufifeedback.z15.web.core.windows.net/route.html',
+          emailContact: 'feedback@trufi.app',
           urlShareApp: 'https://appurl.io/BOPP7QnKX',
           urlSocialMedia: const UrlSocialMedia(
-            urlFacebook: 'https://www.facebook.com/TrufiAssoc',
+            urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
           mapTilesUrl:
               "https://cbba.trufi.dev/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
