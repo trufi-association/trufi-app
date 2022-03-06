@@ -3,6 +3,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
+import 'package:trufi_core/base/widgets/maps/cache_map_tiles.dart';
 
 class TrackingMap extends StatelessWidget {
   final String mapTilesUrl;
@@ -46,6 +47,7 @@ class TrackingMap extends StatelessWidget {
         TileLayerOptions(
           fastReplace: true,
           urlTemplate: mapTilesUrl,
+          tileProvider: const CachedTileProvider(),
         ),
         ...routes.map((points) => buildRoute(points)).fold<List<LayerOptions>>(
           [],
