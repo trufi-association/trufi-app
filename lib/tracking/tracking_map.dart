@@ -6,7 +6,8 @@ import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
 
 class TrackingMap extends StatelessWidget {
   final String mapTilesUrl;
-  const TrackingMap({
+  final MapController mapController = MapController();
+  TrackingMap({
     Key? key,
     required this.mapTilesUrl,
   }) : super(key: key);
@@ -24,7 +25,13 @@ class TrackingMap extends StatelessWidget {
     final current = !trackingCubitState.lastTrack.fake
         ? trackingCubitState.lastTrack.toLatLng()
         : null;
+    mapController.onReady.then((value) {
+      if (current != null) {
+        mapController.move(current, 16);
+      }
+    });
     return FlutterMap(
+      mapController: mapController,
       options: MapOptions(
         center: LatLng(-17.39000, -66.15400),
         zoom: 13.0,
@@ -62,6 +69,14 @@ class TrackingMap extends StatelessWidget {
           ),
       ],
     );
+  }
+
+  void move({
+    required LatLng center,
+    required double zoom,
+    TickerProvider? tickerProvider,
+  }) {
+    mapController.move(center, zoom);
   }
 
   List<LayerOptions> buildRoute(List<LatLng> points) {
