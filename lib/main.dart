@@ -20,13 +20,13 @@ void main() async {
       ),
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "https://cbba.trufi.dev/otp",
-          otpGraphqlEndpoint: "https://cbba.trufi.dev/otp/index/graphql",
+          otpEndpoint: "https://cbba.trufi.app/otp",
+          otpGraphqlEndpoint: "https://cbba.trufi.app/otp/index/graphql",
           mapConfiguration: MapConfiguration(
             center: LatLng(-17.392600, -66.158787),
           ),
           searchAssetPath: "assets/data/search.json",
-          photonUrl: "https://cbba.trufi.dev/photon",
+          photonUrl: "https://cbba.trufi.app/photon",
         ),
       ],
       trufiRouter: TrufiRouter(
@@ -48,7 +48,7 @@ void main() async {
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
           mapTilesUrl:
-              "https://cbba.trufi.dev/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
+              "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
           asyncExecutor: customAsyncExecutor,
         ),
       ),

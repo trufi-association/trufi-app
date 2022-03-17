@@ -84,7 +84,7 @@ abstract class DefaultValues {
             iconName: "ic_luncher",
           ),
           userTrackingService: UserTrackingServiceGraphQL(
-            serverUrl: "https://cbba.trufi.dev/user_tracking_graphql",
+            serverUrl: "https://cbba.trufi.app/user_tracking_graphql",
             // serverUrl: "http://192.168.100.3:3000/user_tracking_graphql",
           ),
         ),
