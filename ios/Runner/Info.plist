@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Navigator</string>
+	<string>Trufi</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,9 +26,10 @@
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Trufi app is using your location to display it on a map.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<string>Trufi app is using your location to display it on a map.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Trufi app is using your location to display it on a map.</string>
-	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
