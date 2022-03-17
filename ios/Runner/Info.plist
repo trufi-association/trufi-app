@@ -24,12 +24,16 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs access to location when in the background.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Trufi app is using your location to display it on a map.</string>
-	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
-	<string>Trufi app is using your location to display it on a map.</string>
+	<string>This app needs access to location when in the background.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Trufi app is using your location to display it on a map.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
