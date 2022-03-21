@@ -27,6 +27,8 @@ void main() async {
           ),
           searchAssetPath: "assets/data/search.json",
           photonUrl: "https://cbba.trufi.app/photon",
+          mapTilesUrl:
+              "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
         ),
       ],
       trufiRouter: TrufiRouter(
@@ -47,8 +49,6 @@ void main() async {
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
-          mapTilesUrl:
-              "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
           asyncExecutor: customAsyncExecutor,
         ),
       ),

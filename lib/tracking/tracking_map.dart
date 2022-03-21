@@ -3,14 +3,13 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
-import 'package:trufi_core/base/widgets/maps/cache_map_tiles.dart';
+import 'package:trufi_core/base/widgets/maps/trufi_map.dart';
+import 'package:trufi_core/base/widgets/maps/trufi_map_cubit/trufi_map_cubit.dart';
 
 class TrackingMap extends StatelessWidget {
-  final String mapTilesUrl;
-  final MapController mapController = MapController();
+  final TrufiMapController trufiMapController = TrufiMapController();
   TrackingMap({
     Key? key,
-    required this.mapTilesUrl,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -26,29 +25,14 @@ class TrackingMap extends StatelessWidget {
     final current = !trackingCubitState.lastTrack.fake
         ? trackingCubitState.lastTrack.toLatLng()
         : null;
-    mapController.onReady.then((value) {
+    trufiMapController.mapController.onReady.then((value) {
       if (current != null) {
-        mapController.move(current, 16);
+        trufiMapController.mapController.move(current, 16);
       }
     });
-    return FlutterMap(
-      mapController: mapController,
-      options: MapOptions(
-        center: LatLng(-17.39000, -66.15400),
-        zoom: 13.0,
-        maxZoom: 18,
-        interactiveFlags: InteractiveFlag.drag |
-            InteractiveFlag.flingAnimation |
-            InteractiveFlag.pinchMove |
-            InteractiveFlag.pinchZoom |
-            InteractiveFlag.doubleTapZoom,
-      ),
-      layers: [
-        TileLayerOptions(
-          fastReplace: true,
-          urlTemplate: mapTilesUrl,
-          tileProvider: const CachedTileProvider(),
-        ),
+    return TrufiMap(
+      trufiMapController: trufiMapController,
+      layerOptionsBuilder: (context) => [
         ...routes.map((points) => buildRoute(points)).fold<List<LayerOptions>>(
           [],
           (value, element) => [...value, ...element],
@@ -78,7 +62,7 @@ class TrackingMap extends StatelessWidget {
     required double zoom,
     TickerProvider? tickerProvider,
   }) {
-    mapController.move(center, zoom);
+    trufiMapController.move(center: center, zoom: zoom);
   }
 
   List<LayerOptions> buildRoute(List<LatLng> points) {

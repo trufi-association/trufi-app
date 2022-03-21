@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:pf_user_tracking/tools/location.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_map/flutter_map.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
 
 import 'package:trufi_core/base/pages/about/about.dart';
 import 'package:trufi_core/base/pages/about/translations/about_localizations.dart';
 import 'package:trufi_core/base/pages/feedback/feedback.dart';
 import 'package:trufi_core/base/pages/feedback/translations/feedback_localizations.dart';
+import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider_cubit.dart';
 import 'package:trufi_core/base/pages/home/home.dart';
 import 'package:trufi_core/base/pages/home/widgets/trufi_map_route/trufi_map_route.dart';
 import 'package:trufi_core/base/pages/saved_places/saved_places.dart';
@@ -20,12 +22,14 @@ import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/menu_item.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
 import 'package:trufi_core/base/widgets/drawer/trufi_drawer.dart';
+import 'package:trufi_core/base/widgets/maps/cache_map_tiles.dart';
 import 'package:trufi_core/base/widgets/screen/screen_helpers.dart';
 import 'package:trufi_core/base/blocs/localization/trufi_localization_cubit.dart';
 import 'package:trufi_core/base/pages/home/map_route_cubit/map_route_cubit.dart';
 import 'package:trufi_core/base/pages/saved_places/repository/search_location/default_search_location.dart';
 import 'package:trufi_core/base/pages/saved_places/search_locations_cubit/search_locations_cubit.dart';
 import 'package:trufi_core/base/pages/transport_list/route_transports_cubit/route_transports_cubit.dart';
+import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
 
 import 'package:pf_user_tracking/bloc/tracking/service.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
@@ -55,6 +59,7 @@ abstract class DefaultValues {
     required MapConfiguration mapConfiguration,
     required String searchAssetPath,
     required String photonUrl,
+    required String mapTilesUrl,
   }) {
     return [
       BlocProvider<RouteTransportsCubit>(
@@ -85,8 +90,14 @@ abstract class DefaultValues {
           ),
           userTrackingService: UserTrackingServiceGraphQL(
             serverUrl: "https://cbba.trufi.app/user_tracking_graphql",
-            // serverUrl: "http://192.168.100.3:3000/user_tracking_graphql",
           ),
+        ),
+      ),
+      BlocProvider<MapTileProviderCubit>(
+        create: (context) => MapTileProviderCubit(
+          mapTileProviders: [
+            CbbaMapLayer(mapTilesUrl: mapTilesUrl),
+          ],
         ),
       ),
     ];
@@ -102,7 +113,6 @@ abstract class DefaultValues {
     required String urlFeedback,
     required String emailContact,
     UrlSocialMedia? urlSocialMedia,
-    required String mapTilesUrl,
   }) {
     generateDrawer(String currentRoute) {
       return (BuildContext _) => TrufiDrawer(
@@ -123,14 +133,12 @@ abstract class DefaultValues {
           routes: {
             HomePage.route: (route) => NoAnimationPage(
                   child: HomePage(
-                    mapTilesUrl: mapTilesUrl,
                     asyncExecutor: asyncExecutor ?? AsyncExecutor(),
                     mapBuilder: (
                       mapContext,
                       trufiMapController,
                     ) {
                       return TrufiMapRoute(
-                        mapTilesUrl: mapTilesUrl,
                         asyncExecutor: asyncExecutor ?? AsyncExecutor(),
                         trufiMapController: trufiMapController,
                         overlapWidget: (_) {
@@ -148,19 +156,16 @@ abstract class DefaultValues {
                 ),
             TrackingScreen.route: (route) => NoAnimationPage(
                   child: TrackingScreen(
-                    mapTilesUrl: mapTilesUrl,
                     drawerBuilder: generateDrawer(TrackingScreen.route),
                   ),
                 ),
             TransportListDetail.route: (route) => NoAnimationPage(
                   child: TransportListDetail(
-                    mapTilesUrl: mapTilesUrl,
                     id: Uri.decodeQueryComponent(route.pathParameters['id']!),
                   ),
                 ),
             SavedPlacesPage.route: (route) => NoAnimationPage(
                   child: SavedPlacesPage(
-                    mapTilesUrl: mapTilesUrl,
                     drawerBuilder: generateDrawer(SavedPlacesPage.route),
                   ),
                 ),
@@ -240,5 +245,37 @@ class OverlayGPSButton extends StatelessWidget {
         },
       ),
     );
+  }
+}
+
+class CbbaMapLayer extends MapTileProvider {
+  final String? mapTilesUrl;
+
+  CbbaMapLayer({
+    required this.mapTilesUrl,
+  }) : super();
+
+  @override
+  List<LayerOptions> buildTileLayerOptions() {
+    return [
+      TileLayerOptions(
+          urlTemplate: mapTilesUrl,
+          subdomains: ['a', 'b', 'c'],
+          tileProvider: const CachedTileProvider()),
+    ];
+  }
+
+  @override
+  String get id => "OSMDefaulMapTile";
+
+  @override
+  WidgetBuilder get imageBuilder => (context) => Image.asset(
+        "assets/images/OpenMapTiles.png",
+        fit: BoxFit.cover,
+      );
+
+  @override
+  String name(BuildContext context) {
+    return id;
   }
 }
