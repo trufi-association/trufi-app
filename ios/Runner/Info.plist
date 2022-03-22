@@ -25,11 +25,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app needs access to location when in the background.</string>
+	<string>your location will be used to display your location on the map and will be used as the default location for searches.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app needs access to location when in the background.</string>
+	<string>your location will be used to display your location on the map and will be used as the default location for searches.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Trufi app is using your location to display it on a map.</string>
+	<string>your location will be used to display your location on the map and will be used as the default location for searches.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
