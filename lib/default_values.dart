@@ -96,7 +96,7 @@ abstract class DefaultValues {
       BlocProvider<MapTileProviderCubit>(
         create: (context) => MapTileProviderCubit(
           mapTileProviders: [
-            CbbaMapLayer(mapTilesUrl: mapTilesUrl),
+            OSMMapLayer(mapTilesUrl: mapTilesUrl),
           ],
         ),
       ),
@@ -245,37 +245,5 @@ class OverlayGPSButton extends StatelessWidget {
         },
       ),
     );
-  }
-}
-
-class CbbaMapLayer extends MapTileProvider {
-  final String? mapTilesUrl;
-
-  CbbaMapLayer({
-    required this.mapTilesUrl,
-  }) : super();
-
-  @override
-  List<LayerOptions> buildTileLayerOptions() {
-    return [
-      TileLayerOptions(
-          urlTemplate: mapTilesUrl,
-          subdomains: ['a', 'b', 'c'],
-          tileProvider: const CachedTileProvider()),
-    ];
-  }
-
-  @override
-  String get id => "OSMDefaulMapTile";
-
-  @override
-  WidgetBuilder get imageBuilder => (context) => Image.asset(
-        "assets/images/OpenMapTiles.png",
-        fit: BoxFit.cover,
-      );
-
-  @override
-  String name(BuildContext context) {
-    return id;
   }
 }
