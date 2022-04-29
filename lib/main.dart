@@ -37,7 +37,7 @@ void main() async {
                   "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
             ),
           ],
-          typeProviderMap: TypepProviderMap.lealetMap,
+          typeProviderMap: TypepProviderMap.googleMap,
         ),
       ],
       trufiRouter: TrufiRouter(
@@ -59,7 +59,7 @@ void main() async {
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
           asyncExecutor: customAsyncExecutor,
-          typeProviderMap: TypepProviderMap.lealetMap,
+          typeProviderMap: TypepProviderMap.googleMap,
         ),
       ),
     ),
