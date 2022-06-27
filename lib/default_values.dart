@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:pf_user_tracking/tools/location.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:trufi/feedback.dart';
 import 'package:trufi/tracking/maps/map_tracking_provider.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
 
 import 'package:trufi_core/base/pages/about/about.dart';
 import 'package:trufi_core/base/pages/about/translations/about_localizations.dart';
-import 'package:trufi_core/base/pages/feedback/feedback.dart';
 import 'package:trufi_core/base/pages/feedback/translations/feedback_localizations.dart';
 import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider_cubit.dart';
 import 'package:trufi_core/base/pages/home/home.dart';
@@ -88,7 +88,7 @@ abstract class DefaultValues {
             iconName: "ic_luncher",
           ),
           userTrackingService: UserTrackingServiceGraphQL(
-            serverUrl: "https://cbba.trufi.app/user_tracking_graphql",
+            serverUrl: "https://cbba.trufi.dev/user_tracking_graphql",
           ),
         ),
       ),
@@ -109,6 +109,7 @@ abstract class DefaultValues {
     AsyncExecutor? asyncExecutor,
     required String urlShareApp,
     required String urlFeedback,
+    required String urlWhatsapp,
     required String emailContact,
     UrlSocialMedia? urlSocialMedia,
     required TypepProviderMap typeProviderMap,
@@ -135,23 +136,25 @@ abstract class DefaultValues {
                 child: HomePage(
                   drawerBuilder: generateDrawer(HomePage.route),
                   asyncExecutor: asyncExecutor ?? AsyncExecutor(),
-                  mapRouteProvider: MapRouteProvider.providerByTypepProviderMap(
+                  mapRouteProvider:
+                      MapRouteProviderImplementation.providerByTypepProviderMap(
                     typeProviderMap: typeProviderMap,
                     overlapWidget: (_) {
                       return const OverlayGPSButton();
                     },
                   ),
                   mapChooseLocationProvider:
-                      MapChooseLocationProvider.providerByTypepProviderMap(
-                          typeProviderMap: typeProviderMap),
+                      MapChooseLocationProviderImplementation
+                          .providerByTypepProviderMap(
+                              typeProviderMap: typeProviderMap),
                 ),
               );
             },
             TrackingScreen.route: (route) => NoAnimationPage(
                   child: TrackingScreen(
                     drawerBuilder: generateDrawer(TrackingScreen.route),
-                    mapRouteProvider:
-                        MapTrackingProvider.providerByTypepProviderMap(
+                    mapRouteProvider: MapTrackingProviderImplementation
+                        .providerByTypepProviderMap(
                       typeProviderMap: typeProviderMap,
                     ),
                   ),
@@ -160,8 +163,8 @@ abstract class DefaultValues {
               return NoAnimationPage(
                 child: TransportList(
                   drawerBuilder: generateDrawer(TransportList.route),
-                  mapTransportProvider:
-                      MapTransportProvider.providerByTypepProviderMap(
+                  mapTransportProvider: MapTransportProviderImplementation
+                      .providerByTypepProviderMap(
                           typeProviderMap: typeProviderMap),
                 ),
               );
@@ -171,7 +174,8 @@ abstract class DefaultValues {
                 child: SavedPlacesPage(
                   drawerBuilder: generateDrawer(SavedPlacesPage.route),
                   mapChooseLocationProvider:
-                      MapChooseLocationProvider.providerByTypepProviderMap(
+                      MapChooseLocationProviderImplementation
+                          .providerByTypepProviderMap(
                     typeProviderMap: typeProviderMap,
                   ),
                 ),
@@ -180,6 +184,7 @@ abstract class DefaultValues {
             FeedbackPage.route: (route) => NoAnimationPage(
                   child: FeedbackPage(
                     urlFeedback: urlFeedback,
+                    urlWhatsapp: urlWhatsapp,
                     drawerBuilder: generateDrawer(FeedbackPage.route),
                   ),
                 ),
