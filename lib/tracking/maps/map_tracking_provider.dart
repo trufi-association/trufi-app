@@ -9,31 +9,38 @@ typedef MapTrackingBuilder = Widget Function(
   BuildContext context,
 );
 
-class MapTrackingProvider {
+abstract class MapTrackingProvider {
+  ITrufiMapController get trufiMapController;
+  MapTrackingBuilder get mapChooseLocationBuilder;
+}
+
+class MapTrackingProviderImplementation implements MapTrackingProvider {
+  @override
   final ITrufiMapController trufiMapController;
+  @override
   final MapTrackingBuilder mapChooseLocationBuilder;
 
-  const MapTrackingProvider({
+  const MapTrackingProviderImplementation({
     required this.trufiMapController,
     required this.mapChooseLocationBuilder,
   });
 
-  factory MapTrackingProvider.providerByTypepProviderMap({
+  factory MapTrackingProviderImplementation.providerByTypepProviderMap({
     required TypepProviderMap typeProviderMap,
   }) {
     switch (typeProviderMap) {
       case TypepProviderMap.lealetMap:
-        return MapTrackingProvider.leaftletMap();
+        return MapTrackingProviderImplementation.leaftletMap();
       case TypepProviderMap.googleMap:
-        return MapTrackingProvider.googleMap();
+        return MapTrackingProviderImplementation.googleMap();
       default:
         throw 'error TypeProviderMap not implement in MapChooseLocationProvider';
     }
   }
 
-  factory MapTrackingProvider.googleMap() {
+  factory MapTrackingProviderImplementation.googleMap() {
     final trufiMapController = TGoogleMapController();
-    return MapTrackingProvider(
+    return MapTrackingProviderImplementation(
       trufiMapController: trufiMapController,
       mapChooseLocationBuilder: (mapContext) {
         return GoogleMapTracking(
@@ -42,9 +49,9 @@ class MapTrackingProvider {
       },
     );
   }
-  factory MapTrackingProvider.leaftletMap() {
+  factory MapTrackingProviderImplementation.leaftletMap() {
     final trufiMapController = LeafletMapController();
-    return MapTrackingProvider(
+    return MapTrackingProviderImplementation(
       trufiMapController: trufiMapController,
       mapChooseLocationBuilder: (mapContext) {
         return LeaftletMapTracking(
