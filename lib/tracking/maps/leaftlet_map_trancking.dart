@@ -37,6 +37,7 @@ class LeaftletMapTracking extends StatelessWidget {
     });
     return LeafletMap(
       trufiMapController: trufiMapController,
+      bottomPaddingButtons: 120,
       layerOptionsBuilder: (context) => [
         ...routes.map((points) => buildRoute(points)).fold<List<LayerOptions>>(
           [],
