@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pf_user_tracking/translations/user_tracking_localizations.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
 import 'package:pf_user_tracking/screens/tracking_home_screen.dart';
@@ -19,22 +20,16 @@ class TrackingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final localization = UserTrackingLocalization.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("UserTracking"),
+        title: Text(localization.menuTraceRoute),
       ),
       drawer: drawerBuilder(context),
       body: Stack(
         children: [
           mapRouteProvider.mapChooseLocationBuilder(context),
-          Container(
-            margin: const EdgeInsets.symmetric(vertical: 20),
-            child: Stack(
-              children: const [
-                TrackingModal(),
-              ],
-            ),
-          ),
+          const TrackingModal(),
         ],
       ),
     );
