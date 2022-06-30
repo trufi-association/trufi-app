@@ -57,10 +57,11 @@ class FeedbackPage extends StatelessWidget {
               icon: whatsappIcon(color: Colors.white),
               color: const Color(0xff25D366),
               text: const Text(
-                'Whatsapp',
+                'WhatsApp',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w600,
+                  fontSize: 18
                 ),
               ),
             ),
@@ -79,12 +80,13 @@ class FeedbackPage extends StatelessWidget {
                 Icons.email,
                 color: Colors.black,
               ),
-              color: Colors.grey[50]!,
+              color: Colors.grey[100]!,
               text: const Text(
                 'Email',
                 style: TextStyle(
                   color: Colors.black,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.w500,
+                  fontSize: 18
                 ),
               ),
             ),
@@ -113,14 +115,14 @@ class ContactButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        height: 45,
+        height: 40,
         width: 280,
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(50),
           boxShadow: const [
             BoxShadow(
-              color: Colors.black,
+              color: Colors.grey,
               offset: Offset(0, 1),
               blurRadius: 2,
             ),
@@ -133,6 +135,7 @@ class ContactButtons extends StatelessWidget {
             borderRadius: BorderRadius.circular(50),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const SizedBox(width: 15),
                 SizedBox(
@@ -140,7 +143,7 @@ class ContactButtons extends StatelessWidget {
                   height: 30,
                   child: icon,
                 ),
-                const SizedBox(width: 10),
+                const SizedBox(width: 8),
                 text,
                 const SizedBox(width: 15),
               ],
