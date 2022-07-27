@@ -30,9 +30,9 @@ class LeaftletMapTracking extends StatelessWidget {
     final current = !trackingCubitState.lastTrack.fake
         ? trackingCubitState.lastTrack.toLatLng()
         : null;
-    trufiMapController.mapController?.onReady.then((value) {
+    trufiMapController.mapController.onReady.then((value) {
       if (current != null) {
-        trufiMapController.mapController?.move(current, 16);
+        trufiMapController.mapController.move(current, 16);
       }
     });
     return LeafletMap(
