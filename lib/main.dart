@@ -5,7 +5,6 @@ import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
 import 'package:trufi_core/base/models/trufi_latlng.dart';
 import 'package:trufi_core/base/utils/certificates_letsencrypt_android.dart';
 import 'package:trufi_core/base/utils/graphql_client/hive_init.dart';
-import 'package:trufi_core/base/widgets/base_maps/i_trufi_map_controller.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
 import 'package:trufi_core/trufi_core.dart';
 import 'package:trufi_core/trufi_router.dart';
@@ -37,7 +36,6 @@ void main() async {
                   "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
             ),
           ],
-          typeProviderMap: TypepProviderMap.lealetMap,
         ),
       ],
       trufiRouter: TrufiRouter(
@@ -60,7 +58,6 @@ void main() async {
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
           asyncExecutor: customAsyncExecutor,
-          typeProviderMap: TypepProviderMap.lealetMap,
         ),
       ),
     ),

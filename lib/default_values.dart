@@ -3,22 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:pf_user_tracking/tools/location.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import 'package:trufi/feedback.dart';
 import 'package:trufi/tracking/maps/map_tracking_provider.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
-
+import 'package:trufi_core/base/models/map_provider/leaflet_map_collection.dart';
+import 'package:trufi_core/base/models/map_provider/trufi_map_definition.dart';
 import 'package:trufi_core/base/pages/about/about.dart';
 import 'package:trufi_core/base/pages/about/translations/about_localizations.dart';
 import 'package:trufi_core/base/pages/feedback/translations/feedback_localizations.dart';
 import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider_cubit.dart';
 import 'package:trufi_core/base/pages/home/home.dart';
-import 'package:trufi_core/base/pages/home/widgets/trufi_map_route/maps/map_route_provider.dart';
 import 'package:trufi_core/base/pages/saved_places/saved_places.dart';
 import 'package:trufi_core/base/pages/saved_places/translations/saved_places_localizations.dart';
 import 'package:trufi_core/base/pages/transport_list/transport_list.dart';
-import 'package:trufi_core/base/pages/transport_list/transport_list_detail/maps/map_transport_provider.dart';
-import 'package:trufi_core/base/widgets/base_maps/i_trufi_map_controller.dart';
-import 'package:trufi_core/base/widgets/choose_location/maps/map_choose_location_provider.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_item_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/menu_item.dart';
@@ -61,7 +59,7 @@ abstract class DefaultValues {
     required String searchAssetPath,
     required String photonUrl,
     List<MapTileProvider>? mapTileProviders,
-    required TypepProviderMap typeProviderMap,
+    bool useCustomMapProvider = false,
   }) {
     return [
       BlocProvider<RouteTransportsCubit>(
@@ -92,7 +90,7 @@ abstract class DefaultValues {
           ),
         ),
       ),
-      if (typeProviderMap == TypepProviderMap.lealetMap)
+      if (!useCustomMapProvider)
         BlocProvider<MapTileProviderCubit>(
           create: (context) => MapTileProviderCubit(
             mapTileProviders: mapTileProviders ?? [OSMDefaultMapTile()],
@@ -112,8 +110,9 @@ abstract class DefaultValues {
     required String urlWhatsapp,
     required String emailContact,
     UrlSocialMedia? urlSocialMedia,
-    required TypepProviderMap typeProviderMap,
+    ITrufiMapProvider? trufiMapProvider,
   }) {
+    final _trufiMapProvider = trufiMapProvider ?? LeafletMapCollection();
     generateDrawer(String currentRoute) {
       return (BuildContext _) => TrufiDrawer(
             currentRoute,
@@ -136,36 +135,28 @@ abstract class DefaultValues {
                 child: HomePage(
                   drawerBuilder: generateDrawer(HomePage.route),
                   asyncExecutor: asyncExecutor ?? AsyncExecutor(),
-                  mapRouteProvider:
-                      MapRouteProviderImplementation.providerByTypepProviderMap(
-                    typeProviderMap: typeProviderMap,
+                  mapRouteProvider: _trufiMapProvider.mapRouteProvider(
                     overlapWidget: (_) {
                       return const OverlayGPSButton();
                     },
                   ),
                   mapChooseLocationProvider:
-                      MapChooseLocationProviderImplementation
-                          .providerByTypepProviderMap(
-                              typeProviderMap: typeProviderMap),
+                      _trufiMapProvider.mapChooseLocationProvider(),
                 ),
               );
             },
             TrackingScreen.route: (route) => NoAnimationPage(
                   child: TrackingScreen(
                     drawerBuilder: generateDrawer(TrackingScreen.route),
-                    mapRouteProvider: MapTrackingProviderImplementation
-                        .providerByTypepProviderMap(
-                      typeProviderMap: typeProviderMap,
-                    ),
+                    mapRouteProvider: LeafletMapTrackingProvider.create(),
                   ),
                 ),
             TransportList.route: (route) {
               return NoAnimationPage(
                 child: TransportList(
                   drawerBuilder: generateDrawer(TransportList.route),
-                  mapTransportProvider: MapTransportProviderImplementation
-                      .providerByTypepProviderMap(
-                          typeProviderMap: typeProviderMap),
+                  mapTransportProvider:
+                      _trufiMapProvider.mapTransportProvider(),
                 ),
               );
             },
@@ -174,10 +165,7 @@ abstract class DefaultValues {
                 child: SavedPlacesPage(
                   drawerBuilder: generateDrawer(SavedPlacesPage.route),
                   mapChooseLocationProvider:
-                      MapChooseLocationProviderImplementation
-                          .providerByTypepProviderMap(
-                    typeProviderMap: typeProviderMap,
-                  ),
+                      _trufiMapProvider.mapChooseLocationProvider(),
                 ),
               );
             },
