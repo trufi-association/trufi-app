@@ -52,6 +52,7 @@ class FeedbackPage extends StatelessWidget {
             SizedBox(height: isPortrait ? 150 : 50),
             ContactButtons(
               ontap: () {
+                // ignore: deprecated_member_use
                 launch(urlWhatsapp);
               },
               icon: whatsappIcon(color: Colors.white),
@@ -71,6 +72,7 @@ class FeedbackPage extends StatelessWidget {
                 String version = await PackageInfoPlatform.version();
                 final TrufiLatLng? currentLocation =
                     GPSLocationProvider().myLocation;
+                // ignore: deprecated_member_use
                 launch(
                   "$urlFeedback?lang=${localizationF.localeName}&geo=${currentLocation?.latitude},"
                   "${currentLocation?.longitude}&app=$version",
