@@ -58,6 +58,10 @@ void main() async {
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
           asyncExecutor: customAsyncExecutor,
+          shareBaseUri: Uri(
+            scheme: "https",
+            host: "cbba.trufi.dev",
+          ),
         ),
       ),
     ),
