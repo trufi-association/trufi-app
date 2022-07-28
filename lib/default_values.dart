@@ -111,6 +111,7 @@ abstract class DefaultValues {
     required String emailContact,
     UrlSocialMedia? urlSocialMedia,
     ITrufiMapProvider? trufiMapProvider,
+    Uri? shareBaseUri,
   }) {
     final _trufiMapProvider = trufiMapProvider ?? LeafletMapCollection();
     generateDrawer(String currentRoute) {
@@ -136,6 +137,9 @@ abstract class DefaultValues {
                   drawerBuilder: generateDrawer(HomePage.route),
                   asyncExecutor: asyncExecutor ?? AsyncExecutor(),
                   mapRouteProvider: _trufiMapProvider.mapRouteProvider(
+                    shareBaseItineraryUri: shareBaseUri?.replace(
+                      path: "/app/Home",
+                    ),
                     overlapWidget: (_) {
                       return const OverlayGPSButton();
                     },
@@ -155,8 +159,11 @@ abstract class DefaultValues {
               return NoAnimationPage(
                 child: TransportList(
                   drawerBuilder: generateDrawer(TransportList.route),
-                  mapTransportProvider:
-                      _trufiMapProvider.mapTransportProvider(),
+                  mapTransportProvider: _trufiMapProvider.mapTransportProvider(
+                    shareBaseRouteUri: shareBaseUri?.replace(
+                      path: "/app/TransportList",
+                    ),
+                  ),
                 ),
               );
             },
