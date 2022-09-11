@@ -52,7 +52,7 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="https" android:host="cbba.trufi.dev" android:pathPrefix="/app" />
+        <data android:scheme="https" android:host="navigator.trufi.app" android:pathPrefix="/app" />
       </intent-filter>
     </activity>
     <!-- Don't delete the meta-data below.

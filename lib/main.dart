@@ -25,17 +25,17 @@ void main() async {
       ),
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "https://cbba.trufi.app/otp",
-          otpGraphqlEndpoint: "https://cbba.trufi.app/otp/index/graphql",
+          otpEndpoint: "https://navigator.trufi.app/otp",
+          otpGraphqlEndpoint: "https://navigator.trufi.app/otp/index/graphql",
           mapConfiguration: MapConfiguration(
             center: const TrufiLatLng(-17.392600, -66.158787),
           ),
           searchAssetPath: "assets/data/search.json",
-          photonUrl: "https://cbba.trufi.app/photon",
+          photonUrl: "https://navigator.trufi.app/photon",
           mapTileProviders: [
             OSMMapLayer(
               mapTilesUrl:
-                  "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
+                  "https://navigator.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
             ),
           ],
         ),
@@ -62,7 +62,7 @@ void main() async {
           asyncExecutor: customAsyncExecutor,
           shareBaseUri: Uri(
             scheme: "https",
-            host: "cbba.trufi.dev",
+            host: "navigator.trufi.app",
           ),
         ),
       ),
