@@ -17,6 +17,7 @@ import 'package:trufi_core/base/pages/home/home.dart';
 import 'package:trufi_core/base/pages/saved_places/saved_places.dart';
 import 'package:trufi_core/base/pages/saved_places/translations/saved_places_localizations.dart';
 import 'package:trufi_core/base/pages/transport_list/transport_list.dart';
+import 'package:trufi_core/base/utils/trufi_app_id.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_item_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/menu_item.dart';
@@ -87,6 +88,7 @@ abstract class DefaultValues {
           ),
           userTrackingService: UserTrackingServiceGraphQL(
             serverUrl: "https://cbba.trufi.dev/user_tracking_graphql",
+            uniqueAppId: TrufiAppId.getUniqueId,
           ),
         ),
       ),
