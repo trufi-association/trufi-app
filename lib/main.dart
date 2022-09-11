@@ -5,6 +5,7 @@ import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
 import 'package:trufi_core/base/models/trufi_latlng.dart';
 import 'package:trufi_core/base/utils/certificates_letsencrypt_android.dart';
 import 'package:trufi_core/base/utils/graphql_client/hive_init.dart';
+import 'package:trufi_core/base/utils/trufi_app_id.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
 import 'package:trufi_core/trufi_core.dart';
 import 'package:trufi_core/trufi_router.dart';
@@ -15,6 +16,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CertificatedLetsencryptAndroid.workAroundCertificated();
   await initHiveForFlutter();
+  await TrufiAppId.initialize();
   runApp(
     TrufiApp(
       appNameTitle: 'TrufiApp',
@@ -23,17 +25,17 @@ void main() async {
       ),
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "https://cbba.trufi.app/otp",
-          otpGraphqlEndpoint: "https://cbba.trufi.app/otp/index/graphql",
+          otpEndpoint: "https://bo-cbba.sa.api.trufi-association.org/otp",
+          otpGraphqlEndpoint: "https://bo-cbba.sa.api.trufi-association.org/otp/index/graphql",
           mapConfiguration: MapConfiguration(
             center: const TrufiLatLng(-17.392600, -66.158787),
           ),
           searchAssetPath: "assets/data/search.json",
-          photonUrl: "https://cbba.trufi.app/photon",
+          photonUrl: "https://bo-cbba.sa.api.trufi-association.org/photon",
           mapTileProviders: [
             OSMMapLayer(
               mapTilesUrl:
-                  "https://cbba.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
+                  "https://bo-cbba.sa.api.trufi-association.org/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
             ),
           ],
         ),
@@ -60,7 +62,7 @@ void main() async {
           asyncExecutor: customAsyncExecutor,
           shareBaseUri: Uri(
             scheme: "https",
-            host: "cbba.trufi.dev",
+            host: "bo-cbba.sa.api.trufi-association.org",
           ),
         ),
       ),
