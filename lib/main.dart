@@ -55,7 +55,7 @@ void main() async {
               'https://trufifeedback.z15.web.core.windows.net/route.html',
           urlWhatsapp: 'https://wa.me/message/U2SDYC6R55WCM1',
           emailContact: 'feedback@trufi.app',
-          urlShareApp: 'https://www.trufi.app/en/trufi/',
+          urlShareApp: 'https://www.trufi.app/',
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/trufiapp/',
           ),
