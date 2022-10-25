@@ -65,7 +65,6 @@ class OverlayGPSButton extends StatelessWidget {
         backgroundColor: const Color(0xFF4fa6a6),
         child: const Icon(Icons.alt_route),
         onPressed: () {
-          Navigator.pop(context);
           Routemaster.of(context).push(TrackingScreen.route);
         },
       ),
