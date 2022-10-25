@@ -20,9 +20,10 @@ import 'package:trufi_core/base/pages/transport_list/transport_list.dart';
 import 'package:trufi_core/base/utils/trufi_app_id.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_item_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
-import 'package:trufi_core/base/widgets/drawer/menu/menu_item.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
+import 'package:trufi_core/base/widgets/drawer/menu/trufi_menu_item.dart';
 import 'package:trufi_core/base/widgets/drawer/trufi_drawer.dart';
+import 'package:trufi_core/base/widgets/screen/lifecycle_reactor_wrapper.dart';
 import 'package:trufi_core/base/widgets/screen/screen_helpers.dart';
 import 'package:trufi_core/base/blocs/localization/trufi_localization_cubit.dart';
 import 'package:trufi_core/base/pages/home/map_route_cubit/map_route_cubit.dart';
@@ -87,7 +88,8 @@ abstract class DefaultValues {
             iconName: "ic_luncher",
           ),
           userTrackingService: UserTrackingServiceGraphQL(
-            serverUrl: "https://bo-cbba.sa.api.trufi-association.org/user_tracking_graphql",
+            serverUrl:
+                "https://bo-cbba.sa.api.trufi-association.org/user_tracking_graphql",
             uniqueAppId: TrufiAppId.getUniqueId,
           ),
         ),
@@ -114,6 +116,7 @@ abstract class DefaultValues {
     UrlSocialMedia? urlSocialMedia,
     ITrufiMapProvider? trufiMapProvider,
     Uri? shareBaseUri,
+    LifecycleReactorHandler? lifecycleReactorHandler,
   }) {
     final _trufiMapProvider = trufiMapProvider ?? LeafletMapCollection();
     generateDrawer(String currentRoute) {
@@ -135,6 +138,7 @@ abstract class DefaultValues {
           routes: {
             HomePage.route: (route) {
               return NoAnimationPage(
+                lifecycleReactorHandler: lifecycleReactorHandler,
                 child: HomePage(
                   drawerBuilder: generateDrawer(HomePage.route),
                   asyncExecutor: asyncExecutor ?? AsyncExecutor(),
@@ -201,7 +205,7 @@ abstract class DefaultValues {
   }
 }
 
-List<List<MenuItem>> defaultMenuItems({
+List<List<TrufiMenuItem>> defaultMenuItems({
   required UrlSocialMedia? defaultUrls,
 }) {
   return [

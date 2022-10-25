@@ -7,6 +7,7 @@ import 'package:trufi_core/base/utils/certificates_letsencrypt_android.dart';
 import 'package:trufi_core/base/utils/graphql_client/hive_init.dart';
 import 'package:trufi_core/base/utils/trufi_app_id.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
+import 'package:trufi_core/base/widgets/screen/lifecycle_reactor_notification.dart';
 import 'package:trufi_core/trufi_core.dart';
 import 'package:trufi_core/trufi_router.dart';
 
@@ -63,6 +64,10 @@ void main() async {
           shareBaseUri: Uri(
             scheme: "https",
             host: "bo-cbba.sa.api.trufi-association.org",
+          ),
+          lifecycleReactorHandler: LifecycleReactorNotifications(
+            url:
+                'https://bo-cbba.sa.api.trufi-association.org/static_files/notification.json',
           ),
         ),
       ),
