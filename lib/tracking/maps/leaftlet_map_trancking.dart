@@ -30,7 +30,7 @@ class LeaftletMapTracking extends StatelessWidget {
     final current = !trackingCubitState.lastTrack.fake
         ? trackingCubitState.lastTrack.toLatLng()
         : null;
-    trufiMapController.mapController.onReady.then((value) {
+    trufiMapController.onReady.then((value) {
       if (current != null) {
         trufiMapController.mapController.move(current, 16);
       }
@@ -39,12 +39,12 @@ class LeaftletMapTracking extends StatelessWidget {
       trufiMapController: trufiMapController,
       bottomPaddingButtons: 120,
       layerOptionsBuilder: (context) => [
-        ...routes.map((points) => buildRoute(points)).fold<List<LayerOptions>>(
+        ...routes.map((points) => buildRoute(points)).fold<List<Widget>>(
           [],
           (value, element) => [...value, ...element],
         ).toList(),
         if (current != null)
-          MarkerLayerOptions(
+          MarkerLayer(
             markers: [
               Marker(
                 width: 10.0,
@@ -63,9 +63,9 @@ class LeaftletMapTracking extends StatelessWidget {
     );
   }
 
-  List<LayerOptions> buildRoute(List<LatLng> points) {
+  List<Widget> buildRoute(List<LatLng> points) {
     return [
-      MarkerLayerOptions(
+      MarkerLayer(
         markers: [
           ...points
               .map(
@@ -84,7 +84,7 @@ class LeaftletMapTracking extends StatelessWidget {
               .toList(),
         ],
       ),
-      PolylineLayerOptions(
+      PolylineLayer(
         polylineCulling: true,
         polylines: [
           Polyline(
