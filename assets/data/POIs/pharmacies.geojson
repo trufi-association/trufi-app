@@ -1,0 +1,7247 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-06-16T06:23:39Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554380798",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "883-1",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida José Ballivián",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Pando",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:email": "info@farmaelias.com",
+        "contact:facebook": "farmaciaseliasbo",
+        "contact:phone": "+591 4 4416565;+591 62607979",
+        "contact:website": "https://www.farmaelias.com/",
+        "contact:whatsapp": "+591 62607979",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "yes",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "24/7",
+        "opening_hours:delivery": "08:00-22:00",
+        "operator": "FarmaElías",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1578731,
+              -17.3841549
+            ],
+            [
+              -66.1579737,
+              -17.3842214
+            ],
+            [
+              -66.1578566,
+              -17.3843829
+            ],
+            [
+              -66.157756,
+              -17.3843164
+            ],
+            [
+              -66.1578731,
+              -17.3841549
+            ]
+          ]
+        ]
+      },
+      "id": "way/554380798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/578963010",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1778775,
+              -17.4050478
+            ],
+            [
+              -66.1778967,
+              -17.4050792
+            ],
+            [
+              -66.1778596,
+              -17.4051012
+            ],
+            [
+              -66.1778386,
+              -17.4050698
+            ],
+            [
+              -66.1778775,
+              -17.4050478
+            ]
+          ]
+        ]
+      },
+      "id": "way/578963010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/581351789",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1839705,
+              -17.3581849
+            ],
+            [
+              -66.1839774,
+              -17.358169
+            ],
+            [
+              -66.1840109,
+              -17.3582328
+            ],
+            [
+              -66.1839712,
+              -17.3582547
+            ],
+            [
+              -66.1839565,
+              -17.3582129
+            ],
+            [
+              -66.1839705,
+              -17.3581849
+            ]
+          ]
+        ]
+      },
+      "id": "way/581351789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/867122300",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "farmacia quillacollo",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "opening_hours:covid19": "off"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2729466,
+              -17.3929974
+            ],
+            [
+              -66.2729216,
+              -17.3929589
+            ],
+            [
+              -66.2729644,
+              -17.3929373
+            ],
+            [
+              -66.2729899,
+              -17.3929708
+            ],
+            [
+              -66.2729466,
+              -17.3929974
+            ]
+          ]
+        ]
+      },
+      "id": "way/867122300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875341308",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida José Ballivián",
+        "amenity": "pharmacy",
+        "barrier": "yes",
+        "brand": "Farmacia Chávez",
+        "brand:wikidata": "Q81969919",
+        "contact:website": "http://www.farmaciachavez.com.bo/",
+        "drive_through": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Chávez",
+        "operator": "Farmacia Chávez"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1583553,
+              -17.3847386
+            ],
+            [
+              -66.15878,
+              -17.3850575
+            ],
+            [
+              -66.1587525,
+              -17.3850855
+            ],
+            [
+              -66.1586137,
+              -17.3852099
+            ],
+            [
+              -66.1585264,
+              -17.3851326
+            ],
+            [
+              -66.1582497,
+              -17.3848888
+            ],
+            [
+              -66.1583553,
+              -17.3847386
+            ]
+          ]
+        ]
+      },
+      "id": "way/875341308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1078385348",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "389",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Manuel Isidoro Belzu",
+        "amenity": "pharmacy",
+        "barrier": "yes",
+        "branch": "Central Belzu",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "contact:facebook": "https://www.facebook.com/farmaciaseliasbo/",
+        "contact:whatsapp": "+591 79951135",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "yes",
+        "email": "info@farmaelias.com",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "24/7",
+        "opening_hours:delivery": "Mo-Su 08:00-22:00",
+        "operator": "FarmaElías",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "phone": "+591 4 4227090;+591 4 4227095;+591 79951138",
+        "website": "https://www.farmaelias.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1421141,
+              -17.3926413
+            ],
+            [
+              -66.1421343,
+              -17.3926062
+            ],
+            [
+              -66.1421827,
+              -17.3925222
+            ],
+            [
+              -66.1423198,
+              -17.3925869
+            ],
+            [
+              -66.1423435,
+              -17.3925965
+            ],
+            [
+              -66.1422986,
+              -17.3926964
+            ],
+            [
+              -66.1422649,
+              -17.3927214
+            ],
+            [
+              -66.1422368,
+              -17.3927143
+            ],
+            [
+              -66.1421534,
+              -17.3926749
+            ],
+            [
+              -66.1421141,
+              -17.3926413
+            ]
+          ]
+        ]
+      },
+      "id": "way/1078385348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/598790008",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "212",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Plaza 14 de Septiembre",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-Boliviana-105276611936471/",
+        "contact:whatsapp": "+591 65706152",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "email": "bolivianafarmaciaydrogueria@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Boliviana",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-17:00",
+        "operator": "Farmacia y Droguería Boliviana",
+        "operator:type": "private",
+        "phone": "+591 4 4228382;+591 65706152",
+        "start_date": "1832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1572548,
+          -17.3944591
+        ]
+      },
+      "id": "node/598790008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1851061774",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Mariely",
+        "operator": "Farmacia Mariely"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1491882,
+          -17.3909659
+        ]
+      },
+      "id": "node/1851061774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1862412412",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1714593,
+          -17.3594893
+        ]
+      },
+      "id": "node/1862412412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2030548726",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0982472,
+          -17.3855168
+        ]
+      },
+      "id": "node/2030548726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2126673297",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Gamma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1499948,
+          -17.3731287
+        ]
+      },
+      "id": "node/2126673297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2303485213",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "320",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Calle Sucre",
+        "amenity": "pharmacy",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "contact:phone": "+591 4 4500506;+591 4 4253521;+591 4 466144",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-15:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1509049,
+          -17.3933901
+        ]
+      },
+      "id": "node/2303485213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2327839010",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida José Ballivián",
+        "amenity": "pharmacy",
+        "branch": "Sucursal El Prado",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "drive_through": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp",
+        "phone": "+591 4 44524228;+591 4 4524244",
+        "website": "https://www.farmacorp.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1576383,
+          -17.3858303
+        ]
+      },
+      "id": "node/2327839010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2327853136",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "check_date": "2023-04-13",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Luz I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1504608,
+          -17.3897286
+        ]
+      },
+      "id": "node/2327853136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2355587486",
+        "addr:city": "Quillacollo",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Blanco Galindo",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp SA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2783178,
+          -17.3941556
+        ]
+      },
+      "id": "node/2355587486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2360587798",
+        "amenity": "pharmacy",
+        "name": "Farmacia Eliana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2801688,
+          -17.3943667
+        ]
+      },
+      "id": "node/2360587798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2361168048",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1533",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "amenity": "pharmacy",
+        "branch": "Agencia Libertador",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "contact:phone": "+591 4 4416565;+591 4 4416566",
+        "delivery": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "FarmaElías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1625922,
+          -17.3736221
+        ]
+      },
+      "id": "node/2361168048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377781509",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia 14 de Abril"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1532846,
+          -17.3917324
+        ]
+      },
+      "id": "node/2377781509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377781510",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Chávez",
+        "brand:wikidata": "Q81969919",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Chávez",
+        "operator": "Farmacia Chávez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541514,
+          -17.3919113
+        ]
+      },
+      "id": "node/2377781510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2380942804",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Avenida General José Manuel Pando",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Pando",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "dispensing": "yes",
+        "drive_through": "yes",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.farmacorp.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1508571,
+          -17.3734739
+        ]
+      },
+      "id": "node/2380942804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2381924797",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida d'Orbigny",
+        "amenity": "pharmacy",
+        "branch": "Sucursal d'Orbigny",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.179586,
+          -17.3884656
+        ]
+      },
+      "id": "node/2381924797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389106970",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida General Galindo",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Tarija"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1426281,
+          -17.3746418
+        ]
+      },
+      "id": "node/2389106970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2400357928",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1091598,
+          -17.3830789
+        ]
+      },
+      "id": "node/2400357928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2400365639",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1104714,
+          -17.3863117
+        ]
+      },
+      "id": "node/2400365639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2409436984",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Melchor Perez",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp SA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1755553,
+          -17.37144
+        ]
+      },
+      "id": "node/2409436984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2409436986",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Melchor Perez de Olguín",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Soto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1759756,
+          -17.3719744
+        ]
+      },
+      "id": "node/2409436986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2466178442",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "899",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Salamanca",
+        "amenity": "pharmacy",
+        "branch": "Sucursal 1",
+        "brand": "Farmacia Cosmos",
+        "contact:facebook": "https://facebook.com/farmaciacosmoscbba/",
+        "contact:phone": "+591 4 4256089;+591 4 4662366;+591 77597511",
+        "contact:whatsapp": "+591 77597511",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Cosmos",
+        "operator": "Farmacia Cosmos",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1528745,
+          -17.3835308
+        ]
+      },
+      "id": "node/2466178442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2521489183",
+        "addr:city": "Colcapirhua",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Eliezer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2412091,
+          -17.3905196
+        ]
+      },
+      "id": "node/2521489183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2521489184",
+        "addr:city": "Colcapirhua",
+        "addr:neighbourhood": "Paraíso",
+        "addr:street": "Avenida Elías Meneses",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Blanco Galindo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2507155,
+          -17.3908903
+        ]
+      },
+      "id": "node/2521489184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2522033588",
+        "addr:street": "Calle 31 de Octubre",
+        "amenity": "pharmacy",
+        "name": "Neyzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2527701,
+          -17.3892999
+        ]
+      },
+      "id": "node/2522033588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2522767207",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "pharmacy",
+        "name": "Eliezer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2077453,
+          -17.3926168
+        ]
+      },
+      "id": "node/2522767207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2522767208",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Beijing",
+        "amenity": "pharmacy",
+        "brand": "Farmacias Bolivia",
+        "brand:wikidata": "Q81970584",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Bolivia",
+        "operator": "Farmacias Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1840627,
+          -17.393726
+        ]
+      },
+      "id": "node/2522767208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529997020",
+        "addr:city": "Quillacollo",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia San Cristóbal",
+        "operator": "Farmacia San Cristóbal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2516435,
+          -17.3916044
+        ]
+      },
+      "id": "node/2529997020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529997029",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Pulacayo",
+        "addr:street": "Avenida Abraham Lincoln",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Lincoln",
+        "operator": "Farmacia Lincoln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1717529,
+          -17.3702188
+        ]
+      },
+      "id": "node/2529997029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2533649356",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Federico Blanco",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Andalucía",
+        "operator": "Farmacia Andalucía"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.149802,
+          -17.3863704
+        ]
+      },
+      "id": "node/2533649356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2534660754",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmapolis",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1474373,
+          -17.3856073
+        ]
+      },
+      "id": "node/2534660754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2543003477",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Verbo Divino",
+        "addr:street": "Avenida Juan de la Rosa",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Hipermaxi",
+        "brand:wikidata": "Q81970238",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Hipermaxi",
+        "operator": "Hipermaxi",
+        "payment:cash": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1727952,
+          -17.3767163
+        ]
+      },
+      "id": "node/2543003477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2548048767",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "179",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "contact:phone": "+591 4 4456766",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "MAXIFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1578945,
+          -17.3726178
+        ]
+      },
+      "id": "node/2548048767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2555201654",
+        "addr:city": "Cochabamba",
+        "addr:street": "Plazuela Charles de Gaulle",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Margarita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1570319,
+          -17.3732694
+        ]
+      },
+      "id": "node/2555201654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2590640024",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Oquendo",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.farmacorp.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1512677,
+          -17.385748
+        ]
+      },
+      "id": "node/2590640024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2600878716",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "567",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida José Ballivián",
+        "amenity": "pharmacy",
+        "brand": "Farmacias Bolivia",
+        "brand:wikidata": "Q81970584",
+        "craft": "dressmaker",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.156702,
+          -17.3870202
+        ]
+      },
+      "id": "node/2600878716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604131411",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Guillermo Killman",
+        "amenity": "pharmacy",
+        "name": "Infama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1653981,
+          -17.4109563
+        ]
+      },
+      "id": "node/2604131411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605750279",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Aroma",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1647401,
+          -17.4102224
+        ]
+      },
+      "id": "node/2605750279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2606184739",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "MaxiFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.160941,
+          -17.3724375
+        ]
+      },
+      "id": "node/2606184739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2606203551",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Queru Queru Central",
+        "addr:street": "Avenida Julio Rodríguez Morales",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Carla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1499703,
+          -17.3720746
+        ]
+      },
+      "id": "node/2606203551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616493621",
+        "amenity": "pharmacy",
+        "name": "Med Fast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541714,
+          -17.3774052
+        ]
+      },
+      "id": "node/2616493621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2631125214",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Calle Man Césped",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia San Elías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1642415,
+          -17.3686698
+        ]
+      },
+      "id": "node/2631125214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2631418156",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle San Martín",
+        "amenity": "pharmacy",
+        "branch": "Sucursal San Martín",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1540751,
+          -17.3937403
+        ]
+      },
+      "id": "node/2631418156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2636956084",
+        "amenity": "pharmacy",
+        "name": "Aries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1711215,
+          -17.3966082
+        ]
+      },
+      "id": "node/2636956084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2658456901",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Verbo Divino",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "amenity": "pharmacy",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "operator": "FarmaElías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.175839,
+          -17.3777839
+        ]
+      },
+      "id": "node/2658456901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2690527962",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Muyurina",
+        "addr:street": "Calle Aníbal Capriles",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Maranatha",
+        "operator": "Farmacia Maranatha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1436045,
+          -17.3840669
+        ]
+      },
+      "id": "node/2690527962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2696044719",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Social Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1546619,
+          -17.3906127
+        ]
+      },
+      "id": "node/2696044719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2702743802",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle José Pol",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Dr. House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.145163,
+          -17.3888135
+        ]
+      },
+      "id": "node/2702743802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892512817",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Colombia",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1493579,
+          -17.3896726
+        ]
+      },
+      "id": "node/2892512817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892642945",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Manuel Isidoro Belzu",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia San Simón",
+        "operator": "Farmacia San Simón"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1429782,
+          -17.3916275
+        ]
+      },
+      "id": "node/2892642945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255507764",
+        "addr:city": "Colcapirhua",
+        "addr:neighbourhood": "California",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Colcapirhua",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2195514,
+          -17.3913746
+        ]
+      },
+      "id": "node/3255507764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3306972615",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Salamanca",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Minerva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1534438,
+          -17.3850089
+        ]
+      },
+      "id": "node/3306972615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3541016175",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "Armonía"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1822732,
+          -17.3526322
+        ]
+      },
+      "id": "node/3541016175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3543102197",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1394582,
+          -17.4200508
+        ]
+      },
+      "id": "node/3543102197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3543102202",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1379485,
+          -17.4209933
+        ]
+      },
+      "id": "node/3543102202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3545077555",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1863209,
+          -17.3557801
+        ]
+      },
+      "id": "node/3545077555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3545077556",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.186621,
+          -17.3555381
+        ]
+      },
+      "id": "node/3545077556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854844",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Señor de Malta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1906499,
+          -17.3524179
+        ]
+      },
+      "id": "node/3548854844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854846",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Jhon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1888674,
+          -17.3538152
+        ]
+      },
+      "id": "node/3548854846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854848",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "El Descuento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1880527,
+          -17.3544814
+        ]
+      },
+      "id": "node/3548854848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854851",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Tordoya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.187014,
+          -17.3552612
+        ]
+      },
+      "id": "node/3548854851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854852",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Perez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1839705,
+          -17.3581849
+        ]
+      },
+      "id": "node/3548854852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854853",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1825445,
+          -17.3607429
+        ]
+      },
+      "id": "node/3548854853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3548854865",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida Simón López",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "CVCD Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1666432,
+          -17.3665284
+        ]
+      },
+      "id": "node/3548854865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552730885",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Gerónimo de Osorio",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacias Bolivar",
+        "operator": "Farmacias Bolivar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1589623,
+          -17.3927492
+        ]
+      },
+      "id": "node/3552730885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552730886",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Boliviana",
+        "operator": "Farmacia Boliviana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.158954,
+          -17.3928148
+        ]
+      },
+      "id": "node/3552730886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552730997",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1669017,
+          -17.4048764
+        ]
+      },
+      "id": "node/3552730997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552730999",
+        "addr:street": "Calle Luis Uriona",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1704833,
+          -17.4069783
+        ]
+      },
+      "id": "node/3552730999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552731004",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1805486,
+          -17.4044237
+        ]
+      },
+      "id": "node/3552731004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552731006",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ingavi",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.182182,
+          -17.401778
+        ]
+      },
+      "id": "node/3552731006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552731014",
+        "addr:street": "Avenida Thunupa",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.188213,
+          -17.3790518
+        ]
+      },
+      "id": "node/3552731014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552731026",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.18859,
+          -17.3535868
+        ]
+      },
+      "id": "node/3552731026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3552802044",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Aniceto Padilla",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Portales",
+        "operator": "Farmacia Portales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1525701,
+          -17.3785303
+        ]
+      },
+      "id": "node/3552802044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3555280368",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "fax": "+59144300561",
+        "phone": "+59170367021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.178561,
+          -17.3552673
+        ]
+      },
+      "id": "node/3555280368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3557291793",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "Elias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1729179,
+          -17.3590298
+        ]
+      },
+      "id": "node/3557291793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780098",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1722674,
+          -17.3589511
+        ]
+      },
+      "id": "node/3570780098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780099",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1726844,
+          -17.3587566
+        ]
+      },
+      "id": "node/3570780099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780100",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1747015,
+          -17.3578196
+        ]
+      },
+      "id": "node/3570780100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780102",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1759567,
+          -17.3570272
+        ]
+      },
+      "id": "node/3570780102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780104",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1823062,
+          -17.3521969
+        ]
+      },
+      "id": "node/3570780104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570802728",
+        "addr:street": "Avenida Petrolera",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Quiroz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1511568,
+          -17.4293701
+        ]
+      },
+      "id": "node/3570802728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3577523862",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "pharmacy",
+        "name": "Sydney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1540736,
+          -17.401249
+        ]
+      },
+      "id": "node/3577523862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3577523869",
+        "addr:street": "Calle Honduras",
+        "amenity": "pharmacy",
+        "name": "Lisam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1527754,
+          -17.4014908
+        ]
+      },
+      "id": "node/3577523869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3579426692",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Independencia",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Salud y Bienestar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1462186,
+          -17.4382895
+        ]
+      },
+      "id": "node/3579426692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3588910512",
+        "amenity": "pharmacy",
+        "name": "Leslie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0981823,
+          -17.3850474
+        ]
+      },
+      "id": "node/3588910512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3595544604",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Plaza Luis Felipe Guzmán Achá",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Chávez",
+        "brand:wikidata": "Q81969919",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Chávez",
+        "payment:cash": "yes",
+        "phone": "+591-4-4522795",
+        "website": "https://www.farmaciachavez.com.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1635827,
+          -17.368125
+        ]
+      },
+      "id": "node/3595544604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3618530397",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Beijing Norte",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "El Cristo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1761673,
+          -17.3482427
+        ]
+      },
+      "id": "node/3618530397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3631893558",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Papa Paulo III",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmavida",
+        "operator": "Farmavida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1472283,
+          -17.3839682
+        ]
+      },
+      "id": "node/3631893558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3636046999",
+        "amenity": "pharmacy",
+        "name": "El Dorado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1540428,
+          -17.4010515
+        ]
+      },
+      "id": "node/3636046999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658367018",
+        "addr:street": "Avenida Martín de la Rocha",
+        "amenity": "pharmacy",
+        "name": "Rioja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1687444,
+          -17.3833512
+        ]
+      },
+      "id": "node/3658367018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658367019",
+        "addr:street": "Avenida Felix Aranibar",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1659488,
+          -17.3818213
+        ]
+      },
+      "id": "node/3658367019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658998642",
+        "amenity": "pharmacy",
+        "name": "ACRE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1790771,
+          -17.3964564
+        ]
+      },
+      "id": "node/3658998642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658998652",
+        "amenity": "pharmacy",
+        "name": "Huellas de Jesus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.174435,
+          -17.396253
+        ]
+      },
+      "id": "node/3658998652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660442431",
+        "amenity": "pharmacy",
+        "name": "Madisson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.266039,
+          -17.338086
+        ]
+      },
+      "id": "node/3660442431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660442433",
+        "amenity": "pharmacy",
+        "name": "Primer Auxilio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2658686,
+          -17.3386328
+        ]
+      },
+      "id": "node/3660442433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660714339",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1274",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Santa Cruz",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Pharma Box",
+        "operator": "Pharma Box"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1568144,
+          -17.3772893
+        ]
+      },
+      "id": "node/3660714339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660714367",
+        "amenity": "pharmacy",
+        "name": "La Luz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1539423,
+          -17.3781217
+        ]
+      },
+      "id": "node/3660714367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660714381",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Rosedal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1723177,
+          -17.3720457
+        ]
+      },
+      "id": "node/3660714381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660714386",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Adela Zamudio",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Zafiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1644494,
+          -17.3726214
+        ]
+      },
+      "id": "node/3660714386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660714390",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1709502,
+          -17.3607889
+        ]
+      },
+      "id": "node/3660714390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3665025226",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Genesis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1834033,
+          -17.3521027
+        ]
+      },
+      "id": "node/3665025226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666046541",
+        "addr:city": "Tiquipaya",
+        "addr:postcode": "CBA",
+        "addr:street": "Calle Gualberto Villaroel",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Angelica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2178625,
+          -17.3369752
+        ]
+      },
+      "id": "node/3666046541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666046546",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Farmacia Despertad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1929622,
+          -17.3504036
+        ]
+      },
+      "id": "node/3666046546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666046548",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Jesus Obrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.187136,
+          -17.3547472
+        ]
+      },
+      "id": "node/3666046548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666046554",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Uriel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1850278,
+          -17.3563576
+        ]
+      },
+      "id": "node/3666046554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666105797",
+        "amenity": "pharmacy",
+        "name": "San Jose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1854495,
+          -17.3564369
+        ]
+      },
+      "id": "node/3666105797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666107334",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2223983,
+          -17.3386305
+        ]
+      },
+      "id": "node/3666107334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614909",
+        "amenity": "pharmacy",
+        "name": "Adonai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1594745,
+          -17.4294405
+        ]
+      },
+      "id": "node/3666614909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614911",
+        "amenity": "pharmacy",
+        "name": "America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1578703,
+          -17.420021
+        ]
+      },
+      "id": "node/3666614911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614913",
+        "amenity": "pharmacy",
+        "name": "Esencial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1592628,
+          -17.4272472
+        ]
+      },
+      "id": "node/3666614913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614914",
+        "amenity": "pharmacy",
+        "name": "J. Elias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.157256,
+          -17.4164772
+        ]
+      },
+      "id": "node/3666614914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614915",
+        "amenity": "pharmacy",
+        "name": "Juan de la Cruz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1581748,
+          -17.4221178
+        ]
+      },
+      "id": "node/3666614915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666614920",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1568134,
+          -17.4140122
+        ]
+      },
+      "id": "node/3666614920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3666617027",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1561751,
+          -17.4292611
+        ]
+      },
+      "id": "node/3666617027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3669195894",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Daniel Peña Sarmiento",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "opening_hours": "24/7",
+        "operator": "Pro Salud",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1791092,
+          -17.364591
+        ]
+      },
+      "id": "node/3669195894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673632978",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Jozab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1707562,
+          -17.3657609
+        ]
+      },
+      "id": "node/3673632978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673632984",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Simón López",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1767732,
+          -17.3648366
+        ]
+      },
+      "id": "node/3673632984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3674260504",
+        "amenity": "pharmacy",
+        "name": "Anael"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1718952,
+          -17.3596163
+        ]
+      },
+      "id": "node/3674260504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3676912929",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "PuntoFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1613767,
+          -17.3650426
+        ]
+      },
+      "id": "node/3676912929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679680110",
+        "amenity": "pharmacy",
+        "name": "Farmacard",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1483459,
+          -17.408746
+        ]
+      },
+      "id": "node/3679680110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679680114",
+        "addr:street": "Calle Honduras",
+        "amenity": "pharmacy",
+        "name": "La Roca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1535875,
+          -17.401449
+        ]
+      },
+      "id": "node/3679680114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3679699332",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1543241,
+          -17.3992314
+        ]
+      },
+      "id": "node/3679699332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3682578947",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Del Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1456764,
+          -17.3687052
+        ]
+      },
+      "id": "node/3682578947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3682578950",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "Los Apostoles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1461432,
+          -17.3684809
+        ]
+      },
+      "id": "node/3682578950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3682578958",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "FarmaLux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1523259,
+          -17.3669282
+        ]
+      },
+      "id": "node/3682578958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3682578960",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1399",
+        "addr:street": "Avenida General Galindo",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1428187,
+          -17.3720217
+        ]
+      },
+      "id": "node/3682578960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3682698846",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1550363,
+          -17.401249
+        ]
+      },
+      "id": "node/3682698846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3719465045",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1542135,
+          -17.3987421
+        ]
+      },
+      "id": "node/3719465045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3719989224",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Panamericana",
+        "operator": "Farmacia Panamericana",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1588122,
+          -17.3725483
+        ]
+      },
+      "id": "node/3719989224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3775062999",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Calle Aniceto Padilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Erika",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1594924,
+          -17.3778539
+        ]
+      },
+      "id": "node/3775062999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903679041",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1870931,
+          -17.3700447
+        ]
+      },
+      "id": "node/3903679041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903679055",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.18504,
+          -17.3708799
+        ]
+      },
+      "id": "node/3903679055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903679056",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle José María Velasco",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.185769,
+          -17.3670429
+        ]
+      },
+      "id": "node/3903679056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3916389728",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Excombatientes",
+        "addr:street": "Avenida Gabriel René Moreno",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1768997,
+          -17.3866432
+        ]
+      },
+      "id": "node/3916389728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3916390341",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1773034,
+          -17.3873526
+        ]
+      },
+      "id": "node/3916390341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3921428713",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle La Paz",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Saturno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1526685,
+          -17.3823868
+        ]
+      },
+      "id": "node/3921428713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3952902775",
+        "addr:city": "Cochabamba",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516112,
+          -17.3897263
+        ]
+      },
+      "id": "node/3952902775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3952902809",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1507473,
+          -17.3909941
+        ]
+      },
+      "id": "node/3952902809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3952902813",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Genial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1514378,
+          -17.3911322
+        ]
+      },
+      "id": "node/3952902813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3975212317",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Papa Paulo III",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Nacionales",
+        "opening_hours": "Mo-Sa 08:00-23:00",
+        "operator": "Farmacias Nacionales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1465567,
+          -17.384204
+        ]
+      },
+      "id": "node/3975212317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3994628934",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Atahuallpa",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.158249,
+          -17.3543988
+        ]
+      },
+      "id": "node/3994628934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4010507122",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Segunda Circunvalación",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1590127,
+          -17.3531907
+        ]
+      },
+      "id": "node/4010507122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4027317746",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Germán Urquidi",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Niño de la Luz",
+        "operator": "Farmacia Niño de la Luz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1479062,
+          -17.3854156
+        ]
+      },
+      "id": "node/4027317746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4035040243",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Calle Obispo Anaya",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Savin",
+        "operator": "Farmacia Savin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1654136,
+          -17.377354
+        ]
+      },
+      "id": "node/4035040243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4044430334",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Señor Jesús"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1486208,
+          -17.3971992
+        ]
+      },
+      "id": "node/4044430334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4070971079",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Calama",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.161603,
+          -17.3974226
+        ]
+      },
+      "id": "node/4070971079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4077698315",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "309",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Esteban Arze",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Moreira",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-20:00",
+        "operator": "Farmacia Moreira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1562103,
+          -17.3943176
+        ]
+      },
+      "id": "node/4077698315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4100989049",
+        "addr:city": "Cochabamba",
+        "addr:street": "Pasaje Suiza",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1813251,
+          -17.3742114
+        ]
+      },
+      "id": "node/4100989049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106073594",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Hipermaxi",
+        "brand:wikidata": "Q81970238",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Hipermaxi",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "Hipermaxi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1508623,
+          -17.3847603
+        ]
+      },
+      "id": "node/4106073594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106074892",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "609",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Maine",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.151431,
+          -17.3854734
+        ]
+      },
+      "id": "node/4106074892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106074980",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Oquendo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1506787,
+          -17.3869676
+        ]
+      },
+      "id": "node/4106074980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106728355",
+        "amenity": "pharmacy",
+        "name": "El Porvenir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.117925,
+          -17.391674
+        ]
+      },
+      "id": "node/4106728355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4108810943",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Juan de la Rosa",
+        "amenity": "pharmacy",
+        "name": "Sibeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1798918,
+          -17.3751269
+        ]
+      },
+      "id": "node/4108810943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4113183444",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Juan Crisóstomo Carrillo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Flor de Angel",
+        "operator": "Farmacia Flor de Angel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1538887,
+          -17.3821578
+        ]
+      },
+      "id": "node/4113183444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4115281573",
+        "addr:street": "Calle 23 de Marzo",
+        "amenity": "pharmacy",
+        "name": "Faby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1855639,
+          -17.3891225
+        ]
+      },
+      "id": "node/4115281573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4119740780",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1184",
+        "addr:street": "Calle San Martin",
+        "amenity": "pharmacy",
+        "name": "Nueva Zelanda",
+        "opening_hours": "Mo-Fr 08:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1534192,
+          -17.4021587
+        ]
+      },
+      "id": "node/4119740780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4127963212",
+        "amenity": "pharmacy",
+        "name": "Farmacia Santa Ana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0446154,
+          -17.402081
+        ]
+      },
+      "id": "node/4127963212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4173546439",
+        "addr:street": "Calle Adrian Patiño",
+        "amenity": "pharmacy",
+        "name": "Adrian Patiño"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1872341,
+          -17.3862427
+        ]
+      },
+      "id": "node/4173546439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224990410",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0750939,
+          -17.3905068
+        ]
+      },
+      "id": "node/4224990410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4236229089",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Colombia",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.151167,
+          -17.3900651
+        ]
+      },
+      "id": "node/4236229089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4244817735",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Calle Aniceto Padilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Fátima",
+        "operator": "Farmacia Fátima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1606369,
+          -17.3776846
+        ]
+      },
+      "id": "node/4244817735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259123119",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Mundo Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1597827,
+          -17.3871661
+        ]
+      },
+      "id": "node/4259123119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259603869",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Ecuador",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Itálica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1530645,
+          -17.3893607
+        ]
+      },
+      "id": "node/4259603869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259603870",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Ecuador",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Tres Ángeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.152242,
+          -17.389196
+        ]
+      },
+      "id": "node/4259603870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4282561791",
+        "addr:street": "Avenida Santa Bárbara",
+        "amenity": "pharmacy",
+        "name": "14 de Octubre",
+        "phone": "4739316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1584521,
+          -17.4291414
+        ]
+      },
+      "id": "node/4282561791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4283931389",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1760933,
+          -17.3763185
+        ]
+      },
+      "id": "node/4283931389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337896203",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "Nuvia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1773855,
+          -17.3560836
+        ]
+      },
+      "id": "node/4337896203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352882594",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "name": "Carla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1477021,
+          -17.3678767
+        ]
+      },
+      "id": "node/4352882594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4358224373",
+        "amenity": "pharmacy",
+        "name": "Farmacias Bolivia",
+        "operator": "Farmacias Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1545113,
+          -17.3728842
+        ]
+      },
+      "id": "node/4358224373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4394293089",
+        "amenity": "pharmacy",
+        "name": "Señor de Buen Viaje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2661809,
+          -17.3378459
+        ]
+      },
+      "id": "node/4394293089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411109197",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.199466,
+          -17.3923156
+        ]
+      },
+      "id": "node/4411109197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4414265836",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Evan's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1532891,
+          -17.3871775
+        ]
+      },
+      "id": "node/4414265836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423979189",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Pando",
+        "amenity": "pharmacy",
+        "name": "Farmacia Pando"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1513202,
+          -17.3701562
+        ]
+      },
+      "id": "node/4423979189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424401090",
+        "addr:housenumber": "762",
+        "addr:street": "Avenida Litoral",
+        "amenity": "pharmacy",
+        "contact:phone": "+591 77444768",
+        "healthcare": "pharmacy",
+        "name": "Farmacia El Árbol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1761041,
+          -17.3992091
+        ]
+      },
+      "id": "node/4424401090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4433676992",
+        "amenity": "pharmacy",
+        "name": "Pharma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1896411,
+          -17.3527675
+        ]
+      },
+      "id": "node/4433676992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447024430",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Bolívar",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Verónica",
+        "operator": "Farmacia Verónica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1544354,
+          -17.3929989
+        ]
+      },
+      "id": "node/4447024430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469545818",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Gualberto Villarroel",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Rubens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1592612,
+          -17.37431
+        ]
+      },
+      "id": "node/4469545818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469546009",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Antezana",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Colón 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1531683,
+          -17.3877812
+        ]
+      },
+      "id": "node/4469546009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4491060718",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Calle Mariano Baptista",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Atenas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.158745,
+          -17.3875379
+        ]
+      },
+      "id": "node/4491060718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4491060775",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Gutierrez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1490627,
+          -17.3964526
+        ]
+      },
+      "id": "node/4491060775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4491060789",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Calle Baptista",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Oruro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1587207,
+          -17.3866065
+        ]
+      },
+      "id": "node/4491060789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4534512109",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Evangélica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.203286,
+          -17.3459726
+        ]
+      },
+      "id": "node/4534512109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4557891347",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle San Martín",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Sajama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.154919,
+          -17.3893341
+        ]
+      },
+      "id": "node/4557891347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4576606489",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Los Lirios",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Mas Vida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1473284,
+          -17.3660351
+        ]
+      },
+      "id": "node/4576606489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4588039250",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1766498,
+          -17.3569715
+        ]
+      },
+      "id": "node/4588039250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4588039251",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1772693,
+          -17.3562175
+        ]
+      },
+      "id": "node/4588039251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607123139",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Calama",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Farmaly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1495176,
+          -17.3952802
+        ]
+      },
+      "id": "node/4607123139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4613497302",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Simón López",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Simón López",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp SA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1793015,
+          -17.3638619
+        ]
+      },
+      "id": "node/4613497302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4635262519",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Salomón Klein",
+        "addr:street": "Avenida Jaime Mendoza",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Tu Solución"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1689736,
+          -17.3762079
+        ]
+      },
+      "id": "node/4635262519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4635262792",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "amenity": "pharmacy",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1613388,
+          -17.377908
+        ]
+      },
+      "id": "node/4635262792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4647984245",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Luz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1490747,
+          -17.3855583
+        ]
+      },
+      "id": "node/4647984245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4648025693",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida José Ballivián",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Hipermaxi",
+        "brand:wikidata": "Q81970238",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Hipermaxi",
+        "operator": "Hipermaxi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1589324,
+          -17.3841863
+        ]
+      },
+      "id": "node/4648025693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4655848255",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "opening_hours": "08:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1455661,
+          -17.3828915
+        ]
+      },
+      "id": "node/4655848255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4704186807",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1546959,
+          -17.3972934
+        ]
+      },
+      "id": "node/4704186807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707476090",
+        "addr:street": "Calle 23 de Marzo",
+        "amenity": "pharmacy",
+        "email": "fcia.diana.x@gmail.com",
+        "name": "Diana",
+        "phone": "+591 4 4368453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2793108,
+          -17.3937037
+        ]
+      },
+      "id": "node/4707476090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4743671075",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1505153,
+          -17.4095876
+        ]
+      },
+      "id": "node/4743671075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757155755",
+        "addr:city": "Cochabamba",
+        "amenity": "pharmacy",
+        "name": "Tomás"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1571146,
+          -17.4571349
+        ]
+      },
+      "id": "node/4757155755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757156947",
+        "addr:street": "Encañada",
+        "amenity": "pharmacy",
+        "name": "Nuestra Señora de Santa Barbara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1556264,
+          -17.4486543
+        ]
+      },
+      "id": "node/4757156947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4768582722",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Esmeralda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1617961,
+          -17.3761185
+        ]
+      },
+      "id": "node/4768582722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4787417906",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Antezana",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1530806,
+          -17.3876139
+        ]
+      },
+      "id": "node/4787417906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4787418214",
+        "amenity": "pharmacy",
+        "name": "Nueva Era"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1526789,
+          -17.3899879
+        ]
+      },
+      "id": "node/4787418214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4789262942",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Paccieri",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmadermia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541152,
+          -17.3872037
+        ]
+      },
+      "id": "node/4789262942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792471056",
+        "addr:city": "Tiquipaya",
+        "addr:neighbourhood": "Trojes",
+        "addr:street": "Avenida Ecológica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "El Buen Pastor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2046447,
+          -17.3453226
+        ]
+      },
+      "id": "node/4792471056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4800062392",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Romher",
+        "operator": "Farmacia Romher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1508336,
+          -17.3876008
+        ]
+      },
+      "id": "node/4800062392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4806920997",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle 16 de Julio",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Los Robles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1520794,
+          -17.3868926
+        ]
+      },
+      "id": "node/4806920997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829411522",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1916994,
+          -17.3458004
+        ]
+      },
+      "id": "node/4829411522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829411523",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1906318,
+          -17.3465122
+        ]
+      },
+      "id": "node/4829411523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831829276",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1200719,
+          -17.3821833
+        ]
+      },
+      "id": "node/4831829276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4858510534",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1500921,
+          -17.3912908
+        ]
+      },
+      "id": "node/4858510534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4868995984",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1579569,
+          -17.3879019
+        ]
+      },
+      "id": "node/4868995984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4874518447",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1576088,
+          -17.3989814
+        ]
+      },
+      "id": "node/4874518447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892045617",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1109212,
+          -17.3887293
+        ]
+      },
+      "id": "node/4892045617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892048321",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "236",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Adela Zamudio",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1639809,
+          -17.3722182
+        ]
+      },
+      "id": "node/4892048321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4903478550",
+        "amenity": "pharmacy",
+        "name": "Divino Maestro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1943627,
+          -17.3679401
+        ]
+      },
+      "id": "node/4903478550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920061351",
+        "amenity": "pharmacy",
+        "name": "Coral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1886303,
+          -17.3696688
+        ]
+      },
+      "id": "node/4920061351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922945005",
+        "amenity": "pharmacy",
+        "name": "Leito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0188069,
+          -17.4045738
+        ]
+      },
+      "id": "node/4922945005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4941282084",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1501441,
+          -17.3906601
+        ]
+      },
+      "id": "node/4941282084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4953974707",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1096211,
+          -17.3848045
+        ]
+      },
+      "id": "node/4953974707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4953974769",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "380",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmacentercbba/",
+        "contact:whatsapp": "+591 71470209",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "email": "farmacentercbba@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farma Center",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-12:00",
+        "operator": "Farmacia Farma Center",
+        "phone": "+591 67529684"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1486571,
+          -17.3878595
+        ]
+      },
+      "id": "node/4953974769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4959224273",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.155834,
+          -17.3963626
+        ]
+      },
+      "id": "node/4959224273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4959225991",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Avenida General José de San Martín",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia AleFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541815,
+          -17.3942276
+        ]
+      },
+      "id": "node/4959225991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971438473",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia OpenFarma",
+        "operator": "Farmacia OpenFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1507247,
+          -17.3882445
+        ]
+      },
+      "id": "node/4971438473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4981436340",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "AleFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1502129,
+          -17.3908883
+        ]
+      },
+      "id": "node/4981436340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4992917025",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Humberto Asín Rivero",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Pagador",
+        "operator": "Farmacia Pagador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1163632,
+          -17.4411567
+        ]
+      },
+      "id": "node/4992917025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4995971177",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Bolívar",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1493906,
+          -17.3920313
+        ]
+      },
+      "id": "node/4995971177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5042316540",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1619801,
+          -17.3929883
+        ]
+      },
+      "id": "node/5042316540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5057533455",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Excombatientes",
+        "addr:street": "Avenida Excombatientes",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1741928,
+          -17.3856738
+        ]
+      },
+      "id": "node/5057533455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5102216054",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1594827,
+          -17.3884857
+        ]
+      },
+      "id": "node/5102216054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5102216075",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "248",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Plaza 14 de Septiembre",
+        "amenity": "pharmacy",
+        "branch": "Central",
+        "brand": "Farmacia Cosmos",
+        "contact:facebook": "https://facebook.com/farmaciacosmoscbba/",
+        "contact:whatsapp": "+591 77597511",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Cosmos",
+        "operator": "Farmacia Cosmos",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "phone": "+591 4 4257366;+591 77597511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1575634,
+          -17.393866
+        ]
+      },
+      "id": "node/5102216075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104335709",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Idelfonso Murguía",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Shalom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1750444,
+          -17.3815601
+        ]
+      },
+      "id": "node/5104335709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5117996922",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Calle Baptista",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "InterFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.159875,
+          -17.3847668
+        ]
+      },
+      "id": "node/5117996922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5161916821",
+        "amenity": "pharmacy",
+        "name": "Farmacia Kolob"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0314166,
+          -17.4029048
+        ]
+      },
+      "id": "node/5161916821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5210860932",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1577432,
+          -17.402137
+        ]
+      },
+      "id": "node/5210860932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5217956969",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Artesanal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.15931,
+          -17.3910098
+        ]
+      },
+      "id": "node/5217956969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5217961377",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Plaza 14 de Septiembre",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Azul",
+        "operator": "Farmacia Azul",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1563466,
+          -17.3936251
+        ]
+      },
+      "id": "node/5217961377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235716260",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "299",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "brand": "Farmacias Bolivia",
+        "brand:wikidata": "Q81970584",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Bolivia",
+        "operator": "Farmacias Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1567685,
+          -17.3921139
+        ]
+      },
+      "id": "node/5235716260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5294900421",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Zurich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1164991,
+          -17.373213
+        ]
+      },
+      "id": "node/5294900421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296636047",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia San Expedito",
+        "operator": "Farmacia San Expedito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1477503,
+          -17.3844521
+        ]
+      },
+      "id": "node/5296636047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296639688",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Gexis",
+        "operator": "Farmacia Gexis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480535,
+          -17.3847569
+        ]
+      },
+      "id": "node/5296639688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319274254",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Plazuela Quintanilla",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Quintanilla",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1523329,
+          -17.3827198
+        ]
+      },
+      "id": "node/5319274254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5324988603",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Germán Urquidi",
+        "operator": "Farmacia Germán Urquidi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.147894,
+          -17.3867487
+        ]
+      },
+      "id": "node/5324988603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5328374801",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Ecuador",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Itálica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1509221,
+          -17.3887652
+        ]
+      },
+      "id": "node/5328374801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5333844193",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida de la Fuerza Aérea",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Rosario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1649398,
+          -17.4117394
+        ]
+      },
+      "id": "node/5333844193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5350937224",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1165998,
+          -17.4396603
+        ]
+      },
+      "id": "node/5350937224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5351187232",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Jesus",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1496249,
+          -17.3860149
+        ]
+      },
+      "id": "node/5351187232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5351187567",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Zenón Gamboa",
+        "operator": "Facultad de Ciencias Farmacéuticas y Bioquímicas",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1493382,
+          -17.3871537
+        ]
+      },
+      "id": "node/5351187567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5368460680",
+        "amenity": "pharmacy",
+        "name": "Unión"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1474416,
+          -17.4083968
+        ]
+      },
+      "id": "node/5368460680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5377654892",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bajo Aranjuez",
+        "addr:street": "Avenida Uyuni",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Home Center Fácil",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "24/7",
+        "operator": "FarmaElías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1449004,
+          -17.3769696
+        ]
+      },
+      "id": "node/5377654892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5391531885",
+        "amenity": "pharmacy",
+        "name": "Milagros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516461,
+          -17.3954314
+        ]
+      },
+      "id": "node/5391531885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434451862",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle 16 de Julio",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "DosisFarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1515547,
+          -17.3886821
+        ]
+      },
+      "id": "node/5434451862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434451863",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "amenity": "pharmacy",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "FarmaElías",
+        "operator": "FarmaElías",
+        "payment:cash": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1610128,
+          -17.3774789
+        ]
+      },
+      "id": "node/5434451863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5481561695",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Avenida Felix Aranibar",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Gerardo",
+        "operator": "Farmacia Gerardo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1652871,
+          -17.3797577
+        ]
+      },
+      "id": "node/5481561695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5520577460",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Coronel Eduardo Paccieri",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "MaxiFarm",
+        "operator": "MaxiFarm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1484769,
+          -17.3847853
+        ]
+      },
+      "id": "node/5520577460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5521142144",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1665831,
+          -17.3860482
+        ]
+      },
+      "id": "node/5521142144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5521168815",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Tadeo Haenke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1666153,
+          -17.3863713
+        ]
+      },
+      "id": "node/5521168815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5521827713",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Venezuela",
+        "amenity": "pharmacy",
+        "contact:phone": "+591 4 4532326",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Ventura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1487615,
+          -17.3852137
+        ]
+      },
+      "id": "node/5521827713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5532507502",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Parque del Maestro",
+        "addr:street": "Avenida Guillermo Urquidi",
+        "amenity": "pharmacy",
+        "branch": "Sucursal 1",
+        "brand": "Farmacia Super Farma",
+        "contact:phone": "+591 4 4542854",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Super Farma",
+        "opening_hours": "24/7",
+        "operator": "Farmacia Super Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1400531,
+          -17.3918815
+        ]
+      },
+      "id": "node/5532507502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5541052600",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1613665,
+          -17.3630943
+        ]
+      },
+      "id": "node/5541052600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5550071016",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "El Pueblito",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "brand": "Farmacias Nacionales",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Nacionales",
+        "operator": "Farmacias Nacionales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1372456,
+          -17.3738815
+        ]
+      },
+      "id": "node/5550071016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5557428248",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle México",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1613127,
+          -17.388404
+        ]
+      },
+      "id": "node/5557428248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5557620219",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "bassanelly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1936175,
+          -17.3818461
+        ]
+      },
+      "id": "node/5557620219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5562083353",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1678379,
+          -17.3851921
+        ]
+      },
+      "id": "node/5562083353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5562273840",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1428865,
+          -17.3752068
+        ]
+      },
+      "id": "node/5562273840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5562628780",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Calama",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1619236,
+          -17.3972885
+        ]
+      },
+      "id": "node/5562628780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5809687294",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Los Andes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1250993,
+          -17.4476282
+        ]
+      },
+      "id": "node/5809687294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5809688876",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Siglo XX",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Los Andes 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1253627,
+          -17.4468551
+        ]
+      },
+      "id": "node/5809688876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5809688878",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Siglo XX",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Farmalux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1251114,
+          -17.4471675
+        ]
+      },
+      "id": "node/5809688878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827468063",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0399278,
+          -17.4035741
+        ]
+      },
+      "id": "node/5827468063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5837201321",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1973806,
+          -17.3969757
+        ]
+      },
+      "id": "node/5837201321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6168760725",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Ayacucho",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1563079,
+          -17.4075714
+        ]
+      },
+      "id": "node/6168760725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6239957552",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Junín",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Tiquipaya",
+        "phone": "+591-4-4317179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2170709,
+          -17.3374814
+        ]
+      },
+      "id": "node/6239957552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6471287388",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1536567,
+          -17.401339
+        ]
+      },
+      "id": "node/6471287388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6717670513",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Avenida Reducto",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2206866,
+          -17.336842
+        ]
+      },
+      "id": "node/6717670513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6846214066",
+        "access": "private",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Las Delicias",
+        "amenity": "pharmacy",
+        "brand": "Caja Nacional de Salud",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Caja Nacional de Salud",
+        "operator": "Caja Nacional de Salud",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2062413,
+          -17.3935601
+        ]
+      },
+      "id": "node/6846214066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6872675360",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sanat Pharma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1510386,
+          -17.3715448
+        ]
+      },
+      "id": "node/6872675360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909809616",
+        "addr:city": "Tiquipaya",
+        "addr:postcode": "CBA",
+        "addr:street": "Calle Toribio Torrico",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Fuente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2183703,
+          -17.3368249
+        ]
+      },
+      "id": "node/6909809616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7076969498",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Urbanización Eucaliptos",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1984068,
+          -17.397348
+        ]
+      },
+      "id": "node/7076969498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7077609287",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1422765,
+          -17.3716527
+        ]
+      },
+      "id": "node/7077609287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088098388",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Mayorazgo",
+        "addr:street": "Avenida Beijing",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1780892,
+          -17.3625236
+        ]
+      },
+      "id": "node/7088098388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088098390",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "brand": "Farmacia Chávez",
+        "brand:wikidata": "Q81969919",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Chávez",
+        "operator": "Farmacia Chávez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1798111,
+          -17.37155
+        ]
+      },
+      "id": "node/7088098390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7117063685",
+        "amenity": "pharmacy",
+        "name": "Farmacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1714396,
+          -17.3595521
+        ]
+      },
+      "id": "node/7117063685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7157531840",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0409612,
+          -17.403175
+        ]
+      },
+      "id": "node/7157531840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7164822585",
+        "amenity": "pharmacy",
+        "name": "Leysa villa pagador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1090539,
+          -17.445708
+        ]
+      },
+      "id": "node/7164822585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7164822586",
+        "amenity": "pharmacy",
+        "name": "Epita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1325065,
+          -17.4237365
+        ]
+      },
+      "id": "node/7164822586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230426938",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0405272,
+          -17.4033274
+        ]
+      },
+      "id": "node/7230426938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7436412008",
+        "addr:city": "Sacaba",
+        "addr:neighbourhood": "Quintanilla",
+        "addr:street": "Avenida Eliodoro Villazón",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Villazón",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "drive_through": "no",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp SA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.110636,
+          -17.3832854
+        ]
+      },
+      "id": "node/7436412008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7436412024",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Gerónimo de Osorio",
+        "addr:street": "Avenida Huayna Kapac",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Huayna Kapac",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "contact:website": "https://www.farmacorp.com/",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "opening_hours": "24/7",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1644782,
+          -17.398766
+        ]
+      },
+      "id": "node/7436412024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994059818",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Mariano Baptista",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Eliana's",
+        "operator": "Farmacia Eliana's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1575612,
+          -17.393068
+        ]
+      },
+      "id": "node/7994059818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8129565920",
+        "amenity": "pharmacy",
+        "name": "Heydi Fernández"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1789743,
+          -17.3422314
+        ]
+      },
+      "id": "node/8129565920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8192828395",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida República",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1488139,
+          -17.399753
+        ]
+      },
+      "id": "node/8192828395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8250700070",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia La Paz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1435715,
+          -17.3993766
+        ]
+      },
+      "id": "node/8250700070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8250700077",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Carmela Cerruto",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1417621,
+          -17.3988439
+        ]
+      },
+      "id": "node/8250700077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8281349145",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Zurich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1246055,
+          -17.3732486
+        ]
+      },
+      "id": "node/8281349145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8343470512",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Avenida Reducto",
+        "amenity": "pharmacy",
+        "name": "Farmacia El Descuento",
+        "phone": "+591-4-4668618",
+        "phone:mobile": "+591-79974498"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2214985,
+          -17.3388195
+        ]
+      },
+      "id": "node/8343470512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8343523197",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Avenida Reducto",
+        "amenity": "pharmacy",
+        "name": "Farmacia Soret"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.221443,
+          -17.3392719
+        ]
+      },
+      "id": "node/8343523197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8343544333",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Cochabamba",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Aleadri",
+        "phone": "+591-44667760"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2211733,
+          -17.3386186
+        ]
+      },
+      "id": "node/8343544333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8344069927",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Pablo Jaimes",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2203523,
+          -17.3372548
+        ]
+      },
+      "id": "node/8344069927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8344069931",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2206441,
+          -17.3379082
+        ]
+      },
+      "id": "node/8344069931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8388301555",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Ramón Rivero",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1445051,
+          -17.3798412
+        ]
+      },
+      "id": "node/8388301555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8584400936",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Parque del Maestro",
+        "addr:street": "Avenida Guillermo Urquidi",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia M & H",
+        "operator": "Farmacia M & H"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1416438,
+          -17.393849
+        ]
+      },
+      "id": "node/8584400936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8596958568",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Danely"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1368326,
+          -17.3724422
+        ]
+      },
+      "id": "node/8596958568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8619110582",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "General Román",
+        "addr:street": "Avenida Manuel Isidoro Belzu",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Amanecer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1404637,
+          -17.3971519
+        ]
+      },
+      "id": "node/8619110582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8939440194",
+        "addr:city": "Quillacollo",
+        "addr:housenumber": "550",
+        "addr:street": "Avenida Suarez Miranda",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia El Carmen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.281193,
+          -17.3888592
+        ]
+      },
+      "id": "node/8939440194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8964752640",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Lanza",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Más Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1530911,
+          -17.3929073
+        ]
+      },
+      "id": "node/8964752640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8978635223",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Pasteur",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1489403,
+          -17.3901869
+        ]
+      },
+      "id": "node/8978635223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8984074905",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1165316,
+          -17.4376536
+        ]
+      },
+      "id": "node/8984074905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8984074906",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1166328,
+          -17.4402029
+        ]
+      },
+      "id": "node/8984074906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8984074907",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1167093,
+          -17.4419251
+        ]
+      },
+      "id": "node/8984074907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005870942",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Juan de la Rosa",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Mabel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1742812,
+          -17.3765383
+        ]
+      },
+      "id": "node/9005870942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9018173638",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia ProSalud",
+        "operator": "ProSalud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1805747,
+          -17.3948597
+        ]
+      },
+      "id": "node/9018173638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9021398230",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1634664,
+          -17.3722607
+        ]
+      },
+      "id": "node/9021398230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9021465335",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Municipal Sarco",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Europea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1767094,
+          -17.3817443
+        ]
+      },
+      "id": "node/9021465335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9021697572",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Ayala",
+        "operator": "Farmacia Ayala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1479442,
+          -17.39073
+        ]
+      },
+      "id": "node/9021697572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9022472914",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Beneméritos del Chaco",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.173023,
+          -17.4072684
+        ]
+      },
+      "id": "node/9022472914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9044427026",
+        "addr:street": "Avenida Simón Lopez",
+        "amenity": "pharmacy",
+        "name": "Framacias Lisam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1787939,
+          -17.3641588
+        ]
+      },
+      "id": "node/9044427026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9121462799",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.148495,
+          -17.399245
+        ]
+      },
+      "id": "node/9121462799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9400884743",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "payment:cash": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1486767,
+          -17.3906015
+        ]
+      },
+      "id": "node/9400884743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9421257732",
+        "addr:city": "Tiquipaya",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Zurich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2004387,
+          -17.3467994
+        ]
+      },
+      "id": "node/9421257732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9546186303",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2181254,
+          -17.3377146
+        ]
+      },
+      "id": "node/9546186303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9579333543",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacias Salud Fácil",
+        "operator": "Farmacias Salud Fácil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1549224,
+          -17.3951501
+        ]
+      },
+      "id": "node/9579333543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9588830109",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Carlos Berdecio",
+        "addr:street": "Avenida d'Orbigny",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Farma",
+        "operator": "Farmacia Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.178482,
+          -17.3881103
+        ]
+      },
+      "id": "node/9588830109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9762318484",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Pablo Jaimes",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Salud Facil",
+        "phone": "+591-4-4527846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2195071,
+          -17.3376291
+        ]
+      },
+      "id": "node/9762318484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868641428",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Plaza Libertad",
+        "addr:street": "Avenida Fuerza Aérea",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1651252,
+          -17.414289
+        ]
+      },
+      "id": "node/9868641428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9873615172",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "El Progreso",
+        "addr:street": "Avenida d'Orbigny",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Señor de la Exaltación",
+        "operator": "Farmacia Señor de la Exaltación"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1710807,
+          -17.387696
+        ]
+      },
+      "id": "node/9873615172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9873615178",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "El Progreso",
+        "addr:street": "Avenida d'Orbigny",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Lux",
+        "operator": "Farmacia Lux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1718333,
+          -17.3877796
+        ]
+      },
+      "id": "node/9873615178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9873615197",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Ingavi",
+        "addr:street": "Avenida Perú",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1707217,
+          -17.3881341
+        ]
+      },
+      "id": "node/9873615197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9875534138",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1664669,
+          -17.3720767
+        ]
+      },
+      "id": "node/9875534138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9879821226",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1831811,
+          -17.3713552
+        ]
+      },
+      "id": "node/9879821226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9879821227",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1837519,
+          -17.3709934
+        ]
+      },
+      "id": "node/9879821227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9898754125",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Beni",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Recoleta",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "contact:email": "info@farmaelias.com",
+        "contact:facebook": "farmaciaseliasbo",
+        "contact:phone": "+591-4-4549033;+591 78336000",
+        "contact:website": "https://www.farmaelias.com/",
+        "contact:whatsapp": "+591 78336000",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "opening_hours:delivery": "Mo-Su 08:00-22:00",
+        "operator": "FarmaElías",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1525878,
+          -17.3780712
+        ]
+      },
+      "id": "node/9898754125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9915932706",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1263",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Calle Julio Méndez",
+        "amenity": "pharmacy",
+        "branch": "Sucursal 2",
+        "brand": "Farmacia Cosmos",
+        "contact:facebook": "https://es-la.facebook.com/farmaciacosmoscbba/",
+        "delivery": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Cosmos",
+        "operator": "Farmacia Cosmos",
+        "phone": "+591 4 4582607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.164621,
+          -17.3781362
+        ]
+      },
+      "id": "node/9915932706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9922011423",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Chimané",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1880146,
+          -17.3782189
+        ]
+      },
+      "id": "node/9922011423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9934845658",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Alejo Calatayud",
+        "addr:street": "Calle 16 de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1505275,
+          -17.3954691
+        ]
+      },
+      "id": "node/9934845658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9934878076",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Alejo Calatayud",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1492046,
+          -17.3943802
+        ]
+      },
+      "id": "node/9934878076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9941529679",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Alejo Calatayud",
+        "addr:street": "Calle Guerrilleros Lanza",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Calatayud",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp",
+        "operator": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1520841,
+          -17.3990193
+        ]
+      },
+      "id": "node/9941529679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960554954",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Los Robles",
+        "opening_hours": "Mo-Sa 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1512861,
+          -17.3842124
+        ]
+      },
+      "id": "node/9960554954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970391151",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Maryknoll",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "branch": "Farmacia Hipermaxi Circunvalación",
+        "brand": "Farmacia Hipermaxi",
+        "brand:wikidata": "Q81970238",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Hipermaxi",
+        "operator": "Farmacia Hipermaxi",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1660796,
+          -17.3639577
+        ]
+      },
+      "id": "node/9970391151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9976027034",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Martín Cárdenas",
+        "addr:street": "Avenida General Galindo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1418675,
+          -17.3803807
+        ]
+      },
+      "id": "node/9976027034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10030849491",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2208767,
+          -17.3374928
+        ]
+      },
+      "id": "node/10030849491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080501060",
+        "addr:street": "Avenida Ecologica",
+        "amenity": "pharmacy",
+        "brand": "Farmacorp",
+        "brand:wikidata": "Q81968937",
+        "healthcare": "pharmacy",
+        "name": "Farmacorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2038752,
+          -17.3453363
+        ]
+      },
+      "id": "node/10080501060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080510267",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Avenida Ecológica",
+        "amenity": "pharmacy",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2027691,
+          -17.3459119
+        ]
+      },
+      "id": "node/10080510267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10112549106",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Tupack Amaru",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Hospital Univalle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1606727,
+          -17.3719852
+        ]
+      },
+      "id": "node/10112549106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10155973341",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1393",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Santa Cruz",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmalux Srl",
+        "opening_hours": "24/7",
+        "operator": "Farmalux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1570392,
+          -17.3751185
+        ]
+      },
+      "id": "node/10155973341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10210231696",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Simón López",
+        "amenity": "pharmacy",
+        "brand": "FarmaElías",
+        "brand:wikidata": "Q81969487",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "FarmaElías"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1782027,
+          -17.3644301
+        ]
+      },
+      "id": "node/10210231696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10264282049",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "IC Norte",
+        "addr:street": "Avenida América",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia IC Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1512653,
+          -17.372751
+        ]
+      },
+      "id": "node/10264282049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10294604194",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1108",
+        "addr:neighbourhood": "Pulacayo",
+        "addr:street": "Avenida Gabriel René Moreno",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "FarmaLux",
+        "operator": "FarmaLux",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1729549,
+          -17.3758175
+        ]
+      },
+      "id": "node/10294604194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10765280529",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia V - Carmi",
+        "operator": "Farmacia V - Carmi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1635697,
+          -17.3643927
+        ]
+      },
+      "id": "node/10765280529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10765280634",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1653858,
+          -17.3637641
+        ]
+      },
+      "id": "node/10765280634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10794393214",
+        "addr:city": "Quillacollo",
+        "addr:street": "Avenida Martín Cardenas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Fanny",
+        "operator": "Farmacia Fanny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2811743,
+          -17.4022707
+        ]
+      },
+      "id": "node/10794393214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10826199485",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Farmacia Cochabamba",
+        "operator": "Farmacia Cochabamba",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1587106,
+          -17.3924331
+        ]
+      },
+      "id": "node/10826199485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10892503620",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 6 de Agosto",
+        "amenity": "pharmacy",
+        "branch": "Sucursal Estación San Antonio",
+        "brand": "Farmacias Zurich",
+        "contact:facebook": "https://www.facebook.com/people/Farmacia-zurich-Cochabamba/100063789210154/",
+        "contact:whatsapp": "+591 65707053",
+        "delivery": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Farmacias Zurich",
+        "operator": "Farmacias Zurich",
+        "website": "https://www.zurichfarmacia.com.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541552,
+          -17.4119545
+        ]
+      },
+      "id": "node/10892503620"
+    }
+  ]
+}

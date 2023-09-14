@@ -1,0 +1,390 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T17:56:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785773902",
+        "addr:city": "Tiquipaya",
+        "addr:neighbourhood": "Arcangel San Miguel",
+        "addr:street": "Calle Agua Pura",
+        "amenity": "cinema",
+        "barrier": "yes",
+        "building": "garage",
+        "drive_in": "yes",
+        "name": "Autocine Terranova",
+        "opening_hours": "PH,Mo-Sa 19:00-23:00+",
+        "payment:cash": "yes",
+        "screen": "1",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2154623,
+              -17.3334558
+            ],
+            [
+              -66.2155197,
+              -17.3336232
+            ],
+            [
+              -66.2153283,
+              -17.333742
+            ],
+            [
+              -66.2148403,
+              -17.334016
+            ],
+            [
+              -66.2147223,
+              -17.3338242
+            ],
+            [
+              -66.2154623,
+              -17.3334558
+            ]
+          ]
+        ]
+      },
+      "id": "way/785773902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900848544",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "cinema",
+        "brand": "Cine Center",
+        "brand:wikidata": "Q81962395",
+        "cinema:3D": "yes",
+        "contact:facebook": "https://www.facebook.com/CineCenterBolivia/",
+        "name": "Cine Center",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "operator": "Cine Center",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "phone": "900770077",
+        "screen": "10",
+        "start_date": "2004-07-28",
+        "website": "https://cinecenter.com.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1507565,
+              -17.3807452
+            ],
+            [
+              -66.1507423,
+              -17.3807177
+            ],
+            [
+              -66.1507529,
+              -17.3805335
+            ],
+            [
+              -66.1507811,
+              -17.3802382
+            ],
+            [
+              -66.1508396,
+              -17.3796905
+            ],
+            [
+              -66.1508756,
+              -17.3796988
+            ],
+            [
+              -66.1509529,
+              -17.3797153
+            ],
+            [
+              -66.1510324,
+              -17.379745
+            ],
+            [
+              -66.1510569,
+              -17.3797795
+            ],
+            [
+              -66.1511118,
+              -17.3797828
+            ],
+            [
+              -66.1511199,
+              -17.3797606
+            ],
+            [
+              -66.1511865,
+              -17.3797806
+            ],
+            [
+              -66.1512157,
+              -17.3798113
+            ],
+            [
+              -66.1513225,
+              -17.3798297
+            ],
+            [
+              -66.1513323,
+              -17.3798314
+            ],
+            [
+              -66.1513499,
+              -17.3798327
+            ],
+            [
+              -66.1513898,
+              -17.3798467
+            ],
+            [
+              -66.1514732,
+              -17.3798909
+            ],
+            [
+              -66.1515027,
+              -17.3799224
+            ],
+            [
+              -66.1515342,
+              -17.3799662
+            ],
+            [
+              -66.1515638,
+              -17.3800086
+            ],
+            [
+              -66.1516194,
+              -17.3801748
+            ],
+            [
+              -66.1516614,
+              -17.380197
+            ],
+            [
+              -66.1517022,
+              -17.3802564
+            ],
+            [
+              -66.1517338,
+              -17.3803265
+            ],
+            [
+              -66.1517502,
+              -17.3803654
+            ],
+            [
+              -66.1517505,
+              -17.3803937
+            ],
+            [
+              -66.1517301,
+              -17.3807601
+            ],
+            [
+              -66.1508464,
+              -17.3807142
+            ],
+            [
+              -66.1508437,
+              -17.3807512
+            ],
+            [
+              -66.1507736,
+              -17.3807464
+            ],
+            [
+              -66.1507565,
+              -17.3807452
+            ]
+          ]
+        ]
+      },
+      "id": "way/900848544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1009743460",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "cinema",
+        "building": "cinema",
+        "cinema:3D": "yes",
+        "contact:facebook": "capitolcine",
+        "name": "Cine Teatro Capitol",
+        "opening_hours": "Mo-Tu,Th-Su 15:00-22:00; We 09:30-22:00",
+        "payment:cash": "yes",
+        "phone": "+591 4 4521263;+591 62988882",
+        "reservation": "yes",
+        "screen": "1",
+        "start_date": "2015-03-01",
+        "theatre": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1557914,
+              -17.3906159
+            ],
+            [
+              -66.1557653,
+              -17.3907776
+            ],
+            [
+              -66.1554399,
+              -17.3907253
+            ],
+            [
+              -66.1554658,
+              -17.3905571
+            ],
+            [
+              -66.1557914,
+              -17.3906159
+            ]
+          ]
+        ]
+      },
+      "id": "way/1009743460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681342283",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Sucre",
+        "amenity": "cinema",
+        "name": "Cine Teatro ASTOR",
+        "payment:cash": "yes",
+        "screen": "1",
+        "start_date": "1964",
+        "theatre": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1549994,
+          -17.3939449
+        ]
+      },
+      "id": "node/2681342283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3362024398",
+        "addr:city": "Quillacollo",
+        "amenity": "cinema",
+        "name": "Cine Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2732534,
+          -17.3928064
+        ]
+      },
+      "id": "node/3362024398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5096132986",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Avenida Portales",
+        "air_conditioning": "yes",
+        "amenity": "cinema",
+        "cinema:3D": "yes",
+        "contact:facebook": "https://www.facebook.com/Primecinemasbolivia/",
+        "contact:whatsapp": "+591 72200880",
+        "description": "Complejo de entretenimiento de salas de cine, juegos electromecánicos y de realidad virtual.",
+        "drive_in": "no",
+        "email": "info@gomm.com.bo",
+        "level": "5",
+        "name": "Prime Cinemas Bolivia",
+        "opening_hours": "Mo-Su 10:00-02:00",
+        "operator": "Prime Cinemas Bolivia",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "phone": "+591 72200880",
+        "screen": "5",
+        "website": "https://primecinemas.com.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1503086,
+          -17.3756831
+        ]
+      },
+      "id": "node/5096132986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6503126732",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "cinema",
+        "level": "9",
+        "name": "Sky Box Cinema & Entretenimiento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1521658,
+          -17.3915899
+        ]
+      },
+      "id": "node/6503126732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10684678845",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida d'Orbigny",
+        "air_conditioning": "yes",
+        "amenity": "cinema",
+        "drive_in": "no",
+        "level": "3",
+        "name": "Cine Norte",
+        "operator": "Industrias y Comercial Norte",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "phone": "+591 4 4122836;+591 4 4404300",
+        "website": "http://www.cinenorte.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1800981,
+          -17.3881608
+        ]
+      },
+      "id": "node/10684678845"
+    }
+  ]
+}

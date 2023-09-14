@@ -1,0 +1,1408 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T18:04:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/192797235",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "building": "university",
+        "building:levels": "3",
+        "level": "0",
+        "name": "Biblioteca Facultad Ciencias y Tecnología",
+        "operator": "Universidad Mayor de San Simón",
+        "operator:type": "public",
+        "roof:material": "metal",
+        "roof:shape": "pyramidal",
+        "university": "library"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1457836,
+              -17.3927463
+            ],
+            [
+              -66.1457752,
+              -17.392752
+            ],
+            [
+              -66.1457545,
+              -17.3927659
+            ],
+            [
+              -66.1456165,
+              -17.3927898
+            ],
+            [
+              -66.1455684,
+              -17.3927241
+            ],
+            [
+              -66.1455784,
+              -17.3927063
+            ],
+            [
+              -66.1455885,
+              -17.3926885
+            ],
+            [
+              -66.1456329,
+              -17.39261
+            ],
+            [
+              -66.1456616,
+              -17.3925896
+            ],
+            [
+              -66.1457802,
+              -17.3925827
+            ],
+            [
+              -66.1458283,
+              -17.3926483
+            ],
+            [
+              -66.1457836,
+              -17.3927463
+            ]
+          ]
+        ]
+      },
+      "id": "way/192797235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/225520556",
+        "amenity": "library",
+        "building": "university",
+        "name": "Biblioteca de Enfermería UCB",
+        "operator": "UCB",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2043149,
+              -17.3940278
+            ],
+            [
+              -66.2042443,
+              -17.3939897
+            ],
+            [
+              -66.2042662,
+              -17.3939528
+            ],
+            [
+              -66.204261,
+              -17.3938329
+            ],
+            [
+              -66.2043718,
+              -17.3938286
+            ],
+            [
+              -66.204491,
+              -17.3938239
+            ],
+            [
+              -66.2044953,
+              -17.3939221
+            ],
+            [
+              -66.2043733,
+              -17.3939269
+            ],
+            [
+              -66.2043751,
+              -17.3939678
+            ],
+            [
+              -66.2043499,
+              -17.3939688
+            ],
+            [
+              -66.2043149,
+              -17.3940278
+            ]
+          ]
+        ]
+      },
+      "id": "way/225520556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/366421650",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Excombatientes",
+        "addr:street": "Avenida Excombatientes",
+        "amenity": "library",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.174856,
+              -17.3853966
+            ],
+            [
+              -66.1748134,
+              -17.3854605
+            ],
+            [
+              -66.1746776,
+              -17.3853781
+            ],
+            [
+              -66.1747825,
+              -17.3852207
+            ],
+            [
+              -66.1748407,
+              -17.385256
+            ],
+            [
+              -66.1747784,
+              -17.3853495
+            ],
+            [
+              -66.174856,
+              -17.3853966
+            ]
+          ]
+        ]
+      },
+      "id": "way/366421650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/538613553",
+        "access": "yes",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Excombatientes",
+        "addr:street": "Avenida d'Orbigny",
+        "amenity": "library",
+        "barrier": "fence",
+        "internet_access": "no",
+        "name": "Biblioteca Municipal Baena",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1750439,
+              -17.3877275
+            ],
+            [
+              -66.1750535,
+              -17.3879348
+            ],
+            [
+              -66.1748651,
+              -17.3879385
+            ],
+            [
+              -66.1748382,
+              -17.3879128
+            ],
+            [
+              -66.1748324,
+              -17.3878743
+            ],
+            [
+              -66.1748035,
+              -17.3877366
+            ],
+            [
+              -66.1750439,
+              -17.3877275
+            ]
+          ]
+        ]
+      },
+      "id": "way/538613553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544941802",
+        "amenity": "library",
+        "building": "university",
+        "name": "Biblioteca Sigart Klauss",
+        "operator": "UAB",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3159698,
+              -17.3887646
+            ],
+            [
+              -66.3158933,
+              -17.388862
+            ],
+            [
+              -66.3159244,
+              -17.3888836
+            ],
+            [
+              -66.3159244,
+              -17.3889215
+            ],
+            [
+              -66.3160549,
+              -17.3889377
+            ],
+            [
+              -66.3160492,
+              -17.3890243
+            ],
+            [
+              -66.3159173,
+              -17.3890098
+            ],
+            [
+              -66.3159159,
+              -17.3890378
+            ],
+            [
+              -66.3158732,
+              -17.3890568
+            ],
+            [
+              -66.3159244,
+              -17.3891758
+            ],
+            [
+              -66.3158422,
+              -17.3892056
+            ],
+            [
+              -66.3157628,
+              -17.3890405
+            ],
+            [
+              -66.3156438,
+              -17.3891812
+            ],
+            [
+              -66.3155672,
+              -17.3891352
+            ],
+            [
+              -66.3156891,
+              -17.3889837
+            ],
+            [
+              -66.3156948,
+              -17.388889
+            ],
+            [
+              -66.3156126,
+              -17.388724
+            ],
+            [
+              -66.3156948,
+              -17.3886888
+            ],
+            [
+              -66.3157997,
+              -17.3887023
+            ],
+            [
+              -66.3158933,
+              -17.3887159
+            ],
+            [
+              -66.3159698,
+              -17.3887646
+            ]
+          ]
+        ]
+      },
+      "id": "way/544941802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/552239380",
+        "access": "customers",
+        "addr:city": "Colcapirhua",
+        "addr:neighbourhood": "Santa Rosa Central",
+        "addr:street": "Calle Juan Pablo II",
+        "amenity": "library",
+        "building": "university",
+        "building:levels": "1",
+        "contact:website": "http://biblio.upb.edu/",
+        "name": "Biblioteca Julio León Prado",
+        "operator": "Universidad Privada Boliviana",
+        "operator:type": "private_non_profit",
+        "roof:shape": "gabled",
+        "start_date": "1992-10-10",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2191446,
+              -17.3980413
+            ],
+            [
+              -66.2191471,
+              -17.3980674
+            ],
+            [
+              -66.2191657,
+              -17.3982602
+            ],
+            [
+              -66.2191763,
+              -17.3983695
+            ],
+            [
+              -66.2190739,
+              -17.3983785
+            ],
+            [
+              -66.2190543,
+              -17.3981755
+            ],
+            [
+              -66.2190423,
+              -17.3980503
+            ],
+            [
+              -66.2191446,
+              -17.3980413
+            ]
+          ]
+        ]
+      },
+      "id": "way/552239380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587025673",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Quechisla",
+        "addr:street": "Calle Yuracaré",
+        "amenity": "library",
+        "building": "office",
+        "name": "Biblioteca Municipal Man Cesped",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1857195,
+              -17.375491
+            ],
+            [
+              -66.1856226,
+              -17.3754846
+            ],
+            [
+              -66.1856266,
+              -17.3754302
+            ],
+            [
+              -66.1857234,
+              -17.3754366
+            ],
+            [
+              -66.1857195,
+              -17.375491
+            ]
+          ]
+        ]
+      },
+      "id": "way/587025673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942746167",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Juan Bautista",
+        "addr:street": "Avenida Suecia",
+        "alt_name": "Biblio Avión",
+        "amenity": "library",
+        "barrier": "fence",
+        "contact:phone": "+591 4 4746585",
+        "contact:website": "https://centropatino.fundacionpatino.org/areas/unidades-de-informacion/red-de-bibliotecas-simon-i--patino/",
+        "description": "El Biblioavión contiene materiales bibliográficos para la promoción de la lectura, dando servicios a los estudiantes, y en especial a niños y niñas.",
+        "fence_type": "chain_link",
+        "landuse": "grass",
+        "level": "1",
+        "name": "Biblioavión",
+        "opening_hours": "Tu-Fr 15:00-18:30; Sa 14:30-18:00, Su 10:30-12:30,14:30-18:30",
+        "operator": "Centro Pedagógico y Cultural Simón I. Patiño",
+        "start_date": "2002"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1404111,
+              -17.4195865
+            ],
+            [
+              -66.1404152,
+              -17.4196012
+            ],
+            [
+              -66.1404221,
+              -17.4196151
+            ],
+            [
+              -66.1404311,
+              -17.4196297
+            ],
+            [
+              -66.1404393,
+              -17.4196422
+            ],
+            [
+              -66.1404528,
+              -17.4196542
+            ],
+            [
+              -66.1404742,
+              -17.4196668
+            ],
+            [
+              -66.1404888,
+              -17.4196703
+            ],
+            [
+              -66.140492,
+              -17.4197376
+            ],
+            [
+              -66.140444,
+              -17.4197398
+            ],
+            [
+              -66.1404459,
+              -17.4197631
+            ],
+            [
+              -66.1404478,
+              -17.4197709
+            ],
+            [
+              -66.1404521,
+              -17.4197786
+            ],
+            [
+              -66.1404559,
+              -17.4197853
+            ],
+            [
+              -66.1404624,
+              -17.4197932
+            ],
+            [
+              -66.1404705,
+              -17.4198002
+            ],
+            [
+              -66.1404811,
+              -17.4198069
+            ],
+            [
+              -66.1404896,
+              -17.4198099
+            ],
+            [
+              -66.1404998,
+              -17.4198117
+            ],
+            [
+              -66.1405158,
+              -17.4198117
+            ],
+            [
+              -66.1405187,
+              -17.4198965
+            ],
+            [
+              -66.1403085,
+              -17.4199072
+            ],
+            [
+              -66.1402536,
+              -17.41991
+            ],
+            [
+              -66.1401372,
+              -17.419916
+            ],
+            [
+              -66.1401039,
+              -17.4198898
+            ],
+            [
+              -66.1400966,
+              -17.4197803
+            ],
+            [
+              -66.1400941,
+              -17.4197422
+            ],
+            [
+              -66.1400857,
+              -17.4196044
+            ],
+            [
+              -66.1402365,
+              -17.4195961
+            ],
+            [
+              -66.1402755,
+              -17.419594
+            ],
+            [
+              -66.1402846,
+              -17.4195935
+            ],
+            [
+              -66.1404111,
+              -17.4195865
+            ]
+          ]
+        ]
+      },
+      "id": "way/942746167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/843384160",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "399",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Avenida Heroínas",
+        "amenity": "library",
+        "level": "2",
+        "name": "Biblioteca Municipal Jesús Lara",
+        "opening_hours": "Mo-Fr 08:00-12:00, 14:30-18:30",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public",
+        "start_date": "1844",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1558133,
+          -17.3918751
+        ]
+      },
+      "id": "node/843384160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2314888501",
+        "amenity": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2192446,
+          -17.3383415
+        ]
+      },
+      "id": "node/2314888501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2317965871",
+        "access": "private",
+        "amenity": "library",
+        "name": "Biblioteca La Salle",
+        "operator": "Colegio La Salle",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1608199,
+          -17.389404
+        ]
+      },
+      "id": "node/2317965871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2327822681",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "339",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Calle Guadalquivir",
+        "amenity": "library",
+        "contact:email": "info@icbacbba.org",
+        "contact:phone": "+591 4 4122323",
+        "contact:website": "https://www.icbacbba.org/",
+        "image": "https://www.icbacbba.org/wp-content/themes/responsive/favicon.ico",
+        "name": "Biblioteca ICBA",
+        "opening_hours": "Mo-Fr 09:00-12:30, 15:00-19:00; Sa 09:00-12:00",
+        "operator": "Instituto Cultural Boliviano Alemán",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1582827,
+          -17.3743537
+        ]
+      },
+      "id": "node/2327822681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2327838985",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "N-0365",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "library",
+        "email": "info@cbacoch.org",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Biblioteca Pública Bilingüe Abraham Lincoln",
+        "operator": "Centro Boliviano Americano",
+        "operator:type": "private",
+        "phone": "+591 4 4221288;+591 4 4222518",
+        "website": "https://opac.libraryworld.com/opac/signin.php?libraryname=BIBLIOTECA%20CBA%20COCHABAMBA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1565026,
+          -17.3892692
+        ]
+      },
+      "id": "node/2327838985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2506532267",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "amenity": "library",
+        "contact:website": "https://centropatino.fundacionpatino.org/areas/unidades-de-informacion/biblioteca-simon-i--patino/",
+        "name": "Biblioteca Simón Iturri Patiño",
+        "operator": "Centro Pedagógico y Cultural Simón Iturri Patiño",
+        "operator:type": "private_non_profit",
+        "start_date": "1970"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.153621,
+          -17.374146
+        ]
+      },
+      "id": "node/2506532267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2830718971",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "426",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Oruro",
+        "amenity": "library",
+        "name": "Biblioteca Ramón Rivero",
+        "opening_hours": "Mo-Fr 08:00-12:00, 14:30-18:00",
+        "operator": "Universidad Católica Boliviana San Pablo",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1561495,
+          -17.3822181
+        ]
+      },
+      "id": "node/2830718971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3139139190",
+        "addr:city": "Tiquipaya",
+        "amenity": "library",
+        "name": "Biblioteca",
+        "operator": "UniValle",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2258722,
+          -17.3300216
+        ]
+      },
+      "id": "node/3139139190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3225006015",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Eduardo Plaza",
+        "addr:street": "Avenida Miguel de Cervantes Saavedra",
+        "amenity": "library",
+        "name": "Biblioteca Temporal",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.159926,
+          -17.3620383
+        ]
+      },
+      "id": "node/3225006015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3743778274",
+        "amenity": "library",
+        "name": "Juan XXIII"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2032392,
+          -17.3883265
+        ]
+      },
+      "id": "node/3743778274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3865624588",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Manco Kapac",
+        "amenity": "library",
+        "name": "Biblioteca Pio X",
+        "operator": "Parroquía Pio X",
+        "operator:type": "religious"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1669124,
+          -17.4034829
+        ]
+      },
+      "id": "node/3865624588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4422963778",
+        "amenity": "library",
+        "name": "Thika Huasi",
+        "opening_hours": "Mo-Fr 08:30-12:30,14:30-17:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1977544,
+          -17.3485262
+        ]
+      },
+      "id": "node/4422963778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4740851787",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle José María Santivañez",
+        "amenity": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1576628,
+          -17.3944194
+        ]
+      },
+      "id": "node/4740851787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5105834622",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1135",
+        "addr:street": "Avenida Humboldt",
+        "amenity": "library",
+        "name": "CEDIB",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+591 4 4252401",
+        "website": "https://www.cedib.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.163843,
+          -17.3831325
+        ]
+      },
+      "id": "node/5105834622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5217961558",
+        "amenity": "library",
+        "name": "Gisbert y Cia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.158365,
+          -17.3935989
+        ]
+      },
+      "id": "node/5217961558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277759923",
+        "access": "customers",
+        "amenity": "library",
+        "name": "Biblioteca Facultad de Arquitectura",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "operator": "Facultad de Arquitectura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1463044,
+          -17.3944979
+        ]
+      },
+      "id": "node/5277759923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277775223",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "contact:email": "bibliotecapaulofreire2020@gmail.com",
+        "contact:facebook": "https://www.facebook.com/Biblioteca-Paulo-Freire-Facultad-de-Humanidades-UMSS-115128953574091/",
+        "contact:website": "http://iifhce.hum.umss.edu.bo/biblioteca",
+        "indoor": "room",
+        "level": "1",
+        "name": "Biblioteca Paulo Freire",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "operator": "Facultad de Humanidades y Ciencias de la Educación",
+        "operator:type": "public",
+        "start_date": "2010-09-01",
+        "university": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1473986,
+          -17.3928263
+        ]
+      },
+      "id": "node/5277775223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277775921",
+        "amenity": "library",
+        "name": "Biblioteca Instituto de Investigaciones de Arquitectura",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "operator": "UMSS",
+        "short_name": "IIA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1473689,
+          -17.3939462
+        ]
+      },
+      "id": "node/5277775921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277782521",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "level": "0",
+        "name": "Centro de Documentación y Comunicación",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "operator": "Universidad Mayor de San Simón",
+        "operator:type": "public",
+        "short_name": "CDC",
+        "university": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1471665,
+          -17.393522
+        ]
+      },
+      "id": "node/5277782521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277818131",
+        "access": "customers",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Sucre",
+        "amenity": "library",
+        "name": "Biblioteca Facultad de Ciencias Jurídicas y Políticas",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "operator": "Facultad de Ciencias Jurídicas y Políticas",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1483743,
+          -17.3932436
+        ]
+      },
+      "id": "node/5277818131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277865621",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Adela Zamudio",
+        "addr:street": "Calle Alcides Arguedas",
+        "amenity": "library",
+        "name": "Habitat para la Humanidad",
+        "opening_hours": "Mo-Fr 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1643781,
+          -17.3734264
+        ]
+      },
+      "id": "node/5277865621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277876622",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Aranjuez",
+        "addr:street": "Calle Maximiliano Márquez",
+        "amenity": "library",
+        "name": "Biblioteca Universidad Católica Boliviana",
+        "opening_hours": "Mo-Fr 12:00-13:30",
+        "operator": "Universidad Católica Boliviana San Pablo",
+        "operator:type": "religious"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1440112,
+          -17.37175
+        ]
+      },
+      "id": "node/5277876622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5281359533",
+        "amenity": "library",
+        "name": "Biblioteca Central",
+        "operator": "UMSS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1479231,
+          -17.3953365
+        ]
+      },
+      "id": "node/5281359533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5425991361",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Venezuela",
+        "amenity": "library",
+        "level": "0",
+        "name": "Biblioteca Julio Rodrigues Rivas",
+        "operator": "Facultad de Medicina Doctor Aurelio Melean",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.150009,
+          -17.3869562
+        ]
+      },
+      "id": "node/5425991361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5565093637",
+        "access": "customers",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "library",
+        "name": "Biblioteca San Rafael"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1394017,
+          -17.3984916
+        ]
+      },
+      "id": "node/5565093637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5752319807",
+        "amenity": "library",
+        "name": "Biblioteca Tiquipaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2279385,
+          -17.3610493
+        ]
+      },
+      "id": "node/5752319807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7933350648",
+        "addr:city": "Sipe Sipe",
+        "amenity": "library",
+        "name": "Biblioteca",
+        "operator": "GAMSS",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.338961,
+          -17.4479367
+        ]
+      },
+      "id": "node/7933350648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8370221293",
+        "access": "private",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "name": "Biblioteca Lucas Hoogveld",
+        "operator": "Colegio San Agustín",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1443847,
+          -17.3730307
+        ]
+      },
+      "id": "node/8370221293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8389408008",
+        "access": "private",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 23 de Marzo",
+        "amenity": "library",
+        "name": "Biblioteca",
+        "operator": "Escuela Militar de Ingeniería",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1475912,
+          -17.3791892
+        ]
+      },
+      "id": "node/8389408008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8646240366",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "name": "Biblioteca Mecánica - Electromecánica",
+        "office": "university",
+        "operator": "Universidad Mayor de San Simón",
+        "operator:type": "public",
+        "university": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1451863,
+          -17.3945161
+        ]
+      },
+      "id": "node/8646240366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8657717476",
+        "addr:city": "Cochabamba",
+        "amenity": "library",
+        "name": "Biblioteca de Ingeniería Industrial",
+        "operator": "Universidad Mayor de San Simón",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1458954,
+          -17.3932379
+        ]
+      },
+      "id": "node/8657717476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909153762",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "440",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "library",
+        "contact:phone": "+591 4 4228277",
+        "name": "Biblioteca Yatiña",
+        "opening_hours": "Mo-Fr 08:00-14:00",
+        "operator": "Escuela Técnica de Salud Boliviano Japonesa de Cooperación Andina",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1473412,
+          -17.3862676
+        ]
+      },
+      "id": "node/8909153762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9034180330",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "library",
+        "level": "0",
+        "name": "Biblioteca Facultativa",
+        "operator": "Facultad de Ciencias Farmacéuticas y Bioquímicas",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1492244,
+          -17.3872691
+        ]
+      },
+      "id": "node/9034180330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9786123325",
+        "addr:city": "Colcapirhua",
+        "addr:street": "Calle Defensores del Chaco",
+        "amenity": "library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2415676,
+          -17.3860687
+        ]
+      },
+      "id": "node/9786123325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10279156720",
+        "access": "yes",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "199",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Jordán",
+        "amenity": "library",
+        "name": "Biblioteca INIAM",
+        "operator": "Instituto de Investigaciones Antropológicas y Museo Arqueológico",
+        "operator:type": "public",
+        "website": "https://museo.umss.edu.bo/biblioteca/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1573168,
+          -17.3954184
+        ]
+      },
+      "id": "node/10279156720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10291174722",
+        "access": "permit",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bartolomé Guzmán",
+        "addr:street": "Avenida Bartolomé Guzmán",
+        "amenity": "library",
+        "name": "Biblioteca Musical",
+        "note": "exact location",
+        "operator": "Academia Nacional de Música Man Césped",
+        "operator:type": "public",
+        "start_date": "2012-01-20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1621095,
+          -17.403048
+        ]
+      },
+      "id": "node/10291174722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10880190080",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "E1644",
+        "addr:neighbourhood": "Bajo Aranjuez",
+        "addr:street": "Calle Mariano Melgarejo",
+        "amenity": "library",
+        "level": "0",
+        "name": "Bibliocafé El Santo Lector",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-16:00",
+        "operator": "Bibliocafé El Santo Lector",
+        "operator:type": "private",
+        "phone": "+591 70649960",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1439312,
+          -17.3750423
+        ]
+      },
+      "id": "node/10880190080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10920181902",
+        "access": "yes",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "E0368",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Bolívar",
+        "amenity": "library",
+        "description": "Biblioteca de la Compañía de Jesús en Bolivia, cuenta con 17 mil volúmenes en disciplinas como filosofía, literatura, arte, historia, teología, sociología y política.",
+        "email": "bibliopjm@gmail.com",
+        "level": "0",
+        "name": "Biblioteca Padro Julio Murillo",
+        "operator": "Jesuitas Bolivia",
+        "operator:type": "religious",
+        "phone": "+591 4 4254137",
+        "website": "https://bibliotecajuliom.webcindario.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1558245,
+          -17.3931618
+        ]
+      },
+      "id": "node/10920181902"
+    }
+  ]
+}

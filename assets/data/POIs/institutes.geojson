@@ -1,0 +1,2796 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T18:03:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/167145130",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1406",
+        "addr:neighbourhood": "Tupuraya",
+        "addr:street": "Avenida General Galindo",
+        "amenity": "college",
+        "barrier": "wall",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Instituto Tecnológico INFOCAL Cochabamba",
+        "old_name": "FOMO",
+        "operator": "Instituto Tecnológico INFOCAL Cochabamba",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "short_name": "INFOCAL",
+        "website": "https://www.infocalcbba.edu.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.142168,
+              -17.3709549
+            ],
+            [
+              -66.1421917,
+              -17.3710506
+            ],
+            [
+              -66.1422063,
+              -17.3711097
+            ],
+            [
+              -66.1422176,
+              -17.3711629
+            ],
+            [
+              -66.1422462,
+              -17.3712944
+            ],
+            [
+              -66.1422725,
+              -17.3714117
+            ],
+            [
+              -66.142327,
+              -17.3716577
+            ],
+            [
+              -66.1423639,
+              -17.3718244
+            ],
+            [
+              -66.1423673,
+              -17.3718408
+            ],
+            [
+              -66.1423712,
+              -17.3718601
+            ],
+            [
+              -66.1423733,
+              -17.3718701
+            ],
+            [
+              -66.142374,
+              -17.3718928
+            ],
+            [
+              -66.1423618,
+              -17.3719128
+            ],
+            [
+              -66.1423455,
+              -17.3719246
+            ],
+            [
+              -66.1423202,
+              -17.3719341
+            ],
+            [
+              -66.1423045,
+              -17.3719399
+            ],
+            [
+              -66.1422136,
+              -17.3719739
+            ],
+            [
+              -66.1421169,
+              -17.37201
+            ],
+            [
+              -66.1420488,
+              -17.3720354
+            ],
+            [
+              -66.1415661,
+              -17.3722157
+            ],
+            [
+              -66.1415214,
+              -17.3722324
+            ],
+            [
+              -66.1414143,
+              -17.3722724
+            ],
+            [
+              -66.1413968,
+              -17.372278
+            ],
+            [
+              -66.1413772,
+              -17.3722788
+            ],
+            [
+              -66.1413542,
+              -17.3722733
+            ],
+            [
+              -66.1413459,
+              -17.3722662
+            ],
+            [
+              -66.1413355,
+              -17.3722572
+            ],
+            [
+              -66.1413244,
+              -17.3722371
+            ],
+            [
+              -66.1412827,
+              -17.3720372
+            ],
+            [
+              -66.1412757,
+              -17.3720009
+            ],
+            [
+              -66.1412522,
+              -17.3718909
+            ],
+            [
+              -66.1412468,
+              -17.3718656
+            ],
+            [
+              -66.1412401,
+              -17.3718333
+            ],
+            [
+              -66.1412202,
+              -17.3717379
+            ],
+            [
+              -66.1412028,
+              -17.3716546
+            ],
+            [
+              -66.1411412,
+              -17.3713774
+            ],
+            [
+              -66.1412,
+              -17.3713532
+            ],
+            [
+              -66.1413638,
+              -17.3712859
+            ],
+            [
+              -66.1413842,
+              -17.3712775
+            ],
+            [
+              -66.1414591,
+              -17.3712466
+            ],
+            [
+              -66.1414887,
+              -17.3712344
+            ],
+            [
+              -66.1415833,
+              -17.3711953
+            ],
+            [
+              -66.1417888,
+              -17.371111
+            ],
+            [
+              -66.1418643,
+              -17.3710799
+            ],
+            [
+              -66.1419327,
+              -17.3710518
+            ],
+            [
+              -66.141973,
+              -17.3710352
+            ],
+            [
+              -66.1419778,
+              -17.3710332
+            ],
+            [
+              -66.1421082,
+              -17.3709795
+            ],
+            [
+              -66.142168,
+              -17.3709549
+            ]
+          ]
+        ]
+      },
+      "id": "way/167145130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206475849",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "440",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "college",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/etsbjca",
+        "email": "ets.bjca@gmail.com",
+        "name": "Escuela Técnica de Salud Boliviano Japonesa de Cooperación Andina",
+        "operator": "Ministerio de Salud y Deportes",
+        "operator:short": "MinSalud",
+        "operator:type": "government",
+        "operator:wikidata": "Q44225411",
+        "phone": "+591 4 4257501",
+        "short_name": "ETSBJCA",
+        "start_date": "1982-04-23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1474065,
+              -17.3869292
+            ],
+            [
+              -66.1473919,
+              -17.3869069
+            ],
+            [
+              -66.1472344,
+              -17.3866652
+            ],
+            [
+              -66.1470462,
+              -17.3867768
+            ],
+            [
+              -66.1469893,
+              -17.3866896
+            ],
+            [
+              -66.1468662,
+              -17.386505
+            ],
+            [
+              -66.1466575,
+              -17.3866367
+            ],
+            [
+              -66.1461121,
+              -17.3858922
+            ],
+            [
+              -66.1461076,
+              -17.3858533
+            ],
+            [
+              -66.146108,
+              -17.3858129
+            ],
+            [
+              -66.1461382,
+              -17.3857867
+            ],
+            [
+              -66.1466686,
+              -17.3858602
+            ],
+            [
+              -66.1474068,
+              -17.3861208
+            ],
+            [
+              -66.1474962,
+              -17.3861747
+            ],
+            [
+              -66.1475766,
+              -17.3862416
+            ],
+            [
+              -66.1476586,
+              -17.3863723
+            ],
+            [
+              -66.1478437,
+              -17.3866366
+            ],
+            [
+              -66.1478295,
+              -17.3866834
+            ],
+            [
+              -66.1474065,
+              -17.3869292
+            ]
+          ]
+        ]
+      },
+      "id": "way/206475849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/217376158",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bartolomé Guzmán",
+        "addr:street": "Avenida Bartolomé Guzmán",
+        "amenity": "college",
+        "barrier": "wall",
+        "college": "music",
+        "contact:facebook": "https://www.facebook.com/AcademiaManCesped/",
+        "description": "Instituto que forma a niños y jóvenes en las Artes Musicales.",
+        "email": "contacto@mancesped.edu.bo",
+        "heritage": "2",
+        "heritage:operator": "mc",
+        "heritage:since": "2012-09-28",
+        "level": "0",
+        "name": "Academia Nacional de Música Man Césped",
+        "official_name": "Instituto de Formación Artística Academia Nacional de Música Man Césped",
+        "old_name:1940": "Academia de Bellas Artes Man Césped",
+        "opening_hours": "Mo-Fr 14:00-21:00",
+        "operator": "Academia Nacional de Música Man Césped",
+        "operator:type": "public",
+        "phone": "+591 4 4585017;+591 4 4584851",
+        "related_law": "Ley 294/2012",
+        "short_name": "AMC",
+        "source": "local knowledge",
+        "start_date": "1940",
+        "website": "https://www.mancesped.edu.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1621593,
+              -17.4019376
+            ],
+            [
+              -66.162236,
+              -17.4023817
+            ],
+            [
+              -66.1623367,
+              -17.4029425
+            ],
+            [
+              -66.1623262,
+              -17.4029704
+            ],
+            [
+              -66.1623119,
+              -17.4030156
+            ],
+            [
+              -66.1623266,
+              -17.4031321
+            ],
+            [
+              -66.1619509,
+              -17.4031644
+            ],
+            [
+              -66.161666,
+              -17.4031904
+            ],
+            [
+              -66.1616239,
+              -17.4031936
+            ],
+            [
+              -66.1615696,
+              -17.4032041
+            ],
+            [
+              -66.1617276,
+              -17.4024748
+            ],
+            [
+              -66.1616837,
+              -17.402207
+            ],
+            [
+              -66.1617149,
+              -17.4021824
+            ],
+            [
+              -66.1619572,
+              -17.4021645
+            ],
+            [
+              -66.162041,
+              -17.401931
+            ],
+            [
+              -66.1621306,
+              -17.4019394
+            ],
+            [
+              -66.1621453,
+              -17.4019385
+            ],
+            [
+              -66.1621593,
+              -17.4019376
+            ]
+          ]
+        ]
+      },
+      "id": "way/217376158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/245132591",
+        "addr:street": "Avenida Elías Meneses",
+        "amenity": "college",
+        "barrier": "wall",
+        "contact:website": "https://tibc25.wordpress.com/",
+        "name": "Instituto Técnico Boliviano Canadiense El Paso",
+        "old_name": "Primera Casa Superior de Estudios de Educación y Formación Profesional Terminal",
+        "start_date": "1984-03-21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2573162,
+              -17.3490132
+            ],
+            [
+              -66.2559951,
+              -17.3514034
+            ],
+            [
+              -66.2551535,
+              -17.3509654
+            ],
+            [
+              -66.2557417,
+              -17.3499134
+            ],
+            [
+              -66.2557897,
+              -17.3498275
+            ],
+            [
+              -66.2564715,
+              -17.3486081
+            ],
+            [
+              -66.2573162,
+              -17.3490132
+            ]
+          ]
+        ]
+      },
+      "id": "way/245132591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255739715",
+        "amenity": "college",
+        "building": "yes",
+        "name": "CECAMISPA",
+        "official_name": "Centro de Capacitación Técnica, Laboral y Micro Empresarial",
+        "operator": "IFFI",
+        "short_name": "CECAMISPA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1155946,
+              -17.4478127
+            ],
+            [
+              -66.1155759,
+              -17.4479635
+            ],
+            [
+              -66.1154932,
+              -17.4479508
+            ],
+            [
+              -66.1154925,
+              -17.4479616
+            ],
+            [
+              -66.1153828,
+              -17.4479465
+            ],
+            [
+              -66.1153861,
+              -17.4479199
+            ],
+            [
+              -66.1152956,
+              -17.4479047
+            ],
+            [
+              -66.1153158,
+              -17.4477858
+            ],
+            [
+              -66.1154071,
+              -17.4477987
+            ],
+            [
+              -66.1154106,
+              -17.4477715
+            ],
+            [
+              -66.1155188,
+              -17.4477863
+            ],
+            [
+              -66.1155179,
+              -17.447805
+            ],
+            [
+              -66.1155946,
+              -17.4478127
+            ]
+          ]
+        ]
+      },
+      "id": "way/255739715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389324308",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "933",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Luis Pasteur",
+        "amenity": "college",
+        "barrier": "wall",
+        "level": "1",
+        "name": "Tecnológico Boliviano Alemán",
+        "operator": "Tecnológico Boliviano Alemán",
+        "operator:type": "private",
+        "short_name": "TECBA",
+        "website": "https://www.tecba.edu.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1486194,
+              -17.3924823
+            ],
+            [
+              -66.148661,
+              -17.3924899
+            ],
+            [
+              -66.148988,
+              -17.3925496
+            ],
+            [
+              -66.1489699,
+              -17.3926382
+            ],
+            [
+              -66.1489562,
+              -17.3927105
+            ],
+            [
+              -66.1486704,
+              -17.392661
+            ],
+            [
+              -66.1485908,
+              -17.3926463
+            ],
+            [
+              -66.1486067,
+              -17.3925554
+            ],
+            [
+              -66.1486194,
+              -17.3924823
+            ]
+          ]
+        ]
+      },
+      "id": "way/389324308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/414310100",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1310",
+        "addr:neighbourhood": "Tupuraya",
+        "addr:street": "Avenida General Galindo",
+        "amenity": "college",
+        "barrier": "wall",
+        "name": "Fundación Sedes Sapientiae",
+        "old_name": "Instituo Normal Superior Católico Sedes Sapientiae",
+        "operator": "Fundación Sedes Sapientiae",
+        "operator:type": "private_non_profit",
+        "phone": "fssbolivia@gmail.com",
+        "religion": "christian",
+        "short_name": "EX-INSCSS",
+        "website": "https://fss.org.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1423865,
+              -17.3721077
+            ],
+            [
+              -66.1424161,
+              -17.3721174
+            ],
+            [
+              -66.1424288,
+              -17.372142
+            ],
+            [
+              -66.142503,
+              -17.3724999
+            ],
+            [
+              -66.1425279,
+              -17.3726086
+            ],
+            [
+              -66.1426668,
+              -17.3732159
+            ],
+            [
+              -66.1426722,
+              -17.3732952
+            ],
+            [
+              -66.1425831,
+              -17.3734526
+            ],
+            [
+              -66.1425327,
+              -17.3735308
+            ],
+            [
+              -66.1424414,
+              -17.373594
+            ],
+            [
+              -66.1423445,
+              -17.3736423
+            ],
+            [
+              -66.1417226,
+              -17.3736741
+            ],
+            [
+              -66.1416791,
+              -17.3736635
+            ],
+            [
+              -66.1416457,
+              -17.3736324
+            ],
+            [
+              -66.141628,
+              -17.373602
+            ],
+            [
+              -66.1414404,
+              -17.3726888
+            ],
+            [
+              -66.1414019,
+              -17.3725213
+            ],
+            [
+              -66.1414089,
+              -17.3724941
+            ],
+            [
+              -66.1414278,
+              -17.3724557
+            ],
+            [
+              -66.1421052,
+              -17.3722037
+            ],
+            [
+              -66.1421671,
+              -17.3721807
+            ],
+            [
+              -66.1423865,
+              -17.3721077
+            ]
+          ]
+        ]
+      },
+      "id": "way/414310100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570396829",
+        "amenity": "college",
+        "barrier": "yes",
+        "contact:phone": "+591 4 4390361",
+        "description": "áreas de contaduría general (nocturno y diurno), secretariado ejecutivo (nocturno), analista de sistemas (nocturno), administración de empresas (diurno), gastronomía (diurno), y turismo (diurno)",
+        "name": "Instituto Técnico de Comercio INCOS Nº 3 Quillacollo",
+        "short_name": "INCOS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2724909,
+              -17.3822011
+            ],
+            [
+              -66.2727917,
+              -17.3822208
+            ],
+            [
+              -66.2727613,
+              -17.3828524
+            ],
+            [
+              -66.2725577,
+              -17.3828797
+            ],
+            [
+              -66.2724096,
+              -17.3828823
+            ],
+            [
+              -66.2724324,
+              -17.3826911
+            ],
+            [
+              -66.2724638,
+              -17.3824283
+            ],
+            [
+              -66.2724909,
+              -17.3822011
+            ]
+          ]
+        ]
+      },
+      "id": "way/570396829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/575567141",
+        "amenity": "college",
+        "name": "Intituto de electromecanica LABO"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1784195,
+              -17.408035
+            ],
+            [
+              -66.1785151,
+              -17.4081406
+            ],
+            [
+              -66.1783434,
+              -17.40829
+            ],
+            [
+              -66.1782417,
+              -17.4081769
+            ],
+            [
+              -66.1784195,
+              -17.408035
+            ]
+          ]
+        ]
+      },
+      "id": "way/575567141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587533065",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bartolomé Guzmán",
+        "addr:street": "Avenida Bartolomé Guzmán",
+        "amenity": "college",
+        "barrier": "fence",
+        "college": "arts",
+        "contact:facebook": "https://www.facebook.com/IFA.R.G.P",
+        "description": "Instituto público que forma a personas mayores de 6 años de edad en las Artes Plásticas con mención en Pintura y Escultura.",
+        "fence_type": "chain_link",
+        "name": "Instituto de Formación Artística de Artes Plásticas Raúl González Prada",
+        "old_name:1947-1990": "Escuela de Artes Plásticas",
+        "operator": "Instituto de Formación Artística de Artes Plásticas Raúl González Prada",
+        "operator:type": "public",
+        "phone": "+591 4 4580059",
+        "short_name": "IFARGP",
+        "start_date": "1948-09-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1622171,
+              -17.4034887
+            ],
+            [
+              -66.1622219,
+              -17.4035079
+            ],
+            [
+              -66.1622821,
+              -17.4037941
+            ],
+            [
+              -66.1623519,
+              -17.4040824
+            ],
+            [
+              -66.1621793,
+              -17.4041282
+            ],
+            [
+              -66.1621506,
+              -17.4043063
+            ],
+            [
+              -66.161847,
+              -17.4044109
+            ],
+            [
+              -66.161727,
+              -17.4040314
+            ],
+            [
+              -66.1616562,
+              -17.4039373
+            ],
+            [
+              -66.1615278,
+              -17.4038515
+            ],
+            [
+              -66.1615135,
+              -17.4037589
+            ],
+            [
+              -66.1617331,
+              -17.4035363
+            ],
+            [
+              -66.1616689,
+              -17.4034445
+            ],
+            [
+              -66.1615696,
+              -17.4032041
+            ],
+            [
+              -66.1616239,
+              -17.4031936
+            ],
+            [
+              -66.161666,
+              -17.4031904
+            ],
+            [
+              -66.1619509,
+              -17.4031644
+            ],
+            [
+              -66.1619966,
+              -17.4035049
+            ],
+            [
+              -66.1622171,
+              -17.4034887
+            ]
+          ]
+        ]
+      },
+      "id": "way/587533065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/687243086",
+        "amenity": "college",
+        "description": "Ofrece carreras de Veterinaria y Zootecnia, Agropecuria, Construcción Civil, Industria de Alimentos...",
+        "name": "Instituto Tecnológico Fiscal Berto Nicoli",
+        "opening_hours": "Mo-Fr 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.0408931,
+              -17.3865742
+            ],
+            [
+              -66.0409465,
+              -17.3867227
+            ],
+            [
+              -66.0410629,
+              -17.387046
+            ],
+            [
+              -66.0413056,
+              -17.3877201
+            ],
+            [
+              -66.0415075,
+              -17.3882936
+            ],
+            [
+              -66.0414821,
+              -17.3883242
+            ],
+            [
+              -66.0412493,
+              -17.3883988
+            ],
+            [
+              -66.0410453,
+              -17.3878613
+            ],
+            [
+              -66.0410104,
+              -17.38787
+            ],
+            [
+              -66.040778,
+              -17.3872655
+            ],
+            [
+              -66.0407329,
+              -17.3871392
+            ],
+            [
+              -66.0406107,
+              -17.3867974
+            ],
+            [
+              -66.0405653,
+              -17.3866704
+            ],
+            [
+              -66.0408931,
+              -17.3865742
+            ]
+          ]
+        ]
+      },
+      "id": "way/687243086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/877350664",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Senobio Gallardo",
+        "amenity": "college",
+        "barrier": "yes",
+        "contact:facebook": "https://www.facebook.com/INSTITUTOPUERTODEMEJILLONES/",
+        "contact:phone": "+591 4 4490621;+591 4 4490286",
+        "description": "El Instituto Tecnológico Industrial Comercial Puerto de Mejillones con 31 años de experiencia forma profesionales técnicos a nivel medio y superior, en las carreras de Secretariado, Construcción Civil, Electricidad Industrial, Electrónica y Topografía y G",
+        "name": "Instituto Tecnológico Industrial Comercial Puerto de Mejillones"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1315379,
+              -17.3720939
+            ],
+            [
+              -66.1316122,
+              -17.3721287
+            ],
+            [
+              -66.1316392,
+              -17.3721736
+            ],
+            [
+              -66.1316577,
+              -17.372235
+            ],
+            [
+              -66.1316618,
+              -17.3722486
+            ],
+            [
+              -66.1317299,
+              -17.372618
+            ],
+            [
+              -66.1308145,
+              -17.3730028
+            ],
+            [
+              -66.1305936,
+              -17.3730449
+            ],
+            [
+              -66.1303482,
+              -17.3730466
+            ],
+            [
+              -66.1295273,
+              -17.3731192
+            ],
+            [
+              -66.1290966,
+              -17.3732511
+            ],
+            [
+              -66.1290343,
+              -17.373266
+            ],
+            [
+              -66.1290533,
+              -17.372699
+            ],
+            [
+              -66.1290772,
+              -17.3719875
+            ],
+            [
+              -66.13,
+              -17.3719987
+            ],
+            [
+              -66.1303356,
+              -17.3720122
+            ],
+            [
+              -66.130919,
+              -17.3720358
+            ],
+            [
+              -66.1315379,
+              -17.3720939
+            ]
+          ]
+        ]
+      },
+      "id": "way/877350664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/882654474",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle William Shakespeare",
+        "amenity": "college",
+        "barrier": "wall",
+        "name": "Instituto Normal Superior Simón Rodríguez"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1545164,
+              -17.356128
+            ],
+            [
+              -66.1549072,
+              -17.3559797
+            ],
+            [
+              -66.1551295,
+              -17.3558433
+            ],
+            [
+              -66.1551652,
+              -17.3558547
+            ],
+            [
+              -66.155193,
+              -17.3558736
+            ],
+            [
+              -66.1553479,
+              -17.35673
+            ],
+            [
+              -66.1553161,
+              -17.3567641
+            ],
+            [
+              -66.1548112,
+              -17.356939
+            ],
+            [
+              -66.1546003,
+              -17.3563686
+            ],
+            [
+              -66.1545164,
+              -17.356128
+            ]
+          ]
+        ]
+      },
+      "id": "way/882654474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894700600",
+        "addr:city": "Quillacollo",
+        "addr:street": "Avenida Cochabamba",
+        "amenity": "college",
+        "barrier": "wall",
+        "description": "El Instituto de Educación Rural ayuda a señoritas del área rural en su formación, ofreciéndoles la oportunidad de culminar sus estudios de colegio, y formarse como auxiliar técnica en veterinaria, agropecuaria, corte y confección e incluso computación; ta",
+        "name": "Instituto de Educación Rural",
+        "operator": "Hermanas Misioneras de la Inmaculada Concepción",
+        "operator:type": "religious",
+        "short_name": "IER",
+        "start_date": "1958"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2574384,
+              -17.393481
+            ],
+            [
+              -66.2582404,
+              -17.3934778
+            ],
+            [
+              -66.2585,
+              -17.3934751
+            ],
+            [
+              -66.2585497,
+              -17.3934934
+            ],
+            [
+              -66.2587435,
+              -17.3952674
+            ],
+            [
+              -66.2587835,
+              -17.3955998
+            ],
+            [
+              -66.2587945,
+              -17.3956777
+            ],
+            [
+              -66.2576691,
+              -17.3957948
+            ],
+            [
+              -66.257628,
+              -17.3957576
+            ],
+            [
+              -66.2575127,
+              -17.3946054
+            ],
+            [
+              -66.2575081,
+              -17.3945686
+            ],
+            [
+              -66.2574902,
+              -17.3942892
+            ],
+            [
+              -66.2574785,
+              -17.3940551
+            ],
+            [
+              -66.2574685,
+              -17.3939048
+            ],
+            [
+              -66.2574453,
+              -17.3936422
+            ],
+            [
+              -66.2574384,
+              -17.393481
+            ]
+          ]
+        ]
+      },
+      "id": "way/894700600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/895066623",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "124",
+        "addr:neighbourhood": "Villa Galindo",
+        "addr:street": "Calle San Alberto",
+        "amenity": "college",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/cetabolivia",
+        "contact:phone": "+591 4 4241588",
+        "contact:website": "http://www.ceta.edu.bo/",
+        "name": "Instituto Técnico de Enseñanza Automotriz",
+        "short_name": "CETA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1691428,
+              -17.3934851
+            ],
+            [
+              -66.1689292,
+              -17.3934314
+            ],
+            [
+              -66.1689229,
+              -17.3932061
+            ],
+            [
+              -66.1690026,
+              -17.3931742
+            ],
+            [
+              -66.1692394,
+              -17.3932599
+            ],
+            [
+              -66.1691428,
+              -17.3934851
+            ]
+          ]
+        ]
+      },
+      "id": "way/895066623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926482149",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "141",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle José María Santivañez",
+        "amenity": "college",
+        "barrier": "yes",
+        "contact:facebook": "https://www.facebook.com/Instituto-Tecnol%C3%B3gico-Boliviano-Intebol-107765187329851/",
+        "name": "Instituto Tecnológico Boliviano",
+        "operator": "Instituto Tecnológico Boliviano",
+        "operator:type": "private",
+        "short_name": "INTEBOL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1581155,
+              -17.394521
+            ],
+            [
+              -66.1579384,
+              -17.3944898
+            ],
+            [
+              -66.1579637,
+              -17.3943577
+            ],
+            [
+              -66.1578999,
+              -17.3943466
+            ],
+            [
+              -66.157914,
+              -17.394276
+            ],
+            [
+              -66.1579616,
+              -17.3942845
+            ],
+            [
+              -66.1579849,
+              -17.3941585
+            ],
+            [
+              -66.157996,
+              -17.3941109
+            ],
+            [
+              -66.1580246,
+              -17.393996
+            ],
+            [
+              -66.1581037,
+              -17.3940108
+            ],
+            [
+              -66.1580841,
+              -17.3941327
+            ],
+            [
+              -66.1581118,
+              -17.3941358
+            ],
+            [
+              -66.1581891,
+              -17.3941492
+            ],
+            [
+              -66.1581567,
+              -17.3943194
+            ],
+            [
+              -66.1581305,
+              -17.3944497
+            ],
+            [
+              -66.1581155,
+              -17.394521
+            ]
+          ]
+        ]
+      },
+      "id": "way/926482149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927368764",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "185",
+        "addr:neighbourhood": "Gerónimo de Osorio",
+        "addr:street": "Calle General Achá",
+        "alt_name": "Centro Tecnológico de Informática y Computación",
+        "amenity": "college",
+        "contact:facebook": "https://www.facebook.com/Tecnologico-Nacional-Ceicom-1514836345437565/",
+        "contact:phone": "+591 4 4582065;+591 4 4581705",
+        "name": "Tecnológico Nacional Ceicom"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1594766,
+              -17.3939757
+            ],
+            [
+              -66.1595133,
+              -17.3937623
+            ],
+            [
+              -66.1595942,
+              -17.3937758
+            ],
+            [
+              -66.159675,
+              -17.3937892
+            ],
+            [
+              -66.1596946,
+              -17.3938221
+            ],
+            [
+              -66.1596609,
+              -17.3940065
+            ],
+            [
+              -66.1594766,
+              -17.3939757
+            ]
+          ]
+        ]
+      },
+      "id": "way/927368764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/936567919",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "446",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Esteban Arze",
+        "amenity": "college",
+        "barrier": "wall",
+        "branch": "CATEC Cochabamba",
+        "contact:facebook": "https://www.facebook.com/CATECcochabamba/",
+        "email": "cateccbba@catec.com.bo",
+        "name": "CATEC",
+        "operator": "CATEC",
+        "operator:type": "private",
+        "phone": "+591 4 69414549;+591 77909183;+591 79382114",
+        "short_name": "CATEC",
+        "website": "http://www.catec.com.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1565494,
+              -17.39576
+            ],
+            [
+              -66.156523,
+              -17.3959016
+            ],
+            [
+              -66.1560135,
+              -17.3958152
+            ],
+            [
+              -66.1560267,
+              -17.3957443
+            ],
+            [
+              -66.1560399,
+              -17.3956735
+            ],
+            [
+              -66.1565494,
+              -17.39576
+            ]
+          ]
+        ]
+      },
+      "id": "way/936567919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007437776",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "S-0415",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "college",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/Federico.Alvarez.Plata.Cbba/",
+        "email": "alvarezplatad@gmail.com",
+        "name": "Instituto Técnico Superior de Comercio Federico Alvarez Plata",
+        "old_name:1954-1964": "Escuela Nacional de Comercio",
+        "operator": "Instituto Técnico Superior de Comercio Federico Alvarez Plata",
+        "operator:type": "public",
+        "phone": "+591 4 4258041",
+        "short_name": "INCOS FAP",
+        "start_date": "1954-03-24",
+        "website": "https://incosdiurno.edu.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1580703,
+              -17.3956675
+            ],
+            [
+              -66.1580906,
+              -17.3956801
+            ],
+            [
+              -66.1580981,
+              -17.3956914
+            ],
+            [
+              -66.1581048,
+              -17.3957016
+            ],
+            [
+              -66.1581107,
+              -17.3957303
+            ],
+            [
+              -66.1581093,
+              -17.3957591
+            ],
+            [
+              -66.1580859,
+              -17.395884
+            ],
+            [
+              -66.1579747,
+              -17.3958651
+            ],
+            [
+              -66.1579421,
+              -17.3958596
+            ],
+            [
+              -66.1579187,
+              -17.395984
+            ],
+            [
+              -66.157892,
+              -17.3961342
+            ],
+            [
+              -66.1576372,
+              -17.3960911
+            ],
+            [
+              -66.1577265,
+              -17.3956083
+            ],
+            [
+              -66.1577372,
+              -17.3956102
+            ],
+            [
+              -66.1577466,
+              -17.3956119
+            ],
+            [
+              -66.1580406,
+              -17.3956621
+            ],
+            [
+              -66.1580703,
+              -17.3956675
+            ]
+          ]
+        ]
+      },
+      "id": "way/1007437776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1012646090",
+        "addr:city": "Cochabamba",
+        "amenity": "college",
+        "barrier": "yes",
+        "contact:facebook": "https://www.facebook.com/modulotecnologicoproductivocochabamba/",
+        "name": "Módulo Tecnológico Productivo Cochabamba",
+        "short_name": "MTPC",
+        "start_date": "2019"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1423414,
+              -17.4342643
+            ],
+            [
+              -66.1421751,
+              -17.4345422
+            ],
+            [
+              -66.1418308,
+              -17.4348527
+            ],
+            [
+              -66.1417585,
+              -17.4348887
+            ],
+            [
+              -66.1416423,
+              -17.4349606
+            ],
+            [
+              -66.1415669,
+              -17.4349906
+            ],
+            [
+              -66.1412999,
+              -17.4350206
+            ],
+            [
+              -66.1411375,
+              -17.4349874
+            ],
+            [
+              -66.1411398,
+              -17.4347956
+            ],
+            [
+              -66.1412059,
+              -17.4346104
+            ],
+            [
+              -66.1413064,
+              -17.4344319
+            ],
+            [
+              -66.1414046,
+              -17.4343259
+            ],
+            [
+              -66.1414852,
+              -17.4342583
+            ],
+            [
+              -66.1417008,
+              -17.4341562
+            ],
+            [
+              -66.1419253,
+              -17.4340937
+            ],
+            [
+              -66.1421284,
+              -17.4340767
+            ],
+            [
+              -66.1423414,
+              -17.4342643
+            ]
+          ]
+        ]
+      },
+      "id": "way/1012646090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1035319265",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "142",
+        "addr:neighbourhood": "Gerónimo de Osorio",
+        "addr:street": "Calle Avaroa",
+        "amenity": "college",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/cetabolivia",
+        "contact:phone": "+591 4 4581736",
+        "contact:website": "http://www.ceta.edu.bo/",
+        "name": "Instituto CETA",
+        "official_name": "Instituto Técnico de Enseñanza Automotriz CETA",
+        "short_name": "CETA",
+        "start_date": "1972-07-16"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1662639,
+              -17.3941793
+            ],
+            [
+              -66.1662699,
+              -17.3943696
+            ],
+            [
+              -66.1661817,
+              -17.3943746
+            ],
+            [
+              -66.1659472,
+              -17.3943869
+            ],
+            [
+              -66.1659464,
+              -17.3942915
+            ],
+            [
+              -66.1659463,
+              -17.3942009
+            ],
+            [
+              -66.1661023,
+              -17.3941903
+            ],
+            [
+              -66.1661761,
+              -17.3941853
+            ],
+            [
+              -66.1662639,
+              -17.3941793
+            ]
+          ]
+        ]
+      },
+      "id": "way/1035319265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1085738935",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle José Miguel Lanza",
+        "amenity": "college",
+        "name": "CEMLA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1558307,
+              -17.3854008
+            ],
+            [
+              -66.1557724,
+              -17.3854879
+            ],
+            [
+              -66.155619,
+              -17.3853944
+            ],
+            [
+              -66.1556597,
+              -17.3853336
+            ],
+            [
+              -66.1556772,
+              -17.3853073
+            ],
+            [
+              -66.1558307,
+              -17.3854008
+            ]
+          ]
+        ]
+      },
+      "id": "way/1085738935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/897742234",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "784",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle La Paz",
+        "amenity": "language_school",
+        "arts_centre": "yes",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/alianza.f.decochabamba",
+        "contact:whatsapp": "+591 62698260",
+        "description": "La Alianza Francesa es una institución sin fines de lucro cuya misión es la difusión de la lengua francesa y las culturas francófonas.",
+        "email": "asistente.afcochabamba@gmail.com",
+        "fee": "yes",
+        "language:fr": "yes",
+        "loc_name": "Alianza Francesa de Cochabamba",
+        "name": "Alianza Francesa",
+        "name:fr": "Alliance Française",
+        "opening_hours": "Mo-Th 09:00-12:00,15:00-19:30; Fr 08:00-15:00; Sa 09:00-12:00",
+        "operator": "Alianza Francesa",
+        "operator:type": "ngo",
+        "phone": "+591 4 4525771;+591 62698260",
+        "short_name": "AF CBBA",
+        "start_date": "1949",
+        "website": "https://cochabamba.alianzafrancesa.org.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1535356,
+              -17.3828753
+            ],
+            [
+              -66.1535194,
+              -17.3829137
+            ],
+            [
+              -66.153421,
+              -17.3831475
+            ],
+            [
+              -66.15341,
+              -17.3831737
+            ],
+            [
+              -66.1533865,
+              -17.3831791
+            ],
+            [
+              -66.1532916,
+              -17.3832008
+            ],
+            [
+              -66.1533231,
+              -17.383131
+            ],
+            [
+              -66.1534346,
+              -17.3828837
+            ],
+            [
+              -66.1534527,
+              -17.3828436
+            ],
+            [
+              -66.1534678,
+              -17.3828494
+            ],
+            [
+              -66.1535356,
+              -17.3828753
+            ]
+          ]
+        ]
+      },
+      "id": "way/897742234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900528171",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "N-0365",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle 25 de Mayo",
+        "amenity": "language_school",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/cbacochabambabnc",
+        "description": "El centro ofrece programas de inglés para niños, jóvenes, adultos e inglés para propósitos específicos en sus modalidades de cursos estándar, regulares e intensivos.",
+        "email": "cba@cbacoch.org;info@cbacoch.org",
+        "language:en": "main",
+        "name": "Centro Boliviano Americano",
+        "opening_hours": "Mo-Fr 08:00-20:30; Sa 09:15-12:00",
+        "operator": "Centro Boliviano Americano",
+        "operator:type": "private",
+        "phone": "+591 4 4221288;+591 4 4222518",
+        "short_name": "CBA",
+        "start_date": "~1957",
+        "website": "https://www.cbacoch.org/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1561549,
+              -17.3891725
+            ],
+            [
+              -66.1562248,
+              -17.3891841
+            ],
+            [
+              -66.156261,
+              -17.3891901
+            ],
+            [
+              -66.1564676,
+              -17.3892242
+            ],
+            [
+              -66.1565493,
+              -17.3892376
+            ],
+            [
+              -66.156652,
+              -17.3892546
+            ],
+            [
+              -66.1567788,
+              -17.3892755
+            ],
+            [
+              -66.1567752,
+              -17.3892953
+            ],
+            [
+              -66.1567488,
+              -17.3894441
+            ],
+            [
+              -66.1567261,
+              -17.3895591
+            ],
+            [
+              -66.1567222,
+              -17.3895786
+            ],
+            [
+              -66.1567147,
+              -17.3896295
+            ],
+            [
+              -66.1566579,
+              -17.389943
+            ],
+            [
+              -66.1566356,
+              -17.3899393
+            ],
+            [
+              -66.1565585,
+              -17.3899266
+            ],
+            [
+              -66.1565675,
+              -17.3898773
+            ],
+            [
+              -66.1565269,
+              -17.3898706
+            ],
+            [
+              -66.1565745,
+              -17.3895958
+            ],
+            [
+              -66.1563884,
+              -17.3895613
+            ],
+            [
+              -66.1563534,
+              -17.3895551
+            ],
+            [
+              -66.1563825,
+              -17.389392
+            ],
+            [
+              -66.1561949,
+              -17.389361
+            ],
+            [
+              -66.1561229,
+              -17.3893491
+            ],
+            [
+              -66.1561389,
+              -17.3892608
+            ],
+            [
+              -66.1561549,
+              -17.3891725
+            ]
+          ]
+        ]
+      },
+      "id": "way/900528171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192806827",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Sucre",
+        "amenity": "language_school",
+        "contact:facebook": "https://www.facebook.com/institutoconfucioumss/",
+        "email": "institutoconfucioumss@gmail.com",
+        "language:ch": "yes",
+        "name": "Instituto Confucio",
+        "operator": "Instituto Confucio",
+        "operator:type": "public",
+        "phone": "+591 4 4248519",
+        "start_date": "2011",
+        "website": "icumss.bol.chinesecio.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1440213,
+              -17.3921549
+            ],
+            [
+              -66.1440122,
+              -17.3921937
+            ],
+            [
+              -66.1439653,
+              -17.392441
+            ],
+            [
+              -66.1440277,
+              -17.3924517
+            ],
+            [
+              -66.1442418,
+              -17.3924887
+            ],
+            [
+              -66.1442212,
+              -17.392601
+            ],
+            [
+              -66.144217,
+              -17.3926263
+            ],
+            [
+              -66.1440451,
+              -17.3925913
+            ],
+            [
+              -66.1437609,
+              -17.3924181
+            ],
+            [
+              -66.1438104,
+              -17.392121
+            ],
+            [
+              -66.1440066,
+              -17.3921525
+            ],
+            [
+              -66.1440213,
+              -17.3921549
+            ]
+          ]
+        ]
+      },
+      "id": "way/1192806827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202716312",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1450",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "amenity": "arts_centre",
+        "barrier": "wall",
+        "description": "El centro aporta al mejor aprendizaje y apoya en las labores de la enseñanza formal y no formal así como para promueve actividades artísticas y expresiones de las distintas culturas, tanto bolivianas como extranjeras.",
+        "email": "c.pedagogicocultural@fundacionpatino.org",
+        "fee": "yes",
+        "name": "Centro Pedagógico y Cultural Simón Iturri Patiño",
+        "operator": "Fundación Simón Iturri Patiño",
+        "operator:type": "private_non_profit",
+        "payment:cash": "yes",
+        "phone": "+591 4 4489666",
+        "start_date": "1968-01-06",
+        "website": "https://centropatino.fundacionpatino.org/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1536796,
+              -17.3741176
+            ],
+            [
+              -66.1536804,
+              -17.3741355
+            ],
+            [
+              -66.1536836,
+              -17.3742227
+            ],
+            [
+              -66.1537178,
+              -17.3746357
+            ],
+            [
+              -66.1537207,
+              -17.3746703
+            ],
+            [
+              -66.1537258,
+              -17.3747825
+            ],
+            [
+              -66.153727,
+              -17.3748148
+            ],
+            [
+              -66.1537295,
+              -17.3748458
+            ],
+            [
+              -66.15373,
+              -17.3748548
+            ],
+            [
+              -66.1537318,
+              -17.374888
+            ],
+            [
+              -66.1537361,
+              -17.3749664
+            ],
+            [
+              -66.1537753,
+              -17.3752982
+            ],
+            [
+              -66.1537829,
+              -17.3753627
+            ],
+            [
+              -66.1537839,
+              -17.3753725
+            ],
+            [
+              -66.1537879,
+              -17.3754099
+            ],
+            [
+              -66.1531133,
+              -17.3754466
+            ],
+            [
+              -66.1527242,
+              -17.3754748
+            ],
+            [
+              -66.1525303,
+              -17.375488
+            ],
+            [
+              -66.1524862,
+              -17.375491
+            ],
+            [
+              -66.1524438,
+              -17.3754664
+            ],
+            [
+              -66.1523995,
+              -17.3754127
+            ],
+            [
+              -66.1523836,
+              -17.3748285
+            ],
+            [
+              -66.152399,
+              -17.3747611
+            ],
+            [
+              -66.1524218,
+              -17.3747576
+            ],
+            [
+              -66.1524212,
+              -17.3742076
+            ],
+            [
+              -66.1524212,
+              -17.3741475
+            ],
+            [
+              -66.1525125,
+              -17.3741463
+            ],
+            [
+              -66.1527698,
+              -17.3741432
+            ],
+            [
+              -66.1530498,
+              -17.3741397
+            ],
+            [
+              -66.1530766,
+              -17.3741394
+            ],
+            [
+              -66.153246,
+              -17.3741373
+            ],
+            [
+              -66.1532637,
+              -17.3741371
+            ],
+            [
+              -66.1533215,
+              -17.374134
+            ],
+            [
+              -66.1533782,
+              -17.3741321
+            ],
+            [
+              -66.1534124,
+              -17.3741309
+            ],
+            [
+              -66.1535734,
+              -17.3741233
+            ],
+            [
+              -66.1536461,
+              -17.3741197
+            ],
+            [
+              -66.1536796,
+              -17.3741176
+            ]
+          ]
+        ]
+      },
+      "id": "way/202716312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232308864",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1850",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Calle Juan Huallparrimachi",
+        "amenity": "arts_centre",
+        "barrier": "wall",
+        "name": "Centro de Administración Cultural Fearless",
+        "old_name:1900-2020": "Casona Bickenbach",
+        "operator": "Fearless",
+        "operator:type": "private",
+        "website": "https://fearlesssa.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1628301,
+              -17.3690495
+            ],
+            [
+              -66.1628307,
+              -17.3690532
+            ],
+            [
+              -66.1628301,
+              -17.3690569
+            ],
+            [
+              -66.1628284,
+              -17.3690602
+            ],
+            [
+              -66.1627659,
+              -17.3691169
+            ],
+            [
+              -66.1625941,
+              -17.3685984
+            ],
+            [
+              -66.1623841,
+              -17.3686902
+            ],
+            [
+              -66.1622903,
+              -17.3683199
+            ],
+            [
+              -66.1622244,
+              -17.3680683
+            ],
+            [
+              -66.162184,
+              -17.3679139
+            ],
+            [
+              -66.1625476,
+              -17.3677373
+            ],
+            [
+              -66.1626174,
+              -17.3677102
+            ],
+            [
+              -66.1626349,
+              -17.3677034
+            ],
+            [
+              -66.1626778,
+              -17.3678507
+            ],
+            [
+              -66.1626058,
+              -17.3678707
+            ],
+            [
+              -66.1627394,
+              -17.3682825
+            ],
+            [
+              -66.1627489,
+              -17.3683109
+            ],
+            [
+              -66.1629627,
+              -17.3689529
+            ],
+            [
+              -66.1628597,
+              -17.369034
+            ],
+            [
+              -66.162856,
+              -17.3690353
+            ],
+            [
+              -66.1628522,
+              -17.3690353
+            ],
+            [
+              -66.1628485,
+              -17.3690341
+            ],
+            [
+              -66.1628371,
+              -17.3690315
+            ],
+            [
+              -66.1628301,
+              -17.3690495
+            ]
+          ]
+        ]
+      },
+      "id": "way/232308864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/628741975",
+        "addr:city": "Quillacollo",
+        "amenity": "arts_centre",
+        "barrier": "yes",
+        "name": "Centro Biocultural Tierra Verde"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2947511,
+              -17.4031372
+            ],
+            [
+              -66.2947383,
+              -17.4032988
+            ],
+            [
+              -66.294276,
+              -17.4032643
+            ],
+            [
+              -66.2942526,
+              -17.4032531
+            ],
+            [
+              -66.2942421,
+              -17.403242
+            ],
+            [
+              -66.2942304,
+              -17.4032286
+            ],
+            [
+              -66.2942468,
+              -17.4030983
+            ],
+            [
+              -66.2947511,
+              -17.4031372
+            ]
+          ]
+        ]
+      },
+      "id": "way/628741975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/730117017",
+        "addr:street": "Avenida 27 de Agosto",
+        "amenity": "arts_centre",
+        "barrier": "yes",
+        "contact:email": "administracion@martadero.org",
+        "contact:phone": "+591 4 4588778",
+        "contact:website": "http://www.martadero.org/",
+        "name": "mARTadero",
+        "opening_hours": "Mo 15:00-19:00; Tu-Fr 09:00-13:00, 15:00-19:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1660986,
+              -17.4002454
+            ],
+            [
+              -66.1659764,
+              -17.4002618
+            ],
+            [
+              -66.1657938,
+              -17.4002854
+            ],
+            [
+              -66.1657238,
+              -17.4002948
+            ],
+            [
+              -66.1656961,
+              -17.4002983
+            ],
+            [
+              -66.1656448,
+              -17.400305
+            ],
+            [
+              -66.165646,
+              -17.4003136
+            ],
+            [
+              -66.1656387,
+              -17.4003146
+            ],
+            [
+              -66.165569,
+              -17.4003236
+            ],
+            [
+              -66.1655609,
+              -17.4003247
+            ],
+            [
+              -66.1655268,
+              -17.4003291
+            ],
+            [
+              -66.1654589,
+              -17.4003379
+            ],
+            [
+              -66.1654504,
+              -17.4002787
+            ],
+            [
+              -66.1654431,
+              -17.4002274
+            ],
+            [
+              -66.1654358,
+              -17.4001757
+            ],
+            [
+              -66.1654322,
+              -17.4001509
+            ],
+            [
+              -66.1654289,
+              -17.4001277
+            ],
+            [
+              -66.165426,
+              -17.4001074
+            ],
+            [
+              -66.165424,
+              -17.400093
+            ],
+            [
+              -66.165412,
+              -17.4000091
+            ],
+            [
+              -66.1654015,
+              -17.3999354
+            ],
+            [
+              -66.1654651,
+              -17.3999272
+            ],
+            [
+              -66.1654861,
+              -17.3999244
+            ],
+            [
+              -66.1655277,
+              -17.399919
+            ],
+            [
+              -66.1655828,
+              -17.3999119
+            ],
+            [
+              -66.1656477,
+              -17.3999035
+            ],
+            [
+              -66.1657152,
+              -17.3998947
+            ],
+            [
+              -66.1658183,
+              -17.3998813
+            ],
+            [
+              -66.165923,
+              -17.3998679
+            ],
+            [
+              -66.1660473,
+              -17.3998504
+            ],
+            [
+              -66.1660538,
+              -17.3998921
+            ],
+            [
+              -66.1660593,
+              -17.3999242
+            ],
+            [
+              -66.166069,
+              -17.3999924
+            ],
+            [
+              -66.1660746,
+              -17.4000324
+            ],
+            [
+              -66.1660811,
+              -17.4000781
+            ],
+            [
+              -66.1660849,
+              -17.4001034
+            ],
+            [
+              -66.1660938,
+              -17.4001678
+            ],
+            [
+              -66.1660872,
+              -17.4001683
+            ],
+            [
+              -66.1660986,
+              -17.4002454
+            ]
+          ]
+        ]
+      },
+      "id": "way/730117017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821656778",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle Mariano Baptista",
+        "amenity": "arts_centre",
+        "barrier": "yes",
+        "description": "El Centro cuenta con salas de exposición, salón para artes escénicas, proyección de audiovisuales",
+        "name": "Centro Artístico Cultural Municipal Bicentenario",
+        "old_name": "Colegio Mejillones",
+        "operator": "GAMC",
+        "start_date": "2020-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1586443,
+              -17.390651
+            ],
+            [
+              -66.158265,
+              -17.3905854
+            ],
+            [
+              -66.1582439,
+              -17.3905818
+            ],
+            [
+              -66.1581479,
+              -17.3905652
+            ],
+            [
+              -66.1581884,
+              -17.3903387
+            ],
+            [
+              -66.1582345,
+              -17.3903107
+            ],
+            [
+              -66.1586948,
+              -17.3903867
+            ],
+            [
+              -66.1586741,
+              -17.3904948
+            ],
+            [
+              -66.1586583,
+              -17.3905888
+            ],
+            [
+              -66.1586443,
+              -17.390651
+            ]
+          ]
+        ]
+      },
+      "id": "way/821656778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/897827734",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "339",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Calle Guadalquivir",
+        "amenity": "arts_centre",
+        "barrier": "wall",
+        "contact:email": "info@icbacbba.org",
+        "contact:phone": "+591 4 4122323",
+        "contact:website": "https://www.icbacbba.org/",
+        "image": "https://www.icbacbba.org/wp-content/themes/responsive/favicon.ico",
+        "name": "Instituto Cultural Boliviano Alemán",
+        "name:de": "Das Deutsch – Bolivianische Kulturinstitut",
+        "opening_hours": "Mo-Fr 09:00-12:30, 15:00-19:00; Sa 09:00-12:00",
+        "short_name": "ICBA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.158468,
+              -17.3741638
+            ],
+            [
+              -66.158472,
+              -17.3744082
+            ],
+            [
+              -66.1580871,
+              -17.3744287
+            ],
+            [
+              -66.1581998,
+              -17.374174
+            ],
+            [
+              -66.158468,
+              -17.3741638
+            ]
+          ]
+        ]
+      },
+      "id": "way/897827734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1193888462",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1283",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Calle Félix del Granado",
+        "amenity": "arts_centre",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/ICREAcasacultural/",
+        "contact:whatsapp": "+591 75914292",
+        "description": "Espacio artístico donde se incuban, investiga, ilumina, ideas innovadoras.",
+        "email": "icreacasacultural@gmail.com",
+        "level": "0",
+        "name": "ICREA Casa Cultural",
+        "opening_hours": "Mo-Fr 09:00-12:00,15:00-19:00; Sa 10:00-12:00",
+        "phone": "+591 75914292"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1636912,
+              -17.3781117
+            ],
+            [
+              -66.1637013,
+              -17.3780581
+            ],
+            [
+              -66.1637544,
+              -17.3777748
+            ],
+            [
+              -66.1637778,
+              -17.3777509
+            ],
+            [
+              -66.1638145,
+              -17.3777461
+            ],
+            [
+              -66.1640984,
+              -17.3777923
+            ],
+            [
+              -66.1640332,
+              -17.3781684
+            ],
+            [
+              -66.1638454,
+              -17.3781376
+            ],
+            [
+              -66.1637566,
+              -17.378123
+            ],
+            [
+              -66.1636912,
+              -17.3781117
+            ]
+          ]
+        ]
+      },
+      "id": "way/1193888462"
+    }
+  ]
+}

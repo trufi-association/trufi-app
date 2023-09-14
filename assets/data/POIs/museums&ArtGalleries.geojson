@@ -1,0 +1,1253 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T15:09:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11752193",
+        "access": "yes",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle Mariano Baptista",
+        "barrier": "wall",
+        "denomination": "roman_catholic",
+        "fee": "yes",
+        "heritage": "2",
+        "heritage:operator": "gamc",
+        "heritage:since": "2012-09-28",
+        "historic": "monument",
+        "landuse": "religious",
+        "name": "Convento Museo Santa Teresa",
+        "opening_hours": "Mo-Fr 09:00-12:30, 14:00-18:00",
+        "phone": "+591 4 4221252",
+        "related_law": "Ley 293/2012",
+        "religion": "christian",
+        "start_date": "1760",
+        "tourism": "museum",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1577366,
+              -17.3903133
+            ],
+            [
+              -66.1577407,
+              -17.3902853
+            ],
+            [
+              -66.1577457,
+              -17.3902461
+            ],
+            [
+              -66.1576998,
+              -17.3902377
+            ],
+            [
+              -66.1577102,
+              -17.3901783
+            ],
+            [
+              -66.1576926,
+              -17.3901755
+            ],
+            [
+              -66.1577121,
+              -17.3900625
+            ],
+            [
+              -66.1577165,
+              -17.3900372
+            ],
+            [
+              -66.157732,
+              -17.3899473
+            ],
+            [
+              -66.15784,
+              -17.3899673
+            ],
+            [
+              -66.1579178,
+              -17.3895977
+            ],
+            [
+              -66.1578592,
+              -17.3895865
+            ],
+            [
+              -66.1578775,
+              -17.3895024
+            ],
+            [
+              -66.1578656,
+              -17.3895001
+            ],
+            [
+              -66.1578674,
+              -17.3894914
+            ],
+            [
+              -66.1578832,
+              -17.3894148
+            ],
+            [
+              -66.1579412,
+              -17.3894258
+            ],
+            [
+              -66.1579453,
+              -17.3894057
+            ],
+            [
+              -66.1580642,
+              -17.3894281
+            ],
+            [
+              -66.1580592,
+              -17.3894526
+            ],
+            [
+              -66.1582728,
+              -17.3894929
+            ],
+            [
+              -66.1582625,
+              -17.389543
+            ],
+            [
+              -66.1582517,
+              -17.3896078
+            ],
+            [
+              -66.1582452,
+              -17.389647
+            ],
+            [
+              -66.1581784,
+              -17.3900328
+            ],
+            [
+              -66.1581556,
+              -17.3901589
+            ],
+            [
+              -66.1581269,
+              -17.3903173
+            ],
+            [
+              -66.1581072,
+              -17.3903639
+            ],
+            [
+              -66.1580921,
+              -17.3903724
+            ],
+            [
+              -66.1579983,
+              -17.3903565
+            ],
+            [
+              -66.1579794,
+              -17.3903533
+            ],
+            [
+              -66.157923,
+              -17.390344
+            ],
+            [
+              -66.1578667,
+              -17.3903346
+            ],
+            [
+              -66.1577366,
+              -17.3903133
+            ]
+          ]
+        ]
+      },
+      "id": "relation/11752193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47353678",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1458",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/MUSEOdOrbigny/",
+        "contact:whatsapp": "+591 60367230",
+        "email": "info@museodorbigny.org",
+        "museum": "nature",
+        "name": "Museo de Historia Natural Alcide d'Orbigny",
+        "name:etymology:wikidata": "Q344661",
+        "opening_hours": "Mo-Fr 09:00-12:30,15:00-18:00",
+        "operator": "Museo de Historia Natural Alcide d'Orbigny",
+        "operator:type": "private_non_profit",
+        "phone": "+591 4 4486969",
+        "start_date": "2003-01-29",
+        "tourism": "museum",
+        "website": "http://museodorbigny.org/",
+        "wikidata": "Q99335797",
+        "wikipedia": "es:Museo de Historia Natural Alcide d'Orbigny"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1534745,
+              -17.3732251
+            ],
+            [
+              -66.1535615,
+              -17.3732202
+            ],
+            [
+              -66.1535922,
+              -17.3732329
+            ],
+            [
+              -66.1536282,
+              -17.3732772
+            ],
+            [
+              -66.1536336,
+              -17.3733585
+            ],
+            [
+              -66.1536671,
+              -17.3738654
+            ],
+            [
+              -66.1536691,
+              -17.3738956
+            ],
+            [
+              -66.15367,
+              -17.3739144
+            ],
+            [
+              -66.1536796,
+              -17.3741176
+            ],
+            [
+              -66.1536461,
+              -17.3741197
+            ],
+            [
+              -66.1535734,
+              -17.3741233
+            ],
+            [
+              -66.1534124,
+              -17.3741309
+            ],
+            [
+              -66.1533782,
+              -17.3741321
+            ],
+            [
+              -66.1533215,
+              -17.374134
+            ],
+            [
+              -66.1532637,
+              -17.3741371
+            ],
+            [
+              -66.153246,
+              -17.3741373
+            ],
+            [
+              -66.1530766,
+              -17.3741394
+            ],
+            [
+              -66.1530498,
+              -17.3741397
+            ],
+            [
+              -66.1527698,
+              -17.3741432
+            ],
+            [
+              -66.1525125,
+              -17.3741463
+            ],
+            [
+              -66.1524212,
+              -17.3741475
+            ],
+            [
+              -66.1524164,
+              -17.3739474
+            ],
+            [
+              -66.1524136,
+              -17.3738322
+            ],
+            [
+              -66.1524103,
+              -17.3736959
+            ],
+            [
+              -66.1526259,
+              -17.373684
+            ],
+            [
+              -66.1527922,
+              -17.3736748
+            ],
+            [
+              -66.1527874,
+              -17.3735801
+            ],
+            [
+              -66.152782,
+              -17.3734738
+            ],
+            [
+              -66.1529054,
+              -17.3734674
+            ],
+            [
+              -66.1531492,
+              -17.3734547
+            ],
+            [
+              -66.1534437,
+              -17.3734394
+            ],
+            [
+              -66.1534427,
+              -17.3734198
+            ],
+            [
+              -66.1534305,
+              -17.3732277
+            ],
+            [
+              -66.1534745,
+              -17.3732251
+            ]
+          ]
+        ]
+      },
+      "id": "way/47353678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160255409",
+        "addr:city": "Vinto",
+        "addr:neighbourhood": "Pairumani",
+        "addr:street": "Avenida Pairumani",
+        "alt_name": "Villa Albina Patiño",
+        "barrier": "wall",
+        "contact:email": "museo.villaalbina@fundacionpatino.org",
+        "contact:facebook": "https://www.facebook.com/MuseoVillaAlbina",
+        "contact:phone": "+591 4 4010470;+591 76972313",
+        "contact:whatsapp": "+591 76972313",
+        "description": "Villa Albina es una edificación que lleva el nombre de Albina Rodriguez Ocampo, esposa de Don Simón Iturri Patiño. Esta edificación forma parte de la hacienda construida en el Siglo XX",
+        "fee": "yes",
+        "museum": "person",
+        "name": "Casa Museo Villa Albina",
+        "opening_hours": "Tu-Fr 14:00-15:00; Sa 09:30-11:00; Su 10:00-11:00; PH off",
+        "operator": "Fundación Patiño",
+        "operator:type": "private",
+        "start_date": "1927",
+        "tourism": "museum",
+        "year_of_construction": "1917..1927"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3195463,
+              -17.3684213
+            ],
+            [
+              -66.3191748,
+              -17.3683887
+            ],
+            [
+              -66.3184716,
+              -17.3683269
+            ],
+            [
+              -66.3183812,
+              -17.3683049
+            ],
+            [
+              -66.3183232,
+              -17.3682455
+            ],
+            [
+              -66.3183161,
+              -17.3681604
+            ],
+            [
+              -66.3185991,
+              -17.3648115
+            ],
+            [
+              -66.3186231,
+              -17.3647405
+            ],
+            [
+              -66.3186648,
+              -17.3647172
+            ],
+            [
+              -66.3187262,
+              -17.3647106
+            ],
+            [
+              -66.3202181,
+              -17.3648377
+            ],
+            [
+              -66.320306,
+              -17.3648419
+            ],
+            [
+              -66.3224405,
+              -17.3649856
+            ],
+            [
+              -66.3224101,
+              -17.3651533
+            ],
+            [
+              -66.3223842,
+              -17.3652961
+            ],
+            [
+              -66.322308,
+              -17.3662061
+            ],
+            [
+              -66.3221042,
+              -17.3685914
+            ],
+            [
+              -66.3204267,
+              -17.3684683
+            ],
+            [
+              -66.3204196,
+              -17.3684834
+            ],
+            [
+              -66.3204081,
+              -17.3684955
+            ],
+            [
+              -66.3203934,
+              -17.3685033
+            ],
+            [
+              -66.3203769,
+              -17.368506
+            ],
+            [
+              -66.3203604,
+              -17.3685034
+            ],
+            [
+              -66.3203456,
+              -17.3684956
+            ],
+            [
+              -66.3203341,
+              -17.3684835
+            ],
+            [
+              -66.3203271,
+              -17.3684683
+            ],
+            [
+              -66.3203252,
+              -17.3684517
+            ],
+            [
+              -66.3198462,
+              -17.3684239
+            ],
+            [
+              -66.3198436,
+              -17.3684434
+            ],
+            [
+              -66.3197081,
+              -17.3684356
+            ],
+            [
+              -66.319689,
+              -17.3684096
+            ],
+            [
+              -66.3196624,
+              -17.3683914
+            ],
+            [
+              -66.3196312,
+              -17.3683831
+            ],
+            [
+              -66.319599,
+              -17.3683858
+            ],
+            [
+              -66.3195696,
+              -17.368399
+            ],
+            [
+              -66.3195463,
+              -17.3684213
+            ]
+          ]
+        ]
+      },
+      "id": "way/160255409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/577946443",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "building": "public",
+        "building:levels": "1",
+        "fee": "no",
+        "heritage": "8",
+        "heritage:operator": "gamc",
+        "heritage:since": "2011-10-25",
+        "museum": "medicine",
+        "name": "Museo de la Historia de la Medicina Don Francisco de Viedma",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "government",
+        "phone": "+591 4 4258030",
+        "related_law": "OM 4330/2011",
+        "roof:shape": "hipped",
+        "start_date": "1996",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1504833,
+              -17.387523
+            ],
+            [
+              -66.150202,
+              -17.3873934
+            ],
+            [
+              -66.1502578,
+              -17.3872824
+            ],
+            [
+              -66.1502786,
+              -17.3872749
+            ],
+            [
+              -66.1503301,
+              -17.3872991
+            ],
+            [
+              -66.1503371,
+              -17.3873213
+            ],
+            [
+              -66.1503315,
+              -17.3873339
+            ],
+            [
+              -66.1503553,
+              -17.3873449
+            ],
+            [
+              -66.1503748,
+              -17.3873068
+            ],
+            [
+              -66.1504129,
+              -17.3873231
+            ],
+            [
+              -66.1504511,
+              -17.3873396
+            ],
+            [
+              -66.1504311,
+              -17.3873798
+            ],
+            [
+              -66.1505322,
+              -17.3874263
+            ],
+            [
+              -66.1505083,
+              -17.3874736
+            ],
+            [
+              -66.1505792,
+              -17.3875057
+            ],
+            [
+              -66.1505869,
+              -17.3875221
+            ],
+            [
+              -66.1505836,
+              -17.38754
+            ],
+            [
+              -66.1505758,
+              -17.3875515
+            ],
+            [
+              -66.150562,
+              -17.3875584
+            ],
+            [
+              -66.1504833,
+              -17.387523
+            ]
+          ]
+        ]
+      },
+      "id": "way/577946443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/919605814",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Calampampa Mayorazgo",
+        "addr:street": "Avenida Simón Lopez",
+        "fee": "no",
+        "museum": "history",
+        "name": "Casona Mayorazgo",
+        "opening_hours": "Mo-Fr 09:00-12:00,14:30-18:30",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "government",
+        "start_date": "~1571",
+        "tourism": "museum",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1747654,
+              -17.3651629
+            ],
+            [
+              -66.1747832,
+              -17.3653059
+            ],
+            [
+              -66.174785,
+              -17.3653304
+            ],
+            [
+              -66.1747902,
+              -17.3654008
+            ],
+            [
+              -66.1747807,
+              -17.3654361
+            ],
+            [
+              -66.1747612,
+              -17.3654602
+            ],
+            [
+              -66.1743758,
+              -17.3654811
+            ],
+            [
+              -66.1743673,
+              -17.3653838
+            ],
+            [
+              -66.174355,
+              -17.365203
+            ],
+            [
+              -66.1744369,
+              -17.3651949
+            ],
+            [
+              -66.1745159,
+              -17.3651878
+            ],
+            [
+              -66.17468,
+              -17.3651704
+            ],
+            [
+              -66.1747654,
+              -17.3651629
+            ]
+          ]
+        ]
+      },
+      "id": "way/919605814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/922753333",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Cobija",
+        "addr:street": "Avenida Heroínas",
+        "building": "public",
+        "building:levels": "2",
+        "fee": "no",
+        "museum": "person",
+        "name": "Casa Museo Martín Cárdenas",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:30-18:00",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public",
+        "tourism": "museum",
+        "wikimedia_commons": "File:Frontis de la Casa Museo de Martín Cárdenas.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1607322,
+              -17.3927007
+            ],
+            [
+              -66.1607138,
+              -17.3927998
+            ],
+            [
+              -66.1606267,
+              -17.3927851
+            ],
+            [
+              -66.1606451,
+              -17.392686
+            ],
+            [
+              -66.1607322,
+              -17.3927007
+            ]
+          ]
+        ]
+      },
+      "id": "way/922753333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1038909647",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "156",
+        "addr:neighbourhood": "Gerónimo de Osorio",
+        "addr:street": "Calle Santivañez",
+        "barrier": "wall",
+        "contact:phone": "+591 4 4258030;+591 4 4276",
+        "description": "La Casoña José María Santivañez es Patrimonio Histórico de Cochabamba, de estilo Colonial-Republicano, perteneció a Don Juan Antonio Santivañez de Gazma y Barrao.",
+        "fee": "no",
+        "museum": "art",
+        "name": "Casoña José María Santivañez",
+        "opening_hours": "Mo-Fr 09:00-12:00, 14:30-18:30",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public",
+        "tourism": "museum",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1592168,
+              -17.3947167
+            ],
+            [
+              -66.159152,
+              -17.3947057
+            ],
+            [
+              -66.1591132,
+              -17.3946986
+            ],
+            [
+              -66.1590699,
+              -17.3946907
+            ],
+            [
+              -66.1589925,
+              -17.3946757
+            ],
+            [
+              -66.1590473,
+              -17.3943854
+            ],
+            [
+              -66.1590506,
+              -17.3943649
+            ],
+            [
+              -66.159064,
+              -17.3943672
+            ],
+            [
+              -66.1590801,
+              -17.3942714
+            ],
+            [
+              -66.1592008,
+              -17.3942896
+            ],
+            [
+              -66.1592026,
+              -17.3942781
+            ],
+            [
+              -66.159227,
+              -17.3941258
+            ],
+            [
+              -66.1592835,
+              -17.394134
+            ],
+            [
+              -66.1592778,
+              -17.394182
+            ],
+            [
+              -66.1593431,
+              -17.3941919
+            ],
+            [
+              -66.1593162,
+              -17.3943035
+            ],
+            [
+              -66.159234,
+              -17.394646
+            ],
+            [
+              -66.1592168,
+              -17.3947167
+            ]
+          ]
+        ]
+      },
+      "id": "way/1038909647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/70711309",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "199",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Jordán",
+        "building": "museum",
+        "building:architecture": "art_deco",
+        "building:levels": "3",
+        "name": "Edificio Instituto de Investigaciones Antropológicas y Museo Arqueológico",
+        "old_name": "Banco Central de Bolivia",
+        "operator": "Instituto de Investigaciones Antropológicas y Museo Arqueológico",
+        "wheelchair": "yes",
+        "wikimedia_commons": "File:Ex Banco Central de Bolivia.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1572627,
+              -17.3951787
+            ],
+            [
+              -66.1573434,
+              -17.395192
+            ],
+            [
+              -66.1573129,
+              -17.3953564
+            ],
+            [
+              -66.1573289,
+              -17.3953775
+            ],
+            [
+              -66.1573847,
+              -17.3953883
+            ],
+            [
+              -66.1573985,
+              -17.3953208
+            ],
+            [
+              -66.1574668,
+              -17.3953327
+            ],
+            [
+              -66.1574545,
+              -17.3953995
+            ],
+            [
+              -66.1576795,
+              -17.3954392
+            ],
+            [
+              -66.1576759,
+              -17.3954584
+            ],
+            [
+              -66.1576639,
+              -17.3954563
+            ],
+            [
+              -66.1576531,
+              -17.3955132
+            ],
+            [
+              -66.1575555,
+              -17.3954968
+            ],
+            [
+              -66.1572789,
+              -17.3954505
+            ],
+            [
+              -66.1572586,
+              -17.3954471
+            ],
+            [
+              -66.1572504,
+              -17.3954339
+            ],
+            [
+              -66.1572423,
+              -17.3954209
+            ],
+            [
+              -66.157226,
+              -17.3953946
+            ],
+            [
+              -66.1572627,
+              -17.3951787
+            ]
+          ]
+        ]
+      },
+      "id": "way/70711309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202716325",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1458",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "building": "museum",
+        "building:levels": "2",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1529189,
+              -17.3739049
+            ],
+            [
+              -66.153045,
+              -17.3739025
+            ],
+            [
+              -66.1530484,
+              -17.3740633
+            ],
+            [
+              -66.1529222,
+              -17.3740657
+            ],
+            [
+              -66.1529191,
+              -17.3739141
+            ],
+            [
+              -66.1529189,
+              -17.3739049
+            ]
+          ]
+        ]
+      },
+      "id": "way/202716325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/368486060",
+        "addr:city": "Quillacollo",
+        "addr:street": "Calle Chichas",
+        "building": "museum",
+        "museum": "history",
+        "name": "Museo Comunitario Piñami",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2550295,
+              -17.3798415
+            ],
+            [
+              -66.2550113,
+              -17.380055
+            ],
+            [
+              -66.2547995,
+              -17.3800386
+            ],
+            [
+              -66.2548177,
+              -17.379825
+            ],
+            [
+              -66.2550295,
+              -17.3798415
+            ]
+          ]
+        ]
+      },
+      "id": "way/368486060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265562663",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "284",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Avenida Heroínas",
+        "building": "commercial",
+        "building:levels": "1",
+        "contact:email": "abapnacional@hotmail.com",
+        "contact:facebook": "https://www.facebook.com/AsociacionDeArtistasPlasticosDeCochabamba",
+        "contact:phone": "+591 4 4227561",
+        "fee": "no",
+        "name": "Galería Walter Terrazas Prado",
+        "operator": "Asociación Boliviana de Artistas Plásticos",
+        "shop": "art",
+        "tourism": "gallery",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1566779,
+              -17.3923672
+            ],
+            [
+              -66.1566826,
+              -17.3923444
+            ],
+            [
+              -66.156693,
+              -17.392341
+            ],
+            [
+              -66.1567088,
+              -17.3923439
+            ],
+            [
+              -66.1568457,
+              -17.3923684
+            ],
+            [
+              -66.1568397,
+              -17.3923975
+            ],
+            [
+              -66.1566779,
+              -17.3923672
+            ]
+          ]
+        ]
+      },
+      "id": "way/265562663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2126668754",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1450",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "fee": "no",
+        "level": "-1",
+        "name": "Centro de Exposiciones",
+        "opening_hours": "Tu-Fr 15:00-18:30; Sa-Su 10:00-12:00",
+        "operator": "Centro Pedagógico y Cultural Simón Iturri Patiño",
+        "operator:type": "private_non_profit",
+        "tourism": "gallery",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1529081,
+          -17.3749564
+        ]
+      },
+      "id": "node/2126668754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2345273838",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "399",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Avenida Heroínas",
+        "fee": "no",
+        "level": "0",
+        "name": "Galería Mario Unzueta",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "tourism": "gallery",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1557417,
+          -17.3918378
+        ]
+      },
+      "id": "node/2345273838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2398944348",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Plaza 14 de Septiembre",
+        "description": "Espacio de difusión del arte antiguo, moderno y contemporáneo en general, difunde las obras de artistas, agrupaciones, institutos, centros de formación, y premios locales, nacionales e internacionales.",
+        "fee": "no",
+        "level": "0",
+        "name": "Salón de Exposiciones Gíldaro Antezana Rojas",
+        "opening_hours": "Mo-Fr 09:30-12:30,15:00-20:00; Sa 09:30-13:30; PH off",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "phone": "+591 4 4221166",
+        "tourism": "gallery",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1565485,
+          -17.3931736
+        ]
+      },
+      "id": "node/2398944348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9112306449",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "name": "Galería Paseo Aranjuez",
+        "operator": "Paseo Aranjuez",
+        "tourism": "gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1550541,
+          -17.3732147
+        ]
+      },
+      "id": "node/9112306449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9150209702",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "421",
+        "addr:neighbourhood": "Muyurina",
+        "addr:street": "Calle David Valdivieso",
+        "contact:facebook": "https://www.facebook.com/GaleriaTallerLlimpiyWasi/",
+        "contact:phone": "+591 79992709",
+        "contact:whatsapp": "+591 79992709",
+        "craft": "atelier",
+        "fee": "yes",
+        "name": "Galería Taller Llimp'iy Wasi",
+        "payment:cash": "yes",
+        "payment:qr_code": "yes",
+        "payment:transation_account": "yes",
+        "tourism": "gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1422171,
+          -17.3866034
+        ]
+      },
+      "id": "node/9150209702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9587259829",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Plaza 14 de Septiembre",
+        "fee": "no",
+        "name": "Salón Melchor Pérez de Olguín",
+        "operator": "Casa Departamental de las Culturas",
+        "operator:type": "government",
+        "tourism": "gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1572292,
+          -17.3932766
+        ]
+      },
+      "id": "node/9587259829"
+    }
+  ]
+}

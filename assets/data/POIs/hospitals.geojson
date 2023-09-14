@@ -1,0 +1,3557 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-06-16T04:56:51Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9578239",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;dialysis;gynaecology;emergency;surgery;maternity",
+        "name": "Complejo Hospitalario Viedma",
+        "operator": "Complejo Hospitalario Viedma",
+        "operator:type": "public",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1482249,
+              -17.3851675
+            ],
+            [
+              -66.148292,
+              -17.385055
+            ],
+            [
+              -66.1483188,
+              -17.3850447
+            ],
+            [
+              -66.148347,
+              -17.3850511
+            ],
+            [
+              -66.1483615,
+              -17.3850671
+            ],
+            [
+              -66.1484015,
+              -17.3851122
+            ],
+            [
+              -66.1485128,
+              -17.3852364
+            ],
+            [
+              -66.1486687,
+              -17.3854023
+            ],
+            [
+              -66.1486946,
+              -17.3854306
+            ],
+            [
+              -66.1487415,
+              -17.3854814
+            ],
+            [
+              -66.1488701,
+              -17.3856216
+            ],
+            [
+              -66.148922,
+              -17.3856784
+            ],
+            [
+              -66.1491895,
+              -17.3859728
+            ],
+            [
+              -66.1492085,
+              -17.3859937
+            ],
+            [
+              -66.1493518,
+              -17.3861472
+            ],
+            [
+              -66.14952,
+              -17.3863275
+            ],
+            [
+              -66.1495331,
+              -17.3863414
+            ],
+            [
+              -66.1496626,
+              -17.3864791
+            ],
+            [
+              -66.1498702,
+              -17.3866999
+            ],
+            [
+              -66.149956,
+              -17.3867944
+            ],
+            [
+              -66.1499668,
+              -17.3868063
+            ],
+            [
+              -66.1499777,
+              -17.3868183
+            ],
+            [
+              -66.1500563,
+              -17.3869049
+            ],
+            [
+              -66.1501976,
+              -17.3870605
+            ],
+            [
+              -66.1503034,
+              -17.387177
+            ],
+            [
+              -66.1504511,
+              -17.3873396
+            ],
+            [
+              -66.1505322,
+              -17.3874263
+            ],
+            [
+              -66.1505792,
+              -17.3875057
+            ],
+            [
+              -66.1505869,
+              -17.3875221
+            ],
+            [
+              -66.1505836,
+              -17.38754
+            ],
+            [
+              -66.1505758,
+              -17.3875515
+            ],
+            [
+              -66.150562,
+              -17.3875584
+            ],
+            [
+              -66.1504654,
+              -17.3878517
+            ],
+            [
+              -66.1505302,
+              -17.3878793
+            ],
+            [
+              -66.1505299,
+              -17.3879474
+            ],
+            [
+              -66.1505038,
+              -17.3879977
+            ],
+            [
+              -66.1504412,
+              -17.3881183
+            ],
+            [
+              -66.1504269,
+              -17.3881473
+            ],
+            [
+              -66.150413,
+              -17.3881713
+            ],
+            [
+              -66.1504345,
+              -17.3881831
+            ],
+            [
+              -66.1504405,
+              -17.3882068
+            ],
+            [
+              -66.1503701,
+              -17.3884985
+            ],
+            [
+              -66.1503005,
+              -17.3887672
+            ],
+            [
+              -66.1501837,
+              -17.388809
+            ],
+            [
+              -66.1500799,
+              -17.3888399
+            ],
+            [
+              -66.1500558,
+              -17.3888471
+            ],
+            [
+              -66.1499997,
+              -17.3888479
+            ],
+            [
+              -66.1497934,
+              -17.3888397
+            ],
+            [
+              -66.1497388,
+              -17.3888354
+            ],
+            [
+              -66.149709,
+              -17.3888281
+            ],
+            [
+              -66.1496272,
+              -17.3887911
+            ],
+            [
+              -66.1495532,
+              -17.3887195
+            ],
+            [
+              -66.1494434,
+              -17.3885703
+            ],
+            [
+              -66.1493562,
+              -17.3884487
+            ],
+            [
+              -66.149226,
+              -17.3882554
+            ],
+            [
+              -66.1490776,
+              -17.3880387
+            ],
+            [
+              -66.1490722,
+              -17.3880333
+            ],
+            [
+              -66.1489028,
+              -17.3877849
+            ],
+            [
+              -66.1487093,
+              -17.3875038
+            ],
+            [
+              -66.1486079,
+              -17.3873679
+            ],
+            [
+              -66.1486009,
+              -17.3873451
+            ],
+            [
+              -66.1486106,
+              -17.3873206
+            ],
+            [
+              -66.1486414,
+              -17.3872962
+            ],
+            [
+              -66.1486233,
+              -17.3872722
+            ],
+            [
+              -66.1486052,
+              -17.3872425
+            ],
+            [
+              -66.1485569,
+              -17.3872732
+            ],
+            [
+              -66.1482384,
+              -17.3868301
+            ],
+            [
+              -66.1481713,
+              -17.3867316
+            ],
+            [
+              -66.1481478,
+              -17.3866968
+            ],
+            [
+              -66.1481337,
+              -17.3866782
+            ],
+            [
+              -66.1481058,
+              -17.3866386
+            ],
+            [
+              -66.1477269,
+              -17.3860825
+            ],
+            [
+              -66.1476992,
+              -17.3860686
+            ],
+            [
+              -66.1476536,
+              -17.3859892
+            ],
+            [
+              -66.1476456,
+              -17.3859509
+            ],
+            [
+              -66.1476657,
+              -17.3859163
+            ],
+            [
+              -66.1478086,
+              -17.3858253
+            ],
+            [
+              -66.1479972,
+              -17.385538
+            ],
+            [
+              -66.1480143,
+              -17.3855119
+            ],
+            [
+              -66.1481705,
+              -17.3852637
+            ],
+            [
+              -66.1482249,
+              -17.3851675
+            ]
+          ]
+        ]
+      },
+      "id": "relation/9578239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/159398359",
+        "addr:city": "Sacaba",
+        "addr:neighbourhood": "Quintanilla",
+        "addr:street": "Avenida Maximiliano Kolbe",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Salomon Klein"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1101939,
+              -17.3824488
+            ],
+            [
+              -66.1104023,
+              -17.3832432
+            ],
+            [
+              -66.1103222,
+              -17.3832668
+            ],
+            [
+              -66.1102123,
+              -17.3832923
+            ],
+            [
+              -66.1102256,
+              -17.3833445
+            ],
+            [
+              -66.1102387,
+              -17.3833891
+            ],
+            [
+              -66.1095671,
+              -17.3835221
+            ],
+            [
+              -66.1095108,
+              -17.3834606
+            ],
+            [
+              -66.1093085,
+              -17.3827173
+            ],
+            [
+              -66.1094276,
+              -17.3826853
+            ],
+            [
+              -66.1094982,
+              -17.3826663
+            ],
+            [
+              -66.1095883,
+              -17.3826389
+            ],
+            [
+              -66.1096913,
+              -17.3826076
+            ],
+            [
+              -66.1097644,
+              -17.3825853
+            ],
+            [
+              -66.1099892,
+              -17.382517
+            ],
+            [
+              -66.1101939,
+              -17.3824488
+            ]
+          ]
+        ]
+      },
+      "id": "way/159398359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160442271",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Las Delicias",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Obrero N° 2",
+        "operator": "Caja Nacional de Salud",
+        "operator:type": "public",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2064859,
+              -17.3927585
+            ],
+            [
+              -66.2065013,
+              -17.3930836
+            ],
+            [
+              -66.2065355,
+              -17.3938063
+            ],
+            [
+              -66.2065751,
+              -17.394644
+            ],
+            [
+              -66.2065774,
+              -17.3946921
+            ],
+            [
+              -66.206579,
+              -17.3947296
+            ],
+            [
+              -66.2065803,
+              -17.3947559
+            ],
+            [
+              -66.206586,
+              -17.3948723
+            ],
+            [
+              -66.206587,
+              -17.3948935
+            ],
+            [
+              -66.2065914,
+              -17.3949891
+            ],
+            [
+              -66.2066137,
+              -17.3954594
+            ],
+            [
+              -66.2063131,
+              -17.39548
+            ],
+            [
+              -66.2062796,
+              -17.3954826
+            ],
+            [
+              -66.2049178,
+              -17.3955866
+            ],
+            [
+              -66.2048917,
+              -17.3949114
+            ],
+            [
+              -66.2048748,
+              -17.39459
+            ],
+            [
+              -66.20481,
+              -17.3933514
+            ],
+            [
+              -66.2047866,
+              -17.3929051
+            ],
+            [
+              -66.2047788,
+              -17.3927459
+            ],
+            [
+              -66.204857,
+              -17.392682
+            ],
+            [
+              -66.2049934,
+              -17.3926745
+            ],
+            [
+              -66.2050119,
+              -17.3926735
+            ],
+            [
+              -66.2050346,
+              -17.3926723
+            ],
+            [
+              -66.2050767,
+              -17.3926709
+            ],
+            [
+              -66.2056324,
+              -17.3926418
+            ],
+            [
+              -66.2056867,
+              -17.3926357
+            ],
+            [
+              -66.2059321,
+              -17.39263
+            ],
+            [
+              -66.2059359,
+              -17.3927804
+            ],
+            [
+              -66.2064859,
+              -17.3927585
+            ]
+          ]
+        ]
+      },
+      "id": "way/160442271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160442273",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Urbanización Seton",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Elizabeth Seton",
+        "operator": "Caja Petrolera de Salud",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2045772,
+              -17.3926912
+            ],
+            [
+              -66.2046262,
+              -17.3927469
+            ],
+            [
+              -66.2046486,
+              -17.3932178
+            ],
+            [
+              -66.2046563,
+              -17.3933796
+            ],
+            [
+              -66.2047208,
+              -17.3946129
+            ],
+            [
+              -66.2047729,
+              -17.3955362
+            ],
+            [
+              -66.2047613,
+              -17.3955703
+            ],
+            [
+              -66.2047325,
+              -17.3955938
+            ],
+            [
+              -66.2033516,
+              -17.3956047
+            ],
+            [
+              -66.203316,
+              -17.3955757
+            ],
+            [
+              -66.2033065,
+              -17.3953506
+            ],
+            [
+              -66.203255,
+              -17.3941446
+            ],
+            [
+              -66.2031907,
+              -17.3928373
+            ],
+            [
+              -66.2032002,
+              -17.3928051
+            ],
+            [
+              -66.2032189,
+              -17.3927709
+            ],
+            [
+              -66.2032561,
+              -17.3927524
+            ],
+            [
+              -66.2037971,
+              -17.3927265
+            ],
+            [
+              -66.2042637,
+              -17.3927042
+            ],
+            [
+              -66.2043191,
+              -17.3927015
+            ],
+            [
+              -66.2043739,
+              -17.3926993
+            ],
+            [
+              -66.2045574,
+              -17.3926919
+            ],
+            [
+              -66.2045772,
+              -17.3926912
+            ]
+          ]
+        ]
+      },
+      "id": "way/160442273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/217378793",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Acacias",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "contact:email": "fterrazasi@hospital.univalle.edu",
+        "contact:facebook": "https://www.facebook.com/HospitalUnivalleSur/",
+        "contact:phone": "+591 4 4218421;+591 4 4218104;+591 4 4219381;+591 4 4219389;+591 4 4217075",
+        "contact:website": "http://hospitalunivalle.com.bo/hospital-del-sud/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;laboratory;surgery;paediatrics;oncology;ophthalmology;nephrology;urology;otorhinolaryngology;traumatology;gastroenterology;neurology;cardiology",
+        "name": "Hospital Univalle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1325632,
+              -17.4217346
+            ],
+            [
+              -66.1325661,
+              -17.4216331
+            ],
+            [
+              -66.132569,
+              -17.421552
+            ],
+            [
+              -66.1325789,
+              -17.4213502
+            ],
+            [
+              -66.1325797,
+              -17.42132
+            ],
+            [
+              -66.1325892,
+              -17.4211885
+            ],
+            [
+              -66.132595,
+              -17.4211342
+            ],
+            [
+              -66.1326222,
+              -17.4211104
+            ],
+            [
+              -66.1326396,
+              -17.4211062
+            ],
+            [
+              -66.1328188,
+              -17.4211112
+            ],
+            [
+              -66.1328837,
+              -17.4211137
+            ],
+            [
+              -66.1329521,
+              -17.4211163
+            ],
+            [
+              -66.1331181,
+              -17.4211276
+            ],
+            [
+              -66.1331397,
+              -17.4211361
+            ],
+            [
+              -66.1331572,
+              -17.4211522
+            ],
+            [
+              -66.1331654,
+              -17.4211678
+            ],
+            [
+              -66.1331512,
+              -17.4213798
+            ],
+            [
+              -66.1331321,
+              -17.4216973
+            ],
+            [
+              -66.1331276,
+              -17.4217556
+            ],
+            [
+              -66.1330757,
+              -17.421752
+            ],
+            [
+              -66.1330331,
+              -17.4217496
+            ],
+            [
+              -66.1328896,
+              -17.4217479
+            ],
+            [
+              -66.132738,
+              -17.421743
+            ],
+            [
+              -66.132615,
+              -17.4217369
+            ],
+            [
+              -66.1325632,
+              -17.4217346
+            ]
+          ]
+        ]
+      },
+      "id": "way/217378793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221314638",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "555",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "hospital",
+        "barrier": "fence",
+        "contact:facebook": "https://www.facebook.com/CentroAlbinaPatino",
+        "description": "El centro de pediatría trabaja en el campo médico con atención en medicina, laboratorio, el campo de la enseñanza a estudiantes prey postgrado, y el campo de la investigación.",
+        "email": "pediatria@fundacionpatino.org",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;nutrition;psychiatry;cardiology;surgery;nephrology",
+        "name": "Centro de Pediatría Albina Rodrigues de Patiño",
+        "opening_hours": "24/7",
+        "operator": "Fundación Universitaria Simón Iturri Patiño",
+        "operator:type": "private_non_profit",
+        "phone": "+591 4 4229316;+591 4 4258727",
+        "start_date": "1967",
+        "website": "https://pediatria.fundacionpatino.org/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1498283,
+              -17.3942512
+            ],
+            [
+              -66.1497084,
+              -17.3948904
+            ],
+            [
+              -66.1496614,
+              -17.3951466
+            ],
+            [
+              -66.14964,
+              -17.3951427
+            ],
+            [
+              -66.1494691,
+              -17.3951119
+            ],
+            [
+              -66.1493434,
+              -17.3950893
+            ],
+            [
+              -66.1493223,
+              -17.3950642
+            ],
+            [
+              -66.1493193,
+              -17.395039
+            ],
+            [
+              -66.149383,
+              -17.3947242
+            ],
+            [
+              -66.1494103,
+              -17.3947011
+            ],
+            [
+              -66.1494238,
+              -17.3946332
+            ],
+            [
+              -66.1494373,
+              -17.3945652
+            ],
+            [
+              -66.1494208,
+              -17.3945407
+            ],
+            [
+              -66.1494503,
+              -17.3943924
+            ],
+            [
+              -66.1494755,
+              -17.3942658
+            ],
+            [
+              -66.1494777,
+              -17.3942445
+            ],
+            [
+              -66.1494956,
+              -17.3942133
+            ],
+            [
+              -66.1495299,
+              -17.3941998
+            ],
+            [
+              -66.1495851,
+              -17.3942093
+            ],
+            [
+              -66.1498134,
+              -17.3942487
+            ],
+            [
+              -66.1498283,
+              -17.3942512
+            ]
+          ]
+        ]
+      },
+      "id": "way/221314638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/225195036",
+        "addr:city": "Colcapirhua",
+        "addr:neighbourhood": "Colcapirhua Central",
+        "addr:postcode": "CBA",
+        "addr:street": "Avenida La Paz",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Andrés Cushieri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.239728,
+              -17.3857425
+            ],
+            [
+              -66.2394013,
+              -17.3850335
+            ],
+            [
+              -66.2403953,
+              -17.3849744
+            ],
+            [
+              -66.2404818,
+              -17.3856034
+            ],
+            [
+              -66.2404577,
+              -17.3856408
+            ],
+            [
+              -66.239728,
+              -17.3857425
+            ]
+          ]
+        ]
+      },
+      "id": "way/225195036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/226825198",
+        "addr:city": "Quillacollo",
+        "addr:street": "Avenida Blanco Galindo",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "loc_name": "CIMFA Quillacollo",
+        "name": "Centro Integral de Medicina Familiar Quillacollo",
+        "old_name": "Centro Oncológico",
+        "operator": "Caja Nacional de Salud",
+        "operator:type": "public",
+        "phone": "+591 4 4251150",
+        "website": "http://www.cnscbba.gob.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2574159,
+              -17.392085
+            ],
+            [
+              -66.2574599,
+              -17.3932343
+            ],
+            [
+              -66.2564743,
+              -17.3932787
+            ],
+            [
+              -66.2564864,
+              -17.3919975
+            ],
+            [
+              -66.2565259,
+              -17.3920029
+            ],
+            [
+              -66.256754,
+              -17.3920245
+            ],
+            [
+              -66.2574159,
+              -17.392085
+            ]
+          ]
+        ]
+      },
+      "id": "way/226825198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231406777",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Ramón Rivero",
+        "alt_name": "Hospital COSSMIL",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "branch": "Regional Cochabamba",
+        "contact:website": "http://www.cossmil.mil.bo/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Corporación de Seguro Social Militar 1",
+        "operator": "Ejército de Bolivia",
+        "operator:type": "military"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1452734,
+              -17.3798142
+            ],
+            [
+              -66.145228,
+              -17.3797982
+            ],
+            [
+              -66.1449744,
+              -17.379709
+            ],
+            [
+              -66.1449298,
+              -17.3796933
+            ],
+            [
+              -66.1448243,
+              -17.3796581
+            ],
+            [
+              -66.1447862,
+              -17.3796409
+            ],
+            [
+              -66.1442602,
+              -17.3794584
+            ],
+            [
+              -66.1443124,
+              -17.379311
+            ],
+            [
+              -66.1443839,
+              -17.3790995
+            ],
+            [
+              -66.1443799,
+              -17.3790814
+            ],
+            [
+              -66.1443353,
+              -17.3788431
+            ],
+            [
+              -66.1444866,
+              -17.3788173
+            ],
+            [
+              -66.144762,
+              -17.3787699
+            ],
+            [
+              -66.1452417,
+              -17.3786922
+            ],
+            [
+              -66.1453323,
+              -17.3786776
+            ],
+            [
+              -66.145362,
+              -17.3785616
+            ],
+            [
+              -66.1453916,
+              -17.3784379
+            ],
+            [
+              -66.1454269,
+              -17.3783036
+            ],
+            [
+              -66.1455455,
+              -17.3783334
+            ],
+            [
+              -66.1456893,
+              -17.3783712
+            ],
+            [
+              -66.1456548,
+              -17.3785162
+            ],
+            [
+              -66.1456154,
+              -17.3786558
+            ],
+            [
+              -66.1455706,
+              -17.3788161
+            ],
+            [
+              -66.1455276,
+              -17.3789735
+            ],
+            [
+              -66.1454698,
+              -17.3791862
+            ],
+            [
+              -66.145464,
+              -17.3792093
+            ],
+            [
+              -66.1454136,
+              -17.379377
+            ],
+            [
+              -66.1454021,
+              -17.3794151
+            ],
+            [
+              -66.1453926,
+              -17.3794497
+            ],
+            [
+              -66.1453519,
+              -17.3795721
+            ],
+            [
+              -66.1453332,
+              -17.3796297
+            ],
+            [
+              -66.1452734,
+              -17.3798142
+            ]
+          ]
+        ]
+      },
+      "id": "way/231406777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/246567541",
+        "addr:city": "Colcapirhua",
+        "addr:neighbourhood": "Canada",
+        "addr:street": "Calle 21 de Diciembre",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Municipal de Colcapirhua",
+        "operator": "GAMC",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2279284,
+              -17.3929951
+            ],
+            [
+              -66.2279481,
+              -17.393504
+            ],
+            [
+              -66.2274582,
+              -17.3934965
+            ],
+            [
+              -66.2274438,
+              -17.3930119
+            ],
+            [
+              -66.2279284,
+              -17.3929951
+            ]
+          ]
+        ]
+      },
+      "id": "way/246567541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/246745940",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital México"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.0350971,
+              -17.4012526
+            ],
+            [
+              -66.0349549,
+              -17.4010794
+            ],
+            [
+              -66.0344346,
+              -17.4004311
+            ],
+            [
+              -66.033956,
+              -17.3998617
+            ],
+            [
+              -66.0346888,
+              -17.3995483
+            ],
+            [
+              -66.035044,
+              -17.4000997
+            ],
+            [
+              -66.0351695,
+              -17.4002365
+            ],
+            [
+              -66.0356497,
+              -17.4007779
+            ],
+            [
+              -66.0358416,
+              -17.4009246
+            ],
+            [
+              -66.0358577,
+              -17.4009455
+            ],
+            [
+              -66.0358522,
+              -17.4009724
+            ],
+            [
+              -66.0358321,
+              -17.4010018
+            ],
+            [
+              -66.0352004,
+              -17.4012642
+            ],
+            [
+              -66.0351393,
+              -17.4012679
+            ],
+            [
+              -66.0350971,
+              -17.4012526
+            ]
+          ]
+        ]
+      },
+      "id": "way/246745940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/348348912",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1038",
+        "addr:street": "Avenida Suecia",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "contact:email": "informaciones@hospitalharrywilliams.org",
+        "contact:facebook": "https://www.facebook.com/HOSPITALHARRYWILLIAMS/",
+        "contact:phone": "+591 4 4747432;+591 4 4227778;+591 4 4745329;+591 4 4745612",
+        "contact:website": "http://www.hospitalharrywilliams.org/",
+        "emergency": "yes",
+        "health_facility:type": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;internal;gynaecology;paediatrics;surgery",
+        "medical_system:western": "yes",
+        "name": "Hospital Harry Williams",
+        "operator": "Ejército de Salvación",
+        "operator:type": "religious",
+        "start_date": "1978-05-23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1472681,
+              -17.4196414
+            ],
+            [
+              -66.1473039,
+              -17.4200694
+            ],
+            [
+              -66.147255,
+              -17.4201159
+            ],
+            [
+              -66.1465139,
+              -17.4201519
+            ],
+            [
+              -66.1464887,
+              -17.4201362
+            ],
+            [
+              -66.1464688,
+              -17.420119
+            ],
+            [
+              -66.1464708,
+              -17.4201008
+            ],
+            [
+              -66.1464645,
+              -17.4199542
+            ],
+            [
+              -66.1464503,
+              -17.4197383
+            ],
+            [
+              -66.1464523,
+              -17.4197215
+            ],
+            [
+              -66.1464575,
+              -17.4197095
+            ],
+            [
+              -66.1464669,
+              -17.4196981
+            ],
+            [
+              -66.1464772,
+              -17.4196883
+            ],
+            [
+              -66.1464932,
+              -17.4196792
+            ],
+            [
+              -66.1465058,
+              -17.4196726
+            ],
+            [
+              -66.1467923,
+              -17.4196619
+            ],
+            [
+              -66.1472556,
+              -17.4196426
+            ],
+            [
+              -66.1472681,
+              -17.4196414
+            ]
+          ]
+        ]
+      },
+      "id": "way/348348912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/348505311",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "contact:phone": "+591 4 4288039",
+        "health_facility:type": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "oncology",
+        "name": "Instituto Oncológico Nacional",
+        "office": "research",
+        "operator": "CPS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2000287,
+              -17.3528024
+            ],
+            [
+              -66.1999975,
+              -17.3528024
+            ],
+            [
+              -66.1999598,
+              -17.3527842
+            ],
+            [
+              -66.1999352,
+              -17.3527661
+            ],
+            [
+              -66.1998235,
+              -17.3524284
+            ],
+            [
+              -66.2004274,
+              -17.3521063
+            ],
+            [
+              -66.2006417,
+              -17.3525713
+            ],
+            [
+              -66.2005209,
+              -17.3526505
+            ],
+            [
+              -66.2004881,
+              -17.3526626
+            ],
+            [
+              -66.2004611,
+              -17.3526726
+            ],
+            [
+              -66.2000287,
+              -17.3528024
+            ]
+          ]
+        ]
+      },
+      "id": "way/348505311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/364815615",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Venezuela",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "2",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "gastroenterology;emergency",
+        "name": "Instituto Gastroenterológico Boliviano-Japonés",
+        "office": "research",
+        "short_name": "IGBJ",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1493616,
+              -17.3863834
+            ],
+            [
+              -66.1493051,
+              -17.3864311
+            ],
+            [
+              -66.1493778,
+              -17.3865095
+            ],
+            [
+              -66.1492012,
+              -17.3866586
+            ],
+            [
+              -66.1490565,
+              -17.3865026
+            ],
+            [
+              -66.1491418,
+              -17.3864306
+            ],
+            [
+              -66.149069,
+              -17.3863521
+            ],
+            [
+              -66.1490372,
+              -17.386379
+            ],
+            [
+              -66.1489285,
+              -17.3862618
+            ],
+            [
+              -66.1489128,
+              -17.386275
+            ],
+            [
+              -66.1488003,
+              -17.3861537
+            ],
+            [
+              -66.1488843,
+              -17.3860827
+            ],
+            [
+              -66.1489794,
+              -17.3860024
+            ],
+            [
+              -66.1490908,
+              -17.3861226
+            ],
+            [
+              -66.149107,
+              -17.3861089
+            ],
+            [
+              -66.149233,
+              -17.3862448
+            ],
+            [
+              -66.1493616,
+              -17.3863834
+            ]
+          ]
+        ]
+      },
+      "id": "way/364815615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424476737",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Toribio Torrico",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital de Tiquipaya",
+        "operator": "Gobierno Autónomo Municipal de Tiquipaya",
+        "operator:type": "government",
+        "phone": "+591 4 4316729;+591 4 4316301"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2177508,
+              -17.3371029
+            ],
+            [
+              -66.2175983,
+              -17.3371554
+            ],
+            [
+              -66.2174428,
+              -17.3372111
+            ],
+            [
+              -66.2173387,
+              -17.3369314
+            ],
+            [
+              -66.2176467,
+              -17.3368232
+            ],
+            [
+              -66.2176988,
+              -17.336963
+            ],
+            [
+              -66.2177508,
+              -17.3371029
+            ]
+          ]
+        ]
+      },
+      "id": "way/424476737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/446598687",
+        "addr:city": "Sipe Sipe",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Señor de Milagros"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3527638,
+              -17.4549973
+            ],
+            [
+              -66.352629,
+              -17.455345
+            ],
+            [
+              -66.3523065,
+              -17.4553218
+            ],
+            [
+              -66.3522711,
+              -17.4552986
+            ],
+            [
+              -66.3522601,
+              -17.4552459
+            ],
+            [
+              -66.3524081,
+              -17.4549404
+            ],
+            [
+              -66.3527638,
+              -17.4549973
+            ]
+          ]
+        ]
+      },
+      "id": "way/446598687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509712976",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Oquendo",
+        "alt_name": "Oncología Pediátrica",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "4",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "oncology;paediatrics",
+        "name": "Hospital del Niño Manuel Ascencio Villarroel",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1504083,
+              -17.3881975
+            ],
+            [
+              -66.1504047,
+              -17.3882182
+            ],
+            [
+              -66.1503683,
+              -17.388428
+            ],
+            [
+              -66.1502895,
+              -17.3883922
+            ],
+            [
+              -66.1501701,
+              -17.3883356
+            ],
+            [
+              -66.1502782,
+              -17.3881359
+            ],
+            [
+              -66.1504083,
+              -17.3881975
+            ]
+          ]
+        ]
+      },
+      "id": "way/509712976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/515143308",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Las Delicias",
+        "addr:street": "Calle Serranía de Caiza",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;gynaecology;dentistry;maternity",
+        "name": "Hospital del Sur",
+        "opening_hours": "24/7",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1509004,
+              -17.4500904
+            ],
+            [
+              -66.1508889,
+              -17.4509379
+            ],
+            [
+              -66.1508599,
+              -17.4509382
+            ],
+            [
+              -66.1499158,
+              -17.4509489
+            ],
+            [
+              -66.1499142,
+              -17.4507689
+            ],
+            [
+              -66.1499104,
+              -17.4503635
+            ],
+            [
+              -66.1499099,
+              -17.450307
+            ],
+            [
+              -66.1499081,
+              -17.4501087
+            ],
+            [
+              -66.150165,
+              -17.450104
+            ],
+            [
+              -66.1506713,
+              -17.4500946
+            ],
+            [
+              -66.1509004,
+              -17.4500904
+            ]
+          ]
+        ]
+      },
+      "id": "way/515143308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/515327695",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Antonio",
+        "addr:street": "Calle Nataniel Aguirre",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Cochabamba",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1561737,
+              -17.4006846
+            ],
+            [
+              -66.1561228,
+              -17.4007166
+            ],
+            [
+              -66.1557412,
+              -17.4006616
+            ],
+            [
+              -66.1557465,
+              -17.400627
+            ],
+            [
+              -66.1557359,
+              -17.4004434
+            ],
+            [
+              -66.1556916,
+              -17.4004306
+            ],
+            [
+              -66.1556594,
+              -17.4003244
+            ],
+            [
+              -66.1555749,
+              -17.4003193
+            ],
+            [
+              -66.1555226,
+              -17.400158
+            ],
+            [
+              -66.1557023,
+              -17.4001337
+            ],
+            [
+              -66.1560617,
+              -17.4001555
+            ],
+            [
+              -66.1560544,
+              -17.4002348
+            ],
+            [
+              -66.1562602,
+              -17.4002617
+            ],
+            [
+              -66.1561737,
+              -17.4006846
+            ]
+          ]
+        ]
+      },
+      "id": "way/515327695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/575151262",
+        "addr:city": "Ticti Norte",
+        "amenity": "hospital",
+        "building:levels": "3",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital de Ticti Norte",
+        "operator": "MinSalud",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1657881,
+              -17.3459166
+            ],
+            [
+              -66.1658756,
+              -17.3460653
+            ],
+            [
+              -66.1658312,
+              -17.3460891
+            ],
+            [
+              -66.1658747,
+              -17.3461631
+            ],
+            [
+              -66.1657781,
+              -17.3462149
+            ],
+            [
+              -66.1657463,
+              -17.3461609
+            ],
+            [
+              -66.1657349,
+              -17.346167
+            ],
+            [
+              -66.1657685,
+              -17.3462242
+            ],
+            [
+              -66.1656477,
+              -17.346289
+            ],
+            [
+              -66.1656247,
+              -17.3462499
+            ],
+            [
+              -66.1655938,
+              -17.3462665
+            ],
+            [
+              -66.1655367,
+              -17.3461695
+            ],
+            [
+              -66.1655217,
+              -17.3461441
+            ],
+            [
+              -66.1655509,
+              -17.3461284
+            ],
+            [
+              -66.1655316,
+              -17.3460957
+            ],
+            [
+              -66.1655986,
+              -17.3460598
+            ],
+            [
+              -66.1656141,
+              -17.346086
+            ],
+            [
+              -66.165759,
+              -17.3460083
+            ],
+            [
+              -66.165725,
+              -17.3459505
+            ],
+            [
+              -66.1657881,
+              -17.3459166
+            ]
+          ]
+        ]
+      },
+      "id": "way/575151262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/578658472",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;psycology;infectious_desease;nutrition;physical_therapy;urology;dermatology;otorhinolaryngology;surgery;anesthesiology;trauma;cardiology;endocrinology;rheumatology;gynaecology;dentistry;nephrology;gastroenterology;neurology;paediatrics;ophthalmolo",
+        "name": "Seguro Social Universitario de Cochabamba",
+        "operator": "Ministerio de Salud y Deportes",
+        "operator:short": "MinSalud",
+        "operator:type": "government",
+        "operator:wikidata": "Q44225411",
+        "phone": "+591 4 4232989;+591 4 4533550",
+        "reservation": "yes",
+        "short_name": "SSU CBBA",
+        "start_date": "1974-05-06",
+        "website": "https://ssucbba.org/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1487414,
+              -17.3878888
+            ],
+            [
+              -66.1487867,
+              -17.3879608
+            ],
+            [
+              -66.1488321,
+              -17.3880328
+            ],
+            [
+              -66.1486278,
+              -17.3881318
+            ],
+            [
+              -66.1486805,
+              -17.3882138
+            ],
+            [
+              -66.1482684,
+              -17.3884492
+            ],
+            [
+              -66.1483514,
+              -17.38859
+            ],
+            [
+              -66.1483127,
+              -17.3886123
+            ],
+            [
+              -66.1481317,
+              -17.388717
+            ],
+            [
+              -66.1479855,
+              -17.3888014
+            ],
+            [
+              -66.1477515,
+              -17.3883657
+            ],
+            [
+              -66.1478185,
+              -17.3883329
+            ],
+            [
+              -66.1476925,
+              -17.3879874
+            ],
+            [
+              -66.1477976,
+              -17.3879503
+            ],
+            [
+              -66.1481147,
+              -17.3878382
+            ],
+            [
+              -66.1482828,
+              -17.3881013
+            ],
+            [
+              -66.1487414,
+              -17.3878888
+            ]
+          ]
+        ]
+      },
+      "id": "way/578658472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/686522943",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Antezana",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "contact:email": "administracion@cmqbb.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Belga CMQBB",
+        "operator": "Hospital Belga CMQBB",
+        "operator:type": "private",
+        "website": "http://www.cmqbb.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1537463,
+              -17.3874736
+            ],
+            [
+              -66.1536733,
+              -17.387729
+            ],
+            [
+              -66.1536474,
+              -17.3877237
+            ],
+            [
+              -66.1535957,
+              -17.3879512
+            ],
+            [
+              -66.1534009,
+              -17.3879166
+            ],
+            [
+              -66.1534179,
+              -17.3878418
+            ],
+            [
+              -66.153451,
+              -17.3876968
+            ],
+            [
+              -66.1531808,
+              -17.3876146
+            ],
+            [
+              -66.1531872,
+              -17.3875895
+            ],
+            [
+              -66.1532447,
+              -17.3873642
+            ],
+            [
+              -66.1536804,
+              -17.3874756
+            ],
+            [
+              -66.1536869,
+              -17.3874578
+            ],
+            [
+              -66.1537463,
+              -17.3874736
+            ]
+          ]
+        ]
+      },
+      "id": "way/686522943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689833534",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1383",
+        "addr:neighbourhood": "Carmela Cerruto",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital COMBASE",
+        "operator": "Hospital COMBASE",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1421966,
+              -17.3989334
+            ],
+            [
+              -66.1421409,
+              -17.3989243
+            ],
+            [
+              -66.1420656,
+              -17.3989118
+            ],
+            [
+              -66.1420009,
+              -17.3988588
+            ],
+            [
+              -66.1420352,
+              -17.3986699
+            ],
+            [
+              -66.1420422,
+              -17.3986314
+            ],
+            [
+              -66.1422452,
+              -17.3986649
+            ],
+            [
+              -66.1421966,
+              -17.3989334
+            ]
+          ]
+        ]
+      },
+      "id": "way/689833534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/737804744",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Calle Tupak Amaru",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "8",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;maternity",
+        "name": "Hospital UniValle Norte",
+        "opening_hours": "24/7",
+        "operator": "UniValle",
+        "operator:type": "private",
+        "phone": "+591 76448990",
+        "website": "http://hospitalunivalle.com.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1610899,
+              -17.3720886
+            ],
+            [
+              -66.1608005,
+              -17.3721021
+            ],
+            [
+              -66.1608013,
+              -17.3721168
+            ],
+            [
+              -66.1606785,
+              -17.3721226
+            ],
+            [
+              -66.1606719,
+              -17.371995
+            ],
+            [
+              -66.1607223,
+              -17.3719926
+            ],
+            [
+              -66.1607207,
+              -17.3719616
+            ],
+            [
+              -66.160833,
+              -17.371955
+            ],
+            [
+              -66.1610821,
+              -17.3719394
+            ],
+            [
+              -66.1610865,
+              -17.3720426
+            ],
+            [
+              -66.1610879,
+              -17.3720652
+            ],
+            [
+              -66.1610899,
+              -17.3720886
+            ]
+          ]
+        ]
+      },
+      "id": "way/737804744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738459330",
+        "addr:city": "Quillacollo",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "C.S. Combuyo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3409666,
+              -17.3620197
+            ],
+            [
+              -66.3408942,
+              -17.3623167
+            ],
+            [
+              -66.3405133,
+              -17.3622322
+            ],
+            [
+              -66.3405563,
+              -17.3620581
+            ],
+            [
+              -66.3409666,
+              -17.3620197
+            ]
+          ]
+        ]
+      },
+      "id": "way/738459330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/755797631",
+        "addr:city": "Quillacollo",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Benigno Sanchez",
+        "old_name": "Hospital Villa Moderna"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2818342,
+              -17.3880639
+            ],
+            [
+              -66.2816702,
+              -17.3880516
+            ],
+            [
+              -66.2814132,
+              -17.3880324
+            ],
+            [
+              -66.2812254,
+              -17.3880183
+            ],
+            [
+              -66.2812158,
+              -17.388007
+            ],
+            [
+              -66.2812062,
+              -17.3879955
+            ],
+            [
+              -66.2812222,
+              -17.3878069
+            ],
+            [
+              -66.2813353,
+              -17.3878141
+            ],
+            [
+              -66.2813413,
+              -17.38775
+            ],
+            [
+              -66.2814322,
+              -17.3877543
+            ],
+            [
+              -66.2814556,
+              -17.3874334
+            ],
+            [
+              -66.2818865,
+              -17.3874652
+            ],
+            [
+              -66.2818884,
+              -17.3874353
+            ],
+            [
+              -66.2819114,
+              -17.3874357
+            ],
+            [
+              -66.2820711,
+              -17.3874441
+            ],
+            [
+              -66.2820676,
+              -17.3875415
+            ],
+            [
+              -66.2818811,
+              -17.3875274
+            ],
+            [
+              -66.2818522,
+              -17.3878447
+            ],
+            [
+              -66.2818446,
+              -17.3879422
+            ],
+            [
+              -66.2818342,
+              -17.3880639
+            ]
+          ]
+        ]
+      },
+      "id": "way/755797631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785505919",
+        "addr:city": "Sacaba",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Amancayas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.090557,
+              -17.3831535
+            ],
+            [
+              -66.0903206,
+              -17.3832534
+            ],
+            [
+              -66.0899961,
+              -17.3823929
+            ],
+            [
+              -66.0898242,
+              -17.3819304
+            ],
+            [
+              -66.0900804,
+              -17.3818274
+            ],
+            [
+              -66.090557,
+              -17.3831535
+            ]
+          ]
+        ]
+      },
+      "id": "way/785505919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/812721602",
+        "addr:city": "Quillacollo",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Centro de Salud El Paso",
+        "operator": "Minsalud",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.2679661,
+              -17.3418089
+            ],
+            [
+              -66.2679543,
+              -17.3421314
+            ],
+            [
+              -66.2676388,
+              -17.3421314
+            ],
+            [
+              -66.2676564,
+              -17.3418257
+            ],
+            [
+              -66.2676917,
+              -17.3418033
+            ],
+            [
+              -66.2679661,
+              -17.3418089
+            ]
+          ]
+        ]
+      },
+      "id": "way/812721602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821656784",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "541",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Calle Mariano Baptista",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital San Vicente de Paul",
+        "operator:type": "private",
+        "phone": "+591 4 4254321;591 4 4254352"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1593683,
+              -17.3876755
+            ],
+            [
+              -66.1593642,
+              -17.3876971
+            ],
+            [
+              -66.1593238,
+              -17.3879083
+            ],
+            [
+              -66.1593202,
+              -17.3879271
+            ],
+            [
+              -66.1591821,
+              -17.3879151
+            ],
+            [
+              -66.1591821,
+              -17.387957
+            ],
+            [
+              -66.1590127,
+              -17.387943
+            ],
+            [
+              -66.1590252,
+              -17.3878312
+            ],
+            [
+              -66.158874,
+              -17.3878144
+            ],
+            [
+              -66.1586675,
+              -17.3877913
+            ],
+            [
+              -66.1586926,
+              -17.3876556
+            ],
+            [
+              -66.158929,
+              -17.3877095
+            ],
+            [
+              -66.1589415,
+              -17.3876536
+            ],
+            [
+              -66.1590733,
+              -17.3876695
+            ],
+            [
+              -66.1590892,
+              -17.3876224
+            ],
+            [
+              -66.1591445,
+              -17.3876334
+            ],
+            [
+              -66.1592371,
+              -17.3876508
+            ],
+            [
+              -66.1593683,
+              -17.3876755
+            ]
+          ]
+        ]
+      },
+      "id": "way/821656784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849965445",
+        "addr:city": "Vinto",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Municipal de Vinto",
+        "operator": "Gobierno Autónomo Municipal de Vinto",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3188226,
+              -17.3970417
+            ],
+            [
+              -66.3188025,
+              -17.3973127
+            ],
+            [
+              -66.3188013,
+              -17.3973294
+            ],
+            [
+              -66.3181648,
+              -17.397296
+            ],
+            [
+              -66.3182328,
+              -17.3970007
+            ],
+            [
+              -66.3184753,
+              -17.3970182
+            ],
+            [
+              -66.3188226,
+              -17.3970417
+            ]
+          ]
+        ]
+      },
+      "id": "way/849965445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853546370",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "amenity": "hospital",
+        "contact:phone": "+591 4 4408801;+591 4 4408806",
+        "contact:website": "http://www.clinicalosolivos.com/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Clínica Los Olivos",
+        "opening_hours": "24/7",
+        "operator": "Clínica Los Olivos",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.179946,
+              -17.3892088
+            ],
+            [
+              -66.1800271,
+              -17.3894857
+            ],
+            [
+              -66.180087,
+              -17.3896901
+            ],
+            [
+              -66.1796313,
+              -17.3898076
+            ],
+            [
+              -66.1795725,
+              -17.3895924
+            ],
+            [
+              -66.1794989,
+              -17.3893229
+            ],
+            [
+              -66.1795183,
+              -17.389308
+            ],
+            [
+              -66.179946,
+              -17.3892088
+            ]
+          ]
+        ]
+      },
+      "id": "way/853546370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/866768602",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1253",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Calle Potosí",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/clinicacopacabana/",
+        "contact:whatsapp": "+591 79959570",
+        "email": "informaciones@clinicacopacabana.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology;surgery;oncology;plastic_surgery;dermatology;endocrinology;physiatry;gastroenterology;gynaecology;laboratory;internal;general;nephrology;neurology;ophthalmology;paediatrics;psychiatry;radiology;intensive;trauma;urology",
+        "name": "Clínica Copacabana",
+        "opening_hours": "24/7",
+        "operator": "Clínica Copacabana",
+        "operator:type": "private",
+        "phone": "+591 79959570;+591 4 4242362;+591 4 4281125",
+        "short_name": "CC",
+        "start_date": "~1948",
+        "website": "https://www.clinicacopacabana.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1544232,
+              -17.3776543
+            ],
+            [
+              -66.1544598,
+              -17.3779307
+            ],
+            [
+              -66.1541664,
+              -17.377949
+            ],
+            [
+              -66.1541267,
+              -17.3779505
+            ],
+            [
+              -66.1541012,
+              -17.3776434
+            ],
+            [
+              -66.1541411,
+              -17.3776458
+            ],
+            [
+              -66.1544232,
+              -17.3776543
+            ]
+          ]
+        ]
+      },
+      "id": "way/866768602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/897742246",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Calle Juan Crisóstomo Carrillo",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital Aranjuez",
+        "operator": "Hospital Aranjuez",
+        "operator:type": "private",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1536149,
+              -17.3821465
+            ],
+            [
+              -66.1535626,
+              -17.3823162
+            ],
+            [
+              -66.1534374,
+              -17.38248
+            ],
+            [
+              -66.1534161,
+              -17.3825079
+            ],
+            [
+              -66.1532948,
+              -17.38246
+            ],
+            [
+              -66.1533128,
+              -17.3824176
+            ],
+            [
+              -66.1534517,
+              -17.3820906
+            ],
+            [
+              -66.1536149,
+              -17.3821465
+            ]
+          ]
+        ]
+      },
+      "id": "way/897742246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900528179",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "451",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Plaza Colón",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "email": "cochabamba@csbp.com.bo",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Caja de Salud de la Banca Privada",
+        "phone": "+591 4 4681546",
+        "website": "http://www.csbp.com.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1568301,
+              -17.3882717
+            ],
+            [
+              -66.156825,
+              -17.3883089
+            ],
+            [
+              -66.1568732,
+              -17.388315
+            ],
+            [
+              -66.1568701,
+              -17.3883421
+            ],
+            [
+              -66.1568475,
+              -17.3884787
+            ],
+            [
+              -66.1568244,
+              -17.3884752
+            ],
+            [
+              -66.1564697,
+              -17.3884255
+            ],
+            [
+              -66.1563392,
+              -17.3884071
+            ],
+            [
+              -66.1562868,
+              -17.3883997
+            ],
+            [
+              -66.1563011,
+              -17.3883075
+            ],
+            [
+              -66.156317,
+              -17.3881985
+            ],
+            [
+              -66.1568301,
+              -17.3882717
+            ]
+          ]
+        ]
+      },
+      "id": "way/900528179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909813715",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Urbanización Dora Halkier",
+        "addr:street": "Calle Urpila",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "contact:phone": "+591 4 4066607",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;internal;intensive;surgery;trauma;laboratory;physiatry;emergency",
+        "name": "Hospital del Norte",
+        "opening_hours": "24/7",
+        "operator": "Gobierno Autónomo Municipal de Cochabamba",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1750944,
+              -17.3490981
+            ],
+            [
+              -66.1747329,
+              -17.3492972
+            ],
+            [
+              -66.1743332,
+              -17.3486512
+            ],
+            [
+              -66.1743685,
+              -17.3486299
+            ],
+            [
+              -66.1742553,
+              -17.3484458
+            ],
+            [
+              -66.1744388,
+              -17.3481314
+            ],
+            [
+              -66.1745096,
+              -17.3480988
+            ],
+            [
+              -66.1745498,
+              -17.3481691
+            ],
+            [
+              -66.1746848,
+              -17.3483743
+            ],
+            [
+              -66.1747231,
+              -17.3484325
+            ],
+            [
+              -66.1750944,
+              -17.3490981
+            ]
+          ]
+        ]
+      },
+      "id": "way/909813715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925301287",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Calle Obispo Anaya",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "branch": "Policlínico Central",
+        "contact:facebook": "https://www.facebook.com/cajacordescochabamba/",
+        "email": "info@cajacordescba.bo",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Caja de Salud CORDES",
+        "opening_hours": "24/7",
+        "operator": "Caja de Salud CORDES",
+        "operator:type": "private",
+        "phone": "+591 4 4417000;+591 4 4417002;+591 4 4417003",
+        "start_date": "1973-09-11",
+        "website": "https://cajacordescba.bo/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.163191,
+              -17.3761803
+            ],
+            [
+              -66.1631325,
+              -17.3764394
+            ],
+            [
+              -66.1630727,
+              -17.3767039
+            ],
+            [
+              -66.1629625,
+              -17.3766781
+            ],
+            [
+              -66.1627032,
+              -17.3766175
+            ],
+            [
+              -66.1626496,
+              -17.3765647
+            ],
+            [
+              -66.1626626,
+              -17.3762861
+            ],
+            [
+              -66.1627974,
+              -17.3762208
+            ],
+            [
+              -66.1628141,
+              -17.3760004
+            ],
+            [
+              -66.1629193,
+              -17.3760506
+            ],
+            [
+              -66.1630002,
+              -17.3760893
+            ],
+            [
+              -66.163191,
+              -17.3761803
+            ]
+          ]
+        ]
+      },
+      "id": "way/925301287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925789550",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Magisterio 6 de Junio",
+        "addr:street": "Avenida Juan de la Rosa",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "contact:email": "info@cla.com.bo",
+        "contact:facebook": "https://www.facebook.com/ClinicaLosAngelesCochabamba/",
+        "contact:phone": "+591 4 4012370",
+        "contact:website": "http://clinicalosangeles.com.bo/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;clinical_laboratory;cardiology;surgery;dermatology;physical therapy;gastroenterology;geriatrics;gynaecology;internal;nephrology;oncology;radiology",
+        "name": "Clínica Los Ángeles",
+        "opening_hours": "24/7",
+        "operator": "Clínica Los Ángeles",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1649023,
+              -17.3782797
+            ],
+            [
+              -66.1648553,
+              -17.3784944
+            ],
+            [
+              -66.1650399,
+              -17.3785375
+            ],
+            [
+              -66.1649476,
+              -17.3789311
+            ],
+            [
+              -66.1648641,
+              -17.3789118
+            ],
+            [
+              -66.164641,
+              -17.3788603
+            ],
+            [
+              -66.164488,
+              -17.3788249
+            ],
+            [
+              -66.1644599,
+              -17.3788134
+            ],
+            [
+              -66.1644363,
+              -17.3787874
+            ],
+            [
+              -66.1644212,
+              -17.3787609
+            ],
+            [
+              -66.1644186,
+              -17.3787334
+            ],
+            [
+              -66.1644205,
+              -17.3787008
+            ],
+            [
+              -66.1644633,
+              -17.3784614
+            ],
+            [
+              -66.1645058,
+              -17.3782552
+            ],
+            [
+              -66.1645086,
+              -17.3782377
+            ],
+            [
+              -66.1645159,
+              -17.3782014
+            ],
+            [
+              -66.1649023,
+              -17.3782797
+            ]
+          ]
+        ]
+      },
+      "id": "way/925789550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/929901823",
+        "amenity": "hospital",
+        "barrier": "yes",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.3225608,
+              -17.3728133
+            ],
+            [
+              -66.3232288,
+              -17.3731292
+            ],
+            [
+              -66.323511,
+              -17.3733132
+            ],
+            [
+              -66.3238642,
+              -17.3736291
+            ],
+            [
+              -66.3240165,
+              -17.373817
+            ],
+            [
+              -66.3222685,
+              -17.3746502
+            ],
+            [
+              -66.3222137,
+              -17.3745184
+            ],
+            [
+              -66.3225608,
+              -17.3728133
+            ]
+          ]
+        ]
+      },
+      "id": "way/929901823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/968965408",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana",
+        "addr:street": "Avenida General José de San Martín",
+        "amenity": "hospital",
+        "barrier": "wall",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;internal_medicine;trauma;paediatrics;surgery;gynaecology;orthodontics;laboratory",
+        "name": "Policonsultorio Caja Petrolera de Salud",
+        "operator": "Caja Petrolera de Salud",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1540788,
+              -17.3928336
+            ],
+            [
+              -66.1542359,
+              -17.3928618
+            ],
+            [
+              -66.1542435,
+              -17.3928724
+            ],
+            [
+              -66.1542531,
+              -17.3928857
+            ],
+            [
+              -66.1542245,
+              -17.3930273
+            ],
+            [
+              -66.1542125,
+              -17.3930867
+            ],
+            [
+              -66.1541552,
+              -17.3930762
+            ],
+            [
+              -66.1541185,
+              -17.3931067
+            ],
+            [
+              -66.1539751,
+              -17.3930809
+            ],
+            [
+              -66.1540131,
+              -17.3928754
+            ],
+            [
+              -66.1540373,
+              -17.3928795
+            ],
+            [
+              -66.154047,
+              -17.3928275
+            ],
+            [
+              -66.1540788,
+              -17.3928336
+            ]
+          ]
+        ]
+      },
+      "id": "way/968965408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1086588474",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "356",
+        "addr:street": "Calle Hamiraya",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Caja de Salud de la Banca Privada",
+        "opening_hours": "Mo-Fr 8:00-20:00; Sa 8:00-12:00",
+        "phone": "+591 4 4582224;+591 4 4582261;+591 4 4582230;+591 4 4582234;+591 4 4582699",
+        "start_date": "1926-12-7",
+        "website": "www.csbp.com.bo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1608389,
+              -17.3957522
+            ],
+            [
+              -66.1605393,
+              -17.395692
+            ],
+            [
+              -66.1605576,
+              -17.395596
+            ],
+            [
+              -66.1605785,
+              -17.3954957
+            ],
+            [
+              -66.1607065,
+              -17.39552
+            ],
+            [
+              -66.1607758,
+              -17.3955332
+            ],
+            [
+              -66.1608827,
+              -17.3955535
+            ],
+            [
+              -66.1608389,
+              -17.3957522
+            ]
+          ]
+        ]
+      },
+      "id": "way/1086588474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4127962216",
+        "amenity": "hospital",
+        "name": "Caja Nacional de Salud Sacaba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0446756,
+          -17.4021135
+        ]
+      },
+      "id": "node/4127962216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4790144723",
+        "amenity": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Hospital San José Obrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.284298,
+          -17.36093
+        ]
+      },
+      "id": "node/4790144723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4965335916",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "435",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Aniceto Arce",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "obstetrics;gynaecology;paediatrics",
+        "name": "Hospital Materno Infantil Germán Urquidi",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1483846,
+          -17.3864666
+        ]
+      },
+      "id": "node/4965335916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5429286885",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Posta de Salud Tuska Pujio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.055814,
+          -17.4139613
+        ]
+      },
+      "id": "node/5429286885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519497847",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1657352,
+          -17.3460819
+        ]
+      },
+      "id": "node/5519497847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5559440133",
+        "amenity": "hospital",
+        "healthcare": "doctor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1477894,
+          -17.382682
+        ]
+      },
+      "id": "node/5559440133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5618386702",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospitales de la Esperanza",
+        "website": "http://www.hospitalsofhope.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3229356,
+          -17.3740687
+        ]
+      },
+      "id": "node/5618386702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7693322182",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1547914,
+          -17.3959363
+        ]
+      },
+      "id": "node/7693322182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9035366542",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "725",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Venezuela",
+        "amenity": "hospital",
+        "contact:email": "info@hospitalviedma.org",
+        "contact:facebook": "https://www.facebook.com/hospitalviedma/",
+        "contact:phone": "+591 4 4220228",
+        "contact:website": "http://www.hospitalviedma.org/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "laboratory;cardiology;surgery;dermatology;endocrinology;epidemiology;hematology;geriatrics;oncology;internal;nephrology;pneumology;neurology;dentistry;ophthalmology;otolaryngology;psychology;psychiatry;rheumatology;urology;trauma",
+        "loc_name": "Complejo Hospitalario Francisco Viedma",
+        "name": "Hospital Clínico Viedma",
+        "start_date": "1884-09-14",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1484598,
+          -17.3856306
+        ]
+      },
+      "id": "node/9035366542"
+    }
+  ]
+}

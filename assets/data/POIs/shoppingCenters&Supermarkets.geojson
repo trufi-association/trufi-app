@@ -1,0 +1,4089 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T17:58:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/156117732",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "144",
+        "addr:street": "Calle General Achá",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Galería Magnate",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1582478,
+              -17.3935471
+            ],
+            [
+              -66.1582053,
+              -17.3937674
+            ],
+            [
+              -66.1581986,
+              -17.3938089
+            ],
+            [
+              -66.1580646,
+              -17.3937879
+            ],
+            [
+              -66.1581143,
+              -17.3935238
+            ],
+            [
+              -66.1582478,
+              -17.3935471
+            ]
+          ]
+        ]
+      },
+      "id": "way/156117732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/246257160",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Calle España",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Galería Comercial España",
+        "payment:cash": "yes",
+        "roof:shape": "gabled",
+        "shop": "mall",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1569288,
+              -17.390781
+            ],
+            [
+              -66.1569229,
+              -17.3908197
+            ],
+            [
+              -66.1568953,
+              -17.3909998
+            ],
+            [
+              -66.1568654,
+              -17.3910193
+            ],
+            [
+              -66.1568465,
+              -17.3910316
+            ],
+            [
+              -66.1566117,
+              -17.3909888
+            ],
+            [
+              -66.1566403,
+              -17.3908337
+            ],
+            [
+              -66.1566576,
+              -17.390736
+            ],
+            [
+              -66.1566875,
+              -17.3907419
+            ],
+            [
+              -66.1567534,
+              -17.3907522
+            ],
+            [
+              -66.1568557,
+              -17.390771
+            ],
+            [
+              -66.1569288,
+              -17.390781
+            ]
+          ]
+        ]
+      },
+      "id": "way/246257160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408701975",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "654",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Oquendo",
+        "building": "retail",
+        "building:levels": "14",
+        "contact:facebook": "https://facebook.com/ShoppingSOFER/",
+        "name": "Shopping Soffer",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "payment:credit_cards": "yes",
+        "shop": "mall",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1508855,
+              -17.3843839
+            ],
+            [
+              -66.1509687,
+              -17.3844735
+            ],
+            [
+              -66.1510261,
+              -17.3844264
+            ],
+            [
+              -66.1510458,
+              -17.3844466
+            ],
+            [
+              -66.1510408,
+              -17.384477
+            ],
+            [
+              -66.1509989,
+              -17.3845065
+            ],
+            [
+              -66.1510718,
+              -17.3845863
+            ],
+            [
+              -66.1510575,
+              -17.3846789
+            ],
+            [
+              -66.1510431,
+              -17.3847715
+            ],
+            [
+              -66.1508961,
+              -17.3846109
+            ],
+            [
+              -66.150879,
+              -17.3846253
+            ],
+            [
+              -66.1508489,
+              -17.3845948
+            ],
+            [
+              -66.1508566,
+              -17.3845676
+            ],
+            [
+              -66.1507761,
+              -17.3844798
+            ],
+            [
+              -66.1508855,
+              -17.3843839
+            ]
+          ]
+        ]
+      },
+      "id": "way/408701975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/494966174",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "846",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Avenida General José Manuel Pando",
+        "contact:facebook": "https://www.facebook.com/hupermallcbba/",
+        "email": "hupercomunicacion@gmail.com",
+        "name": "Hupermall",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "Hupermall",
+        "payment:cash": "yes",
+        "phone": "+591 4 4548737",
+        "shop": "mall",
+        "start_date": "2016",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1510368,
+              -17.3758929
+            ],
+            [
+              -66.1509728,
+              -17.3758981
+            ],
+            [
+              -66.1509701,
+              -17.3758983
+            ],
+            [
+              -66.1503989,
+              -17.3759387
+            ],
+            [
+              -66.150163,
+              -17.3759597
+            ],
+            [
+              -66.1501609,
+              -17.3758953
+            ],
+            [
+              -66.1501552,
+              -17.3757198
+            ],
+            [
+              -66.1500204,
+              -17.3757218
+            ],
+            [
+              -66.1499927,
+              -17.3757213
+            ],
+            [
+              -66.1499895,
+              -17.3756086
+            ],
+            [
+              -66.1499882,
+              -17.3755608
+            ],
+            [
+              -66.1499875,
+              -17.3755344
+            ],
+            [
+              -66.1499868,
+              -17.3755076
+            ],
+            [
+              -66.1502189,
+              -17.3755058
+            ],
+            [
+              -66.1504587,
+              -17.375504
+            ],
+            [
+              -66.150483,
+              -17.3755038
+            ],
+            [
+              -66.1507844,
+              -17.3755015
+            ],
+            [
+              -66.1509777,
+              -17.3755001
+            ],
+            [
+              -66.1510375,
+              -17.3754996
+            ],
+            [
+              -66.1510368,
+              -17.3758929
+            ]
+          ]
+        ]
+      },
+      "id": "way/494966174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/506145020",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Jordán",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Galería Comercial",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1554182,
+              -17.3951966
+            ],
+            [
+              -66.1554035,
+              -17.3952824
+            ],
+            [
+              -66.1553535,
+              -17.395554
+            ],
+            [
+              -66.1553031,
+              -17.3955453
+            ],
+            [
+              -66.1552599,
+              -17.3957086
+            ],
+            [
+              -66.1551378,
+              -17.3956877
+            ],
+            [
+              -66.155191,
+              -17.39551
+            ],
+            [
+              -66.1552195,
+              -17.3954146
+            ],
+            [
+              -66.1551847,
+              -17.3954114
+            ],
+            [
+              -66.1551955,
+              -17.3953561
+            ],
+            [
+              -66.1552281,
+              -17.395165
+            ],
+            [
+              -66.155323,
+              -17.3951818
+            ],
+            [
+              -66.1554182,
+              -17.3951966
+            ]
+          ]
+        ]
+      },
+      "id": "way/506145020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534185570",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida América",
+        "barrier": "yes",
+        "contact:email": "info@paseoaranjuez.com",
+        "contact:facebook": "https://www.facebook.com/PaseoAranjuezCbba/",
+        "contact:phone": "+591 4 4485928",
+        "contact:website": "http://paseoaranjuez.com/",
+        "name": "Paseo Aranjuez",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 11:00-21:00",
+        "operator": "Paseo Aranjuez",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1554435,
+              -17.3730983
+            ],
+            [
+              -66.1554593,
+              -17.3734998
+            ],
+            [
+              -66.1551142,
+              -17.3735286
+            ],
+            [
+              -66.1551038,
+              -17.3734191
+            ],
+            [
+              -66.1548007,
+              -17.3734382
+            ],
+            [
+              -66.1547812,
+              -17.3731741
+            ],
+            [
+              -66.1548105,
+              -17.373143
+            ],
+            [
+              -66.1548432,
+              -17.3731407
+            ],
+            [
+              -66.15508,
+              -17.3731239
+            ],
+            [
+              -66.1554435,
+              -17.3730983
+            ]
+          ]
+        ]
+      },
+      "id": "way/534185570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/878723765",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Santivañez",
+        "building": "retail",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1579054,
+              -17.3945644
+            ],
+            [
+              -66.1581675,
+              -17.3946105
+            ],
+            [
+              -66.1581477,
+              -17.3947086
+            ],
+            [
+              -66.1580965,
+              -17.3949655
+            ],
+            [
+              -66.1580667,
+              -17.3951314
+            ],
+            [
+              -66.1579517,
+              -17.3951133
+            ],
+            [
+              -66.1578093,
+              -17.3950908
+            ],
+            [
+              -66.1578371,
+              -17.394939
+            ],
+            [
+              -66.1579005,
+              -17.3945912
+            ],
+            [
+              -66.1579054,
+              -17.3945644
+            ]
+          ]
+        ]
+      },
+      "id": "way/878723765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908285913",
+        "building": "commercial",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1547893,
+              -17.4031694
+            ],
+            [
+              -66.1548395,
+              -17.4034342
+            ],
+            [
+              -66.1546362,
+              -17.4035059
+            ],
+            [
+              -66.1546332,
+              -17.403438
+            ],
+            [
+              -66.1546275,
+              -17.4032589
+            ],
+            [
+              -66.1546476,
+              -17.403225
+            ],
+            [
+              -66.1546784,
+              -17.4031956
+            ],
+            [
+              -66.1546974,
+              -17.403182
+            ],
+            [
+              -66.1547893,
+              -17.4031694
+            ]
+          ]
+        ]
+      },
+      "id": "way/908285913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926482148",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle General Achá",
+        "building": "retail",
+        "name": "Galería Acha",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1581143,
+              -17.3935238
+            ],
+            [
+              -66.1580646,
+              -17.3937879
+            ],
+            [
+              -66.1580447,
+              -17.3938916
+            ],
+            [
+              -66.1580246,
+              -17.393996
+            ],
+            [
+              -66.1579418,
+              -17.3939828
+            ],
+            [
+              -66.1579801,
+              -17.3937737
+            ],
+            [
+              -66.1579367,
+              -17.3937664
+            ],
+            [
+              -66.1579861,
+              -17.3935019
+            ],
+            [
+              -66.1580501,
+              -17.3935128
+            ],
+            [
+              -66.1581143,
+              -17.3935238
+            ]
+          ]
+        ]
+      },
+      "id": "way/926482148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927193179",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "156",
+        "addr:street": "Avenida Ayacucho",
+        "building": "retail",
+        "description": "Centro comercial con tiendas de ropa, artículos para el hogar, productos de anime, juguetes, cosméticos, relojes, zapatillas deportivas, médico naturista y otros productos variados.",
+        "name": "Edificio Mi Llajta",
+        "phone": "+591 68500826",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.158843,
+              -17.3931638
+            ],
+            [
+              -66.1591908,
+              -17.3932252
+            ],
+            [
+              -66.1591704,
+              -17.3933305
+            ],
+            [
+              -66.1588226,
+              -17.3932692
+            ],
+            [
+              -66.1588328,
+              -17.3932165
+            ],
+            [
+              -66.158843,
+              -17.3931638
+            ]
+          ]
+        ]
+      },
+      "id": "way/927193179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927364395",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "building": "retail",
+        "building:levels": "4",
+        "contact:facebook": "https://www.facebook.com/PLAZA10cbba/",
+        "name": "Plaza 10",
+        "opening_hours": "Mo-Fr 08:30-20:00, Sa 08:30-13:30",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1593865,
+              -17.3930206
+            ],
+            [
+              -66.1593848,
+              -17.3930628
+            ],
+            [
+              -66.1593503,
+              -17.3930576
+            ],
+            [
+              -66.1593404,
+              -17.3931175
+            ],
+            [
+              -66.1593822,
+              -17.3931246
+            ],
+            [
+              -66.1593806,
+              -17.3931564
+            ],
+            [
+              -66.1592085,
+              -17.3931254
+            ],
+            [
+              -66.1591908,
+              -17.3932252
+            ],
+            [
+              -66.158843,
+              -17.3931638
+            ],
+            [
+              -66.1588539,
+              -17.3931109
+            ],
+            [
+              -66.1588648,
+              -17.393058
+            ],
+            [
+              -66.1591791,
+              -17.3931144
+            ],
+            [
+              -66.1591837,
+              -17.3930911
+            ],
+            [
+              -66.1591917,
+              -17.3930502
+            ],
+            [
+              -66.1592031,
+              -17.3929895
+            ],
+            [
+              -66.1593865,
+              -17.3930206
+            ]
+          ]
+        ]
+      },
+      "id": "way/927364395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927475723",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle General Achá",
+        "contact:facebook": "https://www.facebook.com/pg/Galindo-MALL-126799191438856/",
+        "email": "galindomall@yahoo.es",
+        "name": "Centro Comercial Galindo Mall",
+        "opening_hours": "Mo-Sa 09:00-22:00",
+        "operator": "Centro Comercial Galindo Mall",
+        "payment:cash": "yes",
+        "phone": "+591 4 4508251",
+        "shop": "mall",
+        "start_date": "2006-03-08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1581971,
+              -17.3929616
+            ],
+            [
+              -66.1581942,
+              -17.3929781
+            ],
+            [
+              -66.1581747,
+              -17.3930777
+            ],
+            [
+              -66.1582314,
+              -17.3930878
+            ],
+            [
+              -66.1581981,
+              -17.3932576
+            ],
+            [
+              -66.1581929,
+              -17.393282
+            ],
+            [
+              -66.1581631,
+              -17.3934385
+            ],
+            [
+              -66.1581609,
+              -17.3934502
+            ],
+            [
+              -66.1580799,
+              -17.3934361
+            ],
+            [
+              -66.157996,
+              -17.3934216
+            ],
+            [
+              -66.1580128,
+              -17.3933333
+            ],
+            [
+              -66.1580279,
+              -17.3932535
+            ],
+            [
+              -66.1580328,
+              -17.3932282
+            ],
+            [
+              -66.1580454,
+              -17.3931636
+            ],
+            [
+              -66.1579392,
+              -17.3931447
+            ],
+            [
+              -66.157926,
+              -17.3931424
+            ],
+            [
+              -66.1579657,
+              -17.3929372
+            ],
+            [
+              -66.1580128,
+              -17.3929458
+            ],
+            [
+              -66.1580628,
+              -17.3929547
+            ],
+            [
+              -66.1580659,
+              -17.3929385
+            ],
+            [
+              -66.1581971,
+              -17.3929616
+            ]
+          ]
+        ]
+      },
+      "id": "way/927475723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/936523064",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Jordán",
+        "building": "commercial",
+        "building:levels": "3",
+        "name": "Galería Comercial EMIMAX",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.15591,
+              -17.3948417
+            ],
+            [
+              -66.15585,
+              -17.3951604
+            ],
+            [
+              -66.1557985,
+              -17.3951511
+            ],
+            [
+              -66.1557553,
+              -17.3951434
+            ],
+            [
+              -66.155772,
+              -17.3950548
+            ],
+            [
+              -66.1557785,
+              -17.3950208
+            ],
+            [
+              -66.1557649,
+              -17.3950185
+            ],
+            [
+              -66.1557715,
+              -17.3949835
+            ],
+            [
+              -66.1557565,
+              -17.394981
+            ],
+            [
+              -66.1557867,
+              -17.3948206
+            ],
+            [
+              -66.155855,
+              -17.3948323
+            ],
+            [
+              -66.15591,
+              -17.3948417
+            ]
+          ]
+        ]
+      },
+      "id": "way/936523064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/981207622",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "606",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida José Ballivián",
+        "barrier": "yes",
+        "contact:facebook": "https://www.facebook.com/luigiscochabamba",
+        "email": "gerencia@luigis.com.bo",
+        "internet_access": "wlan",
+        "internet_access:access": "customers",
+        "internet_access:fee": "no",
+        "name": "LUIGIS Centro Familiar",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+591 4 4250265",
+        "shop": "mall",
+        "website": "http://www.luigis.com.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1562592,
+              -17.3862764
+            ],
+            [
+              -66.1564642,
+              -17.3860063
+            ],
+            [
+              -66.1566271,
+              -17.3861189
+            ],
+            [
+              -66.1564362,
+              -17.3863706
+            ],
+            [
+              -66.1564005,
+              -17.386374
+            ],
+            [
+              -66.1562592,
+              -17.3862764
+            ]
+          ]
+        ]
+      },
+      "id": "way/981207622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/981910113",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1237",
+        "addr:neighbourhood": "Riosinho",
+        "addr:street": "Avenida Blanco Galindo",
+        "barrier": "wall",
+        "contact:facebook": "https://www.facebook.com/SuperMallBolivia",
+        "description": "SUPERMALL cuenta con tiendas de tecnología, moda, accesorios y hogar, plaza de comidas, estacionamiento gratuito y oficinas.",
+        "email": "supermallcochabamba@gmail.com",
+        "name": "SUPERMALL",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "operator": "Directorio de Construcciones e Inversiones Multicenter",
+        "phone": "+591 77941104",
+        "shop": "mall",
+        "start_date": "2016-12-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1718582,
+              -17.3941131
+            ],
+            [
+              -66.1718849,
+              -17.3946595
+            ],
+            [
+              -66.171385,
+              -17.3946819
+            ],
+            [
+              -66.1713468,
+              -17.3946833
+            ],
+            [
+              -66.1713307,
+              -17.3946843
+            ],
+            [
+              -66.1713285,
+              -17.3946377
+            ],
+            [
+              -66.1713101,
+              -17.3942623
+            ],
+            [
+              -66.171304,
+              -17.3941378
+            ],
+            [
+              -66.1713259,
+              -17.3941376
+            ],
+            [
+              -66.1718582,
+              -17.3941131
+            ]
+          ]
+        ]
+      },
+      "id": "way/981910113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/987886036",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "building": "commercial",
+        "name": "Centro Comercial Terra",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1571149,
+              -17.4064518
+            ],
+            [
+              -66.1570878,
+              -17.4065623
+            ],
+            [
+              -66.1569721,
+              -17.4065402
+            ],
+            [
+              -66.1568164,
+              -17.4065328
+            ],
+            [
+              -66.1568306,
+              -17.4064211
+            ],
+            [
+              -66.1570184,
+              -17.4064543
+            ],
+            [
+              -66.1570222,
+              -17.4064334
+            ],
+            [
+              -66.1571149,
+              -17.4064518
+            ]
+          ]
+        ]
+      },
+      "id": "way/987886036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/987886053",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Antonio",
+        "addr:street": "Avenida Ayacucho",
+        "building": "commercial",
+        "name": "Galería  Titán",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1569282,
+              -17.4043782
+            ],
+            [
+              -66.1566419,
+              -17.4043471
+            ],
+            [
+              -66.1566389,
+              -17.4041936
+            ],
+            [
+              -66.156767,
+              -17.4042102
+            ],
+            [
+              -66.1569525,
+              -17.4042344
+            ],
+            [
+              -66.1569282,
+              -17.4043782
+            ]
+          ]
+        ]
+      },
+      "id": "way/987886053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084972211",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Alejo Calatayud",
+        "addr:street": "Avenida General José de San Martín",
+        "building": "commercial",
+        "name": "Galería",
+        "payment:cash": "yes",
+        "roof:shape": "flat",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1531461,
+              -17.3995218
+            ],
+            [
+              -66.1531527,
+              -17.3997033
+            ],
+            [
+              -66.1528292,
+              -17.3997139
+            ],
+            [
+              -66.1528261,
+              -17.3996293
+            ],
+            [
+              -66.1529364,
+              -17.3996256
+            ],
+            [
+              -66.1529329,
+              -17.3995288
+            ],
+            [
+              -66.1531461,
+              -17.3995218
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084972211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1148388958",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida d'Orbigny",
+        "building": "retail",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "contact:facebook": "https://www.facebook.com/ShoppingICNorte",
+        "name": "Shopping IC Norte",
+        "opening_hours": "Mo-Sa 08:30-23:00; Su 09:00-23:00",
+        "operator": "Industrias y Comercial Norte",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "roof:colour": "white",
+        "roof:material": "metal",
+        "roof:shape": "gabled_row",
+        "shop": "mall",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.180175,
+              -17.3888114
+            ],
+            [
+              -66.1800476,
+              -17.3883021
+            ],
+            [
+              -66.180003,
+              -17.388312
+            ],
+            [
+              -66.1799953,
+              -17.3882832
+            ],
+            [
+              -66.1799417,
+              -17.3880803
+            ],
+            [
+              -66.1799321,
+              -17.3880437
+            ],
+            [
+              -66.1800648,
+              -17.3880367
+            ],
+            [
+              -66.1801818,
+              -17.3880333
+            ],
+            [
+              -66.180236,
+              -17.3882604
+            ],
+            [
+              -66.1802556,
+              -17.3882552
+            ],
+            [
+              -66.1803784,
+              -17.3887267
+            ],
+            [
+              -66.1803717,
+              -17.3887524
+            ],
+            [
+              -66.1803491,
+              -17.3887703
+            ],
+            [
+              -66.180175,
+              -17.3888114
+            ]
+          ]
+        ]
+      },
+      "id": "way/1148388958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164065564",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Avenida Heroínas",
+        "building": "retail",
+        "building:levels": "5",
+        "name": "Galería Comercial RRR",
+        "opening_hours": "Mo-Su 07:00-23:30",
+        "payment:cash": "yes",
+        "roof:shape": "hipped",
+        "shop": "mall",
+        "start_date": "2023",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1585101,
+              -17.3921726
+            ],
+            [
+              -66.1584958,
+              -17.3922507
+            ],
+            [
+              -66.1585229,
+              -17.3922552
+            ],
+            [
+              -66.1584916,
+              -17.3924266
+            ],
+            [
+              -66.1583802,
+              -17.3924081
+            ],
+            [
+              -66.1582688,
+              -17.3923895
+            ],
+            [
+              -66.1582931,
+              -17.3922564
+            ],
+            [
+              -66.1583277,
+              -17.3922622
+            ],
+            [
+              -66.1583489,
+              -17.3921458
+            ],
+            [
+              -66.1585101,
+              -17.3921726
+            ]
+          ]
+        ]
+      },
+      "id": "way/1164065564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/226166581",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "2029",
+        "addr:neighbourhood": "Hipódromo Sud",
+        "addr:street": "Avenida Blanco Galindo",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Hipermaxi",
+        "operator": "HiperMaxi",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+591 4 4449942",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.182394,
+              -17.3936629
+            ],
+            [
+              -66.1824981,
+              -17.394043
+            ],
+            [
+              -66.1825963,
+              -17.3940229
+            ],
+            [
+              -66.1826926,
+              -17.3943979
+            ],
+            [
+              -66.182187,
+              -17.3944161
+            ],
+            [
+              -66.1820217,
+              -17.3937546
+            ],
+            [
+              -66.1820449,
+              -17.3937187
+            ],
+            [
+              -66.1821759,
+              -17.3937113
+            ],
+            [
+              -66.1822012,
+              -17.3936806
+            ],
+            [
+              -66.1822931,
+              -17.3936648
+            ],
+            [
+              -66.182394,
+              -17.3936629
+            ]
+          ]
+        ]
+      },
+      "id": "way/226166581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408701967",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "634",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Oquendo",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "building": "retail",
+        "email": "hipermaxi@hipermaxi.com",
+        "name": "Hipermaxi",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Hipermaxi",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+591 4 4140885",
+        "shop": "supermarket",
+        "website": "https://www.hipermaxi.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.15072,
+              -17.384636
+            ],
+            [
+              -66.1507764,
+              -17.3845857
+            ],
+            [
+              -66.1509221,
+              -17.3847346
+            ],
+            [
+              -66.1508939,
+              -17.3847598
+            ],
+            [
+              -66.1508657,
+              -17.3847849
+            ],
+            [
+              -66.1508557,
+              -17.3847746
+            ],
+            [
+              -66.15072,
+              -17.384636
+            ]
+          ]
+        ]
+      },
+      "id": "way/408701967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409877059",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Verbo Divino",
+        "addr:street": "Avenida Juan de la Rosa",
+        "air_conditioning": "yes",
+        "branch": "Hipermaxi Juan de la Rosa",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "currency:BOB": "yes",
+        "level": "0",
+        "name": "Hipermaxi",
+        "operator": "Hipermaxi",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+591 4 4417448;+591 4 4417447",
+        "shop": "supermarket",
+        "website": "https://hipermaxi.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1729316,
+              -17.3766397
+            ],
+            [
+              -66.1729393,
+              -17.3766614
+            ],
+            [
+              -66.1729663,
+              -17.3767374
+            ],
+            [
+              -66.1730821,
+              -17.3771556
+            ],
+            [
+              -66.1730873,
+              -17.3771898
+            ],
+            [
+              -66.1730848,
+              -17.3772009
+            ],
+            [
+              -66.1730792,
+              -17.3772261
+            ],
+            [
+              -66.1730475,
+              -17.3772444
+            ],
+            [
+              -66.1730181,
+              -17.3772541
+            ],
+            [
+              -66.1722538,
+              -17.3772895
+            ],
+            [
+              -66.1722268,
+              -17.3772626
+            ],
+            [
+              -66.1722098,
+              -17.3772375
+            ],
+            [
+              -66.1722018,
+              -17.3771992
+            ],
+            [
+              -66.1721996,
+              -17.377161
+            ],
+            [
+              -66.1721758,
+              -17.3767276
+            ],
+            [
+              -66.172174,
+              -17.3767115
+            ],
+            [
+              -66.1721734,
+              -17.3767015
+            ],
+            [
+              -66.1721627,
+              -17.376521
+            ],
+            [
+              -66.1721719,
+              -17.3764861
+            ],
+            [
+              -66.1721925,
+              -17.3764566
+            ],
+            [
+              -66.1722227,
+              -17.3764398
+            ],
+            [
+              -66.1723534,
+              -17.3764068
+            ],
+            [
+              -66.1726146,
+              -17.3763627
+            ],
+            [
+              -66.1726839,
+              -17.3763696
+            ],
+            [
+              -66.1727485,
+              -17.3763946
+            ],
+            [
+              -66.1728011,
+              -17.3764333
+            ],
+            [
+              -66.1728504,
+              -17.3764811
+            ],
+            [
+              -66.1729079,
+              -17.3765664
+            ],
+            [
+              -66.1729316,
+              -17.3766397
+            ]
+          ]
+        ]
+      },
+      "id": "way/409877059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563932391",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Centenario",
+        "building": "commercial",
+        "building:levels": "3",
+        "name": "El Bosque Comercial",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1833577,
+              -17.3471149
+            ],
+            [
+              -66.1831504,
+              -17.3470924
+            ],
+            [
+              -66.1831799,
+              -17.3468452
+            ],
+            [
+              -66.1833872,
+              -17.3468678
+            ],
+            [
+              -66.1833577,
+              -17.3471149
+            ]
+          ]
+        ]
+      },
+      "id": "way/563932391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/822436071",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "753",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida José Ballivián",
+        "barrier": "yes",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "name": "Hipermaxi",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Hipermaxi",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1588776,
+              -17.3840733
+            ],
+            [
+              -66.1589565,
+              -17.3841276
+            ],
+            [
+              -66.159372,
+              -17.3844134
+            ],
+            [
+              -66.1594165,
+              -17.384444
+            ],
+            [
+              -66.1592116,
+              -17.38464
+            ],
+            [
+              -66.1591928,
+              -17.3846579
+            ],
+            [
+              -66.1588298,
+              -17.3844177
+            ],
+            [
+              -66.1586874,
+              -17.3843235
+            ],
+            [
+              -66.1588776,
+              -17.3840733
+            ]
+          ]
+        ]
+      },
+      "id": "way/822436071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/848324483",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "360",
+        "addr:neighbourhood": "Cobija",
+        "addr:street": "Calle Hamiraya",
+        "barrier": "wall",
+        "branch": "Regional Cochabamba",
+        "brand": "EMAPA",
+        "contact:facebook": "https://www.facebook.com/EmapaBolivia",
+        "description": "~1000 productos 100% nacionales de micro y pequeños empresarios y artesanos de bolivia.",
+        "email": "emapa@emapa.gob.bo",
+        "level": "0",
+        "name": "Super EMAPA",
+        "opening_hours": "Mo-Fr 07:30-21:30",
+        "operator": "Empresa de Apoyo a la Producción de Alimentos",
+        "operator:short": "EMAPA",
+        "operator:type": "public",
+        "payment:cash": "yes",
+        "phone": "+591 4 4522244;+591 72205579",
+        "shop": "supermarket",
+        "start_date": "2017-01-20",
+        "website": "https://www.emapa.gob.bo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.161287,
+              -17.38973
+            ],
+            [
+              -66.1615448,
+              -17.3897789
+            ],
+            [
+              -66.1615579,
+              -17.3898042
+            ],
+            [
+              -66.1615238,
+              -17.3899699
+            ],
+            [
+              -66.1614874,
+              -17.3901438
+            ],
+            [
+              -66.1614808,
+              -17.390186
+            ],
+            [
+              -66.1613568,
+              -17.3901653
+            ],
+            [
+              -66.1613139,
+              -17.3901582
+            ],
+            [
+              -66.1612541,
+              -17.3901482
+            ],
+            [
+              -66.1610149,
+              -17.3901098
+            ],
+            [
+              -66.1610402,
+              -17.3899814
+            ],
+            [
+              -66.1610881,
+              -17.3899885
+            ],
+            [
+              -66.1610915,
+              -17.3899724
+            ],
+            [
+              -66.1611058,
+              -17.3898966
+            ],
+            [
+              -66.1612499,
+              -17.3899213
+            ],
+            [
+              -66.161287,
+              -17.38973
+            ]
+          ]
+        ]
+      },
+      "id": "way/848324483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/865575622",
+        "addr:city": "Sacaba",
+        "addr:street": "Avenida Eliodoro Villazón",
+        "barrier": "wall",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "name": "Hipermaxi",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Hipermaxi",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1194148,
+              -17.3825625
+            ],
+            [
+              -66.1193194,
+              -17.3826944
+            ],
+            [
+              -66.1190902,
+              -17.3830115
+            ],
+            [
+              -66.1190439,
+              -17.3830338
+            ],
+            [
+              -66.1189958,
+              -17.3830124
+            ],
+            [
+              -66.1187571,
+              -17.3825645
+            ],
+            [
+              -66.1187944,
+              -17.3825499
+            ],
+            [
+              -66.1188801,
+              -17.382506
+            ],
+            [
+              -66.1187447,
+              -17.3822654
+            ],
+            [
+              -66.1186203,
+              -17.3820448
+            ],
+            [
+              -66.1190166,
+              -17.3818802
+            ],
+            [
+              -66.1194148,
+              -17.3825625
+            ]
+          ]
+        ]
+      },
+      "id": "way/865575622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/974844226",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Gualberto Villarroel",
+        "building": "retail",
+        "building:levels": "1",
+        "drive_through": "yes",
+        "name": "Ready 2 Go",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1592585,
+              -17.373549
+            ],
+            [
+              -66.1592661,
+              -17.3736814
+            ],
+            [
+              -66.1592147,
+              -17.3736661
+            ],
+            [
+              -66.1591954,
+              -17.3736523
+            ],
+            [
+              -66.1591825,
+              -17.3736262
+            ],
+            [
+              -66.1591812,
+              -17.3735985
+            ],
+            [
+              -66.1591789,
+              -17.3735525
+            ],
+            [
+              -66.1592398,
+              -17.3735493
+            ],
+            [
+              -66.1592585,
+              -17.373549
+            ]
+          ]
+        ]
+      },
+      "id": "way/974844226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/998666950",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida d'Orbigny",
+        "branch": "IC Norte Hipódromo",
+        "brand": "IC Norte",
+        "brand:wikidata": "Q81967653",
+        "contact:facebook": "icnortesa",
+        "contact:whatsapp": "+591 61678953",
+        "delivery": "yes",
+        "delivery_hours": "Mo-Su 08:00-20:00",
+        "name": "IC Norte",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Industrias y Comercial Norte",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+591 4 4244969;+591 4 4403040;+591 61678953",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1802556,
+              -17.3882552
+            ],
+            [
+              -66.1803784,
+              -17.3887267
+            ],
+            [
+              -66.1803717,
+              -17.3887524
+            ],
+            [
+              -66.1803491,
+              -17.3887703
+            ],
+            [
+              -66.1802251,
+              -17.388868
+            ],
+            [
+              -66.1800586,
+              -17.3890022
+            ],
+            [
+              -66.1799217,
+              -17.3891205
+            ],
+            [
+              -66.1798829,
+              -17.3891452
+            ],
+            [
+              -66.1795355,
+              -17.3892168
+            ],
+            [
+              -66.1794433,
+              -17.3892379
+            ],
+            [
+              -66.179244,
+              -17.3884937
+            ],
+            [
+              -66.1792051,
+              -17.38835
+            ],
+            [
+              -66.1791891,
+              -17.3882865
+            ],
+            [
+              -66.1791884,
+              -17.3882432
+            ],
+            [
+              -66.1791937,
+              -17.3882066
+            ],
+            [
+              -66.1792139,
+              -17.3881715
+            ],
+            [
+              -66.1792612,
+              -17.3881119
+            ],
+            [
+              -66.1793539,
+              -17.3880612
+            ],
+            [
+              -66.1794431,
+              -17.3880544
+            ],
+            [
+              -66.1796174,
+              -17.3880443
+            ],
+            [
+              -66.1796604,
+              -17.3880418
+            ],
+            [
+              -66.1797191,
+              -17.388039
+            ],
+            [
+              -66.1797691,
+              -17.3880355
+            ],
+            [
+              -66.1799287,
+              -17.3880263
+            ],
+            [
+              -66.1801932,
+              -17.3880158
+            ],
+            [
+              -66.1802556,
+              -17.3882552
+            ]
+          ]
+        ]
+      },
+      "id": "way/998666950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1052897920",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "E-0817",
+        "addr:neighbourhood": "Queru Queru Central",
+        "addr:street": "Avenida América",
+        "branch": "IC Norte América",
+        "brand": "IC Norte",
+        "brand:wikidata": "Q81967653",
+        "contact:facebook": "icnortesa",
+        "contact:whatsapp": "+591 61675624",
+        "delivery": "yes",
+        "delivery_hours": "Mo-Su 08:00-20:00",
+        "name": "IC Norte",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Industrias y Comercial Norte",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+591 4 4240575;+591 4 4247951;+591 61675624",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1508372,
+              -17.3731266
+            ],
+            [
+              -66.1508338,
+              -17.3730877
+            ],
+            [
+              -66.1508089,
+              -17.3727982
+            ],
+            [
+              -66.1507737,
+              -17.3723196
+            ],
+            [
+              -66.1507629,
+              -17.3721726
+            ],
+            [
+              -66.1507608,
+              -17.3721505
+            ],
+            [
+              -66.1511525,
+              -17.3719572
+            ],
+            [
+              -66.1511985,
+              -17.3719572
+            ],
+            [
+              -66.1512445,
+              -17.3719765
+            ],
+            [
+              -66.1512666,
+              -17.3720063
+            ],
+            [
+              -66.1512721,
+              -17.3720432
+            ],
+            [
+              -66.1512776,
+              -17.3721292
+            ],
+            [
+              -66.1512533,
+              -17.37217
+            ],
+            [
+              -66.1512948,
+              -17.3727687
+            ],
+            [
+              -66.1513181,
+              -17.3730966
+            ],
+            [
+              -66.1508639,
+              -17.3731249
+            ],
+            [
+              -66.1508372,
+              -17.3731266
+            ]
+          ]
+        ]
+      },
+      "id": "way/1052897920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1077364427",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Maryknoll",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "barrier": "yes",
+        "branch": "Hipermaxi Circunvalación",
+        "brand": "Hipermaxi",
+        "brand:wikidata": "Q81968262",
+        "name": "Hipermaxi",
+        "operator": "Hipermaxi",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.166106,
+              -17.3638246
+            ],
+            [
+              -66.1661318,
+              -17.3638911
+            ],
+            [
+              -66.1661662,
+              -17.3639797
+            ],
+            [
+              -66.1663452,
+              -17.3644409
+            ],
+            [
+              -66.1658225,
+              -17.3646547
+            ],
+            [
+              -66.165775,
+              -17.3645291
+            ],
+            [
+              -66.1657612,
+              -17.364492
+            ],
+            [
+              -66.1657379,
+              -17.3644297
+            ],
+            [
+              -66.1656739,
+              -17.3642717
+            ],
+            [
+              -66.1655764,
+              -17.3640228
+            ],
+            [
+              -66.166106,
+              -17.3638246
+            ]
+          ]
+        ]
+      },
+      "id": "way/1077364427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1106497067",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Calle Potosí",
+        "barrier": "wall",
+        "branch": "Pedidos Ya Cochabamba",
+        "brand": "PedidosYa",
+        "name": "PedidosYa Market",
+        "operator": "PedidosYa",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:wire_transfer": "yes",
+        "shop": "supermarket",
+        "start_date": "2021-02",
+        "website": "https://www.pedidosya.com.bo/restaurantes/cochabamba/pedidosya-market-cochabamba-menu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -66.1544747,
+              -17.3748597
+            ],
+            [
+              -66.1545073,
+              -17.3749182
+            ],
+            [
+              -66.1545191,
+              -17.3749394
+            ],
+            [
+              -66.1545383,
+              -17.3750174
+            ],
+            [
+              -66.1542266,
+              -17.3750324
+            ],
+            [
+              -66.1542243,
+              -17.37501
+            ],
+            [
+              -66.1541334,
+              -17.3750009
+            ],
+            [
+              -66.1540299,
+              -17.3749928
+            ],
+            [
+              -66.1539441,
+              -17.3749802
+            ],
+            [
+              -66.153945,
+              -17.3749179
+            ],
+            [
+              -66.1538946,
+              -17.3749115
+            ],
+            [
+              -66.1538927,
+              -17.3748889
+            ],
+            [
+              -66.1538856,
+              -17.374805
+            ],
+            [
+              -66.1540294,
+              -17.3748183
+            ],
+            [
+              -66.1544318,
+              -17.3748557
+            ],
+            [
+              -66.1544747,
+              -17.3748597
+            ]
+          ]
+        ]
+      },
+      "id": "way/1106497067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1684069048",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "E-0131",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "branch": "Central",
+        "brand": "Supermercado América",
+        "contact:facebook": "https://www.facebook.com/SuperMercadoAmericasrl/",
+        "email": "atorre2@supermercadoamerica.com.bo",
+        "name": "Supermercado América",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su,PH 09:00-13:00",
+        "operator": "Supermercado América",
+        "payment:cash": "yes",
+        "phone": "+591 4 4249127",
+        "shop": "supermarket",
+        "start_date": "1986",
+        "website": "https://www.supermercadoamerica.com.bo/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1619814,
+          -17.3723678
+        ]
+      },
+      "id": "node/1684069048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1851061721",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "0120-S",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Avenida Heroínas",
+        "contact:phone": "+591 4 4542834",
+        "name": "Almacén Pasteur",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Almacén Pasteur",
+        "payment:cash": "yes",
+        "recycling:batteries": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1489847,
+          -17.3909296
+        ]
+      },
+      "id": "node/1851061721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377781514",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "585",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Heroínas",
+        "contact:facebook": "https://www.facebook.com/superhaas/",
+        "contact:whatsapp": "+591 69437196",
+        "email": "superhaasltda@gmail.com",
+        "level": "0",
+        "name": "Super Haas",
+        "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-13:00",
+        "operator": "Super Haas",
+        "payment:cash": "yes",
+        "phone": "+591 69437196",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1535474,
+          -17.3915155
+        ]
+      },
+      "id": "node/2377781514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2409436985",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1197",
+        "addr:neighbourhood": "José Martí",
+        "addr:street": "Avenida Melchor Perez de Olguín",
+        "name": "Supermercado Q'Barato",
+        "operator": "Bernardo Siles Cohello",
+        "phone": "+591 4 4332313",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1759687,
+          -17.3722777
+        ]
+      },
+      "id": "node/2409436985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2544237698",
+        "name": "Zas!",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2788947,
+          -17.3936625
+        ]
+      },
+      "id": "node/2544237698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2600900390",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1214",
+        "addr:street": "Avenida Tadeo Haenke",
+        "contact:phone": "+591 4 4297456",
+        "name": "4 Hielos",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1664906,
+          -17.3860231
+        ]
+      },
+      "id": "node/2600900390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681342296",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Sucre",
+        "name": "Shopping Sucre",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1548138,
+          -17.393863
+        ]
+      },
+      "id": "node/2681342296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3301986323",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0982903,
+          -17.3857582
+        ]
+      },
+      "id": "node/3301986323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570780094",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Melchor Pérez de Olguín",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1747189,
+          -17.3650442
+        ]
+      },
+      "id": "node/3570780094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658998648",
+        "name": "Caprice",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1768342,
+          -17.3962301
+        ]
+      },
+      "id": "node/3658998648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3707526670",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle 16 de Julio",
+        "name": "All Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516862,
+          -17.3890603
+        ]
+      },
+      "id": "node/3707526670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3743778258",
+        "name": "Doña Flora",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2030335,
+          -17.3885866
+        ]
+      },
+      "id": "node/3743778258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3816521221",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1200",
+        "addr:street": "Avenida Simón Lopez",
+        "name": "Almacén",
+        "operator": "Cecilia Lobaton",
+        "phone": "+591 4 4300401",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1882326,
+          -17.3542651
+        ]
+      },
+      "id": "node/3816521221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3913418119",
+        "name": "V&S",
+        "opening_hours": "24/7",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1768016,
+          -17.3832061
+        ]
+      },
+      "id": "node/3913418119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3913488874",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1520",
+        "addr:street": "Avenida América",
+        "name": "Rote",
+        "opening_hours": "Mo-Sa 07:00-22:00, Su 08:00-20:30",
+        "phone": "+591 4 4422957",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1823454,
+          -17.3710644
+        ]
+      },
+      "id": "node/3913488874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4100989033",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Sarco Central",
+        "addr:street": "Calle 23 de Enero",
+        "name": "La Bodega",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1828378,
+          -17.3773902
+        ]
+      },
+      "id": "node/4100989033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4108542843",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Gualberto Villarroel",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1589349,
+          -17.3743211
+        ]
+      },
+      "id": "node/4108542843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4108810894",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "José Martí",
+        "addr:street": "Avenida Beijing",
+        "name": "Supermercado Partyllon",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1798062,
+          -17.3717294
+        ]
+      },
+      "id": "node/4108810894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4108832804",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle José Antonio Zegada",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1776475,
+          -17.3726352
+        ]
+      },
+      "id": "node/4108832804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4143771666",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Verbo Divino",
+        "addr:street": "Avenida Juan de la Rosa",
+        "contact:facebook": "https://www.facebook.com/SuperMercadoAmericasrl/",
+        "contact:phone": "+591 4 4249127",
+        "contact:website": "http://www.supermercadoamerica.com.bo/",
+        "name": "Supermercado América",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su,PH 09:00-13:00",
+        "operator": "Super Mercado América",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1752093,
+          -17.3766342
+        ]
+      },
+      "id": "node/4143771666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4157572374",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "666",
+        "addr:neighbourhood": "Muyurina",
+        "addr:street": "Avenida Aniceto Arce",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1453699,
+          -17.3830427
+        ]
+      },
+      "id": "node/4157572374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4272684589",
+        "name": "La GanGa",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0977513,
+          -17.3843944
+        ]
+      },
+      "id": "node/4272684589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319275324",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Esteban Arze",
+        "name": "Galería Villarroel",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1559636,
+          -17.3955774
+        ]
+      },
+      "id": "node/5319275324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6754516914",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Centro Histórico",
+        "addr:street": "Calle Sucre",
+        "name": "Galería PK-2",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1544591,
+          -17.3939785
+        ]
+      },
+      "id": "node/6754516914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8118817331",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2884473,
+          -17.3941919
+        ]
+      },
+      "id": "node/8118817331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8118817472",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2864919,
+          -17.3936471
+        ]
+      },
+      "id": "node/8118817472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005870777",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Verbo Divino",
+        "addr:street": "Avenida Juan de la Rosa",
+        "brand": "Hipermaxi",
+        "currency:BOB": "yes",
+        "level": "1",
+        "name": "Centro Comercial Hipermaxi",
+        "operator": "Hipermaxi",
+        "payment:cash": "yes",
+        "shop": "mall",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1722814,
+          -17.3767614
+        ]
+      },
+      "id": "node/9005870777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10770094638",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "268",
+        "addr:neighbourhood": "Santa Teresa",
+        "addr:street": "Avenida Ayacucho",
+        "check_date": "2023-03-28",
+        "level": "0",
+        "name": "Galería Copacabana",
+        "payment:cash": "yes",
+        "phone": "+591 4 4521592",
+        "shop": "mall",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1590635,
+          -17.3907079
+        ]
+      },
+      "id": "node/10770094638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4327436125",
+        "name": "Mercadoña",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.16346,
+          -17.3689416
+        ]
+      },
+      "id": "node/4327436125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334240858",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1465",
+        "addr:street": "Calle Tomas Frías",
+        "contact:phone": "+591 4 4432317",
+        "name": "Supermercado Petocho",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1555587,
+          -17.3758113
+        ]
+      },
+      "id": "node/4334240858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4402442091",
+        "addr:housenumber": "100",
+        "addr:street": "Avenida Eliodoro Villazón",
+        "name": "Gael",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0997882,
+          -17.3855854
+        ]
+      },
+      "id": "node/4402442091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4406352420",
+        "addr:street": "Avenida Eliodoro Villazón",
+        "name": "Q'Barato",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1295245,
+          -17.3751861
+        ]
+      },
+      "id": "node/4406352420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444955590",
+        "addr:housenumber": "1316",
+        "addr:street": "José Maria de la concepcion",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1743179,
+          -17.4902693
+        ]
+      },
+      "id": "node/4444955590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447024425",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1613722,
+          -17.3759241
+        ]
+      },
+      "id": "node/4447024425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4603068803",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Lanza",
+        "name": "Diarco",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.153986,
+          -17.3890199
+        ]
+      },
+      "id": "node/4603068803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4635262791",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Portales",
+        "addr:street": "Avenida Libertador Simón Bolívar",
+        "name": "Assian Korean",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1612454,
+          -17.3767694
+        ]
+      },
+      "id": "node/4635262791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4689734108",
+        "name": "SuperBuy",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1601866,
+          -17.3866409
+        ]
+      },
+      "id": "node/4689734108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4713554215",
+        "addr:street": "Avenida Pando",
+        "name": "Malusa",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1512459,
+          -17.3688886
+        ]
+      },
+      "id": "node/4713554215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866974717",
+        "name": "Pura Vida Ecológica",
+        "organic": "only",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1644327,
+          -17.3680471
+        ]
+      },
+      "id": "node/4866974717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124633891",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Calle Teodomiro Beltrán",
+        "name": "La Tiendita",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1495654,
+          -17.3824337
+        ]
+      },
+      "id": "node/5124633891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5143427955",
+        "addr:city": "Colcapirhua",
+        "addr:street": "Avenida Blanco Galindo",
+        "name": "Los Hermanos",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2086209,
+          -17.392573
+        ]
+      },
+      "id": "node/5143427955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156172766",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.183761,
+          -17.3406527
+        ]
+      },
+      "id": "node/5156172766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5158289432",
+        "name": "Q' Barato",
+        "opening_hours": "Mo-Sa 07:30-21:30; Su 09:00-18:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0952038,
+          -17.3748175
+        ]
+      },
+      "id": "node/5158289432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5219020327",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bajo Aranjuez",
+        "addr:street": "Calle Zenon Salinas",
+        "name": "Micro Market Precio Justo",
+        "operator": "Micro Market Precio Justo",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1493004,
+          -17.3751229
+        ]
+      },
+      "id": "node/5219020327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311511049",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Julio Arauco Prado",
+        "name": "Supermercado Sula",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1465358,
+          -17.3893648
+        ]
+      },
+      "id": "node/5311511049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5423884937",
+        "name": "Minimarket América",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.200328,
+          -17.3468164
+        ]
+      },
+      "id": "node/5423884937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5431181623",
+        "addr:city": "Cochabamba",
+        "name": "Micromercado Claros",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1926295,
+          -17.3760684
+        ]
+      },
+      "id": "node/5431181623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434450094",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "name": "Monarca",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1595085,
+          -17.3705094
+        ]
+      },
+      "id": "node/5434450094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519534989",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Sarco Central",
+        "addr:street": "Calle Apurimak",
+        "name": "La Pascualita",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1823599,
+          -17.3789197
+        ]
+      },
+      "id": "node/5519534989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519535766",
+        "addr:city": "Cochabamba",
+        "name": "El atrio del baúl",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1686637,
+          -17.3798348
+        ]
+      },
+      "id": "node/5519535766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5536512752",
+        "name": "MicroMercado Online",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1723281,
+          -17.3903865
+        ]
+      },
+      "id": "node/5536512752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6517108187",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Tadeo Haenke",
+        "name": "Supermercado Las Torres",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1998838,
+          -17.3809985
+        ]
+      },
+      "id": "node/6517108187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6689558885",
+        "addr:housenumber": "44390113",
+        "addr:postcode": "000",
+        "addr:street": "Calle Pacheco",
+        "email": "cidarfloresmoya@gmail.com",
+        "internet_access": "wlan",
+        "name": "CompramaS",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "77950630",
+        "shop": "supermarket",
+        "website": "http://www.compramas.com.bo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2792154,
+          -17.3972318
+        ]
+      },
+      "id": "node/6689558885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6689558886",
+        "addr:postcode": "0000",
+        "addr:street": "Calle 23 de Marzo",
+        "internet_access": "wlan",
+        "name": "CompramaS 2",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "77950630",
+        "shop": "supermarket",
+        "website": "http://www.compramas.com.bo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2796493,
+          -17.3937841
+        ]
+      },
+      "id": "node/6689558886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082553686",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Ecológico",
+        "addr:street": "Avenida Circunvalación Beijing",
+        "name": "Super Baratodo",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1501893,
+          -17.3667381
+        ]
+      },
+      "id": "node/7082553686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088098486",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1745937,
+          -17.3579064
+        ]
+      },
+      "id": "node/7088098486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176640125",
+        "addr:city": "Tiquipaya",
+        "addr:neighbourhood": "Putucu",
+        "addr:street": "Avenida Ecológica",
+        "name": "Supermercado América",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2098177,
+          -17.3425377
+        ]
+      },
+      "id": "node/7176640125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7448062514",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "Recoleta",
+        "addr:street": "Pasaje Buenos Aires",
+        "contact:facebook": "https://www.facebook.com/AutoMarket-111426677178361/",
+        "contact:website": "http://www.automarketcbba.com/",
+        "name": "Auto Market",
+        "opening_hours": "Mo 08:00-13:00; Tu-Fr 09:00-15:00",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.15183,
+          -17.3741459
+        ]
+      },
+      "id": "node/7448062514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8164208618",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Salomón Klein",
+        "addr:street": "Avenida América",
+        "name": "Micromercado AISIF",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1708086,
+          -17.3721496
+        ]
+      },
+      "id": "node/8164208618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8274282017",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida d'Orbigny",
+        "name": "Micromarket M y S",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1906781,
+          -17.3859142
+        ]
+      },
+      "id": "node/8274282017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8329145004",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Central Santa María",
+        "addr:street": "Avenida Salamanca",
+        "name": "Ufo Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1525665,
+          -17.3831551
+        ]
+      },
+      "id": "node/8329145004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8498939208",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Calle Baptista",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1592213,
+          -17.3850894
+        ]
+      },
+      "id": "node/8498939208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8498939209",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Barba de Padilla",
+        "addr:street": "Avenida Ayacucho",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1601781,
+          -17.3849968
+        ]
+      },
+      "id": "node/8498939209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8604930312",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "name": "Plaza 10",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1588701,
+          -17.3931467
+        ]
+      },
+      "id": "node/8604930312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9008315757",
+        "addr:city": "Colcapirhua",
+        "addr:street": "Avenida Blanco Galindo",
+        "name": "Supermercado La Despensa",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2383911,
+          -17.390622
+        ]
+      },
+      "id": "node/9008315757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9008315758",
+        "addr:city": "Colcapirhua",
+        "addr:street": "Avenida Blanco Galindo",
+        "name": "Micromercado A & S",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2383058,
+          -17.3906202
+        ]
+      },
+      "id": "node/9008315758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9045163382",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Los Ceibos",
+        "name": "Micromercado Dana",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1720609,
+          -17.3710452
+        ]
+      },
+      "id": "node/9045163382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9045167325",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida América",
+        "name": "Micromercado Super Stop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1740413,
+          -17.3719289
+        ]
+      },
+      "id": "node/9045167325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9213180187",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Grover Suarez",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1882299,
+          -17.4038511
+        ]
+      },
+      "id": "node/9213180187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9520929484",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Rafael Urquidi",
+        "name": "Supermercado Familiar CIBUM",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1617722,
+          -17.3837729
+        ]
+      },
+      "id": "node/9520929484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9584076999",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "1924",
+        "addr:neighbourhood": "Aranjuez",
+        "addr:street": "Calle Antonio Quijarro",
+        "name": "Sabela Market",
+        "operator": "Sabola Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1451047,
+          -17.3703051
+        ]
+      },
+      "id": "node/9584076999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9588574137",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "229",
+        "addr:neighbourhood": "San Pedro",
+        "addr:street": "Calle Aurelio Melean",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.148171,
+          -17.3889208
+        ]
+      },
+      "id": "node/9588574137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9776002156",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "La Rinconada",
+        "addr:street": "Avenida Circuito Bolivia",
+        "name": "Punto Market",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1265001,
+          -17.4105949
+        ]
+      },
+      "id": "node/9776002156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9797093605",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "789",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Aniceto Arce",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1446095,
+          -17.3813829
+        ]
+      },
+      "id": "node/9797093605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9873615179",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "El Progreso",
+        "addr:street": "Avenida d'Orbigny",
+        "name": "Minimarket IBIS",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1717665,
+          -17.3877743
+        ]
+      },
+      "id": "node/9873615179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9875534137",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "424",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida América",
+        "name": "Micromarket C.M.G.",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1663994,
+          -17.3720802
+        ]
+      },
+      "id": "node/9875534137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9875778067",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Calle Man Césped",
+        "level": "0",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1666808,
+          -17.3681875
+        ]
+      },
+      "id": "node/9875778067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9881542440",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Bajo Aranjuez",
+        "addr:street": "Calle Antonio Quijarro",
+        "drive_through": "yes",
+        "name": "Cocha Market",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1457942,
+          -17.377481
+        ]
+      },
+      "id": "node/9881542440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9889059653",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Seminario San Luis",
+        "addr:street": "Avenida Papa Paulo III",
+        "name": "Micromarket Papa Paulo",
+        "operator": "Micromarket Papa Paulo",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1475752,
+          -17.3835699
+        ]
+      },
+      "id": "node/9889059653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9924260228",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Montenegro",
+        "addr:street": "Avenida Humboldt",
+        "name": "CompraMAS Micromercado",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1648732,
+          -17.3845605
+        ]
+      },
+      "id": "node/9924260228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10560547613",
+        "addr:city": "Tiquipaya",
+        "addr:street": "Calle Pablo Jaimes",
+        "name": "Alimentos Integrales La Semilla",
+        "organic": "yes",
+        "phone": "+591-63925020",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.220245,
+          -17.3372917
+        ]
+      },
+      "id": "node/10560547613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10892503621",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 6 de Agosto",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Zoe Market",
+        "operator": "Zoe Market",
+        "payment:cash": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541519,
+          -17.4119052
+        ]
+      },
+      "id": "node/10892503621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10897756785",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Villa Santa Mónica",
+        "addr:street": "Calle Inti Raymi",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1776841,
+          -17.3690741
+        ]
+      },
+      "id": "node/10897756785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11090869435",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 6 de Agosto",
+        "barrier": "wall",
+        "branch": "San Antonio",
+        "brand": "EMAPA",
+        "contact:facebook": "https://www.facebook.com/EmapaBolivia",
+        "description": "~1000 productos 100% nacionales de micro y pequeños empresarios y artesanos de bolivia.",
+        "email": "emapa@emapa.gob.bo",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Super EMAPA",
+        "opening_hours": "Mo-Fr 07:30-21:30",
+        "operator": "Empresa de Apoyo a la Producción de Alimentos",
+        "operator:short": "EMAPA",
+        "operator:type": "public",
+        "payment:cash": "yes",
+        "phone": "+591 4 4522244;+591 72205579",
+        "shop": "supermarket",
+        "start_date": "2023-08-04",
+        "website": "https://www.emapa.gob.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1541167,
+          -17.4115638
+        ]
+      },
+      "id": "node/11090869435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11090869437",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Valle Hermoso Central",
+        "addr:street": "Avenida Petrolera",
+        "barrier": "wall",
+        "branch": "Agronomía",
+        "brand": "EMAPA",
+        "contact:facebook": "https://www.facebook.com/EmapaBolivia",
+        "description": "~1000 productos 100% nacionales de micro y pequeños empresarios y artesanos de bolivia.",
+        "email": "emapa@emapa.gob.bo",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Super EMAPA",
+        "note": "ubicación aproximada.",
+        "opening_hours": "Mo-Fr 07:30-21:30",
+        "operator": "Empresa de Apoyo a la Producción de Alimentos",
+        "operator:short": "EMAPA",
+        "operator:type": "public",
+        "payment:cash": "yes",
+        "phone": "+591 4 4522244;+591 72205579",
+        "shop": "supermarket",
+        "start_date": "2023-08-04",
+        "website": "https://www.emapa.gob.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1300453,
+          -17.4512261
+        ]
+      },
+      "id": "node/11090869437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11090869438",
+        "addr:city": "Quillacollo",
+        "barrier": "wall",
+        "branch": "Quillacollo",
+        "brand": "EMAPA",
+        "contact:facebook": "https://www.facebook.com/EmapaBolivia",
+        "description": "~1000 productos 100% nacionales de micro y pequeños empresarios y artesanos de bolivia.",
+        "email": "emapa@emapa.gob.bo",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Super EMAPA",
+        "note": "ubicación aproximada.",
+        "opening_hours": "Mo-Fr 07:30-21:30",
+        "operator": "Empresa de Apoyo a la Producción de Alimentos",
+        "operator:short": "EMAPA",
+        "operator:type": "public",
+        "payment:cash": "yes",
+        "phone": "+591 4 4522244;+591 72205579",
+        "shop": "supermarket",
+        "start_date": "2023-08-04",
+        "website": "https://www.emapa.gob.bo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2817181,
+          -17.4020524
+        ]
+      },
+      "id": "node/11090869438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11121793212",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "Santa Ana de Cala Cala",
+        "addr:street": "Avenida Los Ceibos",
+        "level": "0",
+        "name": "Lili Market",
+        "operator": "Lili Market",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1709908,
+          -17.3681889
+        ]
+      },
+      "id": "node/11121793212"
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-11T18:02:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2413529312",
+        "addr:city": "Quillacollo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal de Buses Quillacollo",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2726878,
+          -17.3927963
+        ]
+      },
+      "id": "node/2413529312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343383692",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Villa Tunari",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480107,
+          -17.3998012
+        ]
+      },
+      "id": "node/4343383692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424274390",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "contact:phone": "+591 70786818",
+        "name": "Parada a Torotoro",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516434,
+          -17.413916
+        ]
+      },
+      "id": "node/4424274390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4438989293",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Tiraque",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1503456,
+          -17.4076832
+        ]
+      },
+      "id": "node/4438989293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4539817192",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a San Benito",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1499217,
+          -17.4076904
+        ]
+      },
+      "id": "node/4539817192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4556134074",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Irpa Irpa",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1567347,
+          -17.4068284
+        ]
+      },
+      "id": "node/4556134074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4556134187",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Cliza",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1532879,
+          -17.4060432
+        ]
+      },
+      "id": "node/4556134187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4576151189",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida República",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Aiquile y Totora",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1514944,
+          -17.4145584
+        ]
+      },
+      "id": "node/4576151189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4743671921",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Punata",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1499083,
+          -17.4090816
+        ]
+      },
+      "id": "node/4743671921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4744179401",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "description": "Los vehículos son Noahs",
+        "name": "Parada a Totora",
+        "phone": "+591 4 4790296;+591 4 4341270",
+        "public_transport": "station",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1506168,
+          -17.4104916
+        ]
+      },
+      "id": "node/4744179401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4744179402",
+        "addr:city": "Cochabamba",
+        "addr:housenumber": "647",
+        "addr:street": "Calle Manuripi",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Arani",
+        "public_transport": "station",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1511997,
+          -17.4100731
+        ]
+      },
+      "id": "node/4744179402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4744180130",
+        "addr:housenumber": "835",
+        "addr:street": "Calle Pojo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Arani",
+        "opening_hours": "Mo-Su 04:00-20:00",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1496092,
+          -17.4100656
+        ]
+      },
+      "id": "node/4744180130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793464754",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Capinota",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Capinota",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1564565,
+          -17.4121278
+        ]
+      },
+      "id": "node/4793464754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796013235",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Punata",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1518852,
+          -17.4076294
+        ]
+      },
+      "id": "node/4796013235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796013236",
+        "amenity": "bus_station",
+        "covered": "no",
+        "name": "Parada a Cliza",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1533004,
+          -17.4069682
+        ]
+      },
+      "id": "node/4796013236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796013886",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Vacas",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516369,
+          -17.4079747
+        ]
+      },
+      "id": "node/4796013886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796013887",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Arbieto",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1533165,
+          -17.4076079
+        ]
+      },
+      "id": "node/4796013887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796014088",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Riberalta",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "yes",
+        "name": "Parada a Santivañez",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1516375,
+          -17.4077253
+        ]
+      },
+      "id": "node/4796014088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796014090",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada Expreso a Cliza",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1533049,
+          -17.4061873
+        ]
+      },
+      "id": "node/4796014090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796014091",
+        "amenity": "bus_station",
+        "covered": "no",
+        "name": "Parada a San Pedro de Buena Vista",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480177,
+          -17.4093017
+        ]
+      },
+      "id": "node/4796014091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4910985921",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Samaipata",
+        "operator": "TRANS POJO",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1491237,
+          -17.4104172
+        ]
+      },
+      "id": "node/4910985921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4914008485",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Parada a Colomi",
+        "opening_hours": "Mo-Su 04:00-20:00",
+        "operator": "Sindicato de Autotransporte Virgen del Rosario",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.14826,
+          -17.3994297
+        ]
+      },
+      "id": "node/4914008485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922947182",
+        "amenity": "bus_station",
+        "name": "Parada a Colomi",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0362044,
+          -17.4013294
+        ]
+      },
+      "id": "node/4922947182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922947184",
+        "amenity": "bus_station",
+        "name": "Parada Trufi 212",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0137624,
+          -17.4051167
+        ]
+      },
+      "id": "node/4922947184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315630610",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Tarata",
+        "operator": "Cooperativa de Transporte San Severino",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1535438,
+          -17.4081668
+        ]
+      },
+      "id": "node/5315630610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5494197520",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada Trufis Independiente",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2723657,
+          -17.3823333
+        ]
+      },
+      "id": "node/5494197520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5502415682",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "9 de Abril",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada al Chapare",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480924,
+          -17.4000808
+        ]
+      },
+      "id": "node/5502415682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5778002642",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Tarata",
+        "operator": "Cooperativa de Transporte Mixta Copacabana",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.153523,
+          -17.4075527
+        ]
+      },
+      "id": "node/5778002642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5805422965",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Potrero, Liriuni, Bella Vista",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2830215,
+          -17.3931285
+        ]
+      },
+      "id": "node/5805422965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827468020",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Tablas Monte",
+        "opening_hours": "Sa 12:00-14:00",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0319136,
+          -17.4027122
+        ]
+      },
+      "id": "node/5827468020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884530185",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Independencia",
+        "operator": "Trans Exaltación",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2844525,
+          -17.3940579
+        ]
+      },
+      "id": "node/5884530185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876685",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida República",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Mizque",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.151275,
+          -17.4142921
+        ]
+      },
+      "id": "node/6497876685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876698",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Totora",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1513001,
+          -17.4109139
+        ]
+      },
+      "id": "node/6497876698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876885",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 9 de Abril",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Colomi",
+        "public_transport": "station",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480639,
+          -17.3998099
+        ]
+      },
+      "id": "node/6497876885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876886",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Punata",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1508989,
+          -17.407664
+        ]
+      },
+      "id": "node/6497876886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876906",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Manuripi",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Pocona",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1513943,
+          -17.4100599
+        ]
+      },
+      "id": "node/6497876906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497876907",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Vacas",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1496375,
+          -17.4077083
+        ]
+      },
+      "id": "node/6497876907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6497877689",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Morochata",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2829435,
+          -17.3918204
+        ]
+      },
+      "id": "node/6497877689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6553567085",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Sipe Sipe",
+        "name:en": "Bus to Sipe Sipe",
+        "name:pt": "Trufi para Sipe Sipe",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.281628,
+          -17.3939488
+        ]
+      },
+      "id": "node/6553567085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644600593",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Taxis a Tiraque",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1505364,
+          -17.4076781
+        ]
+      },
+      "id": "node/6644600593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644600594",
+        "addr:city": "Cochabamba",
+        "addr:street": "Calle Guayaramerín",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Taxis a Punata",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1501561,
+          -17.4076899
+        ]
+      },
+      "id": "node/6644600594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644601190",
+        "addr:city": "Cochabamba",
+        "addr:street": "Avenida 6 de Agosto",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus a Tacopaya - Arque",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1470083,
+          -17.4080862
+        ]
+      },
+      "id": "node/6644601190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6881220485",
+        "addr:city": "Cochabamba",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a ToroToro",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1514353,
+          -17.4130746
+        ]
+      },
+      "id": "node/6881220485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8541188814",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "9 de Abril",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Bulo Bulo",
+        "opening_hours": "Mo-Su 07:00-18:00",
+        "operator": "Transporte San Miguel",
+        "phone": "+591 71726687",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1479731,
+          -17.4005059
+        ]
+      },
+      "id": "node/8541188814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8542732652",
+        "addr:city": "Cochabamba",
+        "addr:neighbourhood": "9 de Abril",
+        "addr:street": "Avenida Oquendo",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada a Yapacani",
+        "operator": "Transportes Yapacani",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1480408,
+          -17.4002781
+        ]
+      },
+      "id": "node/8542732652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8814872817",
+        "addr:city": "Sacaba",
+        "addr:neighbourhood": "Huayllani Chico",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Parada Palca",
+        "public_transport": "station",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0570046,
+          -17.3850078
+        ]
+      },
+      "id": "node/8814872817"
+    }
+  ]
+}
