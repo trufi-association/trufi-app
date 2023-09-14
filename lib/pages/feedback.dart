@@ -2,21 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:trufi_core/base/utils/util_icons/custom_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:trufi_core/base/models/trufi_latlng.dart';
-import 'package:trufi_core/base/blocs/providers/gps_location_provider.dart';
 import 'package:trufi_core/base/pages/feedback/translations/feedback_localizations.dart';
-import 'package:trufi_core/base/utils/packge_info_platform.dart';
 
 class FeedbackPage extends StatelessWidget {
   static const String route = "/Feedback";
-  final String urlFeedback;
+  final String email;
   final String urlWhatsapp;
   final Widget Function(BuildContext) drawerBuilder;
 
   const FeedbackPage({
     Key? key,
     required this.drawerBuilder,
-    required this.urlFeedback,
+    required this.email,
     required this.urlWhatsapp,
   }) : super(key: key);
 
@@ -60,23 +57,17 @@ class FeedbackPage extends StatelessWidget {
               text: const Text(
                 'WhatsApp',
                 style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 18
-                ),
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                    fontSize: 18),
               ),
             ),
             const SizedBox(height: 20),
             ContactButtons(
               ontap: () async {
-                String version = await PackageInfoPlatform.version();
-                final TrufiLatLng? currentLocation =
-                    GPSLocationProvider().myLocation;
+                final url = "mailto:$email?subject=Contact";
                 // ignore: deprecated_member_use
-                launch(
-                  "$urlFeedback?lang=${localizationF.localeName}&geo=${currentLocation?.latitude},"
-                  "${currentLocation?.longitude}&app=$version",
-                );
+                launch(url);
               },
               icon: const Icon(
                 Icons.email,
@@ -86,10 +77,9 @@ class FeedbackPage extends StatelessWidget {
               text: const Text(
                 'Email',
                 style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 18
-                ),
+                    color: Colors.black,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 18),
               ),
             ),
           ],

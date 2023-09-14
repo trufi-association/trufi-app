@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "title": "Ay\u00FAdanos con tu participaci\u00F3n para un estudio internacional!",
+    "imageUrl": "https://bo-cbba.sa.api.trufi-association.org/static_files/notification-image.jpg",
+    "description": "Con tu participaci\u00F3n en la siguiente encuesta, ayudar\u00E1s a las universidades de Hamburgo en Alemania y Coimbra en Portugal en la realizaci\u00F3n de un estudio internacional para mejorar la aplicaci\u00F3n Trufi. T\u00F3mate 10-15 minutos y ap\u00F3yanos![]()",
+    "actionButton": {
+        "name": "Responder ahora",
+        "url": "https://www.soscisurvey.de/trufi/"
+    },
+    "isPersistent": false
+}

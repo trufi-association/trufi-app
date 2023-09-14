@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trufi/custom_async_executor.dart';
+import 'package:trufi/local_poi_layer/static_layer.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
 import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
 import 'package:trufi_core/base/models/trufi_latlng.dart';
@@ -26,19 +27,21 @@ void main() async {
       ),
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "https://bo-cbba.sa.api.trufi-association.org/otp",
-          otpGraphqlEndpoint: "https://bo-cbba.sa.api.trufi-association.org/otp/index/graphql",
+          otpEndpoint: "https://navigator.trufi.app/otp",
+          otpGraphqlEndpoint: "https://navigator.trufi.app/otp/index/graphql",
           mapConfiguration: MapConfiguration(
             center: const TrufiLatLng(-17.392600, -66.158787),
+            feedbackForm: "https://forms.gle/QMLhJT7N44Bh9zBN6",
           ),
           searchAssetPath: "assets/data/search.json",
-          photonUrl: "https://bo-cbba.sa.api.trufi-association.org/photon",
+          photonUrl: "https://navigator.trufi.app/photon",
           mapTileProviders: [
             OSMMapLayer(
               mapTilesUrl:
-                  "https://bo-cbba.sa.api.trufi-association.org/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
+                  "http://navigator.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
             ),
           ],
+          layersContainer: customLayersTrufi,
         ),
       ],
       trufiRouter: TrufiRouter(
@@ -52,22 +55,21 @@ void main() async {
               fit: BoxFit.cover,
             );
           },
-          urlFeedback:
-              'https://trufifeedback.z15.web.core.windows.net/route.html',
           urlWhatsapp: 'https://wa.me/message/U2SDYC6R55WCM1',
           emailContact: 'feedback@trufi.app',
           urlShareApp: 'https://www.trufi.app/',
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/trufiapp/',
+            urlInstagram: 'https://www.instagram.com/trufi.app',
           ),
           asyncExecutor: customAsyncExecutor,
           shareBaseUri: Uri(
             scheme: "https",
-            host: "bo-cbba.sa.api.trufi-association.org",
+            host: "navigator.trufi.app",
           ),
           lifecycleReactorHandler: LifecycleReactorNotifications(
             url:
-                'https://bo-cbba.sa.api.trufi-association.org/static_files/notification.json',
+                'https://navigator.trufi.app/static_files/notification.json',
           ),
         ),
       ),

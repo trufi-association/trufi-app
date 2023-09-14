@@ -43,6 +43,10 @@
                  android:name="io.flutter.embedding.android.NormalTheme"
                  android:resource="@style/NormalTheme"
                  />
+                 <meta-data
+                     android:name="io.flutter.embedding.android.SplashScreenDrawable"
+                     android:resource="@drawable/launch_background"
+                 />
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
@@ -53,12 +57,13 @@
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
         <data android:scheme="https" android:host="bo-cbba.sa.api.trufi-association.org" android:pathPrefix="/app" />
+        <data android:scheme="https" android:host="navigator.trufi.app" android:pathPrefix="/app" />
       </intent-filter>
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="https" android:host="maps.google.com" />
+        <data android:scheme="https" android:host="maps.google.com" android:pathPrefix="/maps"/>
       </intent-filter>
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />
