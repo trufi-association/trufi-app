@@ -11,6 +11,8 @@ PODS:
     - Flutter
   - location (0.0.1):
     - Flutter
+  - lodash_flutter (0.0.1):
+    - Flutter
   - package_info_plus (0.4.5):
     - Flutter
   - path_provider_foundation (0.0.1):
@@ -32,6 +34,7 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
   - location (from `.symlinks/plugins/location/ios`)
+  - lodash_flutter (from `.symlinks/plugins/lodash_flutter/ios`)
   - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
   - share_plus (from `.symlinks/plugins/share_plus/ios`)
@@ -54,6 +57,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/geolocator_apple/ios"
   location:
     :path: ".symlinks/plugins/location/ios"
+  lodash_flutter:
+    :path: ".symlinks/plugins/lodash_flutter/ios"
   package_info_plus:
     :path: ".symlinks/plugins/package_info_plus/ios"
   path_provider_foundation:
@@ -74,6 +79,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
   location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  lodash_flutter: 67703deebcb443e5f1974da2b42767572159a40f
   package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
   path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
   share_plus: 056a1e8ac890df3e33cb503afffaf1e9b4fbae68

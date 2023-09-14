@@ -4,6 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
+		<string>applinks:navigator.trufi.app</string>
 		<string>applinks:bo-cbba.sa.api.trufi-association.org</string>
 	</array>
 </dict>
