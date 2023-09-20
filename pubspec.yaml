@@ -35,7 +35,7 @@ dependencies:
   trufi_core:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: 4.0.0
+      ref: v4.0.0
   pf_user_tracking:
     path: ../pf_user_tracking
 
