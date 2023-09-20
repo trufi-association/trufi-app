@@ -56,8 +56,13 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="https" android:host="bo-cbba.sa.api.trufi-association.org" android:pathPrefix="/app" />
         <data android:scheme="https" android:host="navigator.trufi.app" android:pathPrefix="/app" />
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https" android:host="bo-cbba.sa.api.trufi-association.org" android:pathPrefix="/app" />
       </intent-filter>
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />

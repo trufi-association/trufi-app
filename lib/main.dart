@@ -55,7 +55,7 @@ void main() async {
               fit: BoxFit.cover,
             );
           },
-          urlWhatsapp: 'https://wa.me/message/U2SDYC6R55WCM1',
+          urlWhatsapp: 'https://wa.me/message/SXGYZP66KWYSO1',
           emailContact: 'feedback@trufi.app',
           urlShareApp: 'https://www.trufi.app/',
           urlSocialMedia: const UrlSocialMedia(
