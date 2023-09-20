@@ -650,7 +650,7 @@ packages:
       path: "../pf_user_tracking"
       relative: true
     source: path
-    version: "1.5.0+2"
+    version: "1.5.2"
   platform:
     dependency: transitive
     description:
@@ -827,10 +827,12 @@ packages:
   trufi_core:
     dependency: "direct main"
     description:
-      path: "../trufi-core"
-      relative: true
-    source: path
-    version: "3.4.3"
+      path: "."
+      ref: "4.0.0"
+      resolved-ref: a5252c9a87da968a09fc25b4bc6432c115f05104
+      url: "https://github.com/trufi-association/trufi-core.git"
+    source: git
+    version: "3.9.9"
   tuple:
     dependency: transitive
     description:
