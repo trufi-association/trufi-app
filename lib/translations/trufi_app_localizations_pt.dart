@@ -8,7 +8,7 @@ class TrufiAppLocalizationPt extends TrufiAppLocalization {
   String get menuFaresGuidelines => 'Tarifas e diretrizes';
 
   @override
-  String get guidelinesTypePassengerOlder => 'Idoso';
+  String get guidelinesTypePassengerOlder => 'Pessoas idosas';
 
   @override
   String get guidelinesTypePassengerSeniorCitizen => 'Cidadão sênior';
@@ -20,7 +20,7 @@ class TrufiAppLocalizationPt extends TrufiAppLocalization {
   String get guidelinesTypePassengerUniversityStudents => 'Estudantes universitários';
 
   @override
-  String get guidelinesTypePassengerPrimarySecondaryStudents => 'Alunos do ensino fundamental';
+  String get guidelinesTypePassengerPrimarySecondaryStudents => 'Estudantes do ensino fundamental e médio';
 
   @override
   String get guidelinesTypePassengerMeritorious => 'Meritórios';
@@ -56,25 +56,31 @@ class TrufiAppLocalizationPt extends TrufiAppLocalization {
   String get guidelinesMetropolitanFare => 'Tarifa para o eixo metropolitano';
 
   @override
-  String get guidelinesMetropolitanFareIntroduction => 'Para seções interprovinciais do eixo metropolitano, aplicam-se as tarifas estabelecidas pelo Decreto Departamental 1399:';
+  String get guidelinesMetropolitanFareIntroduction => 'Para seções intermunicipais do eixo metropolitano, aplicam-se as tarifas estabelecidas pelo Decreto Departamental 1399:';
 
   @override
-  String get guidelinesMetropolitanFareClarification => 'Exceções: A partir das 22h, o horário noturno está em vigor, com um aumento de Bs 0,50 tanto no eixo urbano quanto no interprovincial. Em alguns casos, a tarifa também varia dependendo da seção da rota, aumentando ou diminuindo em Bs 0,50, conforme detalhado nas tabelas. Em todo caso, se não tiver certeza, pergunte ao motorista ou a outro passageiro.';
+  String get guidelinesMetropolitanFareClarification => 'Exceções: A partir das 22h, o horário noturno está em vigor, com um aumento de Bs 0,50 tanto no eixo urbano quanto no intermunicipais. Em alguns casos, a tarifa também varia dependendo da seção da rota, aumentando ou diminuindo em Bs 0,50, conforme detalhado nas tabelas. Em todo caso, se não tiver certeza, pergunte ao motorista ou a outro passageiro.';
 
   @override
   String get guidelinesPublicTransportation => 'Como usar o transporte público ';
 
   @override
-  String get guidelinesPublicTransportationDescription => 'Se você for de trufi, pagará quando descer e quando subir, se for uma montanha-russa. Você pode descer ou parar onde quiser, mas tente fazê-lo quando o semáforo estiver vermelho para evitar congestionamentos e avise o motorista com antecedência.';
+  String get guidelinesPublicTransportationDescription => 'Se você for de trufi, pagará quando descer e quando subir. Você pode descer ou parar onde quiser, mas tente fazê-lo quando o semáforo estiver vermelho para evitar congestionamentos e avise o motorista com antecedência.';
 
   @override
   String get guidelinesStops => 'Paradas';
 
   @override
-  String get guidelinesStopsDescription => 'Os trufis têm paradas de rota nos destinos finais (localidades), paradas no centro da cidade que podem ser intermediárias (ruas do centro) ou circuitos. Os ônibus interprovinciais têm paradas fixas (Chapare, Tarata, Cliza, Punata, etc.).';
+  String get guidelinesStopsDescription => 'Os trufis têm paradas de rota nos destinos finais (localidades), paradas no centro da cidade que podem ser intermediárias (ruas do centro) ou circuitos. Os ônibus intermunicipais têm paradas fixas (Chapare, Tarata, Cliza, Punata, etc.).';
 
   @override
   String get guidelinesRouteIdentifiers => 'Identificadores de rota';
+
+  @override
+  String get typeOfVehicleMicro => 'Ônibus';
+
+  @override
+  String get typeOfVehicleMinibus => 'Microônibus';
 
   @override
   String get layerGroupLeisure => 'Lazer e Entretenimento';

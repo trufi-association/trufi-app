@@ -23,6 +23,8 @@
     "guidelinesStops": "Haltestellen",
     "guidelinesStopsDescription": "Trufis haben Haltestellen an Endzielen (Ortschaften), Haltestellen im Stadtzentrum, die Zwischenstationen sein können (Straßen im Stadtzentrum) oder Rundkurse. Die interprovinziellen Busse haben feste Haltestellen (Chapare, Tarata, Cliza, Punata, etc.)",
     "guidelinesRouteIdentifiers": "Streckenbezeichnungen",
+    "typeOfVehicleMicro": "Mikro",
+    "typeOfVehicleMinibus": "Kleinbus",
     "layerGroupLeisure": "Freizeit und Unterhaltung",
     "layerGroupTravel": "Reisen",
     "layerGroupEducation": "Bildung",

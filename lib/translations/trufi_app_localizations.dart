@@ -106,7 +106,7 @@ abstract class TrufiAppLocalization {
   /// No description provided for @guidelinesTypePassengerOlder.
   ///
   /// In pt, this message translates to:
-  /// **'Idoso'**
+  /// **'Pessoas idosas'**
   String get guidelinesTypePassengerOlder;
 
   /// No description provided for @guidelinesTypePassengerSeniorCitizen.
@@ -130,7 +130,7 @@ abstract class TrufiAppLocalization {
   /// No description provided for @guidelinesTypePassengerPrimarySecondaryStudents.
   ///
   /// In pt, this message translates to:
-  /// **'Alunos do ensino fundamental'**
+  /// **'Estudantes do ensino fundamental e médio'**
   String get guidelinesTypePassengerPrimarySecondaryStudents;
 
   /// No description provided for @guidelinesTypePassengerMeritorious.
@@ -202,13 +202,13 @@ abstract class TrufiAppLocalization {
   /// No description provided for @guidelinesMetropolitanFareIntroduction.
   ///
   /// In pt, this message translates to:
-  /// **'Para seções interprovinciais do eixo metropolitano, aplicam-se as tarifas estabelecidas pelo Decreto Departamental 1399:'**
+  /// **'Para seções intermunicipais do eixo metropolitano, aplicam-se as tarifas estabelecidas pelo Decreto Departamental 1399:'**
   String get guidelinesMetropolitanFareIntroduction;
 
   /// No description provided for @guidelinesMetropolitanFareClarification.
   ///
   /// In pt, this message translates to:
-  /// **'Exceções: A partir das 22h, o horário noturno está em vigor, com um aumento de Bs 0,50 tanto no eixo urbano quanto no interprovincial. Em alguns casos, a tarifa também varia dependendo da seção da rota, aumentando ou diminuindo em Bs 0,50, conforme detalhado nas tabelas. Em todo caso, se não tiver certeza, pergunte ao motorista ou a outro passageiro.'**
+  /// **'Exceções: A partir das 22h, o horário noturno está em vigor, com um aumento de Bs 0,50 tanto no eixo urbano quanto no intermunicipais. Em alguns casos, a tarifa também varia dependendo da seção da rota, aumentando ou diminuindo em Bs 0,50, conforme detalhado nas tabelas. Em todo caso, se não tiver certeza, pergunte ao motorista ou a outro passageiro.'**
   String get guidelinesMetropolitanFareClarification;
 
   /// No description provided for @guidelinesPublicTransportation.
@@ -220,7 +220,7 @@ abstract class TrufiAppLocalization {
   /// No description provided for @guidelinesPublicTransportationDescription.
   ///
   /// In pt, this message translates to:
-  /// **'Se você for de trufi, pagará quando descer e quando subir, se for uma montanha-russa. Você pode descer ou parar onde quiser, mas tente fazê-lo quando o semáforo estiver vermelho para evitar congestionamentos e avise o motorista com antecedência.'**
+  /// **'Se você for de trufi, pagará quando descer e quando subir. Você pode descer ou parar onde quiser, mas tente fazê-lo quando o semáforo estiver vermelho para evitar congestionamentos e avise o motorista com antecedência.'**
   String get guidelinesPublicTransportationDescription;
 
   /// No description provided for @guidelinesStops.
@@ -232,7 +232,7 @@ abstract class TrufiAppLocalization {
   /// No description provided for @guidelinesStopsDescription.
   ///
   /// In pt, this message translates to:
-  /// **'Os trufis têm paradas de rota nos destinos finais (localidades), paradas no centro da cidade que podem ser intermediárias (ruas do centro) ou circuitos. Os ônibus interprovinciais têm paradas fixas (Chapare, Tarata, Cliza, Punata, etc.).'**
+  /// **'Os trufis têm paradas de rota nos destinos finais (localidades), paradas no centro da cidade que podem ser intermediárias (ruas do centro) ou circuitos. Os ônibus intermunicipais têm paradas fixas (Chapare, Tarata, Cliza, Punata, etc.).'**
   String get guidelinesStopsDescription;
 
   /// No description provided for @guidelinesRouteIdentifiers.
@@ -240,6 +240,18 @@ abstract class TrufiAppLocalization {
   /// In pt, this message translates to:
   /// **'Identificadores de rota'**
   String get guidelinesRouteIdentifiers;
+
+  /// No description provided for @typeOfVehicleMicro.
+  ///
+  /// In pt, this message translates to:
+  /// **'Ônibus'**
+  String get typeOfVehicleMicro;
+
+  /// No description provided for @typeOfVehicleMinibus.
+  ///
+  /// In pt, this message translates to:
+  /// **'Microônibus'**
+  String get typeOfVehicleMinibus;
 
   /// No description provided for @layerGroupLeisure.
   ///

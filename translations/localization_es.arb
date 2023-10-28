@@ -23,6 +23,8 @@
     "guidelinesStops": "Paradas",
     "guidelinesStopsDescription": "Los trufis tienen paradas de rutas en los destinos finales (localidades), paradas en el centro que pueden ser intermedios (calles del centro) o de circuitos. Los buses interprovinciales si tienen paradas fijas (Parada Chapare, Parada Tarata, Cliza, Punata, etc.). ",
     "guidelinesRouteIdentifiers": "Identificadores de rutas",
+    "typeOfVehicleMicro": "Micro",
+    "typeOfVehicleMinibus": "Minibus",
     "layerGroupLeisure": "Ocio y entretenimiento",
     "layerGroupTravel": "Viajes",
     "layerGroupEducation": "Educación",

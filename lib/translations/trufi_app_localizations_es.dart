@@ -77,6 +77,12 @@ class TrufiAppLocalizationEs extends TrufiAppLocalization {
   String get guidelinesRouteIdentifiers => 'Identificadores de rutas';
 
   @override
+  String get typeOfVehicleMicro => 'Micro';
+
+  @override
+  String get typeOfVehicleMinibus => 'Minibus';
+
+  @override
   String get layerGroupLeisure => 'Ocio y entretenimiento';
 
   @override

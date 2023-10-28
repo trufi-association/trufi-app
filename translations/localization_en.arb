@@ -23,6 +23,8 @@
     "guidelinesStops": "Stops",
     "guidelinesStopsDescription": "Trufis have route stops at final destinations (localities), stops in the downtown  that can be intermediate (downtown streets) or circuits. Interprovincial buses do have fixed stops (Chapare, Tarata, Cliza, Punata, etc.).",
     "guidelinesRouteIdentifiers": "Route identifiers",
+    "typeOfVehicleMicro": "Micro",
+    "typeOfVehicleMinibus": "Minibus",
     "layerGroupLeisure": "Leisure and Entertainment",
     "layerGroupTravel": "Travel",
     "layerGroupEducation": "Education",
