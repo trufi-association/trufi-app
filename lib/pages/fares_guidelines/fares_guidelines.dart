@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
+import 'package:flutter_svg/svg.dart';
 import 'package:trufi/translations/trufi_app_localizations.dart';
 import 'package:trufi_core/base/utils/util_icons/custom_icons.dart';
 import 'package:trufi_core/base/widgets/basic_widgets/trufi_expansion_tile.dart';
@@ -124,33 +124,33 @@ class FaresGuideLinesPage extends StatelessWidget {
                         TrufiExpansionTile(
                           typeTitle: ExpansionTileTitleType.tertiary,
                           padding: _paddingList,
-                          title: "Micro (Cochabamba - Quillacollo)",
+                          title: "${localizationFG.typeOfVehicleMicro} (Cochabamba - Quillacollo)",
                           body: Column(
                             children: [
                               _ListTileFare(
                                   dataName: localizationFG
                                       .guidelinesTypePassengerOlder,
-                                  value: "Bs 1,90"),
+                                  value: "Bs 2,00"),
                               const Divider(),
                               _ListTileFare(
                                   dataName: localizationFG
                                       .guidelinesTypePassengerSeniorCitizen,
-                                  value: "Bs 1,50"),
+                                  value: "Bs 1,60"),
                               const Divider(),
                               _ListTileFare(
                                   dataName: localizationFG
                                       .guidelinesTypePassengerDisabled,
-                                  value: "Bs 1,50"),
+                                  value: "Bs 1,00"),
                               const Divider(),
                               _ListTileFare(
                                   dataName: localizationFG
                                       .guidelinesTypePassengerUniversityStudents,
-                                  value: "Bs 0,80"),
+                                  value: "Bs 1,00"),
                               const Divider(),
                               _ListTileFare(
                                   dataName: localizationFG
                                       .guidelinesTypePassengerStudents,
-                                  value: "Bs 0,50"),
+                                  value: "Bs 0,70"),
                             ],
                           ),
                         ),
@@ -158,7 +158,7 @@ class FaresGuideLinesPage extends StatelessWidget {
                         TrufiExpansionTile(
                           typeTitle: ExpansionTileTitleType.tertiary,
                           padding: EdgeInsets.zero,
-                          title: "Minibus",
+                          title: localizationFG.typeOfVehicleMinibus,
                           body: Column(
                             children: [
                               const SizedBox(height: 2),
@@ -172,27 +172,27 @@ class FaresGuideLinesPage extends StatelessWidget {
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerOlder,
-                                        value: "Bs 1,90"),
+                                        value: "Bs 2,40"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerSeniorCitizen,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerDisabled,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerUniversityStudents,
-                                        value: "Bs 0,80"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerStudents,
-                                        value: "Bs 0,50"),
+                                        value: "Bs 0,80"),
                                   ],
                                 ),
                               ),
@@ -207,27 +207,27 @@ class FaresGuideLinesPage extends StatelessWidget {
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerOlder,
-                                        value: "Bs 1,90"),
+                                        value: "Bs 2,40"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerSeniorCitizen,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerDisabled,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerUniversityStudents,
-                                        value: "Bs 0,80"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerStudents,
-                                        value: "Bs 0,50"),
+                                        value: "Bs 0,80"),
                                   ],
                                 ),
                               ),
@@ -242,27 +242,27 @@ class FaresGuideLinesPage extends StatelessWidget {
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerOlder,
-                                        value: "Bs 1,90"),
+                                        value: "Bs 2,40"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerSeniorCitizen,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,90"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerDisabled,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerUniversityStudents,
-                                        value: "Bs 0,80"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerStudents,
-                                        value: "Bs 0,50"),
+                                        value: "Bs 0,80"),
                                   ],
                                 ),
                               ),
@@ -277,27 +277,27 @@ class FaresGuideLinesPage extends StatelessWidget {
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerOlder,
-                                        value: "Bs 1,90"),
+                                        value: "Bs 2,40"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerSeniorCitizen,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,90"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerDisabled,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerUniversityStudents,
-                                        value: "Bs 0,80"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerStudents,
-                                        value: "Bs 0,50"),
+                                        value: "Bs 0,80"),
                                   ],
                                 ),
                               ),
@@ -312,27 +312,27 @@ class FaresGuideLinesPage extends StatelessWidget {
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerOlder,
-                                        value: "Bs 1,90"),
+                                        value: "Bs 2,40"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerSeniorCitizen,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,90"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerDisabled,
-                                        value: "Bs 1,50"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerUniversityStudents,
-                                        value: "Bs 0,80"),
+                                        value: "Bs 1,20"),
                                     const Divider(),
                                     _ListTileFare(
                                         dataName: localizationFG
                                             .guidelinesTypePassengerStudents,
-                                        value: "Bs 0,50"),
+                                        value: "Bs 0,80"),
                                   ],
                                 ),
                               ),
