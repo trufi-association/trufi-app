@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:trufi/custom_async_executor.dart';
 import 'package:trufi/local_poi_layer/static_layer.dart';
 import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
@@ -61,6 +62,7 @@ void main() async {
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/trufiapp/',
             urlInstagram: 'https://www.instagram.com/trufi.app',
+            urlTiktok: 'https://www.tiktok.com/@trufi.app?_t=8hFSsmjQerG&_r=1',
           ),
           asyncExecutor: customAsyncExecutor,
           shareBaseUri: Uri(
