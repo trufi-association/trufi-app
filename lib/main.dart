@@ -1,148 +1,77 @@
-import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
-import 'package:global_configuration/global_configuration.dart';
-import 'package:latlong/latlong.dart';
-import 'package:trufi_core/trufi_configuration.dart';
-import 'package:trufi_core/trufi_app.dart';
+import 'package:trufi/custom_async_executor.dart';
+import 'package:trufi/local_poi_layer/static_layer.dart';
+import 'package:trufi_core/base/blocs/map_configuration/map_configuration_cubit.dart';
+import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
+import 'package:trufi_core/base/models/trufi_latlng.dart';
+import 'package:trufi_core/base/utils/certificates_letsencrypt_android.dart';
+import 'package:trufi_core/base/utils/graphql_client/hive_init.dart';
+import 'package:trufi_core/base/utils/trufi_app_id.dart';
+import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
+import 'package:trufi_core/base/widgets/screen/lifecycle_reactor_notification.dart';
+import 'package:trufi_core/trufi_core.dart';
+import 'package:trufi_core/trufi_router.dart';
+
+import 'default_values.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  final trufiCfg = TrufiConfiguration();
-  final globalCfg = GlobalConfiguration();
-  await globalCfg.loadFromAsset("app_config");
-
-  // Abbreviations
-  trufiCfg.abbreviations.addAll({
-    "Avenida": "Av.",
-    "Calle": "C.",
-    "Camino": "C.º",
-  });
-
-  // Animation
-  trufiCfg.animation.loading = FlareActor(
-    "assets/images/loading.flr",
-    animation: "Trufi Drive",
-  );
-  trufiCfg.animation.success = FlareActor(
-    "assets/images/success.flr",
-    animation: "Untitled",
-  );
-
-  // Attribution
-  trufiCfg.attribution.representatives.addAll([
-    "Christoph Hanser",
-    "Samuel Rioja",
-  ]);
-  trufiCfg.attribution.team.addAll([
-    "Andreas Helms",
-    "Annika Bock",
-    "Christian Brückner",
-    "Javier Rocha",
-    "Luz Choque",
-    "Malte Dölker",
-    "Martin Kleppe",
-    "Michael Brückner",
-    "Natalya Blanco",
-    "Neyda Mili",
-    "Raimund Wege",
-  ]);
-  trufiCfg.attribution.translations.addAll([
-    "Gladys Aguilar",
-    "Jeremy Maes",
-    "Gaia Vitali Roscini",
-  ]);
-  trufiCfg.attribution.routes.addAll([
-    "Trufi team",
-    "Guia Cochala team",
-  ]);
-  trufiCfg.attribution.osm.addAll([
-    "Marco Antonio",
-    "Noémie",
-    "Philipp",
-    "Felix D",
-    "Valor Naram", // Sören Reinecke
-  ]);
-
-  // Email
-  trufiCfg.email.feedback = globalCfg.getString("emailFeedback");
-  trufiCfg.email.info = globalCfg.getString("emailInfo");
-
-  // Image
-  trufiCfg.image.drawerBackground = "assets/images/drawer-bg.jpg";
-
-  // Map
-  trufiCfg.map.satelliteMapTypeEnabled = true;
-  trufiCfg.map.terrainMapTypeEnabled = true;
-  trufiCfg.map.defaultZoom = 12.0;
-  trufiCfg.map.offlineMinZoom = 8.0;
-  trufiCfg.map.offlineMaxZoom = 14.0;
-  trufiCfg.map.offlineZoom = 13.0;
-  trufiCfg.map.onlineMinZoom = 1.0;
-  trufiCfg.map.onlineMaxZoom = 19.0;
-  trufiCfg.map.onlineZoom = 13.0;
-  trufiCfg.map.chooseLocationZoom = 16.0;
-  trufiCfg.map.center = LatLng(-17.39000, -66.15400);
-  trufiCfg.map.southWest = LatLng(-17.79300, -66.75000);
-  trufiCfg.map.northEast = LatLng(-16.90400, -65.67400);
-
-  // Languages
-  trufiCfg.languages.addAll([
-    TrufiConfigurationLanguage(
-      languageCode: "de",
-      countryCode: "DE",
-      displayName: "Deutsch",
-    ),
-    TrufiConfigurationLanguage(
-      languageCode: "en",
-      countryCode: "US",
-      displayName: "English",
-    ),
-    TrufiConfigurationLanguage(
-      languageCode: "es",
-      countryCode: "ES",
-      displayName: "Español",
-      isDefault: true,
-    ),
-    TrufiConfigurationLanguage(
-      languageCode: "fr",
-      countryCode: "FR",
-      displayName: "Français",
-    ),
-    TrufiConfigurationLanguage(
-      languageCode: "it",
-      countryCode: "IT",
-      displayName: "Italiano",
-    ),
-    TrufiConfigurationLanguage(
-      languageCode: "qu",
-      countryCode: "BO",
-      displayName: "Quechua simi",
-    ),
-  ]);
-
-  // Url
-  trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpEndpoint");
-  trufiCfg.url.tilesStreetsEndpoint = globalCfg.getString("urlTilesStreetsEndpoint");
-  trufiCfg.url.tilesSatelliteEndpoint = globalCfg.getString("urlTilesSatelliteEndpoint");
-  trufiCfg.url.tilesTerrainEndpoint = globalCfg.getString("urlTilesTerrainEndpoint");
-  trufiCfg.url.adsEndpoint = globalCfg.getString("urlAdsEndpoint");
-  trufiCfg.url.routeFeedback = globalCfg.getString("urlRouteFeedback");
-  trufiCfg.url.donate = globalCfg.getString("urlDonate");
-  trufiCfg.url.website = globalCfg.getString("urlWebsite");
-  trufiCfg.url.facebook = globalCfg.getString("urlFacebook");
-  trufiCfg.url.instagram = globalCfg.getString("urlInstagram");
-  trufiCfg.url.twitter = globalCfg.getString("urlTwitter");
-  trufiCfg.url.share = globalCfg.getString("urlShare");
-
-  // Run app
+  await CertificatedLetsencryptAndroid.workAroundCertificated();
+  await initHiveForFlutter();
+  await TrufiAppId.initialize();
   runApp(
     TrufiApp(
-      theme: ThemeData(
-        primaryColor: const Color(0xff263238),
-        primaryColorLight: const Color(0xffeceff1),
-        accentColor: const Color(0xffd81b60),
-        backgroundColor: Colors.white,
+      appNameTitle: 'TrufiApp',
+      trufiLocalization: DefaultValues.trufiLocalization(
+        currentLocale: const Locale("es"),
+      ),
+      blocProviders: [
+        ...DefaultValues.blocProviders(
+          otpEndpoint: "https://navigator.trufi.app/otp",
+          otpGraphqlEndpoint: "https://navigator.trufi.app/otp/index/graphql",
+          mapConfiguration: MapConfiguration(
+            center: const TrufiLatLng(-17.392600, -66.158787),
+            feedbackForm: "https://forms.gle/QMLhJT7N44Bh9zBN6",
+          ),
+          searchAssetPath: "assets/data/search.json",
+          photonUrl: "https://navigator.trufi.app/photon",
+          mapTileProviders: [
+            OSMMapLayer(
+              mapTilesUrl:
+                  "http://navigator.trufi.app/static-maps/trufi-liberty/{z}/{x}/{y}@2x.jpg",
+            ),
+          ],
+          layersContainer: customLayersTrufi,
+        ),
+      ],
+      trufiRouter: TrufiRouter(
+        routerDelegate: DefaultValues.routerDelegate(
+          appName: 'Trufi App',
+          cityName: 'Cochabamba',
+          countryName: 'Bolivia',
+          backgroundImageBuilder: (_) {
+            return Image.asset(
+              'assets/images/drawer-bg.jpg',
+              fit: BoxFit.cover,
+            );
+          },
+          urlWhatsapp: 'https://wa.me/message/SXGYZP66KWYSO1',
+          emailContact: 'feedback@trufi.app',
+          urlShareApp: 'https://www.trufi.app/',
+          urlSocialMedia: const UrlSocialMedia(
+            urlFacebook: 'https://www.facebook.com/trufiapp/',
+            urlInstagram: 'https://www.instagram.com/trufi.app',
+          ),
+          asyncExecutor: customAsyncExecutor,
+          shareBaseUri: Uri(
+            scheme: "https",
+            host: "navigator.trufi.app",
+          ),
+          lifecycleReactorHandler: LifecycleReactorNotifications(
+            url:
+                'https://navigator.trufi.app/static_files/notification.json',
+          ),
+        ),
       ),
     ),
   );
