@@ -86,38 +86,42 @@ class POILayer extends MapLayer {
         final isOnlyPoint = layerData.getPoints.length == 1;
         for (var i = 0; i < layerData.getPoints.length; i++) {
           final point = layerData.getPoints[i];
-          markers.add(Marker(
-            key: Key(
-                "$id:${layerData.id}---${layerData.name} ${isOnlyPoint ? "" : i + 1}"),
-            height: markerSize,
-            width: markerSize,
-            point: point,
-            anchorPos: AnchorPos.align(AnchorAlign.center),
-            builder: (context) => GestureDetector(
-              onTap: () {
-                final panelCubit = context.read<PanelCubit>();
-                panelCubit.setPanel(
-                  MarkerPanel(
-                    panel: (
-                      context,
-                      onFetchPlan, {
-                      isOnlyDestination,
-                    }) =>
-                        POIMarkerModal(
-                      layerId: layerId,
-                      element: layerData,
-                      point: point,
-                      onFetchPlan: onFetchPlan,
-                      index: isOnlyPoint ? null : i + 1,
-                    ),
-                    positon: TrufiLatLng.fromLatLng(point),
-                    minSize: 120,
-                  ),
-                );
-              },
-              child: FittedBox(child: layerId.getImage()),
+          markers.add(
+            Marker(
+              key: Key(
+                  "$id:${layerData.id}---${layerData.name} ${isOnlyPoint ? "" : i + 1}"),
+              height: markerSize,
+              width: markerSize,
+              point: point,
+              alignment: Alignment.center,
+              child: Builder(
+                builder: (context) => GestureDetector(
+                  onTap: () {
+                    final panelCubit = context.read<PanelCubit>();
+                    panelCubit.setPanel(
+                      MarkerPanel(
+                        panel: (
+                          context,
+                          onFetchPlan, {
+                          isOnlyDestination,
+                        }) =>
+                            POIMarkerModal(
+                          layerId: layerId,
+                          element: layerData,
+                          point: point,
+                          onFetchPlan: onFetchPlan,
+                          index: isOnlyPoint ? null : i + 1,
+                        ),
+                        positon: TrufiLatLng.fromLatLng(point),
+                        minSize: 120,
+                      ),
+                    );
+                  },
+                  child: FittedBox(child: layerId.getImage()),
+                ),
+              ),
             ),
-          ));
+          );
         }
       }
     }
@@ -188,30 +192,32 @@ class POILayer extends MapLayer {
             height: markerSize,
             width: markerSize,
             point: point,
-            anchorPos: AnchorPos.align(AnchorAlign.center),
-            builder: (context) => GestureDetector(
-              onTap: () {
-                final panelCubit = context.read<PanelCubit>();
-                panelCubit.setPanel(
-                  MarkerPanel(
-                    panel: (
-                      context,
-                      onFetchPlan, {
-                      isOnlyDestination,
-                    }) =>
-                        POIMarkerModal(
-                      layerId: layerId,
-                      element: layerData,
-                      point: point,
-                      onFetchPlan: onFetchPlan,
+            child: Builder(
+              builder: (context) => GestureDetector(
+                onTap: () {
+                  final panelCubit = context.read<PanelCubit>();
+                  panelCubit.setPanel(
+                    MarkerPanel(
+                      panel: (
+                        context,
+                        onFetchPlan, {
+                        isOnlyDestination,
+                      }) =>
+                          POIMarkerModal(
+                        layerId: layerId,
+                        element: layerData,
+                        point: point,
+                        onFetchPlan: onFetchPlan,
+                      ),
+                      positon: TrufiLatLng.fromLatLng(point),
+                      minSize: 120,
                     ),
-                    positon: TrufiLatLng.fromLatLng(point),
-                    minSize: 120,
-                  ),
-                );
-              },
-              child: FittedBox(child: layerId.getImage()),
+                  );
+                },
+                child: FittedBox(child: layerId.getImage()),
+              ),
             ),
+            alignment: Alignment.center,
           ));
         }
       }
@@ -223,11 +229,13 @@ class POILayer extends MapLayer {
               height: 7,
               width: 7,
               point: point,
-              anchorPos: AnchorPos.align(AnchorAlign.center),
-              builder: (context) => Container(
-                decoration: BoxDecoration(
-                  color: layerId.getBackgroundColor,
-                  borderRadius: BorderRadius.circular(10),
+              alignment: Alignment.center,
+              child: Builder(
+                builder: (context) => Container(
+                  decoration: BoxDecoration(
+                    color: layerId.getBackgroundColor,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
                 ),
               ),
             ),

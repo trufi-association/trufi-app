@@ -1,12 +1,10 @@
 import 'package:async_executor/async_executor.dart';
 import 'package:flutter/material.dart';
-import 'package:pf_user_tracking/tools/location.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:trufi/pages/fares_guidelines/fares_guidelines.dart';
 
 import 'package:trufi/pages/feedback.dart';
-import 'package:trufi/pages/tracking/maps/map_tracking_provider.dart';
 import 'package:trufi/translations/trufi_app_localizations.dart';
 import 'package:trufi_core/base/blocs/map_layer/map_layer.dart';
 import 'package:trufi_core/base/blocs/map_layer/map_layers_cubit.dart';
@@ -24,7 +22,6 @@ import 'package:trufi_core/base/pages/saved_places/translations/saved_places_loc
 import 'package:trufi_core/base/pages/transport_list/translations/transport_list_localizations.dart';
 import 'package:trufi_core/base/pages/transport_list/transport_list.dart';
 import 'package:trufi_core/base/providers/transit_route/route_transports_cubit/route_transports_cubit.dart';
-import 'package:trufi_core/base/utils/trufi_app_id.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_item_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/default_pages_menu.dart';
 import 'package:trufi_core/base/widgets/drawer/menu/social_media_item.dart';
@@ -38,11 +35,6 @@ import 'package:trufi_core/base/pages/saved_places/repository/search_location/de
 import 'package:trufi_core/base/pages/saved_places/search_locations_cubit/search_locations_cubit.dart';
 import 'package:trufi_core/base/blocs/map_tile_provider/map_tile_provider.dart';
 
-import 'package:pf_user_tracking/bloc/tracking/service.dart';
-import 'package:pf_user_tracking/bloc/tracking/tracking_cubit.dart';
-import 'package:pf_user_tracking/translations/user_tracking_localizations.dart';
-import 'pages/tracking/tracking_screen.dart';
-
 abstract class DefaultValues {
   static TrufiLocalization trufiLocalization({Locale? currentLocale}) =>
       TrufiLocalization(
@@ -52,7 +44,6 @@ abstract class DefaultValues {
           FeedbackLocalization.delegate,
           AboutLocalization.delegate,
           TransportListLocalization.delegate,
-          UserTrackingLocalization.delegate,
           TrufiAppLocalization.delegate,
         ],
         supportedLocales: const [
@@ -92,19 +83,6 @@ abstract class DefaultValues {
       ),
       BlocProvider<MapConfigurationCubit>(
         create: (context) => MapConfigurationCubit(mapConfiguration),
-      ),
-      BlocProvider<TrackingCubit>(
-        create: (BuildContext context) => TrackingCubit(
-          location: LocationRoutingImplementation(
-            color: const Color(0xFF4fa6a6),
-            iconName: "ic_luncher",
-          ),
-          userTrackingService: UserTrackingServiceGraphQL(
-            serverUrl:
-                "https://navigator.trufi.app/user_tracking_graphql",
-            uniqueAppId: TrufiAppId.getUniqueId,
-          ),
-        ),
       ),
       BlocProvider<MapLayersCubit>(
         create: (context) => MapLayersCubit(layersContainer ?? []),
@@ -163,21 +141,12 @@ abstract class DefaultValues {
                     shareBaseItineraryUri: shareBaseUri?.replace(
                       path: "/app/Home",
                     ),
-                    overlapWidget: (_) {
-                      return const OverlayGPSButton();
-                    },
                   ),
                   mapChooseLocationProvider:
                       _trufiMapProvider.mapChooseLocationProvider(),
                 ),
               );
             },
-            TrackingScreen.route: (route) => NoAnimationPage(
-                  child: TrackingScreen(
-                    drawerBuilder: generateDrawer(TrackingScreen.route),
-                    mapRouteProvider: LeafletMapTrackingProvider.create(),
-                  ),
-                ),
             TransportList.route: (route) {
               return NoAnimationPage(
                 child: TransportList(
@@ -236,7 +205,6 @@ List<List<TrufiMenuItem>> defaultMenuItems({
     [
       DefaultPagesMenu.homePage.toMenuPage(),
       DefaultPagesMenu.transportList.toMenuPage(),
-      TrackingScreen.menuPage,
       DefaultPagesMenu.savedPlaces.toMenuPage(),
       DefaultPagesMenu.feedback.toMenuPage(),
       FaresGuideLinesPage.menuPage,

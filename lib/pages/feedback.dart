@@ -35,7 +35,7 @@ class FeedbackPage extends StatelessWidget {
           children: <Widget>[
             Text(
               localizationF.feedbackTitle,
-              style: theme.textTheme.bodyText1?.copyWith(
+              style: theme.textTheme.bodyMedium?.copyWith(
                 fontSize: 20,
               ),
             ),
@@ -43,7 +43,7 @@ class FeedbackPage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 16.0),
               child: Text(
                 localizationF.feedbackContent,
-                style: theme.textTheme.bodyText2,
+                style: theme.textTheme.bodyMedium,
               ),
             ),
             SizedBox(height: isPortrait ? 150 : 50),

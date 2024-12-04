@@ -1,15 +1,10 @@
 PODS:
-  - app_review (1.0.1):
-    - Flutter
   - device_info_plus (0.0.1):
     - Flutter
   - Flutter (1.0.0)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
   - geolocator_apple (1.2.0):
     - Flutter
-  - location (0.0.1):
+  - in_app_review (2.0.0):
     - Flutter
   - lodash_flutter (0.0.1):
     - Flutter
@@ -20,73 +15,64 @@ PODS:
     - FlutterMacOS
   - share_plus (0.0.1):
     - Flutter
-  - sqflite (0.0.3):
+  - sqflite_darwin (0.0.4):
     - Flutter
-    - FMDB (>= 2.7.5)
+    - FlutterMacOS
   - uni_links (0.0.1):
     - Flutter
   - url_launcher_ios (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - app_review (from `.symlinks/plugins/app_review/ios`)
   - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
   - Flutter (from `Flutter`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
-  - location (from `.symlinks/plugins/location/ios`)
+  - in_app_review (from `.symlinks/plugins/in_app_review/ios`)
   - lodash_flutter (from `.symlinks/plugins/lodash_flutter/ios`)
   - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
-  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - share_plus (from `.symlinks/plugins/share_plus/ios`)
-  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
   - uni_links (from `.symlinks/plugins/uni_links/ios`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
 
-SPEC REPOS:
-  trunk:
-    - FMDB
-
 EXTERNAL SOURCES:
-  app_review:
-    :path: ".symlinks/plugins/app_review/ios"
   device_info_plus:
     :path: ".symlinks/plugins/device_info_plus/ios"
   Flutter:
     :path: Flutter
   geolocator_apple:
     :path: ".symlinks/plugins/geolocator_apple/ios"
-  location:
-    :path: ".symlinks/plugins/location/ios"
+  in_app_review:
+    :path: ".symlinks/plugins/in_app_review/ios"
   lodash_flutter:
     :path: ".symlinks/plugins/lodash_flutter/ios"
   package_info_plus:
     :path: ".symlinks/plugins/package_info_plus/ios"
   path_provider_foundation:
-    :path: ".symlinks/plugins/path_provider_foundation/ios"
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
   share_plus:
     :path: ".symlinks/plugins/share_plus/ios"
-  sqflite:
-    :path: ".symlinks/plugins/sqflite/ios"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
   uni_links:
     :path: ".symlinks/plugins/uni_links/ios"
   url_launcher_ios:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  app_review: 6f51001269c59a2f4a5b5ae68b7d106401152764
-  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
-  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  device_info_plus: 97af1d7e84681a90d0693e63169a5d50e0839a0d
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  geolocator_apple: 9bcea1918ff7f0062d98345d238ae12718acfbc1
+  in_app_review: a31b5257259646ea78e0e35fc914979b0031d011
   lodash_flutter: 67703deebcb443e5f1974da2b42767572159a40f
-  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
-  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
-  share_plus: 056a1e8ac890df3e33cb503afffaf1e9b4fbae68
-  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  share_plus: 8b6f8b3447e494cca5317c8c3073de39b3600d1f
+  sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
   uni_links: d97da20c7701486ba192624d99bffaaffcfc298a
-  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
 
-PODFILE CHECKSUM: e0228e265fd8f91520c4f23742501fd1cad77c93
+PODFILE CHECKSUM: b51da1445ad5885c543509b952df7061abdb859d
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2
