@@ -1,0 +1,19 @@
+{
+  "@@locale": "es",
+  "mapStandardOffline": "Estándar (sin conexión)",
+  "mapStandardOfflineDesc": "Mapa estándar sin conexión",
+  "mapLightOffline": "Claro (sin conexión)",
+  "mapLightOfflineDesc": "Mapa claro sin conexión",
+  "mapDarkOffline": "Oscuro (sin conexión)",
+  "mapDarkOfflineDesc": "Mapa oscuro sin conexión",
+  "mapColorfulOffline": "Colorido (sin conexión)",
+  "mapColorfulOfflineDesc": "Mapa colorido sin conexión",
+  "mapLightOnline": "Claro (en línea)",
+  "mapLightOnlineDesc": "Mapa claro en línea",
+  "mapStandardOnline": "Estándar (en línea)",
+  "mapStandardOnlineDesc": "Mapa estándar en línea",
+  "mapDarkOnline": "Oscuro (en línea)",
+  "mapDarkOnlineDesc": "Mapa oscuro en línea",
+  "mapColorfulOnline": "Colorido (en línea)",
+  "mapColorfulOnlineDesc": "Mapa colorido en línea"
+}

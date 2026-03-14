@@ -25,6 +25,8 @@ import 'package:trufi_core_transport_list/trufi_core_transport_list.dart';
 import 'package:trufi_core_ui/trufi_core_ui.dart';
 import 'package:trufi_core_utils/trufi_core_utils.dart' show OverlayManager;
 
+import 'l10n/app_localizations.dart';
+
 // ============ CONFIGURATION ============
 // From input/domains.txt
 const _photonUrl = 'https://photon.trufi.app';
@@ -61,12 +63,12 @@ final List<IRoutingProvider> _routingEngines = [
       ),
     ),
   // Online routing via OTP 2.8.1
-  const Otp28RoutingProvider(
+  Otp28RoutingProvider(
     endpoint: _otp281Endpoint,
     displayName: 'OTP 2.8.1',
   ),
   // Online routing via OTP 1.5.0
-  const Otp15RoutingProvider(
+  Otp15RoutingProvider(
     endpoint: _otp150Endpoint,
     displayName: 'OTP 1.5.0',
   ),
@@ -78,8 +80,8 @@ final List<ITrufiMapEngine> _mapEngines = [
   if (!kIsWeb)
     OfflineMapLibreEngine(
       engineId: 'offline_osm_liberty',
-      displayName: 'Offline Liberty',
-      displayDescription: 'Mapa offline estándar',
+      nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOffline,
+      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/osm-liberty/style.json',
@@ -105,8 +107,8 @@ final List<ITrufiMapEngine> _mapEngines = [
   if (!kIsWeb)
     OfflineMapLibreEngine(
       engineId: 'offline_osm_bright',
-      displayName: 'Offline Bright',
-      displayDescription: 'Mapa offline claro',
+      nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOffline,
+      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/osm-bright/style.json',
@@ -132,8 +134,8 @@ final List<ITrufiMapEngine> _mapEngines = [
   if (!kIsWeb)
     OfflineMapLibreEngine(
       engineId: 'offline_dark_matter',
-      displayName: 'Offline Dark Matter',
-      displayDescription: 'Mapa offline oscuro',
+      nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapDarkOffline,
+      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapDarkOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/dark-matter/style.json',
@@ -162,8 +164,8 @@ final List<ITrufiMapEngine> _mapEngines = [
   if (!kIsWeb)
     OfflineMapLibreEngine(
       engineId: 'offline_fiord_color',
-      displayName: 'Offline Fiord Color',
-      displayDescription: 'Mapa offline colorido',
+      nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOffline,
+      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/fiord-color/style.json',
@@ -190,29 +192,29 @@ final List<ITrufiMapEngine> _mapEngines = [
       ),
     ),
   // Online maps - from input/domains.txt
-  const MapLibreEngine(
+  MapLibreEngine(
     engineId: 'osm_bright',
     styleString: 'https://maps.trufi.app/styles/osm-bright/style.json',
-    displayName: 'OSM Bright',
-    displayDescription: 'Mapa claro online',
+    nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOnline,
+    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOnlineDesc,
   ),
-  const MapLibreEngine(
+  MapLibreEngine(
     engineId: 'osm_liberty',
     styleString: 'https://maps.trufi.app/styles/osm-liberty/style.json',
-    displayName: 'OSM Liberty',
-    displayDescription: 'Mapa estándar online',
+    nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOnline,
+    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOnlineDesc,
   ),
-  const MapLibreEngine(
+  MapLibreEngine(
     engineId: 'dark_matter',
     styleString: 'https://maps.trufi.app/styles/dark-matter/style.json',
-    displayName: 'Dark Matter',
-    displayDescription: 'Mapa oscuro online',
+    nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapDarkOnline,
+    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapDarkOnlineDesc,
   ),
-  const MapLibreEngine(
+  MapLibreEngine(
     engineId: 'fiord_color',
     styleString: 'https://maps.trufi.app/styles/fiord-color/style.json',
-    displayName: 'Fiord Color',
-    displayDescription: 'Mapa colorido online',
+    nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOnline,
+    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOnlineDesc,
   ),
 ];
 // ========================================
@@ -223,6 +225,7 @@ void main() {
       appName: _appName,
       deepLinkScheme: _deepLinkScheme,
       defaultLocale: const Locale('es'),
+      extraLocalizationsDelegates: [AppLocalizations.delegate],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFE1306C)),

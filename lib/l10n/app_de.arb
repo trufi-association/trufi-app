@@ -1,0 +1,19 @@
+{
+  "@@locale": "de",
+  "mapStandardOffline": "Standard (offline)",
+  "mapStandardOfflineDesc": "Standard-Offlinekarte",
+  "mapLightOffline": "Hell (offline)",
+  "mapLightOfflineDesc": "Helle Offlinekarte",
+  "mapDarkOffline": "Dunkel (offline)",
+  "mapDarkOfflineDesc": "Dunkle Offlinekarte",
+  "mapColorfulOffline": "Bunt (offline)",
+  "mapColorfulOfflineDesc": "Bunte Offlinekarte",
+  "mapLightOnline": "Hell (online)",
+  "mapLightOnlineDesc": "Helle Onlinekarte",
+  "mapStandardOnline": "Standard (online)",
+  "mapStandardOnlineDesc": "Standard-Onlinekarte",
+  "mapDarkOnline": "Dunkel (online)",
+  "mapDarkOnlineDesc": "Dunkle Onlinekarte",
+  "mapColorfulOnline": "Bunt (online)",
+  "mapColorfulOnlineDesc": "Bunte Onlinekarte"
+}
