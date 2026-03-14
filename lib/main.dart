@@ -42,9 +42,8 @@ const _countryName = 'Bolivia';
 const _emailContact = 'feedback@trufi.app';
 const _feedbackUrl = 'https://forms.gle/QMLhJT7N44Bh9zBN6';
 const _facebookUrl = 'https://www.facebook.com/trufiapp/';
-const _xTwitterUrl = 'https://x.com/trufiapp';
 const _instagramUrl = 'https://www.instagram.com/trufi.app';
-const _whatsappUrl = 'https://wa.me/message/SXGYZP66KWYSO1';
+const _whatsappUrl = 'https://wa.me/59167835296';
 const _shareUrl = 'https://www.trufi.app/';
 
 // Routing engines
@@ -244,11 +243,6 @@ void main() {
           url: _facebookUrl,
           icon: Icons.facebook,
           label: 'Facebook',
-        ),
-        SocialMediaLink(
-          url: _xTwitterUrl,
-          icon: Icons.close,
-          label: 'X (Twitter)',
         ),
         SocialMediaLink(
           url: _instagramUrl,
