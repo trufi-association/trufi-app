@@ -21,77 +21,77 @@ dependencies:
   trufi_core_interfaces:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_interfaces
   trufi_core_utils:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_utils
   trufi_core_about:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_about
   trufi_core_transport_list:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_transport_list
   trufi_core_maps:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_maps
   trufi_core_routing:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_routing
   trufi_core_saved_places:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_saved_places
   trufi_core_home_screen:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_home_screen
   trufi_core_search_locations:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_search_locations
   trufi_core_feedback:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_feedback
   trufi_core_fares:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_fares
   trufi_core_settings:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/screens/trufi_core_settings
   trufi_core_ui:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_ui
   trufi_core_navigation:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_navigation
   trufi_core_poi_layers:
     git:
       url: https://github.com/trufi-association/trufi-core.git
-      ref: v5.3.0
+      ref: v5.5.0
       path: packages/trufi_core_poi_layers
   latlong2: ^0.9.1
   maplibre: ^0.3.3+2
@@ -104,43 +104,100 @@ dev_dependencies:
 
 dependency_overrides:
   trufi_core_interfaces:
-    path: ../trufi-core/packages/trufi_core_interfaces
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_interfaces
   trufi_core_utils:
-    path: ../trufi-core/packages/trufi_core_utils
-  trufi_core_about:
-    path: ../trufi-core/packages/screens/trufi_core_about
-  trufi_core_transport_list:
-    path: ../trufi-core/packages/screens/trufi_core_transport_list
-  trufi_core_maps:
-    path: ../trufi-core/packages/trufi_core_maps
-  trufi_core_routing:
-    path: ../trufi-core/packages/trufi_core_routing
-  trufi_core_saved_places:
-    path: ../trufi-core/packages/screens/trufi_core_saved_places
-  trufi_core_home_screen:
-    path: ../trufi-core/packages/screens/trufi_core_home_screen
-  trufi_core_search_locations:
-    path: ../trufi-core/packages/trufi_core_search_locations
-  trufi_core_feedback:
-    path: ../trufi-core/packages/screens/trufi_core_feedback
-  trufi_core_fares:
-    path: ../trufi-core/packages/screens/trufi_core_fares
-  trufi_core_settings:
-    path: ../trufi-core/packages/screens/trufi_core_settings
-  trufi_core_ui:
-    path: ../trufi-core/packages/trufi_core_ui
-  trufi_core_navigation:
-    path: ../trufi-core/packages/trufi_core_navigation
-  trufi_core_poi_layers:
-    path: ../trufi-core/packages/trufi_core_poi_layers
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_utils
   trufi_core_base_widgets:
-    path: ../trufi-core/packages/trufi_core_base_widgets
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_base_widgets
   trufi_core_custom_material:
-    path: ../trufi-core/packages/trufi_core_custom_material
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_custom_material
+  trufi_core_maps:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_maps
+  trufi_core_routing:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_routing
   trufi_core_routing_ui:
-    path: ../trufi-core/packages/trufi_core_routing_ui
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_routing_ui
   trufi_core_planner:
-    path: ../trufi-core/packages/trufi_core_planner
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_planner
+  trufi_core_search_locations:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_search_locations
+  trufi_core_ui:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_ui
+  trufi_core_navigation:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_navigation
+  trufi_core_poi_layers:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/trufi_core_poi_layers
+  trufi_core_home_screen:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_home_screen
+  trufi_core_saved_places:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_saved_places
+  trufi_core_transport_list:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_transport_list
+  trufi_core_fares:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_fares
+  trufi_core_feedback:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_feedback
+  trufi_core_settings:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_settings
+  trufi_core_about:
+    git:
+      url: https://github.com/trufi-association/trufi-core.git
+      ref: v5.5.0
+      path: packages/screens/trufi_core_about
 
 flutter:
   generate: true
