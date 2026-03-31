@@ -62,15 +62,9 @@ final List<IRoutingProvider> _routingEngines = [
       ),
     ),
   // Online routing via OTP 2.8.1
-  Otp28RoutingProvider(
-    endpoint: _otp281Endpoint,
-    displayName: 'OTP 2.8.1',
-  ),
+  Otp28RoutingProvider(endpoint: _otp281Endpoint, displayName: 'OTP 2.8.1'),
   // Online routing via OTP 1.5.0
-  Otp15RoutingProvider(
-    endpoint: _otp150Endpoint,
-    displayName: 'OTP 1.5.0',
-  ),
+  Otp15RoutingProvider(endpoint: _otp150Endpoint, displayName: 'OTP 1.5.0'),
 ];
 
 // Map engines
@@ -80,7 +74,8 @@ final List<ITrufiMapEngine> _mapEngines = [
     OfflineMapLibreEngine(
       engineId: 'offline_osm_liberty',
       nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOffline,
-      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOfflineDesc,
+      descriptionBuilder: (ctx) =>
+          AppLocalizations.of(ctx)!.mapStandardOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/osm-liberty/style.json',
@@ -107,7 +102,8 @@ final List<ITrufiMapEngine> _mapEngines = [
     OfflineMapLibreEngine(
       engineId: 'offline_osm_bright',
       nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOffline,
-      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapLightOfflineDesc,
+      descriptionBuilder: (ctx) =>
+          AppLocalizations.of(ctx)!.mapLightOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/osm-bright/style.json',
@@ -164,7 +160,8 @@ final List<ITrufiMapEngine> _mapEngines = [
     OfflineMapLibreEngine(
       engineId: 'offline_fiord_color',
       nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOffline,
-      descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOfflineDesc,
+      descriptionBuilder: (ctx) =>
+          AppLocalizations.of(ctx)!.mapColorfulOfflineDesc,
       config: OfflineMapConfig(
         mbtilesAsset: 'assets/offline/cochabamba.mbtiles',
         styleAsset: 'assets/offline/styles/fiord-color/style.json',
@@ -201,7 +198,8 @@ final List<ITrufiMapEngine> _mapEngines = [
     engineId: 'osm_liberty',
     styleString: 'https://maps.trufi.app/styles/osm-liberty/style.json',
     nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOnline,
-    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapStandardOnlineDesc,
+    descriptionBuilder: (ctx) =>
+        AppLocalizations.of(ctx)!.mapStandardOnlineDesc,
   ),
   MapLibreEngine(
     engineId: 'dark_matter',
@@ -213,7 +211,8 @@ final List<ITrufiMapEngine> _mapEngines = [
     engineId: 'fiord_color',
     styleString: 'https://maps.trufi.app/styles/fiord-color/style.json',
     nameBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOnline,
-    descriptionBuilder: (ctx) => AppLocalizations.of(ctx)!.mapColorfulOnlineDesc,
+    descriptionBuilder: (ctx) =>
+        AppLocalizations.of(ctx)!.mapColorfulOnlineDesc,
   ),
 ];
 // ========================================
@@ -224,7 +223,10 @@ void main() {
       appName: _appName,
       deepLinkScheme: _deepLinkScheme,
       defaultLocale: const Locale('es'),
-      extraLocalizationsDelegates: [AppLocalizations.delegate],
+      extraLocalizationsDelegates: [
+        AppLocalizations.delegate,
+        NavigationLocalizations.delegate,
+      ],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFE1306C)),
@@ -249,11 +251,7 @@ void main() {
           icon: Icons.camera_alt_outlined,
           label: 'Instagram',
         ),
-        SocialMediaLink(
-          url: _whatsappUrl,
-          icon: Icons.chat,
-          label: 'WhatsApp',
-        ),
+        SocialMediaLink(url: _whatsappUrl, icon: Icons.chat, label: 'WhatsApp'),
       ],
       providers: [
         ChangeNotifierProvider(
