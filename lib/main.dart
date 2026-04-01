@@ -291,6 +291,7 @@ void main() {
       ],
       screens: [
         HomeScreenTrufiScreen(
+          walkRouteEndpoint: _otp150Endpoint,
           config: HomeScreenConfig(
             appName: _appName,
             deepLinkScheme: _deepLinkScheme,
