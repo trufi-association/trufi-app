@@ -17,8 +17,7 @@ import 'package:trufi_core_routing/trufi_core_routing.dart'
         Otp28RoutingProvider,
         Otp15RoutingProvider,
         TrufiPlannerProvider,
-        TrufiPlannerConfig,
-        RoutingLocalizations;
+        TrufiPlannerConfig;
 import 'package:trufi_core_saved_places/trufi_core_saved_places.dart';
 import 'package:trufi_core_search_locations/trufi_core_search_locations.dart';
 import 'package:trufi_core_settings/trufi_core_settings.dart';
@@ -63,7 +62,11 @@ final List<IRoutingProvider> _routingEngines = [
       ),
     ),
   // Online routing via OTP 2.8.1
-  Otp28RoutingProvider(endpoint: _otp281Endpoint, displayName: 'OTP 2.8.1'),
+  Otp28RoutingProvider(
+    endpoint: _otp281Endpoint,
+    displayName: 'OTP 2.8.1',
+    showWheelchairOption: false,
+  ),
   // Online routing via OTP 1.5.0
   Otp15RoutingProvider(endpoint: _otp150Endpoint, displayName: 'OTP 1.5.0'),
 ];
@@ -226,8 +229,6 @@ void main() {
       defaultLocale: const Locale('es'),
       extraLocalizationsDelegates: [
         AppLocalizations.delegate,
-        NavigationLocalizations.delegate,
-        RoutingLocalizations.delegate,
       ],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
