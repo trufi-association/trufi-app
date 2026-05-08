@@ -232,6 +232,11 @@ void main() {
       appName: _appName,
       deepLinkScheme: _deepLinkScheme,
       defaultLocale: const Locale('es'),
+      // Cochabamba's bus network only runs roughly 06:00–22:00.
+      // Pinning the routing request to midday avoids "0 routes" when
+      // the user opens the app late at night, and the picker UI is
+      // hidden because the value is fixed.
+      routingTimeOverride: const TimeOfDay(hour: 12, minute: 0),
       extraLocalizationsDelegates: [AppLocalizations.delegate],
       themeConfig: TrufiThemeConfig(
         theme: ThemeData(
@@ -305,7 +310,6 @@ void main() {
             appName: _appName,
             deepLinkScheme: _deepLinkScheme,
             poiLayersManager: POILayersManager(assetsBasePath: 'assets/pois'),
-            showDepartureTimeChip: false,
           ),
           onStartNavigation: (context, itinerary, locationService) {
             NavigationScreen.showFromItinerary(
