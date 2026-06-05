@@ -30,16 +30,15 @@ agency_id,agency_name,agency_timezone,agency_url
 28,Sindicato mixto de transporte Trópico,America/La_Paz,https://www.cochabamba.bo/
 29,Asociación de taxi trufis San Miguel,America/La_Paz,https://www.cochabamba.bo/
 30,Sindicato mixto de transportistas 16 de noviembre,America/La_Paz,https://www.cochabamba.bo/
-31,Sindicato de Taxi Trufis 30 de Noviembre,America/La_Paz,https://www.cochabamba.bo/
-32,Asociación de taxis y trufis Pucara,America/La_Paz,https://www.cochabamba.bo/
-33,Sindicato Señor de Buen Viaje El Paso,America/La_Paz,https://www.cochabamba.bo/
-34,Sindicato de trufibuses 15 de agosto,America/La_Paz,https://www.cochabamba.bo/
-35,Sindicato mixto de transportistas Nuestra Señora del Carmen,America/La_Paz,https://www.cochabamba.bo/
-36,Sindicato 14 de septiembre,America/La_Paz,https://www.cochabamba.bo/
-37,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
-38,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
-39,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
-40,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
-41,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
-42,default,America/La_Paz,https://www.cochabamba.bo/
-43,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
+31,Asociación de taxis y trufis Pucara,America/La_Paz,https://www.cochabamba.bo/
+32,Sindicato Señor de Buen Viaje El Paso,America/La_Paz,https://www.cochabamba.bo/
+33,Sindicato de trufibuses 15 de agosto,America/La_Paz,https://www.cochabamba.bo/
+34,Sindicato mixto de transportistas Nuestra Señora del Carmen,America/La_Paz,https://www.cochabamba.bo/
+35,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
+36,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
+37,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
+38,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
+39,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
+40,default,America/La_Paz,https://www.cochabamba.bo/
+41,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
+42,Sindicato Mixto de Transporte Expreso Abaroa,America/La_Paz,https://www.cochabamba.bo/
