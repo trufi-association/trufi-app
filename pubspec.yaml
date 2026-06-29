@@ -2,7 +2,7 @@ name: trufi
 description: "Trufi Cochabamba - Transit navigation app for Cochabamba, Bolivia"
 publish_to: 'none'
 
-version: 5.0.6+78
+version: 5.0.6+79
 
 environment:
   sdk: ^3.12.2
