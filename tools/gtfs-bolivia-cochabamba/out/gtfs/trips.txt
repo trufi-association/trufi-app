@@ -154,8 +154,8 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10413052,8,Mo-Su,10413052,Calle Achachairú,1
 10413127,77,Mo-Su,10413127,Avenida Blanco Galindo,0
 10413255,77,Mo-Su,10413255,Calle República de Nicaragua,1
-10413337,78,Mo-Su,10413337,Avenida Blanco Galindo,0
-10413473,78,Mo-Su,10413473,Calle Héroes de Boquerón,1
+10413337,78,Mo-Su,10413337,Hospital Anocaraire,0
+10413473,78,Mo-Su,10413473,Héroes de Boquerón,1
 10414461,79,Mo-Su,10414461,Santo Domingo,0
 10414549,80,Mo-Su,10414549,Calle Litoral,0
 10414582,80,Mo-Su,10414582,Avenida Blanco Galindo,1
@@ -180,7 +180,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10667416,83,Mo-Su,10667416,Mineros San Juan,1
 10667926,43,Mo-Su,10667926,Avenida Melchor Pérez de Olguín,1
 10668749,73,Mo-Su,10668749,Calle Gran Chaco,0
-10668794,84,Mo-Su,10668794,Avenida Blanco Galindo,0
+10668794,84,Mo-Su,10668794,21 de Enero,0
 10677513,84,Mo-Su,10677513,Calle Mendoza,1
 10677554,85,Mo-Su,10677554,Calle Sacaca,0
 10686843,86,Mo-Su,10686843,Azul,1
@@ -625,3 +625,34 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 20778645,62,Mo-Su,20778645,Nro. blanco: Cementerio,1
 20812591,38,Mo-Su,20812591,Bandera amarilla: Nro. amarillo: Corte,0
 20812592,38,Mo-Su,20812592,Bandera amarilla: Nro. amarillo: Corte,1
+20819179,140,Mo-Su,20819179,Fortaleza,1
+20819240,140,Mo-Su,20819240,Avenida Villazon,0
+20967965,141,Mo-Su,20967965,Colomi,0
+21053622,142,Mo-Su,21053622,Terminal de Buses Sacaba,0
+21053666,142,Mo-Su,21053666,Rodeo,1
+21053767,142,Mo-Su,21053767,Terminal de Buses Sacaba,0
+21053775,142,Mo-Su,21053775,Colomi,1
+21053786,142,Mo-Su,21053786,Terminal de Buses Sacaba,0
+21053793,142,Mo-Su,21053793,Patati,1
+21053797,142,Mo-Su,21053797,Terminal de Buses Sacaba,0
+21053815,142,Mo-Su,21053815,Uturunquillo,1
+21053818,142,Mo-Su,21053818,Terminal de Buses Sacaba,0
+21074370,110,Mo-Su,21074370,Huayllani,1
+21074381,110,Mo-Su,21074381,Terminal de Buses Sacaba,1
+21076374,142,Mo-Su,21076374,Ucuchi,1
+21076454,142,Mo-Su,21076454,1ro de Mayo,1
+21076459,142,Mo-Su,21076459,Pilancho,1
+21076466,142,Mo-Su,21076466,Ch'aki Cocha,1
+21076475,142,Mo-Su,21076475,Potrero,1
+21076607,142,Mo-Su,21076607,Parada 222,1
+21076649,142,Mo-Su,21076649,Cumbre,1
+21076670,142,Mo-Su,21076670,Terminal de Buses Sacaba,0
+21076697,142,Mo-Su,21076697,Terminal de Buses Sacaba,0
+21076726,142,Mo-Su,21076726,Terminal de Buses Sacaba,0
+21076775,142,Mo-Su,21076775,Terminal de Buses Sacaba,0
+21076776,142,Mo-Su,21076776,Terminal de Buses Sacaba,0
+21076823,142,Mo-Su,21076823,Terminal de Buses Sacaba,0
+21076845,142,Mo-Su,21076845,Terminal de Buses Sacaba,0
+21076858,142,Mo-Su,21076858,Terminal de Buses Sacaba,0
+21078204,142,Mo-Su,21078204,San Isidro,1
+21116245,143,Mo-Su,21116245,Punata,0
