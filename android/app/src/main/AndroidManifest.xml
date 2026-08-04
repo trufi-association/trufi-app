@@ -70,6 +70,16 @@
               <data android:scheme="trufiapp" android:host="route" />
             </intent-filter>
         </activity>
+        <!-- Pin Flutter's Impeller renderer to its OpenGLES backend.
+             User reports cluster on Android 10 devices whose legacy Vulkan
+             drivers freeze the MapLibre platform view (map stops responding
+             to pan/zoom) since the Flutter 3.44 upgrade made Impeller pick
+             Vulkan by default. The GLES path is verified to keep the map
+             fully interactive (API 29 and API 35). Remove once the affected
+             driver generation ages out or Flutter blocklists it. -->
+        <meta-data
+            android:name="io.flutter.embedding.android.ImpellerBackend"
+            android:value="opengles" />
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
