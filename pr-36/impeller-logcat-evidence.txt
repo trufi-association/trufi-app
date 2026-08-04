@@ -1,0 +1,1 @@
+08-03 22:37:27.879 13130 13130 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
