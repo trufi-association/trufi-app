@@ -134,9 +134,12 @@ route_id,agency_id,route_short_name,route_long_name,route_color,route_type
 132,40,25,Trufi 25,,3
 133,40,80,MicroBus 80,,3
 134,40,150,Trufi 150,,3
-135,40,Santiváñez,Trufi Santiváñez,,3
+135,41,Santiváñez,Trufi Santiváñez,,3
 136,2,M,Trufi M,,3
 137,0,Calama,Trufi Calama,,3
-138,41,Cotapachi,Trufi Cotapachi,,3
+138,42,Cotapachi,Trufi Cotapachi,,3
 139,40,241,241,,3
-140,42,303,Trufi 303,,3
+140,43,303,Trufi 303,,3
+141,44,Colomi,Bus Colomi,,3
+142,45,222,MiniBus 222,,3
+143,46,E. Punata,Trufi E. Punata,,3

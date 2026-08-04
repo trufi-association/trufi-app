@@ -40,5 +40,9 @@ agency_id,agency_name,agency_timezone,agency_url
 38,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
 39,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
 40,default,America/La_Paz,https://www.cochabamba.bo/
-41,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
-42,Sindicato Mixto de Transporte Expreso Abaroa,America/La_Paz,https://www.cochabamba.bo/
+41,Asociación Mixta de Transporte Huayñacota,America/La_Paz,https://www.cochabamba.bo/
+42,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
+43,Sindicato Mixto de Transporte Expreso Abaroa,America/La_Paz,https://www.cochabamba.bo/
+44,Sindicato de Autotransporte Virgen del Rosario,America/La_Paz,https://www.cochabamba.bo/
+45,Sindicato de taxi trufis trufi buses Sacaba 222,America/La_Paz,https://www.cochabamba.bo/
+46,Sindicato Expreso Punata,America/La_Paz,https://www.cochabamba.bo/

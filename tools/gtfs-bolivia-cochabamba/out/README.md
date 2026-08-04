@@ -1,5 +1,5 @@
 ### Count
-**Total**: 626  **Correct**: 626  **With error**: 0
+**Total**: 657  **Correct**: 657  **With error**: 0
 
 
 | Id | Name | Ref | From | To | State |
@@ -9,17 +9,19 @@
 [4269608](https://www.openstreetmap.org/relation/4269608) | MicroBus A: Villa Israel → Río Taquiña | A | Villa Israel | Río Taquiña | ✅
 [4269609](https://www.openstreetmap.org/relation/4269609) | MicroBus A: Río Taquiña → Villa Israel | A | Río Taquiña | Villa Israel | ✅
 [11678428](https://www.openstreetmap.org/relation/11678428) | Línea Amarilla: Cochabamba → Maica Chica | A | Cochabamba | Maica Chica | ✅
-[19604339](https://www.openstreetmap.org/relation/19604339) | Lína Amarilla: Maica Chica → Cochabamba | A | Maica Chica | Cochabamba | ✅
+[19604339](https://www.openstreetmap.org/relation/19604339) | Línea Amarilla: Maica Chica → Cochabamba | A | Maica Chica | Cochabamba | ✅
 [4247869](https://www.openstreetmap.org/relation/4247869) | MicroBus B: Calle Las Buganvillas → Pasaje F | B | Calle Las Buganvillas | Pasaje F | ✅
 [4420889](https://www.openstreetmap.org/relation/4420889) | MicroBus B: Pasaje F → Calle Las Buganvillas | B | Pasaje F | Calle Las Buganvillas | ✅
 [4430244](https://www.openstreetmap.org/relation/4430244) | MicroBus C: Avenida Pedro de la Gasca → Calle Manuel Carrasco Jimenez | C | Avenida Pedro de la Gasca | Calle Manuel Carrasco Jimenez | ✅
 [4433300](https://www.openstreetmap.org/relation/4433300) | MicroBus C: Calle Manuel Carrasco Jimenez → Avenida Pedro de la Gasca | C | Calle Manuel Carrasco Jimenez | Avenida Pedro de la Gasca | ✅
 [20395613](https://www.openstreetmap.org/relation/20395613) | Trufi Calama: Col. Calama → Pacheco | Calama | Col. Calama | Pacheco | ✅
 [20395625](https://www.openstreetmap.org/relation/20395625) | Trufi Calama: Pacheco → Col. Calama | Calama | Pacheco | Col. Calama | ✅
+[20967965](https://www.openstreetmap.org/relation/20967965) | Bus Colomi: Cochabamba → Colomi | Colomi | Cochabamba | Colomi | ✅
 [20748881](https://www.openstreetmap.org/relation/20748881) | Trufi Cotapachi: Cotapachi → 14 de septiembre | Cotapachi | Cotapachi | 14 de septiembre | ✅
 [20748891](https://www.openstreetmap.org/relation/20748891) | Trufi Cotapachi: 14 de septiembre → Cotapachi | Cotapachi | 14 de septiembre | Cotapachi | ✅
 [4443362](https://www.openstreetmap.org/relation/4443362) | MicroBus E: Avenida Chacancalle → Avenida Circunvalación | E | Avenida Chacancalle | Avenida Circunvalación | ✅
 [4443363](https://www.openstreetmap.org/relation/4443363) | MicroBus E: Avenida Circunvalación → Avenida Chacancalle | E | Avenida Circunvalación | Avenida Chacancalle | ✅
+[21116245](https://www.openstreetmap.org/relation/21116245) | Trufi E. Punata: Cochabamba → Punata | E. Punata | Cochabamba | Punata | ✅
 [11103749](https://www.openstreetmap.org/relation/11103749) | MicroBus F: La Maica Chica → Calle 2 | F | La Maica Chica | Calle 2 | ✅
 [11103802](https://www.openstreetmap.org/relation/11103802) | MicroBus F: Calle 2 → La Maica Chica | F | Calle 2 | La Maica Chica | ✅
 [5387552](https://www.openstreetmap.org/relation/5387552) | MicroBus G: Calle Alipio Valencia Vega → Avenida Arquímedes | G | Calle Alipio Valencia Vega | Avenida Arquímedes | ✅
@@ -59,7 +61,7 @@
 [9119233](https://www.openstreetmap.org/relation/9119233) | MicroBus R: Bello Horizonte → Avenida Arquímedes | R | Bello Horizonte | Avenida Arquímedes | ✅
 [9123985](https://www.openstreetmap.org/relation/9123985) | MicroBus R: Avenida Arquímedes → Bello Horizonte | R | Avenida Arquímedes | Bello Horizonte | ✅
 [14576927](https://www.openstreetmap.org/relation/14576927) | Línea Roja: Kiñiloma → Cochabamba | R | Kiñiloma | Cochabamba | ✅
-[10668794](https://www.openstreetmap.org/relation/10668794) | MicroBus S: Calle Mendoza → Avenida Blanco Galindo | S | Calle Mendoza | Avenida Blanco Galindo | ✅
+[10668794](https://www.openstreetmap.org/relation/10668794) | MicroBus S: Calle Mendoza → 21 de Enero | S | Calle Mendoza | 21 de Enero | ✅
 [10677513](https://www.openstreetmap.org/relation/10677513) | MicroBus S: Avenida Blanco Galindo → Calle Mendoza | S | Avenida Blanco Galindo | Calle Mendoza | ✅
 [20141710](https://www.openstreetmap.org/relation/20141710) | Trufi Santiváñez: Cochabamba → Santiváñez | Santiváñez | Cochabamba | Santiváñez | ✅
 [10677554](https://www.openstreetmap.org/relation/10677554) | MicroBus T: Villa Coña Coña → Calle Sacaca | T | Villa Coña Coña | Calle Sacaca | ✅
@@ -391,8 +393,8 @@
 [11116758](https://www.openstreetmap.org/relation/11116758) | MiniBus 208: Llave Grande → Calle Camiri | 208 | Llave Grande | Calle Camiri | ✅
 [11116767](https://www.openstreetmap.org/relation/11116767) | MiniBus 208: Calle Camiri → Comunidad Montecato | 208 | Calle Camiri | Comunidad Montecato | ✅
 [11116770](https://www.openstreetmap.org/relation/11116770) | MiniBus 208: Comunidad Montecato → Calle Camiri | 208 | Comunidad Montecato | Calle Camiri | ✅
-[10413337](https://www.openstreetmap.org/relation/10413337) | MiniBus 209: Calle Héroes de Boquerón → Avenida Blanco Galindo | 209 | Calle Héroes de Boquerón | Avenida Blanco Galindo | ✅
-[10413473](https://www.openstreetmap.org/relation/10413473) | MiniBus 209: Avenida Blanco Galindo → Calle Héroes de Boquerón | 209 | Avenida Blanco Galindo | Calle Héroes de Boquerón | ✅
+[10413337](https://www.openstreetmap.org/relation/10413337) | MiniBus 209: Héroes de Boquerón → Hospital Anocaraire | 209 | Héroes de Boquerón | Hospital Anocaraire | ✅
+[10413473](https://www.openstreetmap.org/relation/10413473) | MiniBus 209: Hospital Anocaraire → Héroes de Boquerón | 209 | Hospital Anocaraire | Héroes de Boquerón | ✅
 [10413127](https://www.openstreetmap.org/relation/10413127) | MiniBus 210: Calle República de Nicaragua → Avenida Blanco Galindo | 210 | Calle República de Nicaragua | Avenida Blanco Galindo | ✅
 [10413255](https://www.openstreetmap.org/relation/10413255) | MiniBus 210: Avenida Blanco Galindo → Calle República de Nicaragua | 210 | Avenida Blanco Galindo | Calle República de Nicaragua | ✅
 [11116951](https://www.openstreetmap.org/relation/11116951) | MiniBus 210: República de Nicaragua → UE El Paso | 210 | República de Nicaragua | UE El Paso | ✅
@@ -466,14 +468,39 @@
 [20744140](https://www.openstreetmap.org/relation/20744140) | Trufi 220: Fabril Huayllani → Chavez Rancho | 220 | Fabril Huayllani | Chavez Rancho | ✅
 [20744156](https://www.openstreetmap.org/relation/20744156) | Trufi 220: Chavez Rancho → Fabril Huayllani | 220 | Chavez Rancho | Fabril Huayllani | ✅
 [20744165](https://www.openstreetmap.org/relation/20744165) | Trufi 220: Chavez Rancho → Lava Lava Baja | 220 | Chavez Rancho | Lava Lava Baja | ✅
+[21053622](https://www.openstreetmap.org/relation/21053622) | MiniBus 222: San Isidro → Terminal de Buses Sacaba | 222 | San Isidro | Terminal de Buses Sacaba | ✅
+[21053666](https://www.openstreetmap.org/relation/21053666) | MiniBus 222: Calle Independencia → Rodeo | 222 | Calle Independencia | Rodeo | ✅
+[21053767](https://www.openstreetmap.org/relation/21053767) | MiniBus 222: Rodeo → Terminal de Buses Sacaba | 222 | Rodeo | Terminal de Buses Sacaba | ✅
+[21053775](https://www.openstreetmap.org/relation/21053775) | MiniBus 222: Avenida Barrientos → Colomi | 222 | Avenida Barrientos | Colomi | ✅
+[21053786](https://www.openstreetmap.org/relation/21053786) | MiniBus 222: Colomi → Terminal de Buses Sacaba | 222 | Colomi | Terminal de Buses Sacaba | ✅
+[21053793](https://www.openstreetmap.org/relation/21053793) | MiniBus 222: Calle Independencia → Pajcha | 222 | Calle Independencia | Pajcha | ✅
+[21053797](https://www.openstreetmap.org/relation/21053797) | MiniBus 222: Patati → Terminal de Buses Sacaba | 222 | Patati | Terminal de Buses Sacaba | ✅
+[21053815](https://www.openstreetmap.org/relation/21053815) | MiniBus 222: Calle Independencia → Uturunquillo | 222 | Calle Independencia | Uturunquillo | ✅
+[21053818](https://www.openstreetmap.org/relation/21053818) | MiniBus 222: Uturunquillo → Terminal de Buses Sacaba | 222 | Uturunquillo | Terminal de Buses Sacaba | ✅
+[21076374](https://www.openstreetmap.org/relation/21076374) | Trufi 222: Calle Independencia → Ucuchi | 222 | Calle Independencia | Ucuchi | ✅
+[21076454](https://www.openstreetmap.org/relation/21076454) | Trufi 222: Calle Independencia → 1ro de Mayo | 222 | Calle Independencia | 1ro de Mayo | ✅
+[21076459](https://www.openstreetmap.org/relation/21076459) | Trufi 222: Calle Independencia → Pilancho | 222 | Calle Independencia | Pilancho | ✅
+[21076466](https://www.openstreetmap.org/relation/21076466) | Trufi 222: Calle Independencia → Ch'aki Cocha | 222 | Calle Independencia | Ch'aki Cocha | ✅
+[21076475](https://www.openstreetmap.org/relation/21076475) | Trufi 222: Calle Independencia → Potrero | 222 | Calle Independencia | Potrero | ✅
+[21076607](https://www.openstreetmap.org/relation/21076607) | Trufi 222: Calle Independencia → Patan Rancho | 222 | Calle Independencia | Patan Rancho | ✅
+[21076649](https://www.openstreetmap.org/relation/21076649) | Trufi 222: Calle Independencia → Cumbre | 222 | Calle Independencia | Cumbre | ✅
+[21076670](https://www.openstreetmap.org/relation/21076670) | Trufi 222: Cumbre → Terminal de Buses Sacaba | 222 | Cumbre | Terminal de Buses Sacaba | ✅
+[21076697](https://www.openstreetmap.org/relation/21076697) | Trufi 222: Patan Rancho → Terminal de Buses Sacaba | 222 | Patan Rancho | Terminal de Buses Sacaba | ✅
+[21076726](https://www.openstreetmap.org/relation/21076726) | Trufi 222: Potrero → Terminal de Buses Sacaba | 222 | Potrero | Terminal de Buses Sacaba | ✅
+[21076775](https://www.openstreetmap.org/relation/21076775) | Trufi 222: Ch'aki Cocha → Terminal de Buses Sacaba | 222 | Ch'aki Cocha | Terminal de Buses Sacaba | ✅
+[21076776](https://www.openstreetmap.org/relation/21076776) | Trufi 222: Pilancho → Terminal de Buses Sacaba | 222 | Pilancho | Terminal de Buses Sacaba | ✅
+[21076823](https://www.openstreetmap.org/relation/21076823) | Trufi 222: Melga → Terminal de Buses Sacaba | 222 | Melga | Terminal de Buses Sacaba | ✅
+[21076845](https://www.openstreetmap.org/relation/21076845) | Trufi 222: Ucuchi → Terminal de Buses Sacaba | 222 | Ucuchi | Terminal de Buses Sacaba | ✅
+[21076858](https://www.openstreetmap.org/relation/21076858) | Trufi 222: 1ro de Mayo → Terminal de Buses Sacaba | 222 | 1ro de Mayo | Terminal de Buses Sacaba | ✅
+[21078204](https://www.openstreetmap.org/relation/21078204) | MiniBus 222: Calle Independencia → San Isidro | 222 | Calle Independencia | San Isidro | ✅
 [9377783](https://www.openstreetmap.org/relation/9377783) | Trufi 230: Mercado Coraca → Chiñata | 230 | Mercado Coraca | Chiñata | ✅
 [9377784](https://www.openstreetmap.org/relation/9377784) | Trufi 230: Chiñata → Mercado Coraca | 230 | Chiñata | Mercado Coraca | ✅
 [20773810](https://www.openstreetmap.org/relation/20773810) | Trufi 230: Normal Simón Rodriguez → Mercado Coraca | 230 | Normal Simón Rodriguez | Mercado Coraca | ✅
 [20773812](https://www.openstreetmap.org/relation/20773812) | Trufi 230: Mercado Coraca → Normal Simón Rodriguez | 230 | Mercado Coraca | Normal Simón Rodriguez | ✅
 [20773814](https://www.openstreetmap.org/relation/20773814) | Trufi 230: Fabril Huayllani → Mercado Coraca | 230 | Fabril Huayllani | Mercado Coraca | ✅
 [20773818](https://www.openstreetmap.org/relation/20773818) | Trufi 230: Mercado Coraca → Fabril Huayllani | 230 | Mercado Coraca | Fabril Huayllani | ✅
-[20812591](https://www.openstreetmap.org/relation/20812591) | undefined | 230 | Chiñata | Mercado Coraca | ✅
-[20812592](https://www.openstreetmap.org/relation/20812592) | undefined | 230 | Mercado Coraca | Chiñata | ✅
+[20812591](https://www.openstreetmap.org/relation/20812591) | Trufi 230: Chiñata → Mercado Coraca | 230 | Chiñata | Mercado Coraca | ✅
+[20812592](https://www.openstreetmap.org/relation/20812592) | Trufi 230: Mercado Coraca → Chiñata | 230 | Mercado Coraca | Chiñata | ✅
 [9377625](https://www.openstreetmap.org/relation/9377625) | Trufi 232: Calle Isla del Sol → Avenida Eliodoro Villazón | 232 | Calle Isla del Sol | Avenida Eliodoro Villazón | ✅
 [9377626](https://www.openstreetmap.org/relation/9377626) | Trufi 232: Avenida Eliodoro Villazón → Calle Isla del Sol | 232 | Avenida Eliodoro Villazón | Calle Isla del Sol | ✅
 [20764372](https://www.openstreetmap.org/relation/20764372) | Trufi 232: Alto Obrajes → Chimba | 232 | Alto Obrajes | Chimba | ✅
@@ -520,7 +547,7 @@
 [20778645](https://www.openstreetmap.org/relation/20778645) | Trufi 233: Loreto → Avenida Juan José Torres Gonzales | 233 | Loreto | Avenida Juan José Torres Gonzales | ✅
 [9377675](https://www.openstreetmap.org/relation/9377675) | Trufi 240: Calle Trojes → Chiñata | 240 | Calle Trojes | Chiñata | ✅
 [9377676](https://www.openstreetmap.org/relation/9377676) | Trufi 240: Chiñata → Calle Trojes | 240 | Chiñata | Calle Trojes | ✅
-[10722104](https://www.openstreetmap.org/relation/10722104) | Trufi 241: Avenida Eliodoro Villazón → Avenida Valle Hermoso | 241 | Avenida Eliodoro Villazón | Avenida Valle Hermoso | ✅
+[10722104](https://www.openstreetmap.org/relation/10722104) | Trufi 241: Chiñata → Avenida Valle Hermoso | 241 | Chiñata | Avenida Valle Hermoso | ✅
 [10722148](https://www.openstreetmap.org/relation/10722148) | Trufi 241: Avenida Valle Hermoso → Avenida Eliodoro Villazón | 241 | Avenida Valle Hermoso | Avenida Eliodoro Villazón | ✅
 [11140017](https://www.openstreetmap.org/relation/11140017) | Trufi 241: Calle Samaipata → Tutimayu | 241 | Calle Samaipata | Tutimayu | ✅
 [11140123](https://www.openstreetmap.org/relation/11140123) | Trufi 241: Tutimayu → Calle Samaipata | 241 | Tutimayu | Calle Samaipata | ✅
@@ -546,8 +573,10 @@
 [20773783](https://www.openstreetmap.org/relation/20773783) | Trufi 241: Calle Samaipata → Normal Simón Rodriguez | 241 | Calle Samaipata | Normal Simón Rodriguez | ✅
 [20773795](https://www.openstreetmap.org/relation/20773795) | Trufi 241: Carrasco Lopez Rancho → Calle Samaipata | 241 | Carrasco Lopez Rancho | Calle Samaipata | ✅
 [20773798](https://www.openstreetmap.org/relation/20773798) | Trufi 241: Calle Samaipata → Carrasco Lopez Rancho | 241 | Calle Samaipata | Carrasco Lopez Rancho | ✅
+[21074370](https://www.openstreetmap.org/relation/21074370) | MicroBus 241: Calle Cornejo → Calle Capitán Lozada | 241 | Calle Cornejo | Calle Capitán Lozada | ✅
+[21074381](https://www.openstreetmap.org/relation/21074381) | MicroBus 241: Calle Capitán Lozada → Calle Cornejo | 241 | Calle Capitán Lozada | Calle Cornejo | ✅
 [10742692](https://www.openstreetmap.org/relation/10742692) | Trufi 242: Chiñata → Coraca | 242 | Chiñata | Coraca | ✅
-[20701043](https://www.openstreetmap.org/relation/20701043) | MiniBus 242: Coraca → Chiñata | 242 | Coraca | Chiñata | ✅
+[20701043](https://www.openstreetmap.org/relation/20701043) | Trufi 242: Coraca → Chiñata | 242 | Coraca | Chiñata | ✅
 [10742513](https://www.openstreetmap.org/relation/10742513) | Trufi 244: Calle Paucarpata → Avenida Eliodoro Villazón | 244 | Calle Paucarpata | Avenida Eliodoro Villazón | ✅
 [10742585](https://www.openstreetmap.org/relation/10742585) | Trufi 244: Avenida Eliodoro Villazón → Calle Paucarpata | 244 | Avenida Eliodoro Villazón | Calle Paucarpata | ✅
 [11142143](https://www.openstreetmap.org/relation/11142143) | Trufi 244: Calle Pocona → Lava Lava Alta | 244 | Calle Pocona | Lava Lava Alta | ✅
@@ -626,7 +655,16 @@
 [9379871](https://www.openstreetmap.org/relation/9379871) | Trufi 290: Chilimarca → Avenida Blanco Galindo | 290 | Chilimarca | Avenida Blanco Galindo | ✅
 [20777780](https://www.openstreetmap.org/relation/20777780) | Trufi 303: Avenida Villazon → Paraiso | 303 | Avenida Villazon | Paraiso | ✅
 [20777813](https://www.openstreetmap.org/relation/20777813) | Trufi 303: Paraiso → Avenida Villazon | 303 | Paraiso | Avenida Villazon | ✅
+[20819179](https://www.openstreetmap.org/relation/20819179) | Trufi 303: Avenida Villazon → Fortaleza | 303 | Avenida Villazon | Fortaleza | ✅
+[20819240](https://www.openstreetmap.org/relation/20819240) | Trufi 303: Fortaleza → Avenida Villazon | 303 | Fortaleza | Avenida Villazon | ✅
 [9430327](https://www.openstreetmap.org/relation/9430327) | Trufi 311: Pampita Mejillones → Calle Canichana | 311 | Pampita Mejillones | Calle Canichana | ✅
 [9430329](https://www.openstreetmap.org/relation/9430329) | Trufi 311: Calle Canichana → Pampita Mejillones | 311 | Calle Canichana | Pampita Mejillones | ✅
 [9193250](https://www.openstreetmap.org/relation/9193250) | Trufi 1001: Avenida Río Caine → OTB Ecológica | 1001 | Avenida Río Caine | OTB Ecológica | ✅
 [9193252](https://www.openstreetmap.org/relation/9193252) | Trufi 1001: OTB Ecológica → Avenida Río Caine | 1001 | OTB Ecológica | Avenida Río Caine | ✅
+
+### Paradas de extremo generadas artificialmente (forceEndpointStops)
+**Total**: 1
+
+| Ruta | Nombre de ruta | Parada | Posición | Node ID |
+| ---- | -------------- | ------ | -------- | ------- |
+| V | Línea Verde: Cochabamba → Suticollo | Tranvía Roja / Amarilla / Verde | Inicio | 11399410998 |
