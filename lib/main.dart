@@ -321,7 +321,14 @@ void main() {
           },
         ),
         SavedPlacesTrufiScreen(),
-        TransportListTrufiScreen(),
+        TransportListTrufiScreen(
+          // Operator QR codes / share links point at the web planner, so a
+          // phone without the app still lands somewhere useful and a phone
+          // with the app opens it directly via App Links (host-level
+          // intent-filter already covers /routes). Mirrors the home
+          // screen's shareBaseUrl above.
+          shareBaseUrl: _baseUrl,
+        ),
         FaresTrufiScreen(
           config: FaresConfig(
             currency: 'Bs.',

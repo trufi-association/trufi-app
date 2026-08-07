@@ -22,6 +22,13 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<!-- Deep links are handled by the app_links plugin (DeepLinkService in
+	     trufi-core). Since Flutter 3.27 the engine's built-in deep linking
+	     is on by default and would also push the raw URI into the router,
+	     clobbering the in-app navigation — this opts the engine out.
+	     Mirrors flutter_deeplinking_enabled=false on Android. -->
+	<key>FlutterDeepLinkingEnabled</key>
+	<false/>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

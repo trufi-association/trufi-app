@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roots the pasteboard plugin's FileProvider can serve ("Copy QR").
+     cache-path is where the plugin actually writes the PNG (context.cacheDir);
+     external-path matches the plugin README's documented setup. -->
+<paths>
+    <cache-path name="cache" path="." />
+    <external-path name="external_files" path="." />
+</paths>
