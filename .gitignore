@@ -43,3 +43,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Node tooling under tools/ (deps are not committed; generated data is
+# committed per-tool only when it is the shipped artifact)
+tools/*/node_modules/
+tools/search-*/out/*.json
