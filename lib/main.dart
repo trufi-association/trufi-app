@@ -321,7 +321,10 @@ void main() {
           },
         ),
         SavedPlacesTrufiScreen(),
-        TransportListTrufiScreen(),
+        // shareBaseUrl is what makes the operator QR encode an https app
+        // link; without it the code fell back to the trufiapp:// scheme,
+        // which a camera app cannot open (trufi-core#953).
+        TransportListTrufiScreen(shareBaseUrl: _baseUrl),
         FaresTrufiScreen(
           config: FaresConfig(
             currency: 'Bs.',

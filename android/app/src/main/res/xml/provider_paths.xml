@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roots the pasteboard plugin may hand to the clipboard when copying the
+     operator QR image (trufi-core#953).
+     `cache-path` is the one that matters: the plugin writes the PNG to the
+     app's internal cache dir. The plugin README only documents
+     `external-path`, which leaves copying broken with
+     "Failed to find configured root that contains /data/data/<pkg>/cache/…". -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="cache" path="." />
+    <files-path name="files" path="." />
+    <external-path name="external_files" path="." />
+    <external-cache-path name="external_cache" path="." />
+</paths>
