@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Roots the pasteboard plugin's FileProvider can serve ("Copy QR").
-     cache-path is where the plugin actually writes the PNG (context.cacheDir);
-     external-path matches the plugin README's documented setup. -->
-<paths>
+     `cache-path` is the one that matters: the plugin writes the PNG to the
+     app's internal cache (context.cacheDir). The plugin README documents
+     only `external-path`, which on its own leaves copying failing with
+     "Failed to find configured root that contains /data/data/<pkg>/cache/…"
+     (trufi-core#953). -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
     <cache-path name="cache" path="." />
-    <external-path name="external_files" path="." />
 </paths>

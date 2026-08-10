@@ -91,6 +91,17 @@
         <meta-data
             android:name="io.flutter.embedding.android.ImpellerBackend"
             android:value="opengles" />
+        <!-- Lets the pasteboard plugin share the rendered QR image with
+             the clipboard. Without it "Copy QR" throws (trufi-core#953). -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

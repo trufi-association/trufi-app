@@ -321,14 +321,12 @@ void main() {
           },
         ),
         SavedPlacesTrufiScreen(),
-        TransportListTrufiScreen(
-          // Operator QR codes / share links point at the web planner, so a
-          // phone without the app still lands somewhere useful and a phone
-          // with the app opens it directly via App Links (host-level
-          // intent-filter already covers /routes). Mirrors the home
-          // screen's shareBaseUrl above.
-          shareBaseUrl: _baseUrl,
-        ),
+        // Operator QR codes and share links point at the web planner, so a
+        // phone without the app still lands somewhere useful and one with
+        // the app opens it directly via App Links. Without this the QR
+        // encoded the trufiapp:// scheme, which no camera can resolve
+        // (trufi-core#953). Mirrors the home screen's shareBaseUrl.
+        TransportListTrufiScreen(shareBaseUrl: _baseUrl),
         FaresTrufiScreen(
           config: FaresConfig(
             currency: 'Bs.',
