@@ -62,13 +62,24 @@
               <category android:name="android.intent.category.BROWSABLE" />
               <data android:scheme="geo" />
             </intent-filter>
-            <!-- Custom deep link scheme for route sharing -->
+            <!-- Custom deep link scheme for route sharing and in-app
+                 navigation (e.g. trufiapp://routes?operator=X opens the
+                 routes list filtered by operator). -->
             <intent-filter>
               <action android:name="android.intent.action.VIEW" />
               <category android:name="android.intent.category.DEFAULT" />
               <category android:name="android.intent.category.BROWSABLE" />
               <data android:scheme="trufiapp" android:host="route" />
+              <data android:scheme="trufiapp" android:host="routes" />
             </intent-filter>
+            <!-- Deep links are handled by the app_links plugin (DeepLinkService
+                 in trufi-core). Since Flutter 3.27 the engine's built-in deep
+                 linking is on by default and ALSO pushes the raw URI into
+                 go_router, clobbering the in-app navigation on warm links —
+                 this opts the engine out so app_links stays the only handler. -->
+            <meta-data
+              android:name="flutter_deeplinking_enabled"
+              android:value="false" />
         </activity>
         <!-- Pin Flutter's Impeller renderer to its OpenGLES backend.
              User reports cluster on Android 10 devices whose legacy Vulkan
@@ -80,8 +91,11 @@
         <meta-data
             android:name="io.flutter.embedding.android.ImpellerBackend"
             android:value="opengles" />
-        <!-- Lets the pasteboard plugin share the rendered QR image with
-             the clipboard. Without it "Copy QR" throws (trufi-core#953). -->
+        <!-- Required by the pasteboard plugin ("Copy QR" in the operator QR
+             dialog): on Android it writes the PNG to cacheDir and shares it
+             through a FileProvider with authority ${applicationId}.provider.
+             Without this declaration the copy fails with a PlatformException
+             ("Couldn't find meta-data for provider..."). -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"

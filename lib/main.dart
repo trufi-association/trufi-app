@@ -327,9 +327,11 @@ void main() {
           },
         ),
         SavedPlacesTrufiScreen(),
-        // shareBaseUrl is what makes the operator QR encode an https app
-        // link; without it the code fell back to the trufiapp:// scheme,
-        // which a camera app cannot open (trufi-core#953).
+        // Operator QR codes and share links point at the web planner, so a
+        // phone without the app still lands somewhere useful and one with
+        // the app opens it directly via App Links. Without this the QR
+        // encoded the trufiapp:// scheme, which no camera can resolve
+        // (trufi-core#953). Mirrors the home screen's shareBaseUrl.
         TransportListTrufiScreen(shareBaseUrl: _baseUrl),
         FaresTrufiScreen(
           config: FaresConfig(
