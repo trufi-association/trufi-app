@@ -288,7 +288,13 @@ void main() {
           ),
         ),
         ChangeNotifierProvider(
-          create: (_) => RoutingEngineManager(engines: _routingEngines),
+          create: (_) => RoutingEngineManager(
+            engines: _routingEngines,
+            // Cochabamba: request up to 20 itineraries per search so dense
+            // corridors show every trufi/micro option (trufi-core keeps its
+            // default of 5 for other cities). See trufi-core#923.
+            maxItineraries: 20,
+          ),
         ),
         BlocProvider(
           create: (_) => SearchLocationsCubit(
