@@ -15,8 +15,10 @@ npm start
 cp out/search.json ../../assets/search/search.json
 ```
 
-Output: `./out/search.json` (committed). Contains `streets`,
-`streetJunctions` and `pois` keyed for prefix search.
+Output: `./out/search.json` (committed). Contains `streets` and
+`streetJunctions` keyed for prefix search — `pois` is stripped on
+purpose (the app's search service never reads it; places come from
+Photon).
 
 ## Input
 
