@@ -224,6 +224,8 @@ flutter:
   assets:
     # POI Layers assets
     - assets/pois/
+    # Offline street/corner search index (tools/search-bolivia-cochabamba)
+    - assets/search/
     # Offline maps assets
     - assets/offline/
     - assets/offline/styles/osm-bright/
