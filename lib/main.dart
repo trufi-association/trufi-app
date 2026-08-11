@@ -298,10 +298,20 @@ void main() {
         ),
         BlocProvider(
           create: (_) => SearchLocationsCubit(
-            searchLocationService: PhotonSearchService(
-              baseUrl: _photonUrl,
-              biasLatitude: _defaultCenter.latitude,
-              biasLongitude: _defaultCenter.longitude,
+            // Both sources on purpose: the offline data owns streets and
+            // the corners between them ("Ayacucho y Heroínas"), which no
+            // geocoder can answer; Photon owns places and addresses and
+            // stays fresher. If either fails — no network, missing asset
+            // — the other still answers (trufi-core#745).
+            searchLocationService: CompositeSearchLocationService(
+              services: [
+                OfflineSearchDataService(),
+                PhotonSearchService(
+                  baseUrl: _photonUrl,
+                  biasLatitude: _defaultCenter.latitude,
+                  biasLongitude: _defaultCenter.longitude,
+                ),
+              ],
             ),
           ),
         ),

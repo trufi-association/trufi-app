@@ -1,0 +1,12 @@
+{
+  "name": "search-bolivia-cochabamba",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generates the Cochabamba offline street/corner search index (search.json) from the city PBF.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "osm-search-data-export": "^1.1.1"
+  }
+}
