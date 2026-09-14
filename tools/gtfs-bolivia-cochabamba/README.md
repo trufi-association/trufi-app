@@ -11,7 +11,7 @@ npm start
 
 Output: `./out/cochabamba.gtfs.zip` (committed). Other files under `out/` are also written but only the zip is the canonical artifact.
 
-Expected warnings on the current PBF: the two Teleférico relations (`6925236`, `6925237`, OSM `duration=02:00` → rejected by the builder's plausibility guard) and the two Línea Amarilla relations (`11678428`, `19604339`, OSM `duration=00:36` → rejected by this tool's `tripDuration` floor). Both are OSM tagging errors; once OSM is corrected and the PBF refreshed the warnings disappear on their own.
+Expected warnings on the current PBF: the two Teleférico relations (`6925236`, `6925237`, OSM `duration=02:00` → rejected by the builder's plausibility guard) and the two Línea Amarilla relations (`11678428`, `19604339`, OSM `duration=00:36` → rejected by this tool's `tripDuration` floor). Both are OSM tagging errors; once OSM is corrected and the PBF refreshed the warnings disappear on their own. A fifth warning comes from the fares step: micro Q (`route_id 16`) has two variants tagged `network=…;BO:C:Quillacollo` and two without, so the route keeps the Bs 3 of the latter.
 
 ## Propagate
 
