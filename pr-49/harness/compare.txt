@@ -1,0 +1,7 @@
+A=before.json B=after.json  queries=340
+  connections A=2608421 B=2608421  build A=754ms B=509ms  avg query A=9.42ms B=8.38ms  max A=120.5 B=115.4
+  itineraries A=1241 B=1241  routeless A=18 B=18  identical queries=340/340
+  direct buckets changed in 0 queries: []
+  keys lost (in A, absent in B): 0   worse score: 0   better score: 0   new keys: 0
+  top-1 worse: 0   top-1 better: 0
+  B transfer itineraries=744, with walk between legs=369, same-short-name chains=0

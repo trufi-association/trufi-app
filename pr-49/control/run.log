@@ -1,0 +1,11 @@
+
+> gtfs-bolivia-cochabamba@0.1.0 start
+> ts-node index.ts
+
+Generating GTFS for Cochabamba (source: pbf)...
+Segment merge: 355860 → 104499 stops across fakeStops routes (restored 96889 via gap-fill, threshold 100m)
+duration="02:00" on https://www.osm.org/relation/6925236 implies 0.4 km/h over 0.76 km (plausible: 3–50 km/h for route=aerialway); ignoring it and timing the trip from vehicleSpeed
+duration="02:00" on https://www.osm.org/relation/6925237 implies 0.4 km/h over 0.75 km (plausible: 3–50 km/h for route=aerialway); ignoring it and timing the trip from vehicleSpeed
+GTFS ZIP created: cochabamba.gtfs.zip (4994857 total bytes)
+Done. Output in <scratch>/feeds/control/tools/gtfs-bolivia-cochabamba/out
+npm start exit 0

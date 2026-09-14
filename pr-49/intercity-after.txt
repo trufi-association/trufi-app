@@ -1,0 +1,398 @@
+    km    min      trip   ref route_long_name / headsign / agency / fare
+-- 15 longest trips (end-to-end, straight segments between stops)
+  47.7   60.0  20967965 Colomi Bus Colomi                         → Colomi                 Sindicato de Autotransporte Virgen del Bs3/OSM
+  46.8  143.4  21116245 E. Punata Trufi E. Punata                    → Punata                 Sindicato Expreso Punata               no fare
+  46.2  141.6  16648043 Punata Trufi Punata                       → Cochabamba             default                                no fare
+  38.5  117.9  11127419   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de no fare
+  37.7  115.5  11127395   260 MiniBus 260                        → Viloma Cala Cala       Sindicato mixto de autotransporte 6 de no fare
+  37.4  114.0  21053786   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S no fare
+  36.1  109.9  21053775   222 MiniBus 222                        → Colomi                 Sindicato de taxi trufis trufi buses S no fare
+  35.8  109.8  11123230   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de no fare
+  35.7  109.4  11116752   208 MiniBus 208                        → Llave Grande           Sindicato mixto de trufibuses Vinto    no fare
+  35.4  108.6  11127460   260 MiniBus 260                        → Siqui Siquia           Sindicato mixto de autotransporte 6 de no fare
+  35.3  108.3  11127465   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de no fare
+  35.1  107.7  11116758   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto    no fare
+  35.0  107.0  11127379   260 MiniBus 260                        → Amiraya                Sindicato mixto de autotransporte 6 de no fare
+  34.8  106.3  11127392   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de no fare
+  34.5  106.0  11123215   245 MiniBus 245                        → Viloma Cala Cala       Sindicato mixto de autotransporte 6 de no fare
+
+-- trips of routes WITHOUT a fare row (intermunicipal rule), longest first
+  46.8  143.4  21116245 E. Punata Trufi E. Punata                    → Punata                 Sindicato Expreso Punata
+  46.2  141.6  16648043 Punata Trufi Punata                       → Cochabamba             default
+  38.5  117.9  11127419   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  37.7  115.5  11127395   260 MiniBus 260                        → Viloma Cala Cala       Sindicato mixto de autotransporte 6 de
+  37.4  114.0  21053786   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  36.1  109.9  21053775   222 MiniBus 222                        → Colomi                 Sindicato de taxi trufis trufi buses S
+  35.8  109.8  11123230   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  35.7  109.4  11116752   208 MiniBus 208                        → Llave Grande           Sindicato mixto de trufibuses Vinto
+  35.4  108.6  11127460   260 MiniBus 260                        → Siqui Siquia           Sindicato mixto de autotransporte 6 de
+  35.3  108.3  11127465   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  35.1  107.7  11116758   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  35.0  107.0  11127379   260 MiniBus 260                        → Amiraya                Sindicato mixto de autotransporte 6 de
+  34.8  106.3  11127392   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  34.5  106.0  11123215   245 MiniBus 245                        → Viloma Cala Cala       Sindicato mixto de autotransporte 6 de
+  34.0  104.2  11123281   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  33.6  103.2  11123257   245 MiniBus 245                        → Siqui Siquia           Sindicato mixto de autotransporte 6 de
+  33.0  101.0  11116667   208 MiniBus 208                        → Suticollo              Sindicato mixto de trufibuses Vinto
+  32.6   99.5  11123202   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  32.4   99.1  11116706   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  32.3   98.7  11123198   245 MiniBus 245                        → Amiraya                Sindicato mixto de autotransporte 6 de
+  31.2   95.9  11123095   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  31.1   95.5  10722104   241 Trufi 241                          → Nro. verde: Chiñata    Sindicato mixto de autotransporte Saca
+  31.1   95.2  20768907   241 241                                → Molino Blanco (número  default
+  31.0   94.9  20744022   220 MicroBus 220                       → Nro. verde: américa    Sindicato mixto de transportistas Sant
+  31.0   95.0  11127304   260 MiniBus 260                        → Mallco Chapi           Sindicato mixto de autotransporte 6 de
+  30.9   95.0  11126026   260 MiniBus 260                        → Mallco Rancho          Sindicato mixto de autotransporte 6 de
+  30.9   94.5  16147024   212 Trufi 212                          → Avenida tunel          Sindicato mixto de transportistas Sant
+  30.9   94.9  11127257   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  30.9   94.7  11127350   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  30.8   95.0  11140123   241 Trufi 241                          → Nro. azul: Tutimayu    Sindicato mixto de autotransporte Saca
+  30.8   94.3  11116618   208 MiniBus 208                        → Payacollo              Sindicato mixto de trufibuses Vinto
+  30.5   93.4  20744165   220 MicroBus 220                       → Nro. morado: Av. Túnel Sindicato mixto de transportistas Sant
+  30.3   92.7  10742276   261 MiniBus 261                        → Estadio Municipal Suti Sindicato mixto de autotransporte Cant
+  30.2   92.6  20778600   233 Trufi 233                          → Bandera rosada: Nro. b Sindicato mixto de autotransporte Saca
+  30.1   91.9  11116658   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  29.9   91.7  10742335   261 MiniBus 261                        → Calle Camiri           Sindicato mixto de autotransporte Cant
+  29.6   90.8   9377676   240 Trufi 240                          → Nro. amarillo: Chiñata Sindicato mixto de autotransporte Saca
+  29.4   90.2  20748076   212 Trufi 212                          → Bandera verde lechuga  Sindicato mixto de transportistas Sant
+  29.4   90.0  20773795   241 Trufi 241                          → Carrasco Lopez Rancho  Sindicato mixto de autotransporte Saca
+  29.3   89.6  16144313   212 Trufi 212                          → Avenida tunel          Sindicato mixto de transportistas Sant
+  29.2   89.7   9377675   240 Trufi 240                          → Nro. amarillo: Chiñata Sindicato mixto de autotransporte Saca
+  29.1   89.0  20750747   212 Trufi 212                          → Abra Sacaba            Sindicato mixto de transportistas Sant
+  29.1   89.2  11140017   241 Trufi 241                          → Nro. azul: Tutimayu    Sindicato mixto de autotransporte Saca
+  29.0   89.1  10722148   241 Trufi 241                          → Nro. verde: Chiñata    Sindicato mixto de autotransporte Saca
+  28.9   88.5  20778625   233 Trufi 233                          → Nro. blanco: Cementeri Sindicato mixto de autotransporte Saca
+  28.9   88.8  11121479   245 MiniBus 245                        → Viloma                 Sindicato mixto de autotransporte 6 de
+  28.8   88.5  20748115   212 Trufi 212                          → Bandera verde lechuga  Sindicato mixto de transportistas Sant
+  28.8   88.2  20738597   233 Trufi 233                          → Bandera blanca         Sindicato mixto de autotransporte Saca
+  28.7   88.1  20769220   241 Trufi 241                          → Nro. blanco: Lopez ran Sindicato mixto de autotransporte Saca
+  28.7   88.1  10413473   209 MiniBus 209                        → Héroes de Boquerón     Sindicato mixto de trufibuses Vinto
+  28.7   87.7  20747650   212 Trufi 212                          → Bandera celeste        Sindicato mixto de transportistas Sant
+  28.7   87.7  20773810   230 Trufi 230                          → Nro. azul: Av. Túnel   Sindicato mixto de autotransporte Saca
+  28.6   87.6  20778602   233 Trufi 233                          → Bandera rosada: Nro. b Sindicato mixto de autotransporte Saca
+  28.6   88.0  20812591   230 Trufi 230                          → Bandera amarilla: Nro. Sindicato mixto de autotransporte Saca
+  28.5   87.2  20773812   230 Trufi 230                          → Nro. azul: Av. Túnel   Sindicato mixto de autotransporte Saca
+  28.5   87.3  10413337   209 MiniBus 209                        → Hospital Anocaraire    Sindicato mixto de trufibuses Vinto
+  28.4   87.4  10742692   242 Trufi 242                          → Coraca                 Sindicato mixto de autotransporte Saca
+  28.3   86.8  20812592   230 Trufi 230                          → Bandera amarilla: Nro. Sindicato mixto de autotransporte Saca
+  28.1   86.6  20769156   241 Trufi 241                          → Bandera guindo         Sindicato mixto de autotransporte Saca
+  28.1   85.9  20773820   233 Trufi 233                          → Nro. verde lechuga: Av Sindicato mixto de autotransporte Saca
+  28.1   85.5  20742926   212 Trufi 212                          → Bandera verde rosado   Sindicato mixto de transportistas Sant
+  28.1   86.0  20738609   233 Trufi 233                          → Bandera blanca         Sindicato mixto de autotransporte Saca
+  28.0   85.8  20747921   212 Trufi 212                          → Bandera celeste        Sindicato mixto de transportistas Sant
+  27.9   85.0  20742917   212 Trufi 212                          → Bandera verde amarillo Sindicato mixto de transportistas Sant
+  27.8   85.0  20773798   241 Trufi 241                          → Carrasco Lopez Rancho  Sindicato mixto de autotransporte Saca
+  27.7   84.2  20742931   212 Trufi 212                          → Bandera verde rosado   Sindicato mixto de transportistas Sant
+  27.7   85.4  11142168   244 Trufi 244                          → Bandera verde lechuga  Sindicato mixto de transportistas Sant
+  27.6   85.0  11134477   233 Trufi 233                          → Nro. verde: Chiñata    Sindicato mixto de autotransporte Saca
+  27.5   84.8   9377784   230 Trufi 230                          → Chiñata                Sindicato mixto de autotransporte Saca
+  27.5   84.4  20701043   242 Trufi 242                          → Chiñata                Sindicato mixto de autotransporte Saca
+  27.4   84.1  20712101   233 Trufi 233                          → Bandera celente y blan Sindicato mixto de autotransporte Saca
+  27.3   83.6  20762524   244 Trufi 244                          → Bandera lila: Av. Túne Sindicato mixto de transportistas Sant
+  27.3   82.9  20742923   212 Trufi 212                          → Bandera verde amarillo Sindicato mixto de transportistas Sant
+  27.2   83.6  11123178   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  27.2   83.1  20742755   212 Trufi 212                          → Bandera azul           Sindicato mixto de transportistas Sant
+  27.2   83.4  20712133   233 Trufi 233                          → Bandera lila           Sindicato mixto de autotransporte Saca
+  27.1   83.0  20750759   212 Trufi 212                          → Abra Sacaba            Sindicato mixto de transportistas Sant
+  27.1   83.2   9377783   230 Trufi 230                          → Chiñata                Sindicato mixto de autotransporte Saca
+  27.0   82.8  20735839   244 Trufi 244                          → Bandera celeste        Sindicato mixto de transportistas Sant
+  26.9   82.3  20773824   233 Trufi 233                          → Nro. verde lechuga: Av Sindicato mixto de autotransporte Saca
+  26.9   82.4  20738585   233 Trufi 233                          → Nro. blanco            Sindicato mixto de autotransporte Saca
+  26.9   82.2  20742894   212 Trufi 212                          → Bandera rosado         Sindicato mixto de transportistas Sant
+  26.9   82.7  11123109   245 MiniBus 245                        → Mallco Chapi           Sindicato mixto de autotransporte 6 de
+  26.9   82.5  20712010   233 Trufi 233                          → Bandera celente y blan Sindicato mixto de autotransporte Saca
+  26.8   82.0  20769223   241 Trufi 241                          → Nro. blanco: Lopez ran Sindicato mixto de autotransporte Saca
+  26.8   82.4  20769245   241 Trufi 241                          → Bandera celeste plomo  Sindicato mixto de autotransporte Saca
+  26.7   81.9  20738535   233 Trufi 233                          → Nro. blanco            Sindicato mixto de autotransporte Saca
+  26.6   81.9  11118642   211 MiniBus 211                        → Combuyo                Sindicato mixto de trufibuses Vinto
+  26.4   81.2  20735922   244 Trufi 244                          → Bandera verde celeste  Sindicato mixto de transportistas Sant
+  26.4   80.5  20742413   212 Trufi 212                          → Bandera azul           Sindicato mixto de transportistas Sant
+  26.3   80.9  20769173   241 Trufi 241                          → Bandera guindo         Sindicato mixto de autotransporte Saca
+  26.2   80.5  20769248   241 Trufi 241                          → Bandera celeste plomo  Sindicato mixto de autotransporte Saca
+  26.2   80.3  20739394   212 Trufi 212                          → Pacata amancayas       Sindicato mixto de transportistas Sant
+  26.1   80.2  20739377   212 Trufi 212                          → Pacata aurora          Sindicato mixto de transportistas Sant
+  26.1   79.6  20742882   212 Trufi 212                          → Bandera rosado         Sindicato mixto de transportistas Sant
+  26.0   79.9  11134008   233 Trufi 233                          → Nro. verde: Chiñata    Sindicato mixto de autotransporte Saca
+  25.9   79.5  20735604   244 Trufi 244                          → Bandera rojo           Sindicato mixto de transportistas Sant
+  25.9   79.2  20748186   212 Trufi 212                          → Corralones             Sindicato mixto de transportistas Sant
+  25.9   79.2  20739301   212 Trufi 212                          → Letrero amarillo       Sindicato mixto de transportistas Sant
+  25.9   79.0  11129238   265 MiniBus 265                        → Calle Moxos            Sindicato mixto de trufibuses 3 de nov
+  25.8   79.0  20748279   212 Trufi 212                          → Alto Obrajes           Sindicato mixto de transportistas Sant
+  25.8   78.2  20778645   233 Trufi 233                          → Nro. blanco: Cementeri Sindicato mixto de autotransporte Saca
+  25.8   79.2  11118647   211 MiniBus 211                        → Calle Victor Paz Esten Sindicato mixto de trufibuses Vinto
+  25.6   78.7  11116767   208 MiniBus 208                        → Comunidad Montecato    Sindicato mixto de trufibuses Vinto
+  25.6   78.2  20735855   244 Trufi 244                          → Bandera rosada: Nro. b Sindicato mixto de transportistas Sant
+  25.5   78.3  20768883   241 Trufi 241                          → Nro. azul: Molino blan Sindicato mixto de autotransporte Saca
+  25.5   78.5  11116770   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  25.5   78.0  20766640   232 Trufi 232                          → Nro. negro: Chimba     Sindicato mixto de transportistas Sant
+  25.5   78.1  20709798   233 Trufi 233                          → Bandera lila           Sindicato mixto de autotransporte Saca
+  25.4   77.9  20748214   212 Trufi 212                          → Corralones             Sindicato mixto de transportistas Sant
+  25.3   77.5  20739288   212 Trufi 212                          → Letrero amarillo       Sindicato mixto de transportistas Sant
+  25.3   77.2  11115013   207 MiniBus 207                        → Calvario               Sindicato de trufibuses 15 de agosto
+  25.3   77.4  20739455   212 Trufi 212                          → Bandera amarillo       Sindicato mixto de transportistas Sant
+  25.2   77.3  11142143   244 Trufi 244                          → Bandera verde lechuga  Sindicato mixto de transportistas Sant
+  25.2   77.4  20748285   212 Trufi 212                          → Alto Obrajes           Sindicato mixto de transportistas Sant
+  25.1   76.9  20744203   244 Trufi 244                          → Bandera lila: Av. Túne Sindicato mixto de transportistas Sant
+  25.1   77.3  20764372   232 Trufi 232                          → Nro. negro: Chimba     Sindicato mixto de transportistas Sant
+  25.1   76.9  11116711   208 MiniBus 208                        → Quiros Rancho          Sindicato mixto de trufibuses Vinto
+  24.9   76.6  20744132   220 MicroBus 220                       → Nro. verde: américa    Sindicato mixto de transportistas Sant
+  24.9   76.4  11130922   265 MiniBus 265                        → Calle Moxos            Sindicato mixto de trufibuses 3 de nov
+  24.9   76.7  11115682   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  24.9   76.4  20739395   212 Trufi 212                          → Pacata amancayas       Sindicato mixto de transportistas Sant
+  24.9   76.4  20735921   244 Trufi 244                          → Bandera verde celeste  Sindicato mixto de transportistas Sant
+  24.9   76.4  11111697   206 MiniBus 206                        → Entre Rios             Asociación de taxi trufis 1ro de mayo
+  24.9   76.0  11129203   265 MiniBus 265                        → Avenida Santa Cruz     Sindicato mixto de trufibuses 3 de nov
+  24.8   76.2  20739391   212 Trufi 212                          → Pacata aurora          Sindicato mixto de transportistas Sant
+  24.8   76.0  20739466   212 Trufi 212                          → Bandera amarillo       Sindicato mixto de transportistas Sant
+  24.7   75.7  20750152   212 Trufi 212                          → Hipermaxi              Sindicato mixto de transportistas Sant
+  24.7   75.5  20735862   244 Trufi 244                          → Bandera azul: Nro. bla Sindicato mixto de transportistas Sant
+  24.7   75.7  11115066   207 MiniBus 207                        → Calvario               Sindicato de trufibuses 15 de agosto
+  24.4   75.0  11115617   208 MiniBus 208                        → Calle Severino Salvati Sindicato mixto de trufibuses Vinto
+  24.4   74.8  20739249   212 Trufi 212                          → Letrero rojo: Villa ob Sindicato mixto de transportistas Sant
+  24.4   74.5  11118654   211 MiniBus 211                        → Avenida Santa Cruz     Sindicato mixto de trufibuses Vinto
+  24.4   74.8  11116744   208 MiniBus 208                        → Calle Camiri           Sindicato mixto de trufibuses Vinto
+  24.4   74.5  20735841   244 Trufi 244                          → Bandera celeste        Sindicato mixto de transportistas Sant
+  24.4   75.0  11111712   206 MiniBus 206                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  24.3   74.4  20735860   244 Trufi 244                          → Bandera rosada: Nro. b Sindicato mixto de transportistas Sant
+  24.3   74.4  11111885   207 MiniBus 207                        → Siglo XX               Sindicato de trufibuses 15 de agosto
+  24.3   74.5  11138009   233 Trufi 233                          → Nro. rojo              Sindicato mixto de autotransporte Saca
+  24.2   73.9  20750730   212 Trufi 212                          → Maderero               Sindicato mixto de transportistas Sant
+  24.2   74.2  20750134   212 Trufi 212                          → Lava Lava              Sindicato mixto de transportistas Sant
+  24.0   73.8  20739256   212 Trufi 212                          → Letrero rojo: Villa ob Sindicato mixto de transportistas Sant
+  24.0   73.4  16294410   212 Trufi 212                          → Circunvalación         Sindicato mixto de transportistas Sant
+  24.0   73.7  20735893   244 Trufi 244                          → Bandera lila amarillo  Sindicato mixto de transportistas Sant
+  23.9   73.6  20769257   241 Trufi 241                          → Nro. rojo: Rio         Sindicato mixto de autotransporte Saca
+  23.8   73.0  11118661   211 MiniBus 211                        → Calle Victor Paz Esten Sindicato mixto de trufibuses Vinto
+  23.8   73.1  20733041   244 Trufi 244                          → Bandera amarillo: Nro. Sindicato mixto de transportistas Sant
+  23.8   72.8  20739310   212 Trufi 212                          → Letrero rosado         Sindicato mixto de transportistas Sant
+  23.8   72.8  11130832   265 MiniBus 265                        → Litoral                Sindicato mixto de trufibuses 3 de nov
+  23.7   72.8  11137986   233 Trufi 233                          → Nro. rojo              Sindicato mixto de autotransporte Saca
+  23.7   72.5  11138764   233 Trufi 233                          → Abra                   Sindicato mixto de autotransporte Saca
+  23.6   72.4  11111558   206 MiniBus 206                        → Calle Antofagasta      Asociación de taxi trufis 1ro de mayo
+  23.5   72.2   9377626   232 Trufi 232                          → Calle Isla del Sol     Sindicato mixto de transportistas Sant
+  23.5   71.5  11115157   207 MiniBus 207                        → Avenida Ferrocarril    Sindicato de trufibuses 15 de agosto
+  23.5   72.1  20738734   233 Trufi 233                          → Bandera azul           Sindicato mixto de autotransporte Saca
+  23.4   71.5  20735864   244 Trufi 244                          → Bandera azul: Nro. bla Sindicato mixto de transportistas Sant
+  23.4   71.9  20735545   244 Trufi 244                          → Bandera rojo           Sindicato mixto de transportistas Sant
+  23.4   72.0  20773779   241 Trufi 241                          → Nro. verde lechuga     Sindicato mixto de autotransporte Saca
+  23.4   71.6  16294409   212 Trufi 212                          → Circunvalación         Sindicato mixto de transportistas Sant
+  23.4   71.6   9377625   232 Trufi 232                          → Avenida Eliodoro Villa Sindicato mixto de transportistas Sant
+  23.3   71.8  21076670   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  23.3   71.6  20727438   233 Trufi 233                          → Nro. negro y amarillo  Sindicato mixto de autotransporte Saca
+  23.2   70.8  11015473   207 MiniBus 207                        → Santo Domingo          Sindicato de trufibuses 15 de agosto
+  23.2   71.3  21076775   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  23.1   70.6  20739312   212 Trufi 212                          → Letrero rosado         Sindicato mixto de transportistas Sant
+  23.0   70.7  20739192   233 Trufi 233                          → Nro. naranja           Sindicato mixto de autotransporte Saca
+  23.0   70.5  20739392   233 Trufi 233                          → Nro. naranja           Sindicato mixto de autotransporte Saca
+  23.0   70.6  20773068   241 Trufi 241                          → Ulincate               Sindicato mixto de autotransporte Saca
+  22.9   70.5  11114966   207 MiniBus 207                        → Siglo XX               Sindicato de trufibuses 15 de agosto
+  22.9   70.5  11111618   206 MiniBus 206                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  22.8   69.9  10411245   212 Trufi 212                          → Fabril huayllani       Sindicato mixto de transportistas Sant
+  22.7   69.5  10709216     N MiniBus N                          → Verde                  Sindicato mixto de autotransporte Saca
+  22.7   69.9  10742585   244 Trufi 244                          → Nro. rojo: Villa Obraj Sindicato mixto de transportistas Sant
+  22.7   69.7  20738745   233 Trufi 233                          → Bandera azul           Sindicato mixto de autotransporte Saca
+  22.7   69.3  11138791   233 Trufi 233                          → Abra                   Sindicato mixto de autotransporte Saca
+  22.6   69.7  11124771   245 MiniBus 245                        → Pirque                 Sindicato mixto de autotransporte 6 de
+  22.6   69.5  11124782   245 MiniBus 245                        → Vinto                  Sindicato mixto de autotransporte 6 de
+  22.6   69.1  20769234   241 Trufi 241                          → Bandera verde          Sindicato mixto de autotransporte Saca
+  22.5   69.3  20769264   241 Trufi 241                          → Bandera verde: Nro. ce Sindicato mixto de autotransporte Saca
+  22.4   68.5  20750736   212 Trufi 212                          → Maderero               Sindicato mixto de transportistas Sant
+  22.4   69.0   9458460   220 MicroBus 220                       → Calle Eric Asplund     Sindicato mixto de transportistas Sant
+  22.4   68.5  11118564   211 MiniBus 211                        → Illataco               Sindicato mixto de trufibuses Vinto
+  22.3   68.5  11110800   205 MiniBus 205                        → Villa Urkupiña Calvari Asociación de taxi trufis 1ro de mayo
+  22.3   68.5  11115218   207 MiniBus 207                        → Avenida Gualberto Vill Sindicato de trufibuses 15 de agosto
+  22.2   68.2  21053622   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  22.2   67.9  11111001   206 MiniBus 206                        → Villa Urkupiña Calvari Asociación de taxi trufis 1ro de mayo
+  22.1   67.8  10414461   207 MiniBus 207                        → Santo Domingo          Sindicato de trufibuses 15 de agosto
+  22.1   67.6  21076649   222 MiniBus 222                        → Cumbre                 Sindicato de taxi trufis trufi buses S
+  22.0   67.5  20739495   233 Trufi 233                          → Bandera naranja y verd Sindicato mixto de autotransporte Saca
+  22.0   67.5   9458471   220 MicroBus 220                       → Avenida Eliodoro Villa Sindicato mixto de transportistas Sant
+  22.0   67.5  11110845   205 MiniBus 205                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  22.0   67.6  20773116   241 Trufi 241                          → Tacoloma               Sindicato mixto de autotransporte Saca
+  21.9   67.2  21076466   222 MiniBus 222                        → Ch'aki Cocha           Sindicato de taxi trufis trufi buses S
+  21.9   67.2  10411209   212 Trufi 212                          → Maica central          Sindicato mixto de transportistas Sant
+  21.9   67.1  20769260   241 Trufi 241                          → Nro. rojo: Rio         Sindicato mixto de autotransporte Saca
+  21.9   67.0  20739527   233 Trufi 233                          → Bandera naranja y verd Sindicato mixto de autotransporte Saca
+  21.8   66.7  16306401   250 MiniBus 250                        → Callajchullpa          Sindicato mixto de transportistas Tiqu
+  21.8   66.9  20739434   233 Trufi 233                          → Nro. negro y amarillo  Sindicato mixto de autotransporte Saca
+  21.8   66.5  11110089   204 MiniBus 204                        → Pandoja                Asociación de taxi trufis 1ro de mayo
+  21.7   66.8  20772979   241 Trufi 241                          → Ulincate               Sindicato mixto de autotransporte Saca
+  21.7   66.6  20735896   244 Trufi 244                          → Bandera lila amarillo  Sindicato mixto de transportistas Sant
+  21.7   66.3  10708849     N MiniBus N                          → Verde                  Sindicato mixto de autotransporte Saca
+  21.6   66.4  11118579   211 MiniBus 211                        → Calle Victor Paz Esten Sindicato mixto de trufibuses Vinto
+  21.6   66.2  11108080   203 MicroBus 203                       → Calle Francisco Anaya  Sindicato mixto transporte Urkupiña
+  21.6   66.3  10724411   208 MiniBus 208                        → Calle Ignacio Warnes   Sindicato mixto de trufibuses Vinto
+  21.5   66.0  11109737   203 MicroBus 203                       → Avenida Manuel Isidoro Sindicato mixto transporte Urkupiña
+  21.5   66.1  10722066   217 MiniBus 217                        → Pacata Central         Sindicato de trufibuses 15 de agosto
+  21.4   65.8  11129178   260 MiniBus 260                        → Parotani               Sindicato mixto de autotransporte 6 de
+  21.3   65.5  20773783   241 Trufi 241                          → Nro. verde lechuga     Sindicato mixto de autotransporte Saca
+  21.3   65.3  20735848   244 Trufi 244                          → Nro. blanco            Sindicato mixto de transportistas Sant
+  21.3   65.4  11111525   206 MiniBus 206                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  21.3   65.4  20733065   244 Trufi 244                          → Bandera amarillo: Nro. Sindicato mixto de transportistas Sant
+  21.3   65.3  11129182   260 MiniBus 260                        → Vinto                  Sindicato mixto de autotransporte 6 de
+  21.2   65.2  10721892   217 MiniBus 217                        → Calle 12 de septiembre Sindicato de trufibuses 15 de agosto
+  21.1   64.5  11131445   250 MiniBus 250                        → Santa Bárbara          Sindicato mixto de transportistas Tiqu
+  21.1   64.8  11111544   206 MiniBus 206                        → Avenida Suarez Miranda Asociación de taxi trufis 1ro de mayo
+  21.1   64.8  11116822   211 MiniBus 211                        → Calle Tupiyan          Sindicato mixto de trufibuses Vinto
+  21.1   64.6  11116951   210 MiniBus 210                        → UE El Paso             Sindicato Señor de Buen Viaje El Paso
+  21.1   64.5  11110129   204 MiniBus 204                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  21.0   64.6  20769268   241 Trufi 241                          → Bandera verde: Nro. ce Sindicato mixto de autotransporte Saca
+  21.0   64.5  10712377    17 MiniBus 17                         → K’asawasa              Sindicato mixto de transportistas Tiqu
+  20.9   64.6  10724434   208 MiniBus 208                        → Avenida Blanco Galindo Sindicato mixto de trufibuses Vinto
+  20.9   64.0  21078204   222 MiniBus 222                        → San Isidro             Sindicato de taxi trufis trufi buses S
+  20.7   63.5  16306422   270 MiniBus 270                        → Calle Jose Martinez    Sindicato mixto de autotransporte 6 de
+  20.7   63.6  20773140   241 Trufi 241                          → Tacoloma               Sindicato mixto de autotransporte Saca
+  20.7   63.3   4237142   260 MiniBus 260                        → Avenida Blanco Galindo Sindicato mixto de autotransporte 6 de
+  20.6   62.6  20769237   241 Trufi 241                          → Bandera verde          Sindicato mixto de autotransporte Saca
+  20.5   62.9   4205962   260 MiniBus 260                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  20.5   62.9  11110301   205 MiniBus 205                        → Avenida Suarez Miranda Asociación de taxi trufis 1ro de mayo
+  20.4   62.8  10742513   244 Trufi 244                          → Nro. rojo: Villa Obraj Sindicato mixto de transportistas Sant
+  20.4   62.6  11118368   201 MiniBus 201                        → Calle Litoral          Sindicato mixto transporte Urkupiña
+  20.3   62.4  10712656    17 MiniBus 17                         → Calle Calama           Sindicato mixto de transportistas Tiqu
+  20.3   62.3  11110740   205 MiniBus 205                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  20.3   62.4  11111548   206 MiniBus 206                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  20.2   62.3  11118511   211 MiniBus 211                        → Calle Victor Paz Esten Sindicato mixto de trufibuses Vinto
+  20.2   62.0  16769583   Z12 MiniBus Z12                        → Villa Armonia          Sindicato mixto de transportistas Tiqu
+  20.2   62.1  11107907   201 MiniBus 201                        → Calle Litoral          Sindicato mixto transporte Urkupiña
+  20.2   62.1  21053767   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  20.1   61.7  20735850   244 Trufi 244                          → Nro. blanco            Sindicato mixto de transportistas Sant
+  20.1   61.9   4223772   270 MiniBus 270                        → Avenida Blanco Galindo Sindicato mixto de autotransporte 6 de
+  20.0   61.5  11118282   201 MiniBus 201                        → Calle Francisco Anaya  Sindicato mixto transporte Urkupiña
+  20.0   61.2  11109969   204 MiniBus 204                        → Villa Urkupiña Calvari Asociación de taxi trufis 1ro de mayo
+  20.0   61.3  11118609   211 MiniBus 211                        → Florida                Sindicato mixto de trufibuses Vinto
+  19.9   61.0  20778480   233 Trufi 233                          → Bandera verde          Sindicato mixto de autotransporte Saca
+  19.9   61.2  11107845   201 MiniBus 201                        → Calle Litoral          Sindicato mixto transporte Urkupiña
+  19.8   61.0  21076858   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  19.8   60.8  16769606   Z12 MiniBus Z12                        → Salomon Romero         Sindicato mixto de transportistas Tiqu
+  19.8   60.6  11110748   205 MiniBus 205                        → Calle Demetrio Canelas Asociación de taxi trufis 1ro de mayo
+  19.6   60.2  11110787   205 MiniBus 205                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  19.6   60.1  11107858   201 MiniBus 201                        → Villa Asunción         Sindicato mixto transporte Urkupiña
+  19.4   59.5  11118616   211 MiniBus 211                        → Calle Victor Paz Esten Sindicato mixto de trufibuses Vinto
+  19.3   59.3  11118440   210 MiniBus 210                        → República de Nicaragua Sindicato Señor de Buen Viaje El Paso
+  19.3   59.3  11109832   204 MiniBus 204                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  19.3   59.3  11107825   201 MiniBus 201                        → Avenida Thomas Bata    Sindicato mixto transporte Urkupiña
+  19.2   59.0  21076697   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  19.2   58.7   5457000     H MicroBus H                         → Avenida Río Parapeti   Sindicato de colectiveros y microbuses
+  19.1   58.7   9379871   290 Trufi 290                          → Avenida Blanco Galindo Sindicato mixto de trufibuses Vinto
+  19.0   58.3  11109791   204 MiniBus 204                        → Calle 23 de marzo      Asociación de taxi trufis 1ro de mayo
+  19.0   58.0   4655384   290 Trufi 290                          → Chilimarca             Sindicato mixto de trufibuses Vinto
+  18.9   58.0  20744140   220 MicroBus 220                       → Nro. rosado: circunval Sindicato mixto de transportistas Sant
+  18.9   58.0   4420888   203 MicroBus 203                       → Plaza Hernando Siles   Sindicato mixto transporte Urkupiña
+  18.9   58.1  11110061   204 MiniBus 204                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  18.9   58.0  21053666   222 MiniBus 222                        → Rodeo                  Sindicato de taxi trufis trufi buses S
+  18.9   57.8  16294397   212 Trufi 212                          → Letrero rojo: esmerald Sindicato mixto de transportistas Sant
+  18.8   57.7  21053818   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  18.7   57.3  21076726   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  18.6   57.1  20744156   220 MicroBus 220                       → Nro. rosado: circunval Sindicato mixto de transportistas Sant
+  18.6   56.9  21076454   222 MiniBus 222                        → 1ro de Mayo            Sindicato de taxi trufis trufi buses S
+  18.5   56.9   4431661   203 MicroBus 203                       → Avenida Belzu          Sindicato mixto transporte Urkupiña
+  18.5   56.6   5457001     H MicroBus H                         → Avenida Chapare        Sindicato de colectiveros y microbuses
+  18.4   56.6   9373042   Z12 MiniBus Z12                        → Villa Armonia          Sindicato mixto de transportistas Tiqu
+  18.4   56.6  10413052   211 MiniBus 211                        → Calle Achachairú       Sindicato mixto de trufibuses Vinto
+  18.2   55.9  10414582   206 MiniBus 206                        → Avenida Blanco Galindo Asociación de taxi trufis 1ro de mayo
+  18.2   56.0  10724349   205 MiniBus 205                        → Avenida Belzu          Asociación de taxi trufis 1ro de mayo
+  18.2   55.8  10668794     S MicroBus S                         → 21 de Enero            Sindicato de colectiveros y microbuses
+  18.2   55.8   4220716   205 MiniBus 205                        → Plaza Avenida Blanco G Asociación de taxi trufis 1ro de mayo
+  18.2   55.7  10788739   245 MiniBus 245                        → Calle Litoral          Sindicato mixto de autotransporte 6 de
+  18.1   55.5  16289273   212 Trufi 212                          → Letrero rojo: esmerald Sindicato mixto de transportistas Sant
+  18.0   54.8  16774859   120 Trufi 120                          → Barrio Flores          Sindicato mixto de transportistas Tiqu
+  18.0   54.9  20778493   233 Trufi 233                          → Bandera rosada         Sindicato mixto de autotransporte Saca
+  17.9   55.2  10411266   211 MiniBus 211                        → Avenida Blanco Galindo Sindicato mixto de trufibuses Vinto
+  17.9   55.1  10414549   206 MiniBus 206                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  17.9   54.8  21076607   222 MiniBus 222                        → Parada 222             Sindicato de taxi trufis trufi buses S
+  17.9   54.9   9373675   Z12 MiniBus Z12                        → Univalle               Sindicato mixto de transportistas Tiqu
+  17.8   54.7   9718061   202 MiniBus 202                        → Calle Villamontes      Sindicato mixto transporte Urkupiña
+  17.8   54.5  10724599   265 MiniBus 265                        → Calle Camiri           Sindicato mixto de trufibuses 3 de nov
+  17.8   54.4  10788634   245 MiniBus 245                        → Avenida Blanco Galindo Sindicato mixto de autotransporte 6 de
+  17.5   53.6  21053815   222 MiniBus 222                        → Uturunquillo           Sindicato de taxi trufis trufi buses S
+  17.5   53.4  16774838   120 Trufi 120                          → Molinos                Sindicato mixto de transportistas Tiqu
+  17.4   53.3  21076475   222 MiniBus 222                        → Potrero                Sindicato de taxi trufis trufi buses S
+  17.3   53.3  10742265   265 MiniBus 265                        → Avenida Blanco Galindo Sindicato mixto de trufibuses 3 de nov
+  17.3   53.3  10677513     S MicroBus S                         → Calle Mendoza          Sindicato de colectiveros y microbuses
+  17.3   53.1  16774789   120 Trufi 120                          → Collpapampa            Sindicato mixto de transportistas Tiqu
+  17.3   53.0  16774848   120 Trufi 120                          → Salomón Romero         Sindicato mixto de transportistas Tiqu
+  17.1   52.7  20778476   233 Trufi 233                          → Bandera verde          Sindicato mixto de autotransporte Saca
+  16.9   51.8  20773818   230 Trufi 230                          → Nro. blanco: Pacata    Sindicato mixto de autotransporte Saca
+  16.9   51.5  16283966   233 Trufi 233                          → Bandera amarilla       Sindicato mixto de autotransporte Saca
+  16.8   51.7  20773814   230 Trufi 230                          → Nro. blanco: Pacata    Sindicato mixto de autotransporte Saca
+  16.6   50.7  20778495   233 Trufi 233                          → Bandera rosada         Sindicato mixto de autotransporte Saca
+  16.6   50.6  11132650     N MiniBus N                          → Rojo                   Sindicato mixto de autotransporte Saca
+  16.6   51.0   9718162   202 MiniBus 202                        → Avenida Blanco Galindo Sindicato mixto transporte Urkupiña
+  16.6   51.0  10723654   204 MiniBus 204                        → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  16.6   50.8   4770039   201 MiniBus 201                        → Avenida Blanco Galindo Sindicato mixto transporte Urkupiña
+  16.6   51.0   4207829   201 MiniBus 201                        → Calle Litoral          Sindicato mixto transporte Urkupiña
+  16.4   50.5  10723671   204 MiniBus 204                        → Avenida Blanco Galindo Asociación de taxi trufis 1ro de mayo
+  16.4   50.6  21076823   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  16.4   50.2  20739779   212 Trufi 212                          → Bella Vista            Sindicato mixto de transportistas Sant
+  16.4   50.0  20744199   212 Trufi 212                          → Bella Vista            Sindicato mixto de transportistas Sant
+  16.3   50.2  21076845   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  16.3   49.8  20778567   233 Trufi 233                          → Nro. blanco: Chacacoll Sindicato mixto de autotransporte Saca
+  16.2   49.7  16774784   120 Trufi 120                          → Collpapampa            Sindicato mixto de transportistas Tiqu
+  16.0   48.9  16144238   233 Trufi 233                          → Bandera amarilla       Sindicato mixto de autotransporte Saca
+  15.9   48.6  20744224   212 Trufi 212                          → Villa Animas           Sindicato mixto de transportistas Sant
+  15.9   48.4  20744210   212 Trufi 212                          → Villa Animas           Sindicato mixto de transportistas Sant
+  15.8   48.1  11132626     N MiniBus N                          → Rojo                   Sindicato mixto de autotransporte Saca
+  15.7   48.3  16769797    16 Trufi 16                           → Salomon Romero         Sindicato mixto de transportistas Tiqu
+  15.7   48.1  16774852   120 Trufi 120                          → Villa Oruro            Sindicato mixto de transportistas Tiqu
+  15.6   47.9  16799911   120 Trufi 120                          → Kanarancho             Sindicato mixto de transportistas Tiqu
+  15.4   47.3  16774834   120 Trufi 120                          → Molinos                Sindicato mixto de transportistas Tiqu
+  15.4   47.2  11148108   120 Trufi 120                          → Apote                  Sindicato mixto de transportistas Tiqu
+  15.2   46.6  16799912   120 Trufi 120                          → Alto San Miguel        Sindicato mixto de transportistas Tiqu
+  15.1   46.5  16774849   120 Trufi 120                          → Salomón Romero         Sindicato mixto de transportistas Tiqu
+  15.1   46.2  21076374   222 MiniBus 222                        → Ucuchi                 Sindicato de taxi trufis trufi buses S
+  15.0   46.0  20778564   233 Trufi 233                          → Nro. blanco: Chacacoll Sindicato mixto de autotransporte Saca
+  15.0   46.0  21076776   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+  14.9   45.7  11148102   120 Trufi 120                          → Apote                  Sindicato mixto de transportistas Tiqu
+  14.7   45.2  16804729   120 Trufi 120                          → Chilimarca             Sindicato mixto de transportistas Tiqu
+  14.7   44.9  16774860   120 Trufi 120                          → Barrio Flores          Sindicato mixto de transportistas Tiqu
+  14.7   45.1  16774853   120 Trufi 120                          → Villa Oruro            Sindicato mixto de transportistas Tiqu
+  14.6   44.9  11131143   120 Trufi 120                          → Molle Nova             Sindicato mixto de transportistas Tiqu
+  14.6   44.8  16804730   120 Trufi 120                          → Chilimarca             Sindicato mixto de transportistas Tiqu
+  14.5   44.6  11131214   120 Trufi 120                          → Cerro San Miguel       Sindicato mixto de transportistas Tiqu
+  14.5   44.3  10413127   210 MiniBus 210                        → Avenida Blanco Galindo Sindicato Señor de Buen Viaje El Paso
+  14.3   43.9  16769872    16 Trufi 16                           → Calle Honduras         Sindicato mixto de transportistas Tiqu
+  14.3   43.8  10719095   120 Trufi 120                          → Cerro San Miguel       Sindicato mixto de transportistas Tiqu
+  14.2   43.6  20288697   265 MiniBus 265                        → Liriuni                Sindicato mixto de trufibuses 3 de nov
+  14.2   43.4  10719128   120 Trufi 120                          → Gualberto Villaroel    Sindicato mixto de transportistas Tiqu
+  14.0   43.2  20288687   265 MiniBus 265                        → Liriuni                Sindicato mixto de trufibuses 3 de nov
+  14.0   42.7  11138084   233 Trufi 233                          → Arocagua               Sindicato mixto de autotransporte Saca
+  13.7   42.2   9458409   233 Trufi 233                          → Nro. negro y blanco    Sindicato mixto de autotransporte Saca
+  13.7   41.9  21076459   222 MiniBus 222                        → Pilancho               Sindicato de taxi trufis trufi buses S
+  13.5   41.3  10719035   120 Trufi 120                          → Panter blanco: letras  Sindicato mixto de transportistas Tiqu
+  13.4   41.2  10719025   120 Trufi 120                          → Panter blanco: letras  Sindicato mixto de transportistas Tiqu
+  12.8   39.2  11138128   233 Trufi 233                          → Arocagua               Sindicato mixto de autotransporte Saca
+  12.7   39.3  10413255   210 MiniBus 210                        → Calle República de Nic Sindicato Señor de Buen Viaje El Paso
+  12.7   38.9  16774734   120 Trufi 120                          → Tiquipaya              Sindicato mixto de transportistas Tiqu
+  12.3   37.9  16774771   120 Trufi 120                          → Cerro San Miguel       Sindicato mixto de transportistas Tiqu
+  12.3   37.7   9458419   233 Trufi 233                          → Nro. negro y blanco    Sindicato mixto de autotransporte Saca
+  12.2   37.4  10407407   203 MicroBus 203                       → Avenida Circuito Boliv Sindicato mixto transporte Urkupiña
+  11.9   36.3  21053793   222 MiniBus 222                        → Patati                 Sindicato de taxi trufis trufi buses S
+  11.6   35.4   9380122   200 MicroBus 200                       → Avenida Blanco Galindo Sindicato mixto transporte Urkupiña
+  11.5   35.4  10407466   203 MicroBus 203                       → Avenida Blanco Galindo Sindicato mixto transporte Urkupiña
+  10.8   33.1   9380023   252 Trufi 252                          → Calle Litoral          Asociación de taxi trufis 1ro de mayo
+  10.6   32.4   9380123   200 MicroBus 200                       → Calle Litoral          Sindicato mixto transporte Urkupiña
+  10.4   31.8   4204592   270 MiniBus 270                        → Avenida Blanco Galindo Sindicato mixto de autotransporte 6 de
+  10.3   31.7  16306421   270 MiniBus 270                        → Tupuraya               Sindicato mixto de autotransporte 6 de
+  10.2   31.1   9380021   252 Trufi 252                          → Avenida Blanco Galindo Asociación de taxi trufis 1ro de mayo
+  10.1   30.9  21053797   222 MiniBus 222                        → Terminal de Buses Saca Sindicato de taxi trufis trufi buses S
+   9.8   30.1  11015478   211 MiniBus 211                        → Carmela Serruto        Sindicato mixto de trufibuses Vinto
+   9.7   29.7   4436907   211 MiniBus 211                        → Parque Ecoturístico Pa Sindicato mixto de trufibuses Vinto
+   9.2   28.2  20353053   250 MiniBus 250                        → Reducto Montecillo     Sindicato mixto de transportistas Tiqu
+   9.1   28.0  20389960   250 MiniBus 250                        → Reducto Montecillo     Sindicato mixto de transportistas Tiqu
+   9.1   27.9  16806300   127 Trufi 127                          → Molinos                Sindicato mixto de transportistas Tiqu
+   9.1   27.8  16806298   127 Trufi 127                          → Villa Esperanza        Sindicato mixto de transportistas Tiqu
+   8.9   27.2  16806299   127 Trufi 127                          → Salomon Romero         Sindicato mixto de transportistas Tiqu
+   8.8   27.1  16806297   127 Trufi 127                          → Villa Esperanza        Sindicato mixto de transportistas Tiqu
+   7.2   22.1  20353089   250 MiniBus 250                        → Reducto                Sindicato mixto de transportistas Tiqu
+   7.1   21.9  20390052   250 MiniBus 250                        → Reducto                Sindicato mixto de transportistas Tiqu
+   6.1   18.5  21074381   241 Trufi 241                          → Terminal de Buses Saca Sindicato mixto de autotransporte Saca
+   6.0   18.3  21074370   241 Trufi 241                          → Huayllani              Sindicato mixto de autotransporte Saca
+   5.9   18.1  20572738   244 Trufi 244                          → Sacaba                 Sindicato mixto de transportistas Sant
+   5.6   17.1  20609211   244 Trufi 244                          → Villa Paraiso          Sindicato mixto de transportistas Sant
+   3.9   12.0  20819179   303 Trufi 303                          → Fortaleza              Sindicato Mixto de Transporte Expreso 
+   3.4   10.5  20819240   303 Trufi 303                          → Avenida Villazon       Sindicato Mixto de Transporte Expreso 
+   3.2    9.8  20395625 Calama Trufi Calama                       → Colegio Calama         Sindicato mixto de autotransporte 6 de
+   3.1    9.4  20395613 Calama Trufi Calama                       → Colegio Calama         Sindicato mixto de autotransporte 6 de
+   3.0    9.2  20777780   303 Trufi 303                          → Paraiso                Sindicato Mixto de Transporte Expreso 
+   2.9    9.0  20777813   303 Trufi 303                          → Avenida Villazon       Sindicato Mixto de Transporte Expreso 
+   2.2    6.7  17290564    80 MicroBus 80                        → Avenida 23 de Septiemb default

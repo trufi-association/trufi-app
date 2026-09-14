@@ -1,0 +1,41 @@
+# before (2.13.4, main config) vs after (2.16.0, this PR)
+identical  agency.txt
+identical  calendar.txt
+DIFFERS    fare_attributes.txt (658 vs 38 lines)
+DIFFERS    fare_rules.txt (658 vs 100 lines)
+identical  feed_info.txt
+identical  frequencies.txt
+identical  routes.txt
+identical  shapes.txt
+DIFFERS    stop_times.txt (104593 vs 104593 lines)
+identical  stops.txt
+identical  trips.txt
+md5 stop_times: 4626aef32a4d39088c51e75557498972 vs 1761b7b3065b9a7425956140263521c2
+
+# before vs control (2.16.0, config unchanged)
+identical  agency.txt
+identical  calendar.txt
+DIFFERS    fare_attributes.txt (658 vs 8 lines)
+DIFFERS    fare_rules.txt (658 vs 8 lines)
+identical  feed_info.txt
+identical  frequencies.txt
+identical  routes.txt
+identical  shapes.txt
+DIFFERS    stop_times.txt (104593 vs 104593 lines)
+identical  stops.txt
+identical  trips.txt
+md5 stop_times: 4626aef32a4d39088c51e75557498972 vs 1c1044b29a6e4fbda69c899c0a6d5a13
+
+# control vs after
+identical  agency.txt
+identical  calendar.txt
+DIFFERS    fare_attributes.txt (8 vs 38 lines)
+DIFFERS    fare_rules.txt (8 vs 100 lines)
+identical  feed_info.txt
+identical  frequencies.txt
+identical  routes.txt
+identical  shapes.txt
+DIFFERS    stop_times.txt (104593 vs 104593 lines)
+identical  stops.txt
+identical  trips.txt
+md5 stop_times: 1c1044b29a6e4fbda69c899c0a6d5a13 vs 1761b7b3065b9a7425956140263521c2

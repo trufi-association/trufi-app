@@ -1,0 +1,9 @@
+
+> gtfs-bolivia-cochabamba@0.1.0 start
+> ts-node index.ts
+
+Generating GTFS for Cochabamba (source: pbf)...
+Segment merge: 355860 → 104499 stops across fakeStops routes (restored 96889 via gap-fill, threshold 100m)
+GTFS ZIP created: cochabamba.gtfs.zip (4998172 total bytes)
+Done. Output in <scratch>/feeds/before/tools/gtfs-bolivia-cochabamba/out
+npm start exit 0

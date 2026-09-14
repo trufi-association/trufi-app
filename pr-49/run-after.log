@@ -1,0 +1,13 @@
+
+> gtfs-bolivia-cochabamba@0.1.0 start
+> ts-node index.ts
+
+Generating GTFS for Cochabamba (source: pbf)...
+fare: route Q (route_id 16) has 2 variant(s) without a known fare (relation 5457263, 9645302); using the fare of the others
+Segment merge: 355860 → 104499 stops across fakeStops routes (restored 96889 via gap-fill, threshold 100m)
+tripDuration=7200s on https://www.osm.org/relation/6925236 implies 0.4 km/h over 0.76 km (plausible: 3–50 km/h for route=aerialway); ignoring it and timing the trip from vehicleSpeed
+tripDuration=7200s on https://www.osm.org/relation/6925237 implies 0.4 km/h over 0.75 km (plausible: 3–50 km/h for route=aerialway); ignoring it and timing the trip from vehicleSpeed
+duration="00:36" on https://www.osm.org/relation/11678428 implies 9.3 km/h over 5.58 km, below the 15 km/h floor for light rail; timing the trip from vehicleSpeed instead
+duration="00:36" on https://www.osm.org/relation/19604339 implies 9.3 km/h over 5.58 km, below the 15 km/h floor for light rail; timing the trip from vehicleSpeed instead
+GTFS ZIP created: cochabamba.gtfs.zip (5034101 total bytes)
+Done. Output in <scratch>/wt-app-speeds/tools/gtfs-bolivia-cochabamba/out

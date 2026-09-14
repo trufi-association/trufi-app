@@ -1,0 +1,12 @@
+# before (2.13.4 from the committed config) vs the committed out/gtfs on main
+identical  agency.txt
+identical  calendar.txt
+identical  fare_attributes.txt
+identical  fare_rules.txt
+identical  feed_info.txt
+identical  frequencies.txt
+identical  routes.txt
+identical  shapes.txt
+identical  stop_times.txt
+identical  stops.txt
+identical  trips.txt

@@ -1,0 +1,193 @@
+Sep 14, 2026 3:03:58 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner run
+INFO: VersionInfo: VersionInfo{currentVersion=Optional[8.0.2-SNAPSHOT], latestReleaseVersion=Optional[8.0.1]}
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner run
+INFO: validation config:
+ValidationRunnerConfig{gtfsSource=file:///data/cochabamba.gtfs.zip, outputDirectory=/data/report, storageDirectory=Optional.empty, validationReportFileName=report.json, htmlReportFileName=report.html, systemErrorsReportFileName=system_errors.json, numThreads=1, countryCode=BO, dateForValidation=2026-09-14, prettyJson=false, skipValidatorUpdate=false, stdoutOutput=false, httpHeaders={}}
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner run
+INFO: validators:
+Single-entity validators
+	GtfsRoute: GtfsRouteMixedCaseValidator RouteColorContrastValidator RouteNameValidator 
+	GtfsBookingRules: BookingRulesEntityValidator GtfsBookingRulesMixedCaseValidator 
+	GtfsFeedInfo: FeedContactValidator FeedExpirationDateValidator FeedServiceDateValidator GtfsFeedInfoEndRangeValidator 
+	GtfsFareMedia: FareMediaNameValidator 
+	GtfsLevel: GtfsLevelMixedCaseValidator 
+	GtfsTrip: GtfsTripMixedCaseValidator 
+	GtfsTimeframe: GtfsTimeframeEndRangeValidator TimeframeStartAndEndTimeValidator 
+	GtfsCalendar: GtfsCalendarEndRangeValidator 
+	GtfsPathway: BidirectionalExitGateValidator GtfsPathwayMixedCaseValidator PathwayLoopValidator PathwayModeFieldsValidator 
+	GtfsAttribution: AttributionWithoutRoleValidator 
+	GtfsAgency: GtfsAgencyMixedCaseValidator 
+	GtfsFrequency: GtfsFrequencyEndRangeValidator 
+	GtfsStopTime: GtfsStopTimeEndRangeValidator PickupDropOffTypeValidator PickupDropOffWindowValidator StopTimesGeographyIdPresenceValidator StopTimesShapeDistTraveledPresenceValidator 
+	GtfsFareTransferRule: FareTransferRuleDurationLimitTypeValidator FareTransferRuleTransferCountValidator 
+	GtfsStop: GtfsStopLatLonValidator GtfsStopMixedCaseValidator LocationTypeSingleEntityValidator StopAccessValidator StopNameValidator StopRequiredLocationValidator 
+	GtfsLocationGroups: GtfsLocationGroupsMixedCaseValidator 
+	GtfsNetwork: GtfsNetworkMixedCaseValidator 
+	GtfsFareProduct: GtfsFareProductCurrencyAmountValidator 
+	GtfsShape: GtfsShapeLatLonValidator 
+Single-file validators
+	GtfsFrequencyTableContainer: OverlappingFrequencyValidator 
+	GtfsStopTimeTableContainer: MissingTripEdgeValidator StopTimeArrivalAndDepartureTimeValidator StopTimeIncreasingDistanceValidator StopTimesRecordValidator StopTimesTripBlockOrderValidator TimepointTimeValidator 
+	GtfsTransferTableContainer: TransferStopIdsConditionalValidator 
+	GtfsCalendarTableContainer: ServiceHasNoActiveDayOfTheWeekValidator 
+	GtfsTimeframeTableContainer: TimeframeOverlapValidator 
+	GtfsStopTableContainer: ParentStationValidator 
+	GtfsRouteTableContainer: DuplicateRouteNameValidator 
+	GtfsShapeTableContainer: ShapeIncreasingDistanceValidator SingleShapePointValidator 
+	GtfsFeedInfoTableContainer: FeedValidTodayValidator 
+	GtfsAgencyTableContainer: AgencyConsistencyValidator 
+	GtfsFareMediaTableContainer: DuplicateFareMediaValidator 
+Multi-file validators
+	BikesAllowanceValidator BlockTripsWithOverlappingStopTimesValidator ContinuousPickupDropOffValidator DateTripsValidator ExpiredCalendarValidator FareAttributeAgencyIdValidator FareLegJoinRuleValidator FareProductDefaultRiderCategoriesValidator FeedServiceWindowValidator GtfsAttributionAgencyIdForeignKeyValidator GtfsAttributionRouteIdForeignKeyValidator GtfsAttributionTripIdForeignKeyValidator GtfsFareAttributeAgencyIdForeignKeyValidator GtfsFareLegJoinRuleFromStopIdForeignKeyValidator GtfsFareLegJoinRuleToStopIdForeignKeyValidator GtfsFareLegRuleFareProductIdForeignKeyValidator GtfsFareLegRuleFromAreaIdForeignKeyValidator GtfsFareLegRuleFromTimeframeGroupIdForeignKeyValidator GtfsFareLegRuleNetworkIdForeignKeyValidator GtfsFareLegRuleToAreaIdForeignKeyValidator GtfsFareLegRuleToTimeframeGroupIdForeignKeyValidator GtfsFareProductFareMediaIdForeignKeyValidator GtfsFareProductRiderCategoryIdForeignKeyValidator GtfsFareRuleContainsIdForeignKeyValidator GtfsFareRuleDestinationIdForeignKeyValidator GtfsFareRuleFareIdForeignKeyValidator GtfsFareRuleOriginIdForeignKeyValidator GtfsFareRuleRouteIdForeignKeyValidator GtfsFareTransferRuleFareProductIdForeignKeyValidator GtfsFareTransferRuleFromLegGroupIdForeignKeyValidator GtfsFareTransferRuleToLegGroupIdForeignKeyValidator GtfsFrequencyTripIdForeignKeyValidator GtfsPathwayFromStopIdForeignKeyValidator GtfsPathwayToStopIdForeignKeyValidator GtfsRouteAgencyIdForeignKeyValidator GtfsRouteNetworkNetworkIdForeignKeyValidator GtfsRouteNetworkRouteIdForeignKeyValidator GtfsStopAreaAreaIdForeignKeyValidator GtfsStopAreaStopIdForeignKeyValidator GtfsStopLevelIdForeignKeyValidator GtfsStopParentStationForeignKeyValidator GtfsStopTimeDropOffBookingRuleIdForeignKeyValidator GtfsStopTimeLocationGroupIdForeignKeyValidator GtfsStopTimePickupBookingRuleIdForeignKeyValidator GtfsStopTimeStopIdForeignKeyValidator GtfsStopTimeTripIdForeignKeyValidator GtfsTransferFromRouteIdForeignKeyValidator GtfsTransferFromStopIdForeignKeyValidator GtfsTransferFromTripIdForeignKeyValidator GtfsTransferToRouteIdForeignKeyValidator GtfsTransferToStopIdForeignKeyValidator GtfsTransferToTripIdForeignKeyValidator GtfsTripRouteIdForeignKeyValidator GtfsTripServiceIdForeignKeyValidator GtfsTripShapeIdForeignKeyValidator InconsistentRouteTypeForBlockIdValidator InconsistentRouteTypeForInSeatTransferValidator LocationHasStopTimesValidator LocationIdForeignKeyValidator MatchingFeedAndAgencyLangValidator MissingCalendarAndCalendarDateValidator MissingFeedInfoValidator MissingLevelIdValidator MissingShapesFileValidator MissingStopsFileValidator NetworkIdConsistencyValidator OverlappingPickupDropOffZoneValidator PathwayDanglingGenericNodeValidator PathwayEndpointTypeValidator PathwayReachableLocationValidator PathwayStopAccessValidator PickupBookingRuleIdValidator RouteAgencyIdValidator ServiceSpreadValidator ShapeToStopMatchingValidator ShapeUsageValidator StopTimeTravelSpeedValidator StopZoneIdValidator TimeframeServiceIdForeignKeyValidator TransferDistanceValidator TransfersInSeatTransferTypeValidator TransfersStopTypeValidator TransfersTripReferenceValidator TranslationFieldAndReferenceValidator TripAndShapeDistanceValidator TripHeadsignValidator TripShapeIdConditionalValidator TripUsabilityValidator TripUsageValidator TripWithShapeDistTraveledButNoShapeDistancesValidator UniqueGeographyIdValidator UrlConsistencyValidator 
+
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.GtfsFeedLoader loadAndValidate_aroundBody0
+INFO: Loading in 1 threads
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for agency.txt agency_lang: size = 0, lookup count = 47, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for calendar.txt start_date: size = 1, lookup count = 2, hits = 50.00%, misses = 50.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for calendar.txt end_date: size = 1, lookup count = 2, hits = 50.00%, misses = 50.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_attributes.txt agency_id: size = 47, lookup count = 657, hits = 92.85%, misses = 7.15%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_rules.txt fare_id: size = 657, lookup count = 657, hits = 0.00%, misses = 100.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_rules.txt route_id: size = 144, lookup count = 657, hits = 78.08%, misses = 21.92%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_rules.txt origin_id: size = 0, lookup count = 657, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_rules.txt destination_id: size = 0, lookup count = 657, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for fare_rules.txt contains_id: size = 0, lookup count = 657, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for feed_info.txt feed_lang: size = 1, lookup count = 1, hits = 0.00%, misses = 100.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for feed_info.txt default_lang: size = 0, lookup count = 1, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for feed_info.txt feed_start_date: size = 1, lookup count = 1, hits = 0.00%, misses = 100.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for feed_info.txt feed_end_date: size = 1, lookup count = 1, hits = 0.00%, misses = 100.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for frequencies.txt start_time: size = 8, lookup count = 657, hits = 98.78%, misses = 1.22%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for frequencies.txt end_time: size = 7, lookup count = 657, hits = 98.93%, misses = 1.07%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for routes.txt agency_id: size = 47, lookup count = 144, hits = 67.36%, misses = 32.64%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for routes.txt route_color: size = 3, lookup count = 144, hits = 97.92%, misses = 2.08%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for routes.txt route_text_color: size = 0, lookup count = 144, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:03:59 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for routes.txt network_id: size = 0, lookup count = 144, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:00 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader load
+INFO: Reading shapes.txt, row 200000
+Sep 14, 2026 3:04:00 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for shapes.txt shape_id: size = 657, lookup count = 357597, hits = 99.82%, misses = 0.18%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt trip_id: size = 657, lookup count = 104592, hits = 99.37%, misses = 0.63%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt arrival_time: size = 3531, lookup count = 104592, hits = 96.62%, misses = 3.38%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt departure_time: size = 3531, lookup count = 104592, hits = 96.62%, misses = 3.38%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt stop_id: size = 23679, lookup count = 104592, hits = 77.36%, misses = 22.64%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt location_group_id: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt location_id: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt stop_headsign: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt start_pickup_drop_off_window: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt end_pickup_drop_off_window: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt pickup_booking_rule_id: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stop_times.txt drop_off_booking_rule_id: size = 0, lookup count = 104592, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stops.txt zone_id: size = 0, lookup count = 23679, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stops.txt parent_station: size = 0, lookup count = 23679, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for stops.txt level_id: size = 0, lookup count = 23679, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for trips.txt route_id: size = 144, lookup count = 657, hits = 78.08%, misses = 21.92%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for trips.txt service_id: size = 2, lookup count = 657, hits = 99.70%, misses = 0.30%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for trips.txt block_id: size = 0, lookup count = 657, hits = 100.00%, misses = 0.00%
+Sep 14, 2026 3:04:02 AM org.mobilitydata.gtfsvalidator.table.CsvFileLoader logFieldCacheStats
+INFO: Cache for trips.txt shape_id: size = 657, lookup count = 657, hits = 0.00%, misses = 100.00%
+Sep 14, 2026 3:04:07 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner printSummary
+WARNING: 
+----------------------------------------------------------------------------------------
+| Validators that were skipped because the data used by the validator is absent.       |
+----------------------------------------------------------------------------------------
+   PickupDropOffTypeValidator
+   PickupDropOffWindowValidator
+   StopTimesShapeDistTraveledPresenceValidator
+   StopTimeIncreasingDistanceValidator
+   StopTimesRecordValidator
+   StopAccessValidator
+   ContinuousPickupDropOffValidator
+   FareProductDefaultRiderCategoriesValidator
+   GtfsAttributionAgencyIdForeignKeyValidator
+   GtfsAttributionRouteIdForeignKeyValidator
+   GtfsAttributionTripIdForeignKeyValidator
+   GtfsFareLegJoinRuleFromStopIdForeignKeyValidator
+   GtfsFareLegJoinRuleToStopIdForeignKeyValidator
+   GtfsFareLegRuleFareProductIdForeignKeyValidator
+   GtfsFareLegRuleFromAreaIdForeignKeyValidator
+   GtfsFareLegRuleFromTimeframeGroupIdForeignKeyValidator
+   GtfsFareLegRuleToAreaIdForeignKeyValidator
+   GtfsFareLegRuleToTimeframeGroupIdForeignKeyValidator
+   GtfsFareProductFareMediaIdForeignKeyValidator
+   GtfsFareProductRiderCategoryIdForeignKeyValidator
+   GtfsFareRuleContainsIdForeignKeyValidator
+   GtfsFareRuleDestinationIdForeignKeyValidator
+   GtfsFareRuleOriginIdForeignKeyValidator
+   GtfsFareTransferRuleFareProductIdForeignKeyValidator
+   GtfsFareTransferRuleFromLegGroupIdForeignKeyValidator
+   GtfsFareTransferRuleToLegGroupIdForeignKeyValidator
+   GtfsPathwayFromStopIdForeignKeyValidator
+   GtfsPathwayToStopIdForeignKeyValidator
+   GtfsRouteNetworkNetworkIdForeignKeyValidator
+   GtfsRouteNetworkRouteIdForeignKeyValidator
+   GtfsStopAreaAreaIdForeignKeyValidator
+   GtfsStopAreaStopIdForeignKeyValidator
+   GtfsStopLevelIdForeignKeyValidator
+   GtfsStopParentStationForeignKeyValidator
+   GtfsStopTimeDropOffBookingRuleIdForeignKeyValidator
+   GtfsStopTimeLocationGroupIdForeignKeyValidator
+   GtfsStopTimePickupBookingRuleIdForeignKeyValidator
+   GtfsTransferFromRouteIdForeignKeyValidator
+   GtfsTransferFromStopIdForeignKeyValidator
+   GtfsTransferFromTripIdForeignKeyValidator
+   GtfsTransferToRouteIdForeignKeyValidator
+   GtfsTransferToStopIdForeignKeyValidator
+   GtfsTransferToTripIdForeignKeyValidator
+   InconsistentRouteTypeForBlockIdValidator
+   InconsistentRouteTypeForInSeatTransferValidator
+   LocationIdForeignKeyValidator
+   PathwayStopAccessValidator
+   PickupBookingRuleIdValidator
+   TransferDistanceValidator
+   TripShapeIdConditionalValidator
+   TripWithShapeDistTraveledButNoShapeDistancesValidator
+Sep 14, 2026 3:04:07 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner printSummary
+INFO: Validation took 8.621 seconds
+
+Sep 14, 2026 3:04:07 AM org.mobilitydata.gtfsvalidator.runner.ValidationRunner printSummary
+INFO: agency.txt	47
+calendar.txt	2
+fare_attributes.txt	657
+fare_rules.txt	657
+feed_info.txt	1
+frequencies.txt	657
+routes.txt	144
+shapes.txt	357597
+stop_times.txt	104592
+stops.txt	23679
+trips.txt	657

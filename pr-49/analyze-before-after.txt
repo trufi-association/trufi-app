@@ -1,0 +1,36 @@
+BEFORE ALL: trips=657 km mean=19.9 | duration min/median/mean/max = 1.2 / 30.9 / 31.2 / 74.4 min | implied speed mean=38.3 km/h | non-monotonic=0
+AFTER  ALL: trips=657 km mean=19.9 | duration min/median/mean/max = 4.1 / 60.2 / 60.8 / 143.4 min | implied speed mean=19.7 km/h | non-monotonic=0
+BEFORE bus route_type 3: trips=649 km mean=20.0 | duration min/median/mean/max = 3.4 / 31.1 / 31.3 / 74.4 min | implied speed mean=38.3 km/h | non-monotonic=0
+AFTER  bus route_type 3: trips=649 km mean=20.0 | duration min/median/mean/max = 6.7 / 60.5 / 61.2 / 143.4 min | implied speed mean=19.6 km/h | non-monotonic=0
+BEFORE light_rail route_type 0: trips=6 km mean=13.7 | duration min/median/mean/max = 8.4 / 12.7 / 20.7 / 40.9 min | implied speed mean=39.8 km/h | non-monotonic=0
+AFTER  light_rail route_type 0: trips=6 km mean=13.7 | duration min/median/mean/max = 10.5 / 20.0 / 35.2 / 75.0 min | implied speed mean=26.2 km/h | non-monotonic=0
+BEFORE aerialway route_type 6: trips=2 km mean=0.8 | duration min/median/mean/max = 1.2 / 1.2 / 1.2 / 1.2 min | implied speed mean=38.8 km/h | non-monotonic=0
+AFTER  aerialway route_type 6: trips=2 km mean=0.8 | duration min/median/mean/max = 4.1 / 4.1 / 4.1 / 4.1 min | implied speed mean=10.9 km/h | non-monotonic=0
+
+trips whose stop_times changed: 657
+
+     trip        ref type     km stops | before min   kmh | after min   kmh
+  5457000          H    3  19.16   146 |       29.9  38.5 |      58.7  19.6
+  5457001          H    3  18.47   160 |       29.0  38.2 |      56.6  19.6
+ 14576926          V    0  27.13    26 |       40.9  39.8 |      75.0  21.7
+  9074378          V    0  27.11    25 |       40.9  39.8 |      75.0  21.7
+ 14576927          R    0   8.39    11 |       12.7  39.7 |      20.0  25.2
+  9083839          R    0   8.38    11 |       12.7  39.7 |      20.0  25.2
+ 11678428          A    0   5.58     6 |        8.4  39.9 |      10.5  31.9
+ 19604339          A    0   5.58     6 |        8.4  39.9 |      10.5  31.9
+  6925236 Teleférico    6   0.76     4 |        1.2  38.9 |       4.1  11.0
+  6925237 Teleférico    6   0.75     4 |        1.2  38.7 |       4.1  10.9
+
+  9124161          1    3  16.87   151 |       26.6  38.1 |      51.7  19.6
+  9184012         10    3  18.38   172 |       28.9  38.1 |      56.6  19.5
+  9715360        130    3  22.27   163 |       34.8  38.4 |      68.2  19.6
+  4204592        270    3  10.36    87 |       16.2  38.3 |      31.8  19.5
+ 10786928          3    3  16.11   128 |       25.2  38.4 |      49.4  19.5
+  4443362          E    3  19.95   151 |       31.2  38.3 |      61.1  19.6
+ 11104191          L    3  21.73   179 |       34.0  38.3 |      66.7  19.6
+  5457263          Q    3  22.09   183 |       34.6  38.3 |      67.7  19.6
+
+shortest bus trip after: 17290564 80 2.2 km 6.7 min
+longest bus trip after : 21116245 E. Punata 46.8 km 143.4 min
+bus duration histogram after (15-min bins): [(0, 11), (15, 19), (30, 86), (45, 202), (60, 188), (75, 104), (90, 25), (105, 12), (135, 2)]
+bus duration histogram before (15-min bins): [(0, 29), (15, 273), (30, 298), (45, 45), (60, 4)]

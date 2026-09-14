@@ -1,0 +1,67 @@
+== BEFORE: <scratch>/feeds/before/tools/gtfs-bolivia-cochabamba/out/gtfs
+routes=144 fare_attributes rows=657 fare_rules rows=657
+columns fare_attributes: ['agency_id', 'fare_id', 'price', 'currency_type', 'payment_method']
+price/currency histogram: [(('0', 'USD'), 645), (('7', 'USD'), 4), (('3', 'USD'), 4), (('2.5', 'USD'), 2), (('6', 'USD'), 1), (('15', 'USD'), 1)]
+transfers histogram: {'<absent>': 657}
+routes with >1 fare rule: 136
+routes WITHOUT fare row: 0
+
+== AFTER: <scratch>/wt-app-speeds/tools/gtfs-bolivia-cochabamba/out/gtfs
+routes=144 fare_attributes rows=37 fare_rules rows=99
+columns fare_attributes: ['agency_id', 'fare_id', 'price', 'currency_type', 'payment_method', 'transfers']
+price/currency histogram: [(('3', 'BOB'), 32), (('7', 'BOB'), 2), (('2.5', 'BOB'), 1), (('6', 'BOB'), 1), (('15', 'BOB'), 1)]
+transfers histogram: {'0': 37}
+routes with >1 fare rule: 0
+routes WITHOUT fare row: 45
+   route    0    270 MiniBus 270                                      agency=Sindicato mixto de autotransporte 6 de a
+   route    1    260 MiniBus 260                                      agency=Sindicato mixto de autotransporte 6 de a
+   route    2    201 MiniBus 201                                      agency=Sindicato mixto transporte Urkupiña
+   route    3    205 MiniBus 205                                      agency=Asociación de taxi trufis 1ro de mayo
+   route    6    203 MicroBus 203                                     agency=Sindicato mixto transporte Urkupiña
+   route    8    211 MiniBus 211                                      agency=Sindicato mixto de trufibuses Vinto
+   route   11    290 Trufi 290                                        agency=Sindicato mixto de trufibuses Vinto
+   route   15      H MicroBus H                                       agency=Sindicato de colectiveros y microbuses r
+   route   35    Z12 MiniBus Z12                                      agency=Sindicato mixto de transportistas Tiquip
+   route   36    232 Trufi 232                                        agency=Sindicato mixto de transportistas Santa 
+   route   37    240 Trufi 240                                        agency=Sindicato mixto de autotransporte Sacaba
+   route   38    230 Trufi 230                                        agency=Sindicato mixto de autotransporte Sacaba
+   route   39    252 Trufi 252                                        agency=Asociación de taxi trufis 1ro de mayo
+   route   40    200 MicroBus 200                                     agency=Sindicato mixto transporte Urkupiña
+   route   62    233 Trufi 233                                        agency=Sindicato mixto de autotransporte Sacaba
+   route   63    220 MicroBus 220                                     agency=Sindicato mixto de transportistas Santa 
+   route   71    202 MiniBus 202                                      agency=Sindicato mixto transporte Urkupiña
+   route   76    212 Trufi 212                                        agency=Sindicato mixto de transportistas Santa 
+   route   77    210 MiniBus 210                                      agency=Sindicato Señor de Buen Viaje El Paso
+   route   78    209 MiniBus 209                                      agency=Sindicato mixto de trufibuses Vinto
+   route   79    207 MiniBus 207                                      agency=Sindicato de trufibuses 15 de agosto
+   route   80    206 MiniBus 206                                      agency=Asociación de taxi trufis 1ro de mayo
+   route   84      S MicroBus S                                       agency=Sindicato de colectiveros y microbuses r
+   route   97      N MiniBus N                                        agency=Sindicato mixto de autotransporte Sacaba
+   route  101     17 MiniBus 17                                       agency=Sindicato mixto de transportistas Tiquip
+   route  105    120 Trufi 120                                        agency=Sindicato mixto de transportistas Tiquip
+   route  109    217 MiniBus 217                                      agency=Sindicato de trufibuses 15 de agosto
+   route  110    241 Trufi 241                                        agency=Sindicato mixto de autotransporte Sacaba
+   route  111    204 MiniBus 204                                      agency=Asociación de taxi trufis 1ro de mayo
+   route  112    208 MiniBus 208                                      agency=Sindicato mixto de trufibuses Vinto
+   route  113    265 MiniBus 265                                      agency=Sindicato mixto de trufibuses 3 de novie
+   route  115    261 MiniBus 261                                      agency=Sindicato mixto de autotransporte Cantón
+   route  116    244 Trufi 244                                        agency=Sindicato mixto de transportistas Santa 
+   route  117    242 Trufi 242                                        agency=Sindicato mixto de autotransporte Sacaba
+   route  120    245 MiniBus 245                                      agency=Sindicato mixto de autotransporte 6 de a
+   route  127    250 MiniBus 250                                      agency=Sindicato mixto de transportistas Tiquip
+   route  129 Punata Trufi Punata                                     agency=default
+   route  130     16 Trufi 16                                         agency=Sindicato mixto de transportistas Tiquip
+   route  131    127 Trufi 127                                        agency=Sindicato mixto de transportistas Tiquip
+   route  133     80 MicroBus 80                                      agency=default
+   route  137 Calama Trufi Calama                                     agency=Sindicato mixto de autotransporte 6 de a
+   route  139    241 241                                              agency=default
+   route  140    303 Trufi 303                                        agency=Sindicato Mixto de Transporte Expreso Ab
+   route  142    222 MiniBus 222                                      agency=Sindicato de taxi trufis trufi buses Sac
+   route  143 E. Punata Trufi E. Punata                                  agency=Sindicato Expreso Punata
+
+== AFTER fares by price (routes):
+   3 BOB: 94 routes: 01 010 012 03 1 10 1001 101 102 103 104 106 107 108 109 11 110 111 112 113 114 115 116 118 119 121 122 123 125 13 130 131 132 133 134 135 136 137 138 14 148 15 150 150 16 160 18 19 2 20 25 27 3 31 311
+   7 BOB: 2 routes: Teleférico V
+   2.5 BOB: 1 routes: R
+   6 BOB: 1 routes: Santiváñez
+   15 BOB: 1 routes: Colomi

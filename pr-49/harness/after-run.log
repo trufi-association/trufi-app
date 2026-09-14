@@ -1,0 +1,1 @@
+feed=<scratch>/harness/final.gtfs.zip stops=23679 patterns=657 connections=2608421 parse=1070ms spatial=55ms build=509ms queries=340 avg=8.38ms max=115.4ms
