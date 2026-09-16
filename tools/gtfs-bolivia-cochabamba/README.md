@@ -31,7 +31,7 @@ The Overpass mode is also wired up but currently broken upstream (the builder ca
 
 City-specific values live in [`index.ts`](index.ts): bounding box, `transformTypes`, `skipRoute` IDs, `fakeStops` IDs, agency / calendar / headway / feed metadata, and:
 
-- **Travel times** — `vehicleSpeed` per OSM route type (20 km/h bus/minibus/share_taxi, 32 km/h light rail, 11 km/h aerialway) as the fallback when the relation has no plausible `duration=*`; `tripDuration` rejects rail durations slower than 15 km/h (Línea Amarilla's `00:36`). The reasons and sources are in the comments next to each value.
+- **Travel times** — `vehicleSpeed` per OSM route type (20 km/h bus/minibus/share_taxi, 24 km/h light rail, 11 km/h aerialway; 70 km/h for the two Punata highway trufis by `ref`) as the fallback when the relation has no plausible `duration=*`; `tripDuration` rejects rail durations slower than 15 km/h (Línea Amarilla's `00:36`). The reasons and sources are in the comments next to each value.
 - **Fares** — Bs 3 (`BOB`) for lines of Cercado-based operators, no fare row for the intermunicipal syndicates (name-based `isIntermunicipal()` rule, same as the builder's Cochabamba example); `charge=*` from OSM always wins.
 
 Edit there.

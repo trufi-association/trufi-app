@@ -40,27 +40,35 @@ const BOUNDING_BOX = {
 //    calls 25 km/h "satisfactory" (Opinión, 2017-03-09); the former 40 km/h
 //    placeholder gave 30-minute estimates for micro H rides that take about
 //    an hour (trufi-gtfs-builder#9).
-//  - light_rail (Mi Tren): 32 km/h — what Línea Verde's `duration=00:51`
-//    over 27 km implied when this was calibrated (May 2026 OSM; the current
-//    PBF tags Verde `01:15` and Roja `00:20`, i.e. 22–25 km/h, and those
-//    OSM values are what their trips use). The speed is only the fallback
-//    for a missing or rejected duration — today, Línea Amarilla (see
-//    `tripDuration` below).
+//  - light_rail (Mi Tren): 24 km/h — in line with what the OSM durations of
+//    Línea Verde (`01:15` over 27 km) and Línea Roja (`00:20` over 8 km)
+//    imply, 22–25 km/h; those two are timed from OSM, so the speed is only
+//    the fallback for a missing or rejected duration — today, Línea Amarilla
+//    (see `tripDuration` below): 5.6 km at 24 km/h ≈ 14 min, inside the
+//    12–16 min the press times for the ride (maintainer's call, 2026-09-16).
 //  - aerialway (Teleférico Cristo de la Concordia): 11 km/h — the line's
 //    own top speed, 3 m/s (860 m of cable, 18 people per cabin; operator
 //    figures as reported by Red Uno, 2025). The 0.76 km between its two
 //    stops therefore takes ~4 min. Its OSM `duration=02:00` (two hours) is
 //    rejected by the builder's plausibility guard until OSM says `00:05`.
-// Interprovincial trufis (Punata, Sipe Sipe, Vinto…) share the 20 km/h of
-// the urban lines on purpose: their real running times belong in OSM as
-// `duration=*`, not in a second guessed speed here. Santiváñez (`00:45`) and
-// Colomi (`01:00`) already carry one and are timed from it; Punata (46 km)
-// does not yet and comes out at ~2 h 20 until it is tagged.
+// Interprovincial trufis share the 20 km/h of the urban lines on purpose:
+// their real running times belong in OSM as `duration=*`, not in a second
+// guessed speed here. Santiváñez (`00:45`) and Colomi (`01:00`) already
+// carry one and are timed from it. The two exceptions are the Punata trufis
+// (`ref` Punata and E. Punata, 46–47 km): they run almost entirely on the
+// Cochabamba–Santa Cruz highway and have no `duration=*` yet, so at 20 km/h
+// they came out at ~2 h 20 for a ride of well under an hour; they get a
+// highway speed of 70 km/h (~40 min) by explicit `ref` — the metropolitan
+// lines whose names also mention another municipality (Sipe Sipe, Vinto,
+// Sacaba…) spend half their length in dense streets and stay at 20
+// (maintainer's call, 2026-09-16; the real fix is still `duration=*` in OSM).
 const SPEED_KMH_BY_ROUTE_TYPE: Record<string, number> = {
-  light_rail: 32,
+  light_rail: 24,
   aerialway: 11,
 };
 const DEFAULT_SPEED_KMH = 20;
+const HIGHWAY_SPEED_KMH = 70;
+const HIGHWAY_TRUFI_REFS = new Set(['Punata', 'E. Punata']);
 
 // Floor for an OSM `duration=*` on a rail line, in km/h. The builder's own
 // guard only rejects running times slower than walking (3 km/h) or faster
@@ -69,7 +77,7 @@ const DEFAULT_SPEED_KMH = 20;
 // publish a 36-minute trip for a ride of 12–16 minutes (the tag said `00:16`
 // until May 2026; Unitel and Opinión time the ride at 12 and 16 min). No
 // urban light rail averages below 15 km/h, so anything slower is treated as
-// a tagging error and the trip is timed at the 32 km/h above (~10.5 min)
+// a tagging error and the trip is timed at the 24 km/h above (~14 min)
 // until OSM is corrected — the fix belongs in OSM, this is the safety net.
 const MIN_LIGHT_RAIL_KMH = 15;
 
@@ -182,7 +190,9 @@ async function main() {
       defaultCalendar: () => 'Mo-Su 06:00-22:00',
       frequencyHeadway: () => 300,
       vehicleSpeed: (route: any) =>
-        SPEED_KMH_BY_ROUTE_TYPE[route.properties.route] ?? DEFAULT_SPEED_KMH,
+        HIGHWAY_TRUFI_REFS.has(route.properties.ref)
+          ? HIGHWAY_SPEED_KMH
+          : (SPEED_KMH_BY_ROUTE_TYPE[route.properties.route] ?? DEFAULT_SPEED_KMH),
       tripDuration,
       // Most Cochabamba minibus lines have no physical stops mapped in
       // OSM, so they get `fakeStops` (a stop per shape node, then
