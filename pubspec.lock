@@ -481,10 +481,10 @@ packages:
     dependency: "direct main"
     description:
       name: intl
-      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
+      sha256: "1ca20c894b1717686a2319b8548763d812bc0aabdac580420a44c5178c57a867"
       url: "https://pub.dev"
     source: hosted
-    version: "0.20.2"
+    version: "0.20.3"
   isolate_channel:
     dependency: transitive
     description:
@@ -593,10 +593,10 @@ packages:
     dependency: transitive
     description:
       name: matcher
-      sha256: dc0b7dc7651697ea4ff3e69ef44b0407ea32c487a39fff6a4004fa585e901861
+      sha256: "31bd099b47c10cd1aeb55146a2d46ce0277630ecef3f7dae54ad7873f36696cd"
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.19"
+    version: "0.12.20"
   material_color_utilities:
     dependency: transitive
     description:
@@ -609,10 +609,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "1741988757a65eb6b36abe716829688cf01910bbf91c34354ff7ec1c3de2b349"
+      sha256: "307249ce4ff29d58a18e97f6345f539382eb9c9c29ecda628900f31de0443dd9"
       url: "https://pub.dev"
     source: hosted
-    version: "1.18.0"
+    version: "1.19.0"
   mime:
     dependency: transitive
     description:
@@ -1046,16 +1046,16 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "949a932224383300f01be9221c39180316445ecb8e7547f70a41a35bf421fb9e"
+      sha256: "2a122cbe059f8b610d3a5415f42e255b6c17b1f21eee1d960f31080237fb4f11"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.11"
+    version: "0.7.12"
   trufi_core_about:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_about"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1063,8 +1063,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/trufi_core_base_widgets"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1072,8 +1072,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/trufi_core_custom_material"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1081,8 +1081,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_fares"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1090,8 +1090,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_feedback"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1099,8 +1099,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_home_screen"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1108,8 +1108,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_interfaces"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1117,8 +1117,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_maps"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1126,8 +1126,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_navigation"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1135,8 +1135,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/trufi_core_planner"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1144,8 +1144,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_poi_layers"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1153,8 +1153,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_routing"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1162,8 +1162,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/trufi_core_routing_ui"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1171,8 +1171,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_saved_places"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1180,8 +1180,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_search_locations"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1189,8 +1189,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_settings"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1198,8 +1198,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/screens/trufi_core_transport_list"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1207,8 +1207,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_ui"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1216,8 +1216,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/trufi_core_utils"
-      ref: "v5.22.2"
-      resolved-ref: "18ab5f707b5001444f9e399c42c1141a69d02438"
+      ref: "v5.27.0"
+      resolved-ref: "473ec2be5bec6218631cd43046edc7b664872605"
       url: "https://github.com/trufi-association/trufi-core.git"
     source: git
     version: "1.0.0"
@@ -1329,10 +1329,10 @@ packages:
     dependency: transitive
     description:
       name: vector_math
-      sha256: d530bd74fea330e6e364cda7a85019c434070188383e1cd8d9777ee586914c5b
+      sha256: f36f9f3be64c6198714492bb455c11056e33e2f85d9a0b676a48301e44fdcf47
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.0"
+    version: "2.4.2"
   vector_tile:
     dependency: transitive
     description:
