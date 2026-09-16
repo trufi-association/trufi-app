@@ -10,10 +10,16 @@ something no online geocoder answers (trufi-core#745).
 ## Run
 
 ```bash
-npm install
+npm install          # Node >= 22 (better-sqlite3 13 ships prebuilt binaries)
 npm start
 cp out/search.json ../../assets/search/search.json
 ```
+
+The exporter is pinned to a GitHub tag (`github:trufi-association/osm-search-data-export#v1.2.0`);
+bump the tag in `package.json` to pick up a new version. Since 1.2.0 every street carries its
+municipality (`region`, from the OSM `admin_level=8` boundaries) and a name that exists in several
+municipalities is one entry per municipality, each with its own centre and corners — trufi-core
+≥ v5.27.0 shows the municipality under the street and corner rows (trufi-core#972).
 
 Output: `./out/search.json` (committed). Contains `streets` and
 `streetJunctions` keyed for prefix search — `pois` is stripped on
