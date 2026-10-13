@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/foundation.dart' show kIsWeb, visibleForTesting;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:latlong2/latlong.dart';
@@ -224,6 +224,61 @@ final List<ITrufiMapEngine> _mapEngines = [
     ),
   ],
 ];
+
+// Fares — Cochabamba's provisional urban tariff (Cercado). The plain Spanish
+// strings stay as fallbacks for a trufi-core without the builders; the
+// builders make the cards and the tips follow the app language
+// (trufi-core#1002). Public so the widget test can pump the real config.
+@visibleForTesting
+final FaresConfig cochabambaFaresConfig = FaresConfig(
+  currency: 'Bs.',
+  lastUpdated: DateTime(2026, 5, 6),
+  additionalNotes:
+      'Tarifa provisional vigente para servicios urbanos dentro '
+      'del Cercado. El monto cobrado en algunos operadores puede '
+      'diferir.',
+  additionalNotesBuilder: (ctx) => AppLocalizations.of(ctx)!.faresCercadoNotes,
+  fares: [
+    FareInfo(
+      title: 'Pasaje urbano (Cercado)',
+      titleBuilder: (ctx) => AppLocalizations.of(ctx)!.faresUrbanCercadoTitle,
+      icon: Icons.directions_bus_rounded,
+      primary: FareCategory(
+        label: 'Usuarios en general',
+        labelBuilder: (ctx) => AppLocalizations.of(ctx)!.faresGeneralUsers,
+        price: '3.00',
+        icon: Icons.person_rounded,
+      ),
+      additional: [
+        FareCategory(
+          label: 'Estudiante sec./universitario',
+          labelBuilder: (ctx) =>
+              AppLocalizations.of(ctx)!.faresSecondaryUniversityStudent,
+          price: '2.00',
+          icon: Icons.school_rounded,
+        ),
+        FareCategory(
+          label: 'Estudiante de primaria',
+          labelBuilder: (ctx) => AppLocalizations.of(ctx)!.faresPrimaryStudent,
+          price: '1.00',
+          icon: Icons.child_care_rounded,
+        ),
+        FareCategory(
+          label: 'Adulto mayor',
+          labelBuilder: (ctx) => AppLocalizations.of(ctx)!.faresSenior,
+          price: '2.50',
+          icon: Icons.elderly_rounded,
+        ),
+        FareCategory(
+          label: 'Persona con discapacidad',
+          labelBuilder: (ctx) => AppLocalizations.of(ctx)!.faresDisability,
+          price: '2.50',
+          icon: Icons.accessible_rounded,
+        ),
+      ],
+    ),
+  ],
+);
 // ========================================
 
 void main() {
@@ -343,49 +398,7 @@ void main() {
         // encoded the trufiapp:// scheme, which no camera can resolve
         // (trufi-core#953). Mirrors the home screen's shareBaseUrl.
         TransportListTrufiScreen(shareBaseUrl: _baseUrl),
-        FaresTrufiScreen(
-          config: FaresConfig(
-            currency: 'Bs.',
-            lastUpdated: DateTime(2026, 5, 6),
-            additionalNotes:
-                'Tarifa provisional vigente para servicios urbanos dentro '
-                'del Cercado. El monto cobrado en algunos operadores puede '
-                'diferir.',
-            fares: const [
-              FareInfo(
-                title: 'Pasaje urbano (Cercado)',
-                icon: Icons.directions_bus_rounded,
-                primary: FareCategory(
-                  label: 'Usuarios en general',
-                  price: '3.00',
-                  icon: Icons.person_rounded,
-                ),
-                additional: [
-                  FareCategory(
-                    label: 'Estudiante sec./universitario',
-                    price: '2.00',
-                    icon: Icons.school_rounded,
-                  ),
-                  FareCategory(
-                    label: 'Estudiante de primaria',
-                    price: '1.00',
-                    icon: Icons.child_care_rounded,
-                  ),
-                  FareCategory(
-                    label: 'Adulto mayor',
-                    price: '2.50',
-                    icon: Icons.elderly_rounded,
-                  ),
-                  FareCategory(
-                    label: 'Persona con discapacidad',
-                    price: '2.50',
-                    icon: Icons.accessible_rounded,
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
+        FaresTrufiScreen(config: cochabambaFaresConfig),
         FeedbackTrufiScreen(config: FeedbackConfig(feedbackUrl: _feedbackUrl)),
         SettingsTrufiScreen(),
         AboutTrufiScreen(
