@@ -11,7 +11,7 @@ npm start
 
 Output: `./out/cochabamba.gtfs.zip` (not committed: `out/*.zip` is ignored — the
 copy under `assets/routing/` is the one the app ships and the only one tracked,
-so a refresh is a one-file diff for the feed). The extracted `out/gtfs/*.txt`
+so a refresh is a one-binary diff for the feed). The extracted `out/gtfs/*.txt`
 (plus `log.json`, `stops.json` and `out/README.md`) stay tracked on purpose: they
 are what makes a refresh reviewable as a text diff.
 
@@ -25,7 +25,7 @@ cp out/cochabamba.gtfs.zip ../../assets/routing/cochabamba.gtfs.zip   # offline 
 
 The asset is the bundled copy and the one under version control; the zip in
 `out/` is only the tool's scratch output, so a refresh without this step never
-reaches the repo (or the APK). The same zip is what the OTP servers load (`trufi-server-otp/cochabamba.gtfs.zip`); rebuilding their graph is a separate deploy step. Note that the app's offline planner estimates in-vehicle time from distance at a fixed speed and does not read `stop_times` (trufi-core#997), so travel-time changes in the feed are visible on OTP (web), not in the APK.
+reaches the repo (or the APK). The OTP server loads its own copy (`/root/otp281/data/cochabamba.gtfs.zip` on the droplet, deployed by hand; see the ops hub); rebuilding its graph is a separate deploy step. Note that the app's offline planner estimates in-vehicle time from distance at a fixed speed and does not read `stop_times` (trufi-core#997), so travel-time changes in the feed are visible on OTP (web), not in the APK.
 
 ## Input
 
