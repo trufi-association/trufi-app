@@ -9,7 +9,11 @@ npm install
 npm start
 ```
 
-Output: `./out/cochabamba.gtfs.zip` (committed). Other files under `out/` are also written but only the zip is the canonical artifact.
+Output: `./out/cochabamba.gtfs.zip` (not committed: `out/*.zip` is ignored — the
+copy under `assets/routing/` is the one the app ships and the only one tracked,
+so a refresh is a one-file diff for the feed). The extracted `out/gtfs/*.txt`
+(plus `log.json`, `stops.json` and `out/README.md`) stay tracked on purpose: they
+are what makes a refresh reviewable as a text diff.
 
 Expected warnings on the current PBF: the two Teleférico relations (`6925236`, `6925237`, OSM `duration=02:00` → rejected by the builder's plausibility guard) and the two Línea Amarilla relations (`11678428`, `19604339`, OSM `duration=00:36` → rejected by this tool's `tripDuration` floor). Both are OSM tagging errors; once OSM is corrected and the PBF refreshed the warnings disappear on their own. A fifth warning comes from the fares step: micro Q (`route_id 16`) has two variants tagged `network=…;BO:C:Quillacollo` and two without, so the route keeps the Bs 3 of the latter.
 
@@ -19,7 +23,9 @@ Expected warnings on the current PBF: the two Teleférico relations (`6925236`, 
 cp out/cochabamba.gtfs.zip ../../assets/routing/cochabamba.gtfs.zip   # offline routing in the APK
 ```
 
-The same zip is what the OTP servers load (`trufi-server-otp/cochabamba.gtfs.zip`); rebuilding their graph is a separate deploy step. Note that the app's offline planner estimates in-vehicle time from distance at a fixed speed and does not read `stop_times` (trufi-core#997), so travel-time changes in the feed are visible on OTP (web), not in the APK.
+The asset is the bundled copy and the one under version control; the zip in
+`out/` is only the tool's scratch output, so a refresh without this step never
+reaches the repo (or the APK). The same zip is what the OTP servers load (`trufi-server-otp/cochabamba.gtfs.zip`); rebuilding their graph is a separate deploy step. Note that the app's offline planner estimates in-vehicle time from distance at a fixed speed and does not read `stop_times` (trufi-core#997), so travel-time changes in the feed are visible on OTP (web), not in the APK.
 
 ## Input
 
