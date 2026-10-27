@@ -696,3 +696,13 @@
 | Ruta | Nombre de ruta | Parada | Posición | Node ID |
 | ---- | -------------- | ------ | -------- | ------- |
 | V | Línea Verde: Cochabamba → Suticollo | Tranvía Roja / Amarilla / Verde | Inicio | 11399410998 |
+
+
+### License
+
+Data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, licensed under the Open Data Commons Open Database License (ODbL) v1.0. This feed is a derivative database of OpenStreetMap, published under the same license (<https://opendatacommons.org/licenses/odbl/1-0/>): the full text is in `LICENSE` next to the GTFS files and inside the zip. The organisations behind the data are listed in `attributions.txt`:
+
+| Organization | Role | Applies to | URL |
+| ------------ | ---- | ---------- | --- |
+| OpenStreetMap contributors | producer | whole feed | https://www.openstreetmap.org/copyright |
+| Trufi Association | producer | whole feed | https://www.trufi-association.org/ |

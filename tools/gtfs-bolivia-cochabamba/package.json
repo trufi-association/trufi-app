@@ -9,7 +9,7 @@
     "start:js": "node dist/index.js"
   },
   "dependencies": {
-    "trufi-gtfs-builder": "https://github.com/trufi-association/trufi-gtfs-builder/releases/download/v2.16.0/trufi-gtfs-builder-v2.16.0.tgz"
+    "trufi-gtfs-builder": "github:trufi-association/trufi-gtfs-builder#v2.17.2"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
