@@ -4,7 +4,7 @@
  * Uses trufi-gtfs-builder as a library. Output goes to ./out/.
  * The resulting gtfs.zip is what gets shipped to:
  *   - trufi-app/assets/routing/cochabamba.gtfs.zip (offline routing in the APK)
- *   - trufi-server-otp/cochabamba.gtfs.zip (OTP servers)
+ *   - the OTP server's own copy (/root/otp281/data/, deployed by hand)
  *
  * Starting point: upstream example at
  * https://github.com/trufi-association/trufi-gtfs-builder/tree/v2.16.0/examples/Bolivia-Cochabamba

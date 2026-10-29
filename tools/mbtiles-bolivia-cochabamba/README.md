@@ -8,7 +8,18 @@ Generates the Cochabamba `.mbtiles` (vector tiles for offline maps) using `openm
 docker compose up
 ```
 
-Output: `./out/cochabamba.mbtiles` (committed). First run downloads Natural Earth + water polygon sources (~200 MB) which planetiler caches in the container.
+Output: `./out/cochabamba.mbtiles` (not committed: `out/*` is ignored — the copy
+under `assets/offline/` is the one the app ships and the only one tracked). First run downloads Natural Earth + water polygon sources (~200 MB) which planetiler caches in the container.
+
+## Propagate
+
+```bash
+cp out/cochabamba.mbtiles ../../assets/offline/cochabamba.mbtiles   # offline map tiles in the APK
+```
+
+The asset is the bundled copy and the one under version control; the file in
+`out/` is only the tool's scratch output, so a refresh without this step never
+reaches the repo (or the APK).
 
 ## Input
 
