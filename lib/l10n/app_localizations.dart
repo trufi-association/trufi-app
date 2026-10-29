@@ -63,8 +63,7 @@ import 'app_localizations_es.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale)
-    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -72,8 +71,7 @@ abstract class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations);
   }
 
-  static const LocalizationsDelegate<AppLocalizations> delegate =
-      _AppLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -85,19 +83,18 @@ abstract class AppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
-      <LocalizationsDelegate<dynamic>>[
-        delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ];
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+    delegate,
+    GlobalMaterialLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+  ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('de'),
     Locale('en'),
-    Locale('es'),
+    Locale('es')
   ];
 
   /// Display name for the standard offline map style
@@ -195,10 +192,51 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Colorful online map'**
   String get mapColorfulOnlineDesc;
+
+  /// Fare card title for the urban tariff inside Cochabamba's Cercado
+  ///
+  /// In en, this message translates to:
+  /// **'Urban fare (Cercado)'**
+  String get faresUrbanCercadoTitle;
+
+  /// Headline fare category for the general public
+  ///
+  /// In en, this message translates to:
+  /// **'General public'**
+  String get faresGeneralUsers;
+
+  /// Fare category for secondary school and university students
+  ///
+  /// In en, this message translates to:
+  /// **'Secondary/university student'**
+  String get faresSecondaryUniversityStudent;
+
+  /// Fare category for primary school students
+  ///
+  /// In en, this message translates to:
+  /// **'Primary school student'**
+  String get faresPrimaryStudent;
+
+  /// Fare category for senior citizens
+  ///
+  /// In en, this message translates to:
+  /// **'Senior citizen'**
+  String get faresSenior;
+
+  /// Fare category for people with a disability
+  ///
+  /// In en, this message translates to:
+  /// **'Person with a disability'**
+  String get faresDisability;
+
+  /// Tips card under the fare cards: provisional tariff disclaimer
+  ///
+  /// In en, this message translates to:
+  /// **'Provisional fare in force for urban services inside the Cercado. The amount charged by some operators may differ.'**
+  String get faresCercadoNotes;
 }
 
-class _AppLocalizationsDelegate
-    extends LocalizationsDelegate<AppLocalizations> {
+class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
   const _AppLocalizationsDelegate();
 
   @override
@@ -207,28 +245,26 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['de', 'en', 'es'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['de', 'en', 'es'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'de':
-      return AppLocalizationsDe();
-    case 'en':
-      return AppLocalizationsEn();
-    case 'es':
-      return AppLocalizationsEs();
+    case 'de': return AppLocalizationsDe();
+    case 'en': return AppLocalizationsEn();
+    case 'es': return AppLocalizationsEs();
   }
 
   throw FlutterError(
     'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.',
+    'that was used.'
   );
 }

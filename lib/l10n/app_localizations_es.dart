@@ -55,4 +55,25 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get mapColorfulOnlineDesc => 'Mapa colorido en línea';
+
+  @override
+  String get faresUrbanCercadoTitle => 'Pasaje urbano (Cercado)';
+
+  @override
+  String get faresGeneralUsers => 'Usuarios en general';
+
+  @override
+  String get faresSecondaryUniversityStudent => 'Estudiante sec./universitario';
+
+  @override
+  String get faresPrimaryStudent => 'Estudiante de primaria';
+
+  @override
+  String get faresSenior => 'Adulto mayor';
+
+  @override
+  String get faresDisability => 'Persona con discapacidad';
+
+  @override
+  String get faresCercadoNotes => 'Tarifa provisional vigente para servicios urbanos dentro del Cercado. El monto cobrado en algunos operadores puede diferir.';
 }

@@ -55,4 +55,25 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get mapColorfulOnlineDesc => 'Bunte Onlinekarte';
+
+  @override
+  String get faresUrbanCercadoTitle => 'Stadttarif (Cercado)';
+
+  @override
+  String get faresGeneralUsers => 'Allgemeine Fahrgäste';
+
+  @override
+  String get faresSecondaryUniversityStudent => 'Schüler (Sek.)/Studierende';
+
+  @override
+  String get faresPrimaryStudent => 'Grundschüler';
+
+  @override
+  String get faresSenior => 'Senioren';
+
+  @override
+  String get faresDisability => 'Menschen mit Behinderung';
+
+  @override
+  String get faresCercadoNotes => 'Vorläufiger Tarif für städtische Verkehrsdienste innerhalb des Cercado. Der von einzelnen Betreibern verlangte Betrag kann abweichen.';
 }

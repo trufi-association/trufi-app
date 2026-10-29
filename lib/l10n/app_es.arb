@@ -15,5 +15,12 @@
   "mapDarkOnline": "Oscuro (en línea)",
   "mapDarkOnlineDesc": "Mapa oscuro en línea",
   "mapColorfulOnline": "Colorido (en línea)",
-  "mapColorfulOnlineDesc": "Mapa colorido en línea"
+  "mapColorfulOnlineDesc": "Mapa colorido en línea",
+  "faresUrbanCercadoTitle": "Pasaje urbano (Cercado)",
+  "faresGeneralUsers": "Usuarios en general",
+  "faresSecondaryUniversityStudent": "Estudiante sec./universitario",
+  "faresPrimaryStudent": "Estudiante de primaria",
+  "faresSenior": "Adulto mayor",
+  "faresDisability": "Persona con discapacidad",
+  "faresCercadoNotes": "Tarifa provisional vigente para servicios urbanos dentro del Cercado. El monto cobrado en algunos operadores puede diferir."
 }
