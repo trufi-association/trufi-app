@@ -21,10 +21,13 @@ municipality (`region`, from the OSM `admin_level=8` boundaries) and a name that
 municipalities is one entry per municipality, each with its own centre and corners — trufi-core
 ≥ v5.27.0 shows the municipality under the street and corner rows (trufi-core#972).
 
-Output: `./out/search.json` (committed). Contains `streets` and
+Output: `./out/search.json` (not committed: `out/` is ignored — the copy
+under `assets/search/` is the one the app ships and the only one tracked,
+so a refresh is a one-file diff). Contains `streets` and
 `streetJunctions` keyed for prefix search — `pois` is stripped on
 purpose (the app's search service never reads it; places come from
-Photon).
+Photon); only the empty `pois` key and its `_fields` header remain,
+which `OfflineSearchDataService` ignores.
 
 ## Input
 

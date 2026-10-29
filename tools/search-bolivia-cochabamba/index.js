@@ -1,3 +1,4 @@
+const fs = require('fs');
 const searchDataExport = require('osm-search-data-export');
 const { pbfInput, jsonCompactOutput } = searchDataExport;
 
@@ -11,6 +12,9 @@ const { pbfInput, jsonCompactOutput } = searchDataExport;
 // Two mechanisms are needed: the empty poiTypeTags whitelist drops the
 // non-street WAYS with POI tags, while named NODES land in `pois`
 // unconditionally — the output wrapper below strips those.
+// out/ is ignored since #56 (the index lives in the app's assets), and the
+// exporter refuses an output path whose directory does not exist.
+fs.mkdirSync('./out', { recursive: true });
 const writeCompact = jsonCompactOutput({ outPath: './out/search.json' });
 searchDataExport(
   pbfInput({ inPath: '../pbf-bolivia-cochabamba/out/cochabamba.osm.pbf' }),

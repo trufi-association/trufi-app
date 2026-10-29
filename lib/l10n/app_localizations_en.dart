@@ -55,4 +55,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mapColorfulOnlineDesc => 'Colorful online map';
+
+  @override
+  String get faresUrbanCercadoTitle => 'Urban fare (Cercado)';
+
+  @override
+  String get faresGeneralUsers => 'General public';
+
+  @override
+  String get faresSecondaryUniversityStudent => 'Secondary/university student';
+
+  @override
+  String get faresPrimaryStudent => 'Primary school student';
+
+  @override
+  String get faresSenior => 'Senior citizen';
+
+  @override
+  String get faresDisability => 'Person with a disability';
+
+  @override
+  String get faresCercadoNotes => 'Provisional fare in force for urban services inside the Cercado. The amount charged by some operators may differ.';
 }

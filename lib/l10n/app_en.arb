@@ -31,5 +31,19 @@
   "mapColorfulOnline": "Colorful (online)",
   "@mapColorfulOnline": { "description": "Display name for the colorful online map style" },
   "mapColorfulOnlineDesc": "Colorful online map",
-  "@mapColorfulOnlineDesc": { "description": "Description for the colorful online map style" }
+  "@mapColorfulOnlineDesc": { "description": "Description for the colorful online map style" },
+  "faresUrbanCercadoTitle": "Urban fare (Cercado)",
+  "@faresUrbanCercadoTitle": { "description": "Fare card title for the urban tariff inside Cochabamba's Cercado" },
+  "faresGeneralUsers": "General public",
+  "@faresGeneralUsers": { "description": "Headline fare category for the general public" },
+  "faresSecondaryUniversityStudent": "Secondary/university student",
+  "@faresSecondaryUniversityStudent": { "description": "Fare category for secondary school and university students" },
+  "faresPrimaryStudent": "Primary school student",
+  "@faresPrimaryStudent": { "description": "Fare category for primary school students" },
+  "faresSenior": "Senior citizen",
+  "@faresSenior": { "description": "Fare category for senior citizens" },
+  "faresDisability": "Person with a disability",
+  "@faresDisability": { "description": "Fare category for people with a disability" },
+  "faresCercadoNotes": "Provisional fare in force for urban services inside the Cercado. The amount charged by some operators may differ.",
+  "@faresCercadoNotes": { "description": "Tips card under the fare cards: provisional tariff disclaimer" }
 }

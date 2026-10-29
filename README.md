@@ -44,6 +44,8 @@ La app usa la arquitectura modular de Trufi Core v5.2.0 con los siguientes paque
 assets/
 ├── routing/
 │   └── cochabamba.gtfs.zip          # Datos GTFS para routing offline
+├── search/
+│   └── search.json                  # Índice offline de calles y esquinas (tools/search-bolivia-cochabamba)
 ├── offline/
 │   ├── cochabamba.mbtiles           # Tiles de mapa offline
 │   ├── styles/                      # Estilos de mapas

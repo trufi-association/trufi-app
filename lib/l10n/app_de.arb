@@ -15,5 +15,12 @@
   "mapDarkOnline": "Dunkel (online)",
   "mapDarkOnlineDesc": "Dunkle Onlinekarte",
   "mapColorfulOnline": "Bunt (online)",
-  "mapColorfulOnlineDesc": "Bunte Onlinekarte"
+  "mapColorfulOnlineDesc": "Bunte Onlinekarte",
+  "faresUrbanCercadoTitle": "Stadttarif (Cercado)",
+  "faresGeneralUsers": "Allgemeine Fahrgäste",
+  "faresSecondaryUniversityStudent": "Schüler (Sek.)/Studierende",
+  "faresPrimaryStudent": "Grundschüler",
+  "faresSenior": "Senioren",
+  "faresDisability": "Menschen mit Behinderung",
+  "faresCercadoNotes": "Vorläufiger Tarif für städtische Verkehrsdienste innerhalb des Cercado. Der von einzelnen Betreibern verlangte Betrag kann abweichen."
 }
