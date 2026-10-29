@@ -392,12 +392,17 @@ void main() {
           },
         ),
         SavedPlacesTrufiScreen(),
+        // Bookmarked origin-destination trips, "Tus Rutas" (trufi-core#1005).
+        SavedRoutesTrufiScreen(),
         // Operator QR codes and share links point at the web planner, so a
         // phone without the app still lands somewhere useful and one with
         // the app opens it directly via App Links. Without this the QR
         // encoded the trufiapp:// scheme, which no camera can resolve
         // (trufi-core#953). Mirrors the home screen's shareBaseUrl.
         TransportListTrufiScreen(shareBaseUrl: _baseUrl),
+        // Lines passing within 100/300/500 m of the rider, read from the
+        // bundled GTFS of the offline planner (trufi-core#1006).
+        NearbyLinesTrufiScreen(),
         FaresTrufiScreen(config: cochabambaFaresConfig),
         FeedbackTrufiScreen(config: FeedbackConfig(feedbackUrl: _feedbackUrl)),
         SettingsTrufiScreen(),
