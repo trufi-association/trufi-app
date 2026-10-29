@@ -116,8 +116,12 @@ dev_dependencies:
   flutter_lints: ^6.0.0
 
 dependency_overrides:
-  # Pinned to the versions trufi-core v5.19.0 resolves against — newer
-  # share_plus/wakelock_plus need a toolchain bump (Kotlin compile errors).
+  # Transitive plugins of trufi-core (share_plus: home_screen and
+  # transport_list; wakelock_plus: navigation). Pinned in #37 to the
+  # versions core's example app built with, alongside the Android
+  # toolchain downgrade to AGP 8.13 / Kotlin 2.2.21
+  # (android/settings.gradle.kts): the newer toolchain failed to compile
+  # these plugins' generated Kotlin. Revisit pins and toolchain together.
   share_plus: 13.1.0
   wakelock_plus: 1.6.1
   trufi_core_interfaces:
