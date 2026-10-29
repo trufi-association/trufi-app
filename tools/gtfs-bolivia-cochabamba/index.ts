@@ -184,6 +184,17 @@ async function main() {
         ![2084702, 16533147, 17193322, 16648003, 17193322].includes(route.id),
     },
     gtfsOptions: {
+      // attributions.txt (ODbL chain): the builder writes the OpenStreetMap
+      // contributors row; this is the organisation behind the feed. LICENSE
+      // (ODbL 1.0) is the builder's default.
+      attributions: [
+        {
+          attribution_id: 'trufi',
+          organization_name: 'Trufi Association',
+          is_producer: 1,
+          attribution_url: 'https://www.trufi-association.org/',
+        },
+      ],
       agencyTimezone: 'America/La_Paz',
       agencyUrl: 'https://www.cochabamba.bo/',
       cityName: 'cochabamba',

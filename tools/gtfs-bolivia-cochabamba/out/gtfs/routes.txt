@@ -89,12 +89,12 @@ route_id,agency_id,route_short_name,route_long_name,route_color,route_type
 87,10,9,MiniBus 9,,3
 88,8,14,MiniBus 14,,3
 89,8,15,MiniBus 15,,3
-90,13,103,Trufi 103,,3
+90,35,103,Trufi 103,,3
 91,8,5,MiniBus 5,,3
 92,29,132,Trufi 132,,3
 93,3,K,MicroBus K,,3
 94,25,18,MiniBus 18,,3
-95,13,31,MiniBus 31,,3
+95,18,31,MiniBus 31,,3
 96,10,35,MiniBus 35,,3
 97,18,N,MiniBus N,,3
 98,28,O,MicroBus O,,3
@@ -105,16 +105,16 @@ route_id,agency_id,route_short_name,route_long_name,route_color,route_type
 103,30,40,MiniBus 40,,3
 104,25,52,MiniBus 52,,3
 105,16,120,Trufi 120,,3
-106,35,133,MiniBus 133,,3
+106,36,133,MiniBus 133,,3
 107,11,138,Trufi 138,,3
-108,36,150,Trufi 150,,3
+108,37,150,Trufi 150,,3
 109,33,217,MiniBus 217,,3
 110,18,241,Trufi 241,,3
 111,2,204,MiniBus 204,,3
 112,4,208,MiniBus 208,,3
-113,37,265,MiniBus 265,,3
+113,38,265,MiniBus 265,,3
 114,8,27,MiniBus 27,,3
-115,38,261,MiniBus 261,,3
+115,39,261,MiniBus 261,,3
 116,17,244,Trufi 244,,3
 117,18,242,Trufi 242,,3
 118,8,43,MiniBus 43,,3
@@ -125,21 +125,22 @@ route_id,agency_id,route_short_name,route_long_name,route_color,route_type
 123,11,148,Trufi 148,,3
 124,8,39,MicroBus 39,,3
 125,22,50,MiniBus 50,,3
-126,39,137,Trufi 137,,3
+126,40,137,Trufi 137,,3
 127,16,250,MiniBus 250,,3
 128,7,A,Línea Amarilla,FFFF00,0
-129,40,Punata,Trufi Punata,,3
+129,41,Expreso Punata,Trufi Expreso Punata,,3
 130,16,16,Trufi 16,,3
 131,16,127,Trufi 127,,3
-132,40,25,Trufi 25,,3
-133,40,80,MicroBus 80,,3
-134,40,150,Trufi 150,,3
-135,41,Santiváñez,Trufi Santiváñez,,3
-136,2,M,Trufi M,,3
-137,0,Calama,Trufi Calama,,3
-138,42,Cotapachi,Trufi Cotapachi,,3
-139,40,241,241,,3
-140,43,303,Trufi 303,,3
-141,44,Colomi,Bus Colomi,,3
-142,45,222,MiniBus 222,,3
-143,46,E. Punata,Trufi E. Punata,,3
+132,42,25,Trufi 25,,3
+133,43,010,Trufi 010,,3
+134,42,80,MicroBus 80,,3
+135,42,150,Trufi 150,,3
+136,44,Santiváñez,Trufi Santiváñez,,3
+137,2,M,Trufi M,,3
+138,0,Calama,Trufi Calama,,3
+139,45,Cotapachi,Trufi Cotapachi,,3
+140,42,241,241,,3
+141,46,303,Trufi 303,,3
+142,47,Colomi,Bus Colomi,,3
+143,48,222,MiniBus 222,,3
+144,18,233N,Trufi 233N,,3

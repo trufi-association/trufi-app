@@ -34,15 +34,17 @@ agency_id,agency_name,agency_timezone,agency_url
 32,Sindicato Señor de Buen Viaje El Paso,America/La_Paz,https://www.cochabamba.bo/
 33,Sindicato de trufibuses 15 de agosto,America/La_Paz,https://www.cochabamba.bo/
 34,Sindicato mixto de transportistas Nuestra Señora del Carmen,America/La_Paz,https://www.cochabamba.bo/
-35,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
-36,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
-37,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
-38,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
-39,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
-40,default,America/La_Paz,https://www.cochabamba.bo/
-41,Asociación Mixta de Transporte Huayñacota,America/La_Paz,https://www.cochabamba.bo/
-42,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
-43,Sindicato Mixto de Transporte Expreso Abaroa,America/La_Paz,https://www.cochabamba.bo/
-44,Sindicato de Autotransporte Virgen del Rosario,America/La_Paz,https://www.cochabamba.bo/
-45,Sindicato de taxi trufis trufi buses Sacaba 222,America/La_Paz,https://www.cochabamba.bo/
-46,Sindicato Expreso Punata,America/La_Paz,https://www.cochabamba.bo/
+35,Linea 103,America/La_Paz,https://www.cochabamba.bo/
+36,Asociación de taxi trufis 10 de diciembre,America/La_Paz,https://www.cochabamba.bo/
+37,Sindicato de taxi trufis 15 de abril,America/La_Paz,https://www.cochabamba.bo/
+38,Sindicato mixto de trufibuses 3 de noviembre,America/La_Paz,https://www.cochabamba.bo/
+39,Sindicato mixto de autotransporte Cantón Itapaya,America/La_Paz,https://www.cochabamba.bo/
+40,Asociación de taxis y trufis ATI,America/La_Paz,https://www.cochabamba.bo/
+41,Sindicato Expreso Punata,America/La_Paz,https://www.cochabamba.bo/
+42,default,America/La_Paz,https://www.cochabamba.bo/
+43,Sindicato 8 de Mayo,America/La_Paz,https://www.cochabamba.bo/
+44,Asociación Mixta de Transporte Huayñacota,America/La_Paz,https://www.cochabamba.bo/
+45,Cotapachi,America/La_Paz,https://www.cochabamba.bo/
+46,Sindicato Mixto de Transporte Expreso Abaroa,America/La_Paz,https://www.cochabamba.bo/
+47,Sindicato de Autotransporte Virgen del Rosario,America/La_Paz,https://www.cochabamba.bo/
+48,Sindicato de taxi trufis trufi buses Sacaba 222,America/La_Paz,https://www.cochabamba.bo/

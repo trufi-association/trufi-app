@@ -26,7 +26,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 5387555,14,Mo-Su,5387555,Calle Alipio Valencia Vega,1
 5457000,15,Mo-Su,5457000,Avenida Río Parapeti,1
 5457001,15,Mo-Su,5457001,Avenida Chapare,0
-5457263,16,Mo-Su,5457263,Estación,0
+5457263,16,Mo-Su,5457263,Avenida Circuito Bolivia,0
 5470046,12,Mo-Su,5470046,La Concordia,1
 6714096,10,Mo-Su,6714096,Plaza Principal El Paso,1
 6925236,17,Tu-Su,6925236,Cristo de la Concordia,0
@@ -107,7 +107,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 9435838,59,Mo-Su,9435838,Calle Grover Suarez,0
 9435839,59,Mo-Su,9435839,Nueva Jerusalén,1
 9435998,60,Mo-Su,9435998,Sindicato Agrario Taquiña,1
-9436000,60,Mo-Su,9436000,Avenida Inca Camacho,0
+9436000,60,Mo-Su,9436000,Parque De La Integración,0
 9436031,61,Mo-Su,9436031,Calle T. Achu,0
 9436032,61,Mo-Su,9436032,Rocas Blancas,1
 9436054,51,Mo-Su,9436054,Calle Volcán Tolima,1
@@ -134,7 +134,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 9718061,71,Mo-Su,9718061,Calle Villamontes,1
 9718162,71,Mo-Su,9718162,Avenida Blanco Galindo,0
 9985626,72,Mo-Su,9985626,Calle La Rioja,1
-9985684,33,Mo-Su,9985684,Calle Jose Curtinas,1
+9985684,33,Mo-Su,9985684,Calle Jose Curtinas,0
 10176999,73,Mo-Su,10176999,Puente Quinamari,1
 10380049,74,Mo-Su,10380049,Calle Portugal,1
 10387641,74,Mo-Su,10387641,Calle Francia,1
@@ -146,7 +146,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10396580,75,Mo-Su,10396580,Avenida Río Parapeti,1
 10397583,75,Mo-Su,10397583,Sivingani,1
 10397705,75,Mo-Su,10397705,San Nicolás,1
-10407407,6,Mo-Su,10407407,Avenida Circuito Bolivia,1
+10407407,6,Mo-Su,10407407,Litoral,1
 10407466,6,Mo-Su,10407466,Avenida Blanco Galindo,1
 10411209,76,Mo-Su,10411209,Maica central,1
 10411245,76,Mo-Su,10411245,Fabril huayllani,1
@@ -154,7 +154,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10413052,8,Mo-Su,10413052,Calle Achachairú,1
 10413127,77,Mo-Su,10413127,Avenida Blanco Galindo,0
 10413255,77,Mo-Su,10413255,Calle República de Nicaragua,1
-10413337,78,Mo-Su,10413337,Hospital Anocaraire,0
+10413337,78,Mo-Su,10413337,Avenida Blanco Galindo,0
 10413473,78,Mo-Su,10413473,Héroes de Boquerón,1
 10414461,79,Mo-Su,10414461,Santo Domingo,0
 10414549,80,Mo-Su,10414549,Calle Litoral,0
@@ -199,10 +199,10 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10692554,28,Mo-Su,10692554,Hospital del Sur,1
 10692726,24,Mo-Su,10692726,Calle María Luisa Pacheco,0
 10692795,90,Mo-Su,10692795,Tamborada B,1
-10692844,90,Mo-Su,10692844,Villa America,1
-10692867,90,Mo-Su,10692867,Calle Sófocles,1
-10693034,90,Mo-Su,10693034,Calle Alfredo Guillén,0
-10693057,90,Mo-Su,10693057,Calle Alfredo Guillén,0
+10692844,90,Mo-Su,10692844,Bandera rosa,1
+10692867,90,Mo-Su,10692867,Bandera rosa,1
+10693034,90,Mo-Su,10693034,Atahuallpa,1
+10693057,90,Mo-Su,10693057,Bandera rosa,0
 10693249,30,Mo-Su,10693249,Calle Lalliy Pacha,0
 10694643,91,Mo-Su,10694643,Ch'aska Rumi,0
 10694841,30,Mo-Su,10694841,Calle Yanacuna,1
@@ -249,7 +249,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10721298,107,Mo-Su,10721298,Calle Ivan Bluske,0
 10721694,25,Mo-Su,10721694,Villa San Andres,1
 10721734,25,Mo-Su,10721734,Calle Esteban Arce,1
-10721776,108,Mo-Su,10721776,Naranja,1
+10721776,108,Mo-Su,10721776,Naranja,0
 10721892,109,Mo-Su,10721892,Calle 12 de septiembre,0
 10722066,109,Mo-Su,10722066,Pacata Central,1
 10722104,110,Mo-Su,10722104,Nro. verde: Chiñata,1
@@ -267,7 +267,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10742335,115,Mo-Su,10742335,Calle Camiri,0
 10742513,116,Mo-Su,10742513,Nro. rojo: Villa Obrajes,1
 10742585,116,Mo-Su,10742585,Nro. rojo: Villa Obrajes,1
-10742692,117,Mo-Su,10742692,Coraca,1
+10742692,117,Mo-Su,10742692,Nro. negro: Comteco,0
 10744108,94,Mo-Su,10744108,Avenida Benjo Cruz,0
 10768014,118,Mo-Su,10768014,OTB 27 de Mayo,1
 10768603,32,Mo-Su,10768603,Calle Juan Aldon,0
@@ -279,7 +279,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 10788634,120,Mo-Su,10788634,Avenida Blanco Galindo,1
 10788739,120,Mo-Su,10788739,Calle Litoral,0
 10789860,44,Mo-Su,10789860,Cruce Taquiña,0
-10795881,90,Mo-Su,10795881,Avenida Panamericana,1
+10795881,90,Mo-Su,10795881,Bandera rosa,1
 10799951,31,Mo-Su,10799951,Calle Alipio Valencia Vega,1
 10807446,85,Mo-Su,10807446,Villa Coña Coña,1
 10813739,30,Mo-Su,10813739,Maica Sud,1
@@ -407,8 +407,8 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 11142168,116,Mo-Su,11142168,Bandera verde lechuga,1
 11148102,105,Mo-Su,11148102,Apote,0
 11148108,105,Mo-Su,11148108,Apote,1
-11151933,90,Mo-Su,11151933,Calle Augusto Guzman,1
-11151958,90,Mo-Su,11151958,Río Seco,1
+11151933,90,Mo-Su,11151933,Bandera verde lechuga,1
+11151958,90,Mo-Su,11151958,Bandera verde lechuga,1
 11678428,128,Mo-Su,11678428,Maica Chica,1
 14576926,18,Mo-Su,14576926,Suticollo,1
 14576927,19,Mo-Su,14576927,Cochabamba,1
@@ -458,12 +458,12 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 16806919,58,Mo-Su,16806919,Tirani,1
 16806920,58,Mo-Su,16806920,Ticti Norte,1
 17193323,132,Mo-Su,17193323,Calle Cochabamba,1
-17290523,48,Mo-Su,17290523,Mercado Calatayud,1
-17290564,133,Mo-Su,17290564,Avenida 23 de Septiembre,0
-17290615,134,Mo-Su,17290615,Sin bandera,1
+17290523,133,Mo-Su,17290523,Trafalgar,1
+17290564,134,Mo-Su,17290564,Avenida 23 de Septiembre,0
+17290615,135,Mo-Su,17290615,Sin bandera,1
 17291147,132,Mo-Su,17291147,Calle Cleomedes,0
 19604339,128,Mo-Su,19604339,Cochabamba,0
-20141710,135,Mo-Su,20141710,Santiváñez,0
+20141710,136,Mo-Su,20141710,Santiváñez,0
 20279144,16,Mo-Su,20279144,Bandera Roja: F. Mercado,0
 20284412,16,Mo-Su,20284412,Bandera Roja: F. Mercado,1
 20287520,54,Mo-Su,20287520,Verde,1
@@ -488,20 +488,20 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 20389267,81,Mo-Su,20389267,Panter naranja,1
 20389307,81,Mo-Su,20389307,Olmedo,1
 20389424,81,Mo-Su,20389424,Olmedo,1
-20389678,136,Mo-Su,20389678,Panter rojo,0
-20389791,136,Mo-Su,20389791,Panter rojo,1
+20389678,137,Mo-Su,20389678,Panter rojo,1
+20389791,137,Mo-Su,20389791,Panter rojo,1
 20389960,127,Mo-Su,20389960,Reducto Montecillo,1
 20390052,127,Mo-Su,20390052,Reducto,1
-20395613,137,Mo-Su,20395613,Colegio Calama,1
-20395625,137,Mo-Su,20395625,Colegio Calama,0
-20404783,136,Mo-Su,20404783,Panter verde,1
-20404913,136,Mo-Su,20404913,Panter verde,1
+20395613,138,Mo-Su,20395613,Colegio Calama,1
+20395625,138,Mo-Su,20395625,Colegio Calama,0
+20404783,137,Mo-Su,20404783,Panter verde,1
+20404913,137,Mo-Su,20404913,Panter verde,1
 20406064,81,Mo-Su,20406064,Panter blanco: sin bandera,1
 20422057,81,Mo-Su,20422057,Panter blanco: bandera roja,1
-20499137,108,Mo-Su,20499137,Sin bandera,0
-20572738,116,Mo-Su,20572738,Sacaba,1
-20609211,116,Mo-Su,20609211,Villa Paraiso,1
-20701043,117,Mo-Su,20701043,Chiñata,0
+20499137,108,Mo-Su,20499137,Sin bandera,1
+20572738,116,Mo-Su,20572738,Nro. verde: Valle Paraiso,1
+20609211,116,Mo-Su,20609211,Nro. verde: Valle Paraiso,1
+20701043,117,Mo-Su,20701043,Nro. negro: Chiñata,1
 20709798,62,Mo-Su,20709798,Bandera lila,1
 20712010,62,Mo-Su,20712010,Bandera celente y blanco,0
 20712101,62,Mo-Su,20712101,Bandera celente y blanco,1
@@ -572,8 +572,8 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 20748214,76,Mo-Su,20748214,Corralones,1
 20748279,76,Mo-Su,20748279,Alto Obrajes,0
 20748285,76,Mo-Su,20748285,Alto Obrajes,1
-20748881,138,Mo-Su,20748881,14 de septiembre,0
-20748891,138,Mo-Su,20748891,Cotapachi,1
+20748881,139,Mo-Su,20748881,14 de septiembre,0
+20748891,139,Mo-Su,20748891,Cotapachi,1
 20750134,76,Mo-Su,20750134,Lava Lava,1
 20750152,76,Mo-Su,20750152,Hipermaxi,0
 20750730,76,Mo-Su,20750730,Maderero,1
@@ -584,7 +584,7 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 20764372,36,Mo-Su,20764372,Nro. negro: Chimba,1
 20766640,36,Mo-Su,20766640,Nro. negro: Chimba,0
 20768883,110,Mo-Su,20768883,Nro. azul: Molino blanco,1
-20768907,139,Mo-Su,20768907,Molino Blanco (número azul),0
+20768907,140,Mo-Su,20768907,Molino Blanco (número azul),0
 20769156,110,Mo-Su,20769156,Bandera guindo,0
 20769173,110,Mo-Su,20769173,Bandera guindo,1
 20769220,110,Mo-Su,20769220,Nro. blanco: Lopez rancho,0
@@ -611,48 +611,76 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 20773818,38,Mo-Su,20773818,Nro. blanco: Pacata,1
 20773820,62,Mo-Su,20773820,Nro. verde lechuga: Av. Túnel,0
 20773824,62,Mo-Su,20773824,Nro. verde lechuga: Av. Túnel,1
-20777780,140,Mo-Su,20777780,Paraiso,1
-20777813,140,Mo-Su,20777813,Avenida Villazon,0
+20777780,141,Mo-Su,20777780,Paraiso,1
+20777813,141,Mo-Su,20777813,Avenida Villazon,0
 20778476,62,Mo-Su,20778476,Bandera verde,1
 20778480,62,Mo-Su,20778480,Bandera verde,0
 20778493,62,Mo-Su,20778493,Bandera rosada,0
 20778495,62,Mo-Su,20778495,Bandera rosada,1
 20778564,62,Mo-Su,20778564,Nro. blanco: Chacacollo,1
 20778567,62,Mo-Su,20778567,Nro. blanco: Chacacollo,0
-20778600,62,Mo-Su,20778600,Bandera rosada: Nro. blanco,0
-20778602,62,Mo-Su,20778602,Bandera rosada: Nro. blanco,1
+20778600,62,Mo-Su,20778600,Tutimayu,0
+20778602,62,Mo-Su,20778602,Tutimayu,1
 20778625,62,Mo-Su,20778625,Nro. blanco: Cementerio,0
-20778645,62,Mo-Su,20778645,Nro. blanco: Cementerio,1
-20812591,38,Mo-Su,20812591,Bandera amarilla: Nro. amarillo: Corte,0
-20812592,38,Mo-Su,20812592,Bandera amarilla: Nro. amarillo: Corte,1
-20819179,140,Mo-Su,20819179,Fortaleza,1
-20819240,140,Mo-Su,20819240,Avenida Villazon,0
-20967965,141,Mo-Su,20967965,Colomi,0
-21053622,142,Mo-Su,21053622,Terminal de Buses Sacaba,0
-21053666,142,Mo-Su,21053666,Rodeo,1
-21053767,142,Mo-Su,21053767,Terminal de Buses Sacaba,0
-21053775,142,Mo-Su,21053775,Colomi,1
-21053786,142,Mo-Su,21053786,Terminal de Buses Sacaba,0
-21053793,142,Mo-Su,21053793,Patati,1
-21053797,142,Mo-Su,21053797,Terminal de Buses Sacaba,0
-21053815,142,Mo-Su,21053815,Uturunquillo,1
-21053818,142,Mo-Su,21053818,Terminal de Buses Sacaba,0
-21074370,110,Mo-Su,21074370,Huayllani,1
+20778645,62,Mo-Su,20778645,Nro. blanco: Cementerio,0
+20812591,38,Mo-Su,20812591,Bandera naranja: Nro. amarillo: Corte,0
+20812592,38,Mo-Su,20812592,Bandera naranja: Nro. amarillo: Corte,1
+20819179,141,Mo-Su,20819179,Fortaleza,1
+20819240,141,Mo-Su,20819240,Avenida Villazon,0
+20967965,142,Mo-Su,20967965,Colomi,0
+21053622,143,Mo-Su,21053622,Terminal de Buses Sacaba,0
+21053666,143,Mo-Su,21053666,Rodeo,1
+21053767,143,Mo-Su,21053767,Terminal de Buses Sacaba,0
+21053775,143,Mo-Su,21053775,Colomi,1
+21053786,143,Mo-Su,21053786,Terminal de Buses Sacaba,0
+21053793,143,Mo-Su,21053793,Patati,1
+21053797,143,Mo-Su,21053797,Terminal de Buses Sacaba,0
+21053815,143,Mo-Su,21053815,Uturunquillo,1
+21053818,143,Mo-Su,21053818,Terminal de Buses Sacaba,0
+21074370,110,Mo-Su,21074370,Bandera verde lechuga: Nro. verde: Huayllani,1
 21074381,110,Mo-Su,21074381,Terminal de Buses Sacaba,1
-21076374,142,Mo-Su,21076374,Ucuchi,1
-21076454,142,Mo-Su,21076454,1ro de Mayo,1
-21076459,142,Mo-Su,21076459,Pilancho,1
-21076466,142,Mo-Su,21076466,Ch'aki Cocha,1
-21076475,142,Mo-Su,21076475,Potrero,1
-21076607,142,Mo-Su,21076607,Parada 222,1
-21076649,142,Mo-Su,21076649,Cumbre,1
-21076670,142,Mo-Su,21076670,Terminal de Buses Sacaba,0
-21076697,142,Mo-Su,21076697,Terminal de Buses Sacaba,0
-21076726,142,Mo-Su,21076726,Terminal de Buses Sacaba,0
-21076775,142,Mo-Su,21076775,Terminal de Buses Sacaba,0
-21076776,142,Mo-Su,21076776,Terminal de Buses Sacaba,0
-21076823,142,Mo-Su,21076823,Terminal de Buses Sacaba,0
-21076845,142,Mo-Su,21076845,Terminal de Buses Sacaba,0
-21076858,142,Mo-Su,21076858,Terminal de Buses Sacaba,0
-21078204,142,Mo-Su,21078204,San Isidro,1
-21116245,143,Mo-Su,21116245,Punata,0
+21076374,143,Mo-Su,21076374,Ucuchi,1
+21076454,143,Mo-Su,21076454,1ro de Mayo,1
+21076459,143,Mo-Su,21076459,Pilancho,1
+21076466,143,Mo-Su,21076466,Ch'aki Cocha,1
+21076475,143,Mo-Su,21076475,Potrero,1
+21076607,143,Mo-Su,21076607,Patan Rancho,1
+21076649,143,Mo-Su,21076649,Cumbre,1
+21076670,143,Mo-Su,21076670,Terminal de Buses Sacaba,0
+21076697,143,Mo-Su,21076697,Terminal de Buses Sacaba,0
+21076726,143,Mo-Su,21076726,Terminal de Buses Sacaba,0
+21076775,143,Mo-Su,21076775,Terminal de Buses Sacaba,0
+21076776,143,Mo-Su,21076776,Terminal de Buses Sacaba,0
+21076823,143,Mo-Su,21076823,Terminal de Buses Sacaba,0
+21076845,143,Mo-Su,21076845,Terminal de Buses Sacaba,0
+21076858,143,Mo-Su,21076858,Terminal de Buses Sacaba,0
+21078204,143,Mo-Su,21078204,San Isidro,1
+21116245,129,Mo-Su,21116245,Punata,1
+21128244,143,Mo-Su,21128244,Melga,1
+21230478,110,Mo-Su,21230478,Nro. azul: Molino blanco,0
+21233213,144,Mo-Su,21233213,Nro. rojo,1
+21233232,144,Mo-Su,21233232,Nro. rojo,0
+21233667,62,Mo-Su,21233667,Huayllani,0
+21233672,62,Mo-Su,21233672,Huayllani,0
+21373580,90,Mo-Su,21373580,Bandera verde lechuga,1
+21373587,90,Mo-Su,21373587,14,1
+21373595,90,Mo-Su,21373595,Matadero,1
+21373599,90,Mo-Su,21373599,Bandera morado,1
+21373676,90,Mo-Su,21373676,Bandera morado,1
+21373677,90,Mo-Su,21373677,Matadero,1
+21373678,90,Mo-Su,21373678,14,1
+21373679,90,Mo-Su,21373679,Bandera verde lechuga,1
+21373698,90,Mo-Su,21373698,Bandera blanco y rosado,1
+21373699,90,Mo-Su,21373699,Bandera blanco y rosado,1
+21373700,90,Mo-Su,21373700,Bandera amarillo y negro,1
+21373701,90,Mo-Su,21373701,Bandera rosa,1
+21373702,90,Mo-Su,21373702,Bandera amarillo,1
+21373703,90,Mo-Su,21373703,Bandera naranja,1
+21373704,90,Mo-Su,21373704,Bandera rosa,1
+21373714,90,Mo-Su,21373714,Bandera rosa,0
+21373715,90,Mo-Su,21373715,Bandera naranja,0
+21373716,90,Mo-Su,21373716,Bandera amarillo,0
+21373717,90,Mo-Su,21373717,Bandera rosa,0
+21373718,90,Mo-Su,21373718,Bandera amarillo y negro,1
+21373719,90,Mo-Su,21373719,Bandera blanco y rosado,0
+21373720,90,Mo-Su,21373720,Bandera blanco y rosado,0
