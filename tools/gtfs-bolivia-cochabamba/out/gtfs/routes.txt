@@ -144,4 +144,3 @@ route_id,agency_id,route_short_name,route_long_name,route_color,route_type
 142,47,Colomi,Bus Colomi,,3
 143,48,222,MiniBus 222,,3
 144,18,233N,Trufi 233N,,3
-145,18,233 N,Trufi 233 N,,3

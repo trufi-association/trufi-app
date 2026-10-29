@@ -4,8 +4,8 @@
 
 | Id | Name | Ref | From | To | State |
 | -- | ---- | --- | ---- | -- | ----- |
-[21233232](https://www.openstreetmap.org/relation/21233232) | Trufi 233 N: Poligono → Loreto | 233 N | Poligono | Loreto | ✅
 [21233213](https://www.openstreetmap.org/relation/21233213) | Trufi 233N: Loreto → Poligono | 233N | Loreto | Poligono | ✅
+[21233232](https://www.openstreetmap.org/relation/21233232) | Trufi 233N: Poligono → Loreto | 233N | Poligono | Loreto | ✅
 [9417509](https://www.openstreetmap.org/relation/9417509) | MicroBus 3v: Río Taquiña → Calle Tómas Gamboa | 3v | Río Taquiña | Calle Tómas Gamboa | ✅
 [9417539](https://www.openstreetmap.org/relation/9417539) | MicroBus 3v: Calle Tómas Gamboa → Río Taquiña | 3v | Calle Tómas Gamboa | Río Taquiña | ✅
 [4269608](https://www.openstreetmap.org/relation/4269608) | MicroBus A: Villa Israel → Río Taquiña | A | Villa Israel | Río Taquiña | ✅

@@ -658,8 +658,8 @@ trip_id,route_id,service_id,shape_id,trip_headsign,direction_id
 21116245,129,Mo-Su,21116245,Punata,1
 21128244,143,Mo-Su,21128244,Melga,1
 21230478,110,Mo-Su,21230478,Nro. azul: Molino blanco,0
-21233213,144,Mo-Su,21233213,Nro. rojo,0
-21233232,145,Mo-Su,21233232,Nro. rojo,0
+21233213,144,Mo-Su,21233213,Nro. rojo,1
+21233232,144,Mo-Su,21233232,Nro. rojo,0
 21233667,62,Mo-Su,21233667,Huayllani,0
 21233672,62,Mo-Su,21233672,Huayllani,0
 21373580,90,Mo-Su,21373580,Bandera verde lechuga,1
