@@ -1,0 +1,88 @@
+# `flutter analyze` + `flutter test` on every pull request and on every push
+# to main (issue #66). Nothing ran on a push before this file existed: the
+# search-index regression of #56 went unnoticed until someone built locally.
+#
+# Same shape as trufi-sanaa's .github/workflows/flutter.yml (trufi-sanaa#30),
+# plus the localizations sync check of trufi-core's flutter_test.yml.
+name: Flutter CI
+
+on:
+  push:
+    branches: [main]
+  # Every pull request, whatever its base: stacked PRs (a feature branch as
+  # base) are checked too.
+  pull_request:
+
+# One run per pull request: a new push cancels the run of the previous
+# commit instead of queueing behind it. Pushes to main get one group per
+# commit (never cancelled, never queued behind each other): GitHub cancels a
+# *pending* run whenever another one joins its group, whatever
+# cancel-in-progress says, so a shared main group would drop the middle
+# merge of three in a row. Every merge keeps its own verdict and a red main
+# can be traced to the merge that broke it.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+env:
+  # The exact stable release the app is built and tested with locally
+  # (~/fvm/versions/<version>). A version, never a channel, so the check does
+  # not change colour because stable moved. This is the only place the
+  # version lives: bump it together with the SDK in use (README, section
+  # "Integración continua").
+  FLUTTER_VERSION: 3.47.8
+
+jobs:
+  analyze-and-test:
+    name: analyze + test
+    runs-on: ubuntu-latest
+    # A widget test that awaits an un-mocked platform channel never fails on
+    # its own; without a limit the job would sit there for the 6 h default.
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Flutter ${{ env.FLUTTER_VERSION }}
+        # Caches the Flutter SDK and the pub cache (keyed on pubspec.lock), so
+        # the mirror clone of trufi-core that pub makes for the 34 git
+        # dependencies is paid once per lockfile (actions/cache saves in a
+        # post step that only runs when the job succeeds).
+        uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Flutter version
+        run: flutter --version
+
+      - name: Dependencies
+        # trufi-core is a public repository: the git dependencies need no token.
+        run: flutter pub get
+
+      - name: Localizations in sync
+        # lib/l10n/app_localizations*.dart are generated from the ARBs and
+        # committed (`flutter: generate: true`, no l10n.yaml). A PR that edits
+        # an ARB without regenerating, or hand-edits a generated class, fails
+        # here. Only lib/l10n is compared: `pub get` also rewrites
+        # analysis_options.yaml and ios/Flutter/*.xcconfig, which is noise.
+        run: |
+          flutter gen-l10n
+          git add -A lib/l10n
+          git diff --staged --exit-code -- lib/l10n || {
+            echo "::error::lib/l10n is out of sync with the ARBs. Run 'flutter gen-l10n' locally and commit the result."
+            exit 1
+          }
+
+      - name: Analyze
+        # Errors and warnings fail the check; infos (e.g. deprecation hints
+        # after a Flutter or core bump) are listed but do not block, the same
+        # strictness the review flow uses. main is clean at default strictness.
+        run: flutter analyze --no-fatal-infos
+
+      - name: Test
+        run: flutter test
