@@ -22,20 +22,30 @@ import 'package:trufi_core_routing/trufi_core_routing.dart';
 ///   Torrez. The Trufi 148 boards at Calle 16 de Julio y Calle Federico
 ///   Blanco, 787 m from the origin (the 693rd stop), and alights 207 m from
 ///   the destination: a direct ride, first of the ten the app offers, that
-///   pools of 150 and 600 never see (they answer 13, 010, 138, 110, 5).
+///   pools of 150 and 600 never see (150 answers 13, 010, 138, 110, 5; 600
+///   adds 15, 108, O, 6 — still without the 148).
 /// - **B, truncated at the destination.** Calle Achanq'ara y Calle Quripacha
 ///   (north, 157 stops within 800 m) → Avenida Valle Hermoso (250 stops
 ///   within 800 m, the 150th at 630 m). The Trufi 010 boards 72 m from the
-///   origin and alights at Avenida Los Angeles, 684 m from the destination
-///   (the 170th stop): with 150 only the 110 is offered.
+///   origin and alights at Avenida Los Angeles, 751 m from the destination
+///   (the 222nd stop; three stops carry that name, 684 / 697 / 751 m away,
+///   all beyond the 630 m the pool of 150 reaches): with 150 only the 110
+///   is offered.
 ///
-/// The app's config but for the pool, so the comparison stays honest if the
-/// app's radius or transfer limit ever changes.
+/// The app's config but for the pool — every search knob copied, not only
+/// the radius and the transfer limit, so "only the pool differs" stays true
+/// if the app ever tunes walking speed, transfer radius or the rest
+/// (`TrufiPlannerConfig` has no `copyWith`).
 TrufiPlannerConfig withPool(int pool) => TrufiPlannerConfig.local(
   gtfsAsset: cochabambaPlannerConfig.gtfsAsset!,
   maxWalkingDistance: cochabambaPlannerConfig.maxWalkingDistance,
+  walkSpeed: cochabambaPlannerConfig.walkSpeed,
   maxTransfers: cochabambaPlannerConfig.maxTransfers,
   maxStopCandidates: pool,
+  directsHideTransfers: cochabambaPlannerConfig.directsHideTransfers,
+  transferRadiusMeters: cochabambaPlannerConfig.transferRadiusMeters,
+  sameNameRouteLimit: cochabambaPlannerConfig.sameNameRouteLimit,
+  fallbackVehicleSpeedKmh: cochabambaPlannerConfig.fallbackVehicleSpeedKmh,
   persistIndex: false,
 );
 
@@ -85,8 +95,10 @@ void main() {
     expect(cochabambaPlannerConfig.maxTransfers, 1);
     // No point of this feed has more than 778 stops within 800 m.
     expect(cochabambaPlannerConfig.maxStopCandidates, 800);
-    // The web planner searches with the same knobs (trufi-server-planner
-    // reads them from the request since trufi-server-planner#10).
+    // The web planner sends the same knobs; trufi-server-planner reads them
+    // from the request since trufi-server-planner#10 and clamps the pool to
+    // its own cap (600 today, 800 with trufi-server-planner#12), so the web
+    // only matches the phone once that server is deployed.
     expect(cochabambaWebPlannerConfig.isRemote, isTrue);
     expect(
       cochabambaWebPlannerConfig.maxStopCandidates,
