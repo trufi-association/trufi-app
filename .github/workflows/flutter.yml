@@ -14,11 +14,14 @@ on:
   pull_request:
 
 # One run per pull request: a new push cancels the run of the previous
-# commit instead of queueing behind it. Pushes to main are never cancelled,
-# so every merge keeps its own verdict and a red main can be traced to the
-# merge that broke it.
+# commit instead of queueing behind it. Pushes to main get one group per
+# commit (never cancelled, never queued behind each other): GitHub cancels a
+# *pending* run whenever another one joins its group, whatever
+# cancel-in-progress says, so a shared main group would drop the middle
+# merge of three in a row. Every merge keeps its own verdict and a red main
+# can be traced to the merge that broke it.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
@@ -41,7 +44,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
 
       - name: Set up Flutter ${{ env.FLUTTER_VERSION }}
         # Caches the Flutter SDK and the pub cache (keyed on pubspec.lock), so
