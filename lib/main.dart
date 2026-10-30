@@ -394,19 +394,25 @@ void main() {
           // the offline search: opens Nearby lines over every corner of the
           // street at once (trufi-core#1051). Core shows the row only when
           // the app wires this handler; its label comes localized from core.
-          onLinesAlongStreet: (context, street, corners) {
-            NearbyLinesTrufiScreen.showAlongStreet(
-              context,
-              NearbyStreetAnchor(
-                name: street.displayName,
-                subtitle: street.address,
-                corners: [
-                  for (final corner in corners)
-                    LatLng(corner.latitude, corner.longitude),
-                ],
-              ),
-            );
-          },
+          // Not on web: nearby lines read the bundled GTFS of the local
+          // planner, which the web build does not ship (it plans through
+          // the server), so the screen would only explain that it cannot
+          // work. A null handler hides the row.
+          onLinesAlongStreet: kIsWeb
+              ? null
+              : (context, street, corners) {
+                  NearbyLinesTrufiScreen.showAlongStreet(
+                    context,
+                    NearbyStreetAnchor(
+                      name: street.displayName,
+                      subtitle: street.address,
+                      corners: [
+                        for (final corner in corners)
+                          LatLng(corner.latitude, corner.longitude),
+                      ],
+                    ),
+                  );
+                },
         ),
         SavedPlacesTrufiScreen(),
         // Bookmarked origin-destination trips, "Tus Rutas" (trufi-core#1005).
@@ -418,8 +424,9 @@ void main() {
         // (trufi-core#953). Mirrors the home screen's shareBaseUrl.
         TransportListTrufiScreen(shareBaseUrl: _baseUrl),
         // Lines passing within 100/300/500 m of the rider, read from the
-        // bundled GTFS of the offline planner (trufi-core#1006).
-        NearbyLinesTrufiScreen(),
+        // bundled GTFS of the offline planner (trufi-core#1006). Same
+        // reason as the handler above: no local planner on web, no screen.
+        if (!kIsWeb) NearbyLinesTrufiScreen(),
         FaresTrufiScreen(config: cochabambaFaresConfig),
         FeedbackTrufiScreen(config: FeedbackConfig(feedbackUrl: _feedbackUrl)),
         SettingsTrufiScreen(),
