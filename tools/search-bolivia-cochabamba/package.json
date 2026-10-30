@@ -8,5 +8,11 @@
   },
   "dependencies": {
     "osm-search-data-export": "github:trufi-association/osm-search-data-export#v1.2.0"
+  },
+  "overrides": {
+    "decode-uri-component": "0.5.1"
+  },
+  "engines": {
+    "node": ">=22.12"
   }
 }
