@@ -33,6 +33,21 @@ This is intentionally larger than the city-center example shown in trufi-pbf-ext
 
 `docker-compose.yml` pins the upstream image to commit `b9e04c32ced29f0925d956dd12ad3271a4bce392`. The repo has no tags; bump the SHA when you want a newer build. Buildkit requires the full 40-character SHA.
 
+## After a refresh
+
+The committed PBF is the single source of three snapshots the app bundles.
+Regenerate all of them from the new file and commit them together with it:
+
+| Tool | Output the app ships |
+|---|---|
+| [`../gtfs-bolivia-cochabamba`](../gtfs-bolivia-cochabamba) | `assets/routing/cochabamba.gtfs.zip` (and the tracked `out/gtfs/*.txt`) |
+| [`../pois-bolivia-cochabamba`](../pois-bolivia-cochabamba) | `assets/pois/*.geojson` + `metadata.json` |
+| [`../search-bolivia-cochabamba`](../search-bolivia-cochabamba) | `assets/search/search.json` |
+
+A snapshot left behind shows up as data that exists for one feature and not
+for another (#75: the search index stayed one PBF behind the GTFS, so 101
+streets could be routed along but not found by the offline search).
+
 ## Inspect the PBF
 
 ```bash
