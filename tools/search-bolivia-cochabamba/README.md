@@ -10,7 +10,7 @@ something no online geocoder answers (trufi-core#745).
 ## Run
 
 ```bash
-npm install          # Node >= 22 (better-sqlite3 13 ships prebuilt binaries)
+npm install          # Node >= 22.12 (require(esm): decode-uri-component is ESM-only; better-sqlite3 13 ships prebuilt binaries)
 npm start
 cp out/search.json ../../assets/search/search.json
 ```
