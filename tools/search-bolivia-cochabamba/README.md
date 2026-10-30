@@ -45,4 +45,4 @@ Whenever `../pbf-bolivia-cochabamba` is re-run, regenerate the four together
 and commit them in the same change. A refresh that skips this tool leaves
 the new streets routable but unsearchable: #53 refreshed the PBF and the
 GTFS only, and 101 streets with their corners were missing from the search
-until #75 regenerated the index.
+until the index was regenerated (issue #75, PR #76).
