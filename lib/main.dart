@@ -390,6 +390,23 @@ void main() {
           onRouteTap: (context, routeCode) {
             TransportDetailScreen.show(context, routeCode: routeCode);
           },
+          // "Lines along <street>", first row of a street's corners list in
+          // the offline search: opens Nearby lines over every corner of the
+          // street at once (trufi-core#1051). Core shows the row only when
+          // the app wires this handler; its label comes localized from core.
+          onLinesAlongStreet: (context, street, corners) {
+            NearbyLinesTrufiScreen.showAlongStreet(
+              context,
+              NearbyStreetAnchor(
+                name: street.displayName,
+                subtitle: street.address,
+                corners: [
+                  for (final corner in corners)
+                    LatLng(corner.latitude, corner.longitude),
+                ],
+              ),
+            );
+          },
         ),
         SavedPlacesTrufiScreen(),
         // Bookmarked origin-destination trips, "Tus Rutas" (trufi-core#1005).
