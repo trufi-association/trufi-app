@@ -969,9 +969,9 @@
       {
         "name": "embassy",
         "displayName": {
-          "en": "Embassies",
-          "es": "Embajadas",
-          "de": "Botschaften"
+          "en": "Embassies & Consulates",
+          "es": "Embajadas y Consulados",
+          "de": "Botschaften & Konsulate"
         },
         "icon": "embassy",
         "color": "#37474F",
@@ -981,6 +981,12 @@
             "key": "amenity",
             "values": [
               "embassy"
+            ]
+          },
+          {
+            "key": "office",
+            "values": [
+              "diplomatic"
             ]
           }
         ]
