@@ -35,7 +35,7 @@ This is intentionally larger than the city-center example shown in trufi-pbf-ext
 
 ## After a refresh
 
-The committed PBF is the single source of three snapshots the app bundles.
+The committed PBF is the single source of four snapshots the app bundles.
 Regenerate all of them from the new file and commit them together with it:
 
 | Tool | Output the app ships |
@@ -43,10 +43,13 @@ Regenerate all of them from the new file and commit them together with it:
 | [`../gtfs-bolivia-cochabamba`](../gtfs-bolivia-cochabamba) | `assets/routing/cochabamba.gtfs.zip` (and the tracked `out/gtfs/*.txt`) |
 | [`../pois-bolivia-cochabamba`](../pois-bolivia-cochabamba) | `assets/pois/*.geojson` + `metadata.json` |
 | [`../search-bolivia-cochabamba`](../search-bolivia-cochabamba) | `assets/search/search.json` |
+| [`../mbtiles-bolivia-cochabamba`](../mbtiles-bolivia-cochabamba) | `assets/offline/cochabamba.mbtiles` (the offline map; a ~26 MB binary, may travel in its own PR) |
 
 A snapshot left behind shows up as data that exists for one feature and not
 for another (#75: the search index stayed one PBF behind the GTFS, so 101
-streets could be routed along but not found by the offline search).
+streets could be routed along but not found by the offline search; #77: the
+map tiles are five refreshes behind, so those streets are not drawn on the
+offline map).
 
 ## Inspect the PBF
 

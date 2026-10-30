@@ -36,12 +36,13 @@ by the sibling tool). If it isn't there, run that tool first.
 
 ## After a PBF refresh
 
-The app bundles three snapshots derived from this PBF, and they have to come
+The app bundles four snapshots derived from this PBF, and they have to come
 from the same file: the GTFS feed (`../gtfs-bolivia-cochabamba` →
 `assets/routing/`), the POI layers (`../pois-bolivia-cochabamba` →
-`assets/pois/`) and this index (→ `assets/search/`). Whenever
-`../pbf-bolivia-cochabamba` is re-run, regenerate the three together and
-commit them in the same change. A refresh that skips this tool leaves the
-new streets routable but unsearchable: #53 refreshed the PBF and the GTFS
-only, and 101 streets with their corners were missing from the search until
-#75 regenerated the index.
+`assets/pois/`), the offline map tiles (`../mbtiles-bolivia-cochabamba` →
+`assets/offline/cochabamba.mbtiles`, #77) and this index (→ `assets/search/`).
+Whenever `../pbf-bolivia-cochabamba` is re-run, regenerate the four together
+and commit them in the same change. A refresh that skips this tool leaves
+the new streets routable but unsearchable: #53 refreshed the PBF and the
+GTFS only, and 101 streets with their corners were missing from the search
+until #75 regenerated the index.
