@@ -1,0 +1,13 @@
+{
+  "name": "pois-bolivia-cochabamba",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cochabamba POI extraction config built on top of trufi-server-poi_extractor.",
+  "scripts": {
+    "start": "node extract.mjs"
+  },
+  "dependencies": {
+    "trufi-server-poi_extractor": "github:trufi-association/trufi-server-poi_extractor#c408bdaf7e1b8dd6ae45a0d4b9c0765eda336446"
+  }
+}
