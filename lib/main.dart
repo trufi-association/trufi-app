@@ -48,25 +48,51 @@ const _facebookUrl = 'https://www.facebook.com/trufiapp/';
 const _instagramUrl = 'https://www.instagram.com/trufi.app';
 const _whatsappUrl = 'https://wa.me/59167835296';
 
+// How many stops around each endpoint the Trufi planner may board at. The
+// planner only considers the N stops nearest to the origin and to the
+// destination, so the pool silently shortens the 800 m walking radius
+// wherever more than N stops lie within it: a line whose nearest stop is
+// farther than the N-th stop cannot be boarded at all, not even as a
+// second bus (trufi-sanaa#21, #65). Cochabamba's feed has synthetic stops
+// ~100 m apart: 52 % of its 23 671 stops have more than 150 neighbours
+// within 800 m and the densest point (Calle Chuquisaca, downtown) has 778.
+// With the default of 150 the pool reaches only 285 m from Calle Oruro, so
+// the 148 — boarding 787 m away, inside the radius — was never offered.
+// 800 is the smallest round value that never truncates the radius on this
+// feed: 600 still changed the answer of 5 of 300 random trips and 16 of
+// 300 downtown trips, 800 → 1000 changed none. Cost per query on the same
+// machine, 150 → 800: 14.6 → 20.1 ms average and 79 → 106 ms worst case
+// on 300 random trips (desktop JIT; a few times that on a phone); nothing
+// at start-up, in the index or on disk — the pool is per query, and any
+// value above the stops in range costs the same. `test/planner_reach_test.dart`
+// pins the value and fails if a feed refresh ever puts more stops than
+// this within 800 m of a stop.
+const _maxStopCandidates = 800;
+
+// Offline planner (mobile). Public so `test/planner_reach_test.dart` can
+// plan against the bundled feed with exactly these values.
+const cochabambaPlannerConfig = TrufiPlannerConfig.local(
+  gtfsAsset: 'assets/routing/cochabamba.gtfs.zip',
+  maxStopCandidates: _maxStopCandidates,
+);
+
+// Online planner (web): the same search knobs sent to trufi-server-planner,
+// which reads them from the `/api/plan` request since
+// trufi-server-planner#10 and clamps the pool to its own cap (600 today).
+const cochabambaWebPlannerConfig = TrufiPlannerConfig.remote(
+  // Absolute URL on purpose: a relative `/api` works in
+  // production (same-origin behind the YARP gateway) but
+  // breaks `flutter run -d chrome` locally because it
+  // resolves to `localhost:8080/api`, which doesn't exist.
+  serverUrl: '$_baseUrl/api',
+  maxStopCandidates: _maxStopCandidates,
+);
+
 // Routing engines
 final List<IRoutingProvider> _routingEngines = [
   // Offline routing via GTFS (mobile) / online via server (web)
-  if (!kIsWeb)
-    TrufiPlannerProvider(
-      config: const TrufiPlannerConfig.local(
-        gtfsAsset: 'assets/routing/cochabamba.gtfs.zip',
-      ),
-    ),
-  if (kIsWeb)
-    TrufiPlannerProvider(
-      config: const TrufiPlannerConfig.remote(
-        // Absolute URL on purpose: a relative `/api` works in
-        // production (same-origin behind the YARP gateway) but
-        // breaks `flutter run -d chrome` locally because it
-        // resolves to `localhost:8080/api`, which doesn't exist.
-        serverUrl: '$_baseUrl/api',
-      ),
-    ),
+  if (!kIsWeb) TrufiPlannerProvider(config: cochabambaPlannerConfig),
+  if (kIsWeb) TrufiPlannerProvider(config: cochabambaWebPlannerConfig),
   // Online routing via OTP 2.8.1
   Otp28RoutingProvider(
     endpoint: _otp281Endpoint,
