@@ -15,11 +15,17 @@ them (`OfflineSearchDataService` indexes streets and corners from
 ## Run
 
 ```bash
-npm install
+npm ci
 npm start
 rm ../../assets/pois/*.geojson
 cp out/*.geojson out/metadata.json ../../assets/pois/
 ```
+
+`npm ci` installs exactly what `package-lock.json` resolved. The extractor is a
+git dependency pinned by commit, and npm skips the lock's `integrity` field for
+git dependencies by design (npm/cli#4468, it prints `skipping integrity check
+for git dependency`): the SHA in `resolved` is the pin. `npm install` works
+too, but may rewrite the lock.
 
 `npm start` prints the POI count per category and subcategory (named /
 total); compare it with the previous `metadata.json` before committing.
