@@ -48,6 +48,15 @@ relation only becomes a POI when its outline has at least 15 nodes
 That drops the unnamed private swimming pools, pitches and gardens that
 `recreation` used to carry (~900 of them) and nothing with a name.
 
+Two more things the PBF path skips that the Overpass path emitted as
+points: ways with fewer than 3 nodes, and relations that are not
+multipolygons (`type=site`). In Cochabamba that is 12 named places — eight
+footbridges and a zip line mapped as two-node `tourism=attraction` ways
+(Puente del Amor, Puente de Piedra, Tirolesa Parque del Bicentenario, …),
+the stop "Aroma", and the three `Letrero de Cochabamba / Colcapirhua /
+Sacaba` signs. Reported upstream as trufi-server-poi_extractor#3; they come
+back with that fix and a regeneration.
+
 ## Categories
 
 [`categories.json`](categories.json) is the extractor's default category set
@@ -58,6 +67,7 @@ and colours unchanged) plus:
 | --- | --- |
 | religion | a `place_of_worship` subcategory with the category's own matchers, colour and icon. The layer sheet of `trufi_core_poi_layers` only renders toggles for subcategories, so a category without any (the extractor's default for `religion`) is a dead tile: it cannot be switched on. |
 | toilets | `amenity=toilets` (trufi-app #41 / trufi-core#674), same names, maki `toilet` icon and colour as the committed metadata. |
+| government | `office=diplomatic` added to the `embassy` sub-category, relabelled "Embassies & Consulates": the six consulates, which the obsolete `amenity=embassy` alone never matched (they fell into `services/company`). |
 | services (new) | trufi-sanaa's category (trufi-sanaa#24): `telecom` (`office=telecommunication`, internet cafés), `industry` (`man_made=works`, `industrial=*`, `building=industrial`), `crafts` = every `craft=*`, `company` = every remaining `office=*`. Cochabamba maps ~1 350 of these (metalworking shops, companies, NGOs, security firms, factories), none of which the previous files had. `amenity=telephone` is left out (unnamed phone booths). |
 
 Order matters: the extractor assigns a POI to the first category and
@@ -95,3 +105,11 @@ of the feature. The previous files, made before that fix, had
 `properties.type = "Cochabamba"` (the `addr:city`) on 121 government
 offices and dozens of other POIs. `v1.0.0` predates it. Bump the SHA to
 upgrade.
+
+Known limitations of the pinned version, reported as
+trufi-server-poi_extractor#3: the OSM `type=*` tag is spread over the
+computed `properties.type`, so every multipolygon relation comes out
+`type: "multipolygon"` (168 features here) and a stray `type=heritage`
+wins over `building=church`; and the named two-node ways / `type=site`
+relations described under *Input* are dropped. Nothing in the app reads
+`type`. The pin moves when that lands.
