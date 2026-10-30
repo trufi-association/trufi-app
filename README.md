@@ -99,7 +99,7 @@ assets/
 
 ### Requisitos
 
-- Flutter SDK >=3.10.0
+- Flutter SDK **3.47.8**, la versión fijada en `.github/workflows/flutter.yml` (`FLUTTER_VERSION`); con fvm: `fvm install 3.47.8`
 - Android SDK (para Android)
 - Xcode (para iOS)
 
@@ -122,6 +122,16 @@ assets/
    # Web (sin mapas/routing offline)
    flutter run -d chrome
    ```
+
+### Integración continua
+
+`.github/workflows/flutter.yml` corre en cada pull request y en cada push a `main`: `flutter pub get`, la comprobación de que `lib/l10n` está sincronizado con los ARB (`flutter gen-l10n` + `git diff --exit-code`), `flutter analyze --no-fatal-infos` y `flutter test`. Flutter se fija a la versión de `FLUTTER_VERSION` en ese archivo (hoy 3.47.8), nunca a un canal: es el único sitio donde vive la versión. Las herramientas Node de `tools/` no corren en el CI.
+
+Para subir la versión de Flutter:
+
+1. Instala la nueva versión localmente (`fvm install <versión>`) y repite los cuatro pasos con ella: `~/fvm/versions/<versión>/bin/flutter pub get`, `flutter gen-l10n` (sin cambios en `lib/l10n`), `flutter analyze --no-fatal-infos` y `flutter test`.
+2. Si `pub get` cambió `pubspec.lock`, commitea el lock: la caché de pub del CI se renueva con él.
+3. Cambia `FLUTTER_VERSION` en `.github/workflows/flutter.yml` y comprueba que el check del PR queda en verde.
 
 ## 📝 Cambios desde trufi-app (v4.0.1)
 
