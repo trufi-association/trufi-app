@@ -60,7 +60,7 @@ assets/
 │       ├── RobotoRegular/
 │       ├── RobotoMedium/
 │       └── RobotoCondensedItalic/
-└── pois/                            # POIs en formato GeoJSON
+└── pois/                            # Capas de POI del mapa (tools/pois-bolivia-cochabamba)
     ├── education.geojson
     ├── emergency.geojson
     ├── finance.geojson
@@ -69,10 +69,12 @@ assets/
     ├── healthcare.geojson
     ├── recreation.geojson
     ├── religion.geojson
+    ├── services.geojson
     ├── shopping.geojson
+    ├── toilets.geojson
     ├── tourism.geojson
     ├── transport.geojson
-    └── metadata.json
+    └── metadata.json                # Categorías, nombres es/en/de, iconos y colores
 ```
 
 ## 🔧 Configuración

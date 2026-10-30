@@ -1,0 +1,1148 @@
+{
+  "healthcare": {
+    "displayName": {
+      "en": "Healthcare",
+      "es": "Salud",
+      "de": "Gesundheit"
+    },
+    "icon": "hospital",
+    "subcategories": [
+      {
+        "name": "hospital",
+        "displayName": {
+          "en": "Hospitals",
+          "es": "Hospitales",
+          "de": "Krankenhäuser"
+        },
+        "icon": "hospital",
+        "color": "#E53935",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "hospital"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "clinic",
+        "displayName": {
+          "en": "Clinics & Doctors",
+          "es": "Clínicas y Médicos",
+          "de": "Kliniken & Ärzte"
+        },
+        "icon": "doctor",
+        "color": "#EF5350",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "clinic",
+              "doctors"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pharmacy",
+        "displayName": {
+          "en": "Pharmacies",
+          "es": "Farmacias",
+          "de": "Apotheken"
+        },
+        "icon": "pharmacy",
+        "color": "#43A047",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "pharmacy"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "dentist",
+        "displayName": {
+          "en": "Dentists",
+          "es": "Dentistas",
+          "de": "Zahnärzte"
+        },
+        "icon": "dentist",
+        "color": "#42A5F5",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "dentist"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "veterinary",
+        "displayName": {
+          "en": "Veterinary",
+          "es": "Veterinarias",
+          "de": "Tierärzte"
+        },
+        "icon": "veterinary",
+        "color": "#8D6E63",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "veterinary"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "other",
+        "displayName": {
+          "en": "Other Healthcare",
+          "es": "Otros Servicios de Salud",
+          "de": "Sonstige Gesundheit"
+        },
+        "icon": "hospital",
+        "color": "#F44336",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "healthcare",
+            "values": null
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "displayName": {
+      "en": "Education",
+      "es": "Educación",
+      "de": "Bildung"
+    },
+    "icon": "school",
+    "subcategories": [
+      {
+        "name": "school",
+        "displayName": {
+          "en": "Schools",
+          "es": "Escuelas",
+          "de": "Schulen"
+        },
+        "icon": "school",
+        "color": "#1976D2",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "school"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "university",
+        "displayName": {
+          "en": "Universities & Colleges",
+          "es": "Universidades",
+          "de": "Universitäten"
+        },
+        "icon": "college",
+        "color": "#1565C0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "university",
+              "college"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "kindergarten",
+        "displayName": {
+          "en": "Kindergartens",
+          "es": "Jardines Infantiles",
+          "de": "Kindergärten"
+        },
+        "icon": "school",
+        "color": "#42A5F5",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "kindergarten"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "library",
+        "displayName": {
+          "en": "Libraries",
+          "es": "Bibliotecas",
+          "de": "Bibliotheken"
+        },
+        "icon": "library",
+        "color": "#5C6BC0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "library"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "displayName": {
+      "en": "Transport",
+      "es": "Transporte",
+      "de": "Verkehr"
+    },
+    "icon": "bus",
+    "subcategories": [
+      {
+        "name": "public_transit",
+        "displayName": {
+          "en": "Public Transit",
+          "es": "Transporte Público",
+          "de": "Öffentlicher Nahverkehr"
+        },
+        "icon": "bus",
+        "color": "#F57C00",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "bus_station"
+            ]
+          },
+          {
+            "key": "public_transport",
+            "values": [
+              "station",
+              "stop_position",
+              "platform"
+            ]
+          },
+          {
+            "key": "highway",
+            "values": [
+              "bus_stop"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "railway",
+        "displayName": {
+          "en": "Railway",
+          "es": "Ferrocarril",
+          "de": "Eisenbahn"
+        },
+        "icon": "rail",
+        "color": "#455A64",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "railway",
+            "values": [
+              "station",
+              "halt",
+              "tram_stop"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "airport",
+        "displayName": {
+          "en": "Airport",
+          "es": "Aeropuerto",
+          "de": "Flughafen"
+        },
+        "icon": "airport",
+        "color": "#0288D1",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "aeroway",
+            "values": [
+              "aerodrome",
+              "terminal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "taxi",
+        "displayName": {
+          "en": "Taxi & Car Rental",
+          "es": "Taxi y Alquiler de Autos",
+          "de": "Taxi & Autovermietung"
+        },
+        "icon": "car",
+        "color": "#FFC107",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "taxi",
+              "car_rental"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ferry",
+        "displayName": {
+          "en": "Ferry",
+          "es": "Ferry",
+          "de": "Fähre"
+        },
+        "icon": "ferry",
+        "color": "#0097A7",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "ferry_terminal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "food": {
+    "displayName": {
+      "en": "Food & Drink",
+      "es": "Comida y Bebida",
+      "de": "Essen & Trinken"
+    },
+    "icon": "restaurant",
+    "subcategories": [
+      {
+        "name": "restaurant",
+        "displayName": {
+          "en": "Restaurants",
+          "es": "Restaurantes",
+          "de": "Restaurants"
+        },
+        "icon": "restaurant",
+        "color": "#FF5722",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "restaurant"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cafe",
+        "displayName": {
+          "en": "Cafes",
+          "es": "Cafeterías",
+          "de": "Cafés"
+        },
+        "icon": "cafe",
+        "color": "#795548",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "cafe"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fast_food",
+        "displayName": {
+          "en": "Fast Food",
+          "es": "Comida Rápida",
+          "de": "Schnellimbiss"
+        },
+        "icon": "fast-food",
+        "color": "#FF9800",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "fast_food",
+              "food_court"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "bar",
+        "displayName": {
+          "en": "Bars & Pubs",
+          "es": "Bares",
+          "de": "Bars & Kneipen"
+        },
+        "icon": "bar",
+        "color": "#7B1FA2",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "bar",
+              "pub"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ice_cream",
+        "displayName": {
+          "en": "Ice Cream",
+          "es": "Heladerías",
+          "de": "Eisdiele"
+        },
+        "icon": "ice-cream",
+        "color": "#E91E63",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "ice_cream"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "shopping": {
+    "displayName": {
+      "en": "Shopping",
+      "es": "Compras",
+      "de": "Einkaufen"
+    },
+    "icon": "shop",
+    "subcategories": [
+      {
+        "name": "supermarket",
+        "displayName": {
+          "en": "Supermarkets",
+          "es": "Supermercados",
+          "de": "Supermärkte"
+        },
+        "icon": "grocery",
+        "color": "#7B1FA2",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "shop",
+            "values": [
+              "supermarket",
+              "convenience"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "mall",
+        "displayName": {
+          "en": "Shopping Malls",
+          "es": "Centros Comerciales",
+          "de": "Einkaufszentren"
+        },
+        "icon": "shop",
+        "color": "#9C27B0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "shop",
+            "values": [
+              "mall",
+              "department_store"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "food_shop",
+        "displayName": {
+          "en": "Food Shops",
+          "es": "Tiendas de Alimentos",
+          "de": "Lebensmittelgeschäfte"
+        },
+        "icon": "bakery",
+        "color": "#8BC34A",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "shop",
+            "values": [
+              "bakery",
+              "butcher",
+              "greengrocer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "marketplace",
+        "displayName": {
+          "en": "Marketplaces",
+          "es": "Mercados",
+          "de": "Märkte"
+        },
+        "icon": "shop",
+        "color": "#FF7043",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "marketplace"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tourism": {
+    "displayName": {
+      "en": "Tourism",
+      "es": "Turismo",
+      "de": "Tourismus"
+    },
+    "icon": "attraction",
+    "subcategories": [
+      {
+        "name": "accommodation",
+        "displayName": {
+          "en": "Accommodation",
+          "es": "Alojamiento",
+          "de": "Unterkunft"
+        },
+        "icon": "lodging",
+        "color": "#00897B",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "tourism",
+            "values": [
+              "hotel",
+              "motel",
+              "guest_house",
+              "hostel"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "culture",
+        "displayName": {
+          "en": "Cultural Sites",
+          "es": "Sitios Culturales",
+          "de": "Kulturstätten"
+        },
+        "icon": "museum",
+        "color": "#5D4037",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "tourism",
+            "values": [
+              "museum",
+              "gallery",
+              "artwork"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "attraction",
+        "displayName": {
+          "en": "Attractions",
+          "es": "Atracciones",
+          "de": "Sehenswürdigkeiten"
+        },
+        "icon": "attraction",
+        "color": "#00BCD4",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "tourism",
+            "values": [
+              "attraction",
+              "viewpoint"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "displayName": {
+          "en": "Tourist Information",
+          "es": "Información Turística",
+          "de": "Touristeninformation"
+        },
+        "icon": "information",
+        "color": "#2196F3",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "tourism",
+            "values": [
+              "information"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "historic",
+        "displayName": {
+          "en": "Historic Sites",
+          "es": "Sitios Históricos",
+          "de": "Historische Stätten"
+        },
+        "icon": "castle",
+        "color": "#795548",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "historic",
+            "values": [
+              "monument",
+              "memorial",
+              "castle",
+              "archaeological_site",
+              "ruins"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "finance": {
+    "displayName": {
+      "en": "Finance",
+      "es": "Finanzas",
+      "de": "Finanzen"
+    },
+    "icon": "bank",
+    "subcategories": [
+      {
+        "name": "bank",
+        "displayName": {
+          "en": "Banks",
+          "es": "Bancos",
+          "de": "Banken"
+        },
+        "icon": "bank",
+        "color": "#388E3C",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "bank"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "atm",
+        "displayName": {
+          "en": "ATMs",
+          "es": "Cajeros Automáticos",
+          "de": "Geldautomaten"
+        },
+        "icon": "bank",
+        "color": "#43A047",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "atm"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "exchange",
+        "displayName": {
+          "en": "Currency Exchange",
+          "es": "Casa de Cambio",
+          "de": "Wechselstube"
+        },
+        "icon": "bank",
+        "color": "#66BB6A",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "bureau_de_change",
+              "money_transfer"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "emergency": {
+    "displayName": {
+      "en": "Emergency",
+      "es": "Emergencias",
+      "de": "Notfall"
+    },
+    "icon": "police",
+    "subcategories": [
+      {
+        "name": "police",
+        "displayName": {
+          "en": "Police",
+          "es": "Policía",
+          "de": "Polizei"
+        },
+        "icon": "police",
+        "color": "#1565C0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "police"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fire",
+        "displayName": {
+          "en": "Fire Station",
+          "es": "Estación de Bomberos",
+          "de": "Feuerwehr"
+        },
+        "icon": "fire-station",
+        "color": "#D32F2F",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "fire_station"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ambulance",
+        "displayName": {
+          "en": "Ambulance",
+          "es": "Ambulancia",
+          "de": "Rettungsdienst"
+        },
+        "icon": "hospital",
+        "color": "#E53935",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "emergency",
+            "values": [
+              "ambulance_station",
+              "emergency_ward_entrance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "recreation": {
+    "displayName": {
+      "en": "Recreation",
+      "es": "Recreación",
+      "de": "Freizeit"
+    },
+    "icon": "park",
+    "subcategories": [
+      {
+        "name": "park",
+        "displayName": {
+          "en": "Parks & Gardens",
+          "es": "Parques y Jardines",
+          "de": "Parks & Gärten"
+        },
+        "icon": "park",
+        "color": "#4CAF50",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "leisure",
+            "values": [
+              "park",
+              "garden",
+              "nature_reserve"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "playground",
+        "displayName": {
+          "en": "Playgrounds",
+          "es": "Parques Infantiles",
+          "de": "Spielplätze"
+        },
+        "icon": "playground",
+        "color": "#FF9800",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "leisure",
+            "values": [
+              "playground"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sports",
+        "displayName": {
+          "en": "Sports Facilities",
+          "es": "Instalaciones Deportivas",
+          "de": "Sportanlagen"
+        },
+        "icon": "soccer",
+        "color": "#2196F3",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "leisure",
+            "values": [
+              "sports_centre",
+              "stadium",
+              "swimming_pool",
+              "fitness_centre"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "entertainment",
+        "displayName": {
+          "en": "Entertainment",
+          "es": "Entretenimiento",
+          "de": "Unterhaltung"
+        },
+        "icon": "cinema",
+        "color": "#9C27B0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "cinema",
+              "theatre",
+              "nightclub"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "community",
+        "displayName": {
+          "en": "Community Centers",
+          "es": "Centros Comunitarios",
+          "de": "Gemeindezentren"
+        },
+        "icon": "town-hall",
+        "color": "#607D8B",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "community_centre"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "religion": {
+    "displayName": {
+      "en": "Religion",
+      "es": "Religión",
+      "de": "Religion"
+    },
+    "icon": "place-of-worship",
+    "color": "#7B1FA2",
+    "subcategories": [
+      {
+        "name": "place_of_worship",
+        "displayName": {
+          "en": "Places of Worship",
+          "es": "Lugares de Culto",
+          "de": "Gotteshäuser"
+        },
+        "icon": "place-of-worship",
+        "color": "#7B1FA2",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "place_of_worship"
+            ]
+          },
+          {
+            "key": "building",
+            "values": [
+              "church",
+              "mosque",
+              "synagogue",
+              "temple"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "government": {
+    "displayName": {
+      "en": "Government & Public Services",
+      "es": "Gobierno y Servicios Públicos",
+      "de": "Regierung & Öffentliche Dienste"
+    },
+    "icon": "town-hall",
+    "subcategories": [
+      {
+        "name": "administration",
+        "displayName": {
+          "en": "Government Offices",
+          "es": "Oficinas de Gobierno",
+          "de": "Regierungsbüros"
+        },
+        "icon": "town-hall",
+        "color": "#455A64",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "townhall",
+              "courthouse"
+            ]
+          },
+          {
+            "key": "office",
+            "values": [
+              "government",
+              "administrative"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "embassy",
+        "displayName": {
+          "en": "Embassies & Consulates",
+          "es": "Embajadas y Consulados",
+          "de": "Botschaften & Konsulate"
+        },
+        "icon": "embassy",
+        "color": "#37474F",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "embassy"
+            ]
+          },
+          {
+            "key": "office",
+            "values": [
+              "diplomatic"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "post",
+        "displayName": {
+          "en": "Post Offices",
+          "es": "Correos",
+          "de": "Postämter"
+        },
+        "icon": "post",
+        "color": "#FF8F00",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "post_office"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "toilets": {
+    "displayName": {
+      "en": "Public Toilets",
+      "es": "Baños públicos",
+      "de": "Öffentliche Toiletten"
+    },
+    "icon": "toilet",
+    "subcategories": [
+      {
+        "name": "toilets",
+        "displayName": {
+          "en": "Public Toilets",
+          "es": "Baños públicos",
+          "de": "Öffentliche Toiletten"
+        },
+        "icon": "toilet",
+        "color": "#0288D1",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "amenity",
+            "values": [
+              "toilets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "displayName": {
+      "en": "Services & Offices",
+      "es": "Servicios y Oficinas",
+      "de": "Dienstleistungen & Büros"
+    },
+    "icon": "commercial",
+    "subcategories": [
+      {
+        "name": "telecom",
+        "displayName": {
+          "en": "Internet & Telecom",
+          "es": "Internet y Telecomunicaciones",
+          "de": "Internet & Telekommunikation"
+        },
+        "icon": "telephone",
+        "color": "#5C6BC0",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "office",
+            "values": [
+              "telecommunication"
+            ]
+          },
+          {
+            "key": "amenity",
+            "values": [
+              "internet_cafe"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "industry",
+        "displayName": {
+          "en": "Factories & Industry",
+          "es": "Fábricas e Industria",
+          "de": "Fabriken & Industrie"
+        },
+        "icon": "industry",
+        "color": "#8D6E63",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "man_made",
+            "values": [
+              "works"
+            ]
+          },
+          {
+            "key": "amenity",
+            "values": [
+              "industrial"
+            ]
+          },
+          {
+            "key": "industrial",
+            "values": null
+          },
+          {
+            "key": "building",
+            "values": [
+              "industrial"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "crafts",
+        "displayName": {
+          "en": "Workshops & Crafts",
+          "es": "Talleres y Oficios",
+          "de": "Werkstätten & Handwerk"
+        },
+        "icon": "hardware",
+        "color": "#FF7043",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "craft",
+            "values": null
+          }
+        ]
+      },
+      {
+        "name": "company",
+        "displayName": {
+          "en": "Companies & Offices",
+          "es": "Empresas y Oficinas",
+          "de": "Unternehmen & Büros"
+        },
+        "icon": "commercial",
+        "color": "#455A64",
+        "defaultActive": false,
+        "matchers": [
+          {
+            "key": "office",
+            "values": null
+          }
+        ]
+      }
+    ]
+  }
+}
