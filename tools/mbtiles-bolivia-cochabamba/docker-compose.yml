@@ -13,6 +13,7 @@ services:
       --force
       --osm-path=/in/${CITY_NAME}.osm.pbf
       --output=/out/${CITY_NAME}.mbtiles
+      --bounds=${BBOX}
       --maxzoom=${MAX_ZOOM}
       --minzoom=${MIN_ZOOM}
       --threads=${THREADS}
