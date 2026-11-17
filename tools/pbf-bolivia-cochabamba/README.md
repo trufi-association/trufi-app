@@ -19,6 +19,12 @@ osmium extract --bbox="$BBOX" --set-bounds bolivia-latest.osm.pbf --output cocha
 
 Values come from [`.env`](.env).
 
+The committed file is not always that output untouched: the PBF of #53 had one
+OSM changeset applied afterwards with `osmium apply-changes`, which writes a new
+header without the bounds that `--set-bounds` sets — the reason the tiles tool
+passes the bbox itself ([Bounds](../mbtiles-bolivia-cochabamba/README.md#bounds)
+in its README).
+
 ## Bounding box
 
 The bbox in `.env` covers the **metropolitan area** of Cochabamba:

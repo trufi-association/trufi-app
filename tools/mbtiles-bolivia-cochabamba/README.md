@@ -1,6 +1,6 @@
 # mbtiles-bolivia-cochabamba
 
-Generates the Cochabamba `.mbtiles` (vector tiles for offline maps) using `openmaptiles/planetiler-openmaptiles`. Compose mirrors [`trufi-association/trufi-mbtiles-generator`](https://github.com/trufi-association/trufi-mbtiles-generator) with the input mount adjusted to read the sibling tool's PBF.
+Generates the Cochabamba `.mbtiles` (vector tiles for offline maps) using `openmaptiles/planetiler-openmaptiles`. Compose follows [`trufi-association/trufi-mbtiles-generator`](https://github.com/trufi-association/trufi-mbtiles-generator) with three differences: the PBF is read from the sibling tool (its own read-only mount, output in `./out`), the image is pinned to `3.16` where upstream runs `latest`, and the bbox is passed as `--bounds` (see [Bounds](#bounds)).
 
 ## Run
 
@@ -9,7 +9,20 @@ docker compose up
 ```
 
 Output: `./out/cochabamba.mbtiles` (not committed: `out/*` is ignored — the copy
-under `assets/offline/` is the one the app ships and the only one tracked). First run downloads Natural Earth + water polygon sources (~200 MB) which planetiler caches in the container.
+under `assets/offline/` is the one the app ships and the only one tracked).
+
+Every run that succeeds first downloads three sources, 1.45 GB in all (water
+polygons 933 MB, Natural Earth 433 MB, lake centerlines 81 MB), and then builds
+the tiles in about half a minute. Nothing is reused from one run to the next.
+
+**Do not run `docker compose up` twice in a row.** The second run on the same
+container deletes `out/cochabamba.mbtiles` and fails with
+`/tmp/sources/lake_centerline.shp.zip does not exist`: `--download_dir=/tmp/sources`
+sits inside `--tmpdir=/tmp`, which planetiler wipes at start, after it has found
+the zips of the previous run and skipped the download. Until that is fixed, copy
+the output (next section) and end every run with `docker compose down`, which
+also frees the 1.5 GB the stopped container keeps; after a run that failed this
+way, `docker compose up` once more downloads again and works.
 
 ## Propagate
 
@@ -46,10 +59,18 @@ The file does not say which PBF it was built from:
 has no replication header), and `planetiler:buildtime` and
 `planetiler:githash` identify the planetiler build inside the image, not the
 run. The record is the commit that updates `assets/offline/cochabamba.mbtiles`:
-name the PBF (commit and md5) in its message. The output is reproducible: the
-same PBF and the same image give the same bytes (in #77 the tileset of #21 came
-out byte for byte from the PBF of #18, six months later), so the md5 of the
-asset can be checked against a fresh run.
+name the PBF (commit and md5) in its message.
+
+A run has three inputs: the PBF, the image, and the three sources it downloads,
+which nothing pins. Natural Earth and the lake centerlines are files of
+November 2022; the water polygons (oceans and seas) are regenerated from OSM,
+and the file served on 2026-11-17 was of that day. What was measured in #77
+that day: runs repeated over the same PBF gave the same bytes, and the tileset
+of #21, built in May, came out byte for byte from the PBF of #18 with the
+downloads of November. So a fresh run that gives the md5 of the asset confirms
+the PBF it came from. A different md5 does not by itself mean a different PBF:
+a source that changed can change the bytes too. Between May and November 2026
+that did not happen for this bbox.
 
 ## Cochabamba tweaks
 
