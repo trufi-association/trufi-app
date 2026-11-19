@@ -6,6 +6,8 @@ Generates the Cochabamba `.mbtiles` (vector tiles for offline maps) using `openm
 
 ```bash
 docker compose up
+cp out/cochabamba.mbtiles ../../assets/offline/cochabamba.mbtiles   # see Propagate
+docker compose down                                                  # always: see below
 ```
 
 Output: `./out/cochabamba.mbtiles` (not committed: `out/*` is ignored — the copy
@@ -79,3 +81,5 @@ City-specific values live in [`.env`](.env): `CITY_NAME`, `BBOX`, `MAX_ZOOM` (14
 ## Pin
 
 The image tag is `openmaptiles/planetiler-openmaptiles:3.16` — the latest stable (non-SNAPSHOT) tag. Bump it when a newer stable tag ships.
+
+A tag can be re-pushed, so the image is an input that the tag alone does not pin. The committed tileset was built (and rebuilt byte for byte on 2026-11-18) with the image of digest `sha256:9c95d3fec85ac28380f25b85e6c887b88c1b1478809e7410cc74b022be28e099`; `docker image inspect --format '{{index .RepoDigests 0}}' openmaptiles/planetiler-openmaptiles:3.16` shows the one you have.
