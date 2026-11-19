@@ -19,6 +19,12 @@ osmium extract --bbox="$BBOX" --set-bounds bolivia-latest.osm.pbf --output cocha
 
 Values come from [`.env`](.env).
 
+The committed file is not always that output untouched: the PBF of #53 had one
+OSM changeset applied afterwards with `osmium apply-changes`, which writes a new
+header without the bounds that `--set-bounds` sets — the reason the tiles tool
+passes the bbox itself ([Bounds](../mbtiles-bolivia-cochabamba/README.md#bounds)
+in its README).
+
 ## Bounding box
 
 The bbox in `.env` covers the **metropolitan area** of Cochabamba:
@@ -48,8 +54,8 @@ Regenerate all of them from the new file and commit them together with it:
 A snapshot left behind shows up as data that exists for one feature and not
 for another (#75: the search index stayed one PBF behind the GTFS, so 101
 streets could be routed along but not found by the offline search; #77: the
-map tiles are five refreshes behind, so those streets are not drawn on the
-offline map).
+map tiles stayed five refreshes behind, so 231 of the 4 103 street names the
+offline search finds had no label on the offline map).
 
 ## Inspect the PBF
 
